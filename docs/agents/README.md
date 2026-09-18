@@ -10,7 +10,7 @@ Super UI exposes two read-only tools at `/mcp`: `search_components` and `get_com
 
 Connect to `https://super-ui-neon.vercel.app/mcp`, or use the [connection page](https://super-ui-neon.vercel.app/agents.html) to copy settings for your agent.
 
-The hosted Vercel service uses the bundled semantic model and does not send queries to TypeSafe. Paid Jev ranking remains available for single-process self-hosting with its persistent budget ledger. Vercel's per-instance limits are not an account-wide rate or spend cap.
+The hosted Vercel service uses the bundled semantic model and can rank candidates with TypeSafe. When paid ranking is enabled, the query and bounded component source excerpts are sent to TypeSafe. A shared Redis ledger enforces the configured daily budget across instances; request rate limits remain per instance.
 
 ## Start locally
 
@@ -117,7 +117,7 @@ curl http://127.0.0.1:4174/api/components/beui%3Aapproval-card
 
 ### Vercel
 
-`vercel.json` pins the Vite framework and `dist` output. Static previews and thumbnails are served by the CDN; `/mcp`, `/api/search`, and `/api/components/:id` route to one Node function. The build bundles the pinned embedding model and catalog vectors into immutable function assets. Runtime inference does not download models or write to the deployment filesystem. The function always disables paid ranking because the local budget ledger cannot coordinate across instances.
+`vercel.json` pins the Vite framework and `dist` output. Static previews and thumbnails are served by the CDN; `/mcp`, `/api/search`, and `/api/components/:id` route to one Node function. The build bundles the pinned embedding model and catalog vectors into immutable function assets. Runtime inference does not download models or write to the deployment filesystem. Paid ranking requires `TYPESAFE_API_KEY`, `KV_REST_API_URL`, and `KV_REST_API_TOKEN` in the production environment. Connect an Upstash Redis store with eviction and automatic paid upgrades disabled. `SEARCH_DAILY_BUDGET_USD` defaults to 1. Atomic reservations share one UTC daily limit across instances and deployments. Failed or uncertain calls retain their reservations; missing or unavailable Redis returns semantic matches without calling TypeSafe. Preview deployments without Redis also fall back to semantic search.
 
 Vercel-provided deployment domains are explicitly allowed. Production links use `VERCEL_PROJECT_PRODUCTION_URL`; previews use `VERCEL_URL`. The adapter uses Vercel's edge-controlled `x-vercel-forwarded-for` for per-instance client quotas. Public production access must be enabled in the project's deployment protection settings for agents to connect without a Vercel login.
 

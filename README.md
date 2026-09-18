@@ -59,7 +59,7 @@ npm start
 
 Open [localhost:4174](http://localhost:4174). This serves the built app and search API together. `npm run preview` serves the built app on port 4173 and proxies search to the backend on 4174.
 
-The server binds to loopback by default. Public hosting requires explicit `HOST`/`PORT` configuration, HTTPS, persistent budget storage, and an appropriate reverse proxy. The current budget and rate-limit design is intended for one API process per deployment. The Vercel configuration also supports static hosting plus a semantic-only MCP/API function. See [hosting details](docs/agents/README.md#hosting).
+The server binds to loopback by default. Public hosting requires explicit `HOST`/`PORT` configuration, HTTPS, persistent budget storage, and an appropriate reverse proxy. The current budget and rate-limit design is intended for one API process per deployment. The Vercel configuration supports static hosting plus MCP/API search, with optional paid ranking and a shared Redis budget. See [hosting details](docs/agents/README.md#hosting).
 
 ## Included libraries
 
