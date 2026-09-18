@@ -1,0 +1,2923 @@
+{
+  "imports": [
+    {
+      "library": "opensource",
+      "name": "cn",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/lib/cn.ts",
+      "file": "src/vendor/opensource/original/lib/cn.ts",
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "dark-arc-bands-background",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/background-gradient/dark-arc-bands-background.tsx",
+      "file": "src/vendor/opensource/original/components/background-gradient/dark-arc-bands-background.tsx",
+      "sha256": "134e2ed19b8604a930096eea4a46e6762b9c727aab3c137dd45191665ba66fbd",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "dark-aurora-background",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/background-gradient/dark-aurora-background.tsx",
+      "file": "src/vendor/opensource/original/components/background-gradient/dark-aurora-background.tsx",
+      "sha256": "0df27ef497326dd2301693482dd82f9c506f3170edec5d9a598e26dd63e0b3b4",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "dark-carbon-spotlight-background",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/background-gradient/dark-carbon-spotlight-background.tsx",
+      "file": "src/vendor/opensource/original/components/background-gradient/dark-carbon-spotlight-background.tsx",
+      "sha256": "9b555de397d4afac30216f4fa832733491646f702f74574697be79116ff8d152",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "dark-ember-background",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/background-gradient/dark-ember-background.tsx",
+      "file": "src/vendor/opensource/original/components/background-gradient/dark-ember-background.tsx",
+      "sha256": "438d9ff702b3ef7bf1045c32b73f14f27636eabf27449573cde145ef699fc98a",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "dark-ink-field-background",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/background-gradient/dark-ink-field-background.tsx",
+      "file": "src/vendor/opensource/original/components/background-gradient/dark-ink-field-background.tsx",
+      "sha256": "fd99d1bc87b2bd5aa26299c975283b70c17cc045a8976a342ad5a12e310d73e6",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "dark-midnight-mesh-background",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/background-gradient/dark-midnight-mesh-background.tsx",
+      "file": "src/vendor/opensource/original/components/background-gradient/dark-midnight-mesh-background.tsx",
+      "sha256": "e045fdd1c21b2b301fd781999d11c29b4d8e462e23c03a5835c851b517808234",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "dark-rose-noir-background",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/background-gradient/dark-rose-noir-background.tsx",
+      "file": "src/vendor/opensource/original/components/background-gradient/dark-rose-noir-background.tsx",
+      "sha256": "b0839e7e8380cd32bfa3193f8781614c0e558c87a50a2c924da662c43e296e00",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "dark-teal-depth-background",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/background-gradient/dark-teal-depth-background.tsx",
+      "file": "src/vendor/opensource/original/components/background-gradient/dark-teal-depth-background.tsx",
+      "sha256": "5f591d55660c7d325e13dad3dbafd0da6b041ed92f8e5f4e69f6ca785c018252",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "dnd-face-widget",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/widgets/dnd-face-widget.tsx",
+      "file": "src/vendor/opensource/original/components/widgets/dnd-face-widget.tsx",
+      "sha256": "4bc8fe1546420aa85163f0c0c586b924bf01737bf78c742cfde386495dcf0641",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "focus-breath-widget",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/widgets/focus-breath-widget.tsx",
+      "file": "src/vendor/opensource/original/components/widgets/focus-breath-widget.tsx",
+      "sha256": "8519b1522a1f01bd0a2353605cbc82816bd81c9aae7e7c1c089751a9cf50cdf0",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "heart-rate-widget",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/widgets/heart-rate-widget.tsx",
+      "file": "src/vendor/opensource/original/components/widgets/heart-rate-widget.tsx",
+      "sha256": "9276dc238827fdd8aa8886f9d17cfb0898f5283e9c08472110051dbf72e1c584",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "hydration-widget",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/widgets/hydration-widget.tsx",
+      "file": "src/vendor/opensource/original/components/widgets/hydration-widget.tsx",
+      "sha256": "7a114935b0293b2cba2fccaba10cb201390c0b25ce10811e1f2d2d57022eaac0",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "pomodoro-widget",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/widgets/pomodoro-widget.tsx",
+      "file": "src/vendor/opensource/original/components/widgets/pomodoro-widget.tsx",
+      "sha256": "a7b8309d3c97c0e3019ef5260f7c609bf0565f21aea98e5414e7e2b5c52e05db",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "sleep-score-widget",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/widgets/sleep-score-widget.tsx",
+      "file": "src/vendor/opensource/original/components/widgets/sleep-score-widget.tsx",
+      "sha256": "1e5b4c1c623540d8649e3e09d040771c76ac133371a2246962beacd53d90f2c6",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "step-count-widget",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/widgets/step-count-widget.tsx",
+      "file": "src/vendor/opensource/original/components/widgets/step-count-widget.tsx",
+      "sha256": "a190dfced5d0e33ce19ebfc29adb2294b9ba97ded3927586d5fc6d3e126436cd",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "audio-recorder-widget",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/widgets/audio-recorder-widget.tsx",
+      "file": "src/vendor/opensource/original/components/widgets/audio-recorder-widget.tsx",
+      "sha256": "6358e9d764af07429157927874c5d1caf3da775b50834cd6e90cbeb5363e4758",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "ios-earbuds-widget",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/widgets/ios-earbuds-widget.tsx",
+      "file": "src/vendor/opensource/original/components/widgets/ios-earbuds-widget.tsx",
+      "sha256": "ba9c50c871bead2e9ab8f6e9338a5dfec5bba94606cebc3b8a1ecb070e16892c",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "recorder-face-widget",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/widgets/recorder-face-widget.tsx",
+      "file": "src/vendor/opensource/original/components/widgets/recorder-face-widget.tsx",
+      "sha256": "e261b089d2cbd2077a72897407ecbb0537c13f965bf14a3ba4301ff72c5a8fa5",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "voice-assistant-widget",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/widgets/voice-assistant-widget.tsx",
+      "file": "src/vendor/opensource/original/components/widgets/voice-assistant-widget.tsx",
+      "sha256": "cf020d80387d8611890bee67a820bf193f7334334f278b7c0739c148dd8315a6",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "battery-face-widget",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/widgets/battery-face-widget.tsx",
+      "file": "src/vendor/opensource/original/components/widgets/battery-face-widget.tsx",
+      "sha256": "ef3053a970846b4b8b076a128c3e5ae11cd479d6a238b91544974c0e1b104983",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "arc-bands-background",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/background-gradient/arc-bands-background.tsx",
+      "file": "src/vendor/opensource/original/components/background-gradient/arc-bands-background.tsx",
+      "sha256": "8a2b7eec77df80bce6098f3d098ccf16ce95ae6149053f9c30e406633b6e653a",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "diagonal-box-pattern",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/background-pattern/diagonal-box-pattern.tsx",
+      "file": "src/vendor/opensource/original/components/background-pattern/diagonal-box-pattern.tsx",
+      "sha256": "d0ccf16a76f2c998c1618ba6bf7ad855b04dd9e94e8fc7f0092399dc0cfd9f6a",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "reverse-diagonal-box-pattern",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/background-pattern/reverse-diagonal-box-pattern.tsx",
+      "file": "src/vendor/opensource/original/components/background-pattern/reverse-diagonal-box-pattern.tsx",
+      "sha256": "04206f450588a0acf4792aae5f3341368981dc9491834df2ea2cce6703f12af2",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "dot-grid-pattern",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/background-pattern/dot-grid-pattern.tsx",
+      "file": "src/vendor/opensource/original/components/background-pattern/dot-grid-pattern.tsx",
+      "sha256": "87b68080bc4f93e7b7ede54a65443459e17a04a753a8273c4b3ebecf25e3e882",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "fine-grain-pattern",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/background-pattern/fine-grain-pattern.tsx",
+      "file": "src/vendor/opensource/original/components/background-pattern/fine-grain-pattern.tsx",
+      "sha256": "b7bdc00a6c51ad817282d8b6bdc7ba50ddcdfc6306d1af2e8dbfa85776c8292d",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "graph-paper-pattern",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/background-pattern/graph-paper-pattern.tsx",
+      "file": "src/vendor/opensource/original/components/background-pattern/graph-paper-pattern.tsx",
+      "sha256": "a0ff9f1d3961e28cfc8beb8bce74c739f3b5591a049c659cd9b2ebff89646a93",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "line-grid-pattern",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/background-pattern/line-grid-pattern.tsx",
+      "file": "src/vendor/opensource/original/components/background-pattern/line-grid-pattern.tsx",
+      "sha256": "47b03af8fcdc6f12d838e2f1218ea7a83ad6fead7d589d4ea60bcada5462ffc6",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "aurora-background",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/background-gradient/aurora-background.tsx",
+      "file": "src/vendor/opensource/original/components/background-gradient/aurora-background.tsx",
+      "sha256": "327d6b5f6eee5655aa6738b3fd7f45e3dce0c00fc5c7095303f9352b91b504cf",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "cherry-petal-background",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/background-gradient/cherry-petal-background.tsx",
+      "file": "src/vendor/opensource/original/components/background-gradient/cherry-petal-background.tsx",
+      "sha256": "9ca7128be00a0a9e500dcc8529a71922b39af7f98652b7f8d3397aab672f2be5",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "coral-glow-background",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/background-gradient/coral-glow-background.tsx",
+      "file": "src/vendor/opensource/original/components/background-gradient/coral-glow-background.tsx",
+      "sha256": "4285914f4e87a054904b724817acad7f24a4a096ce11d71b2903bc0e1342ad3f",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "frost-mesh-background",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/background-gradient/frost-mesh-background.tsx",
+      "file": "src/vendor/opensource/original/components/background-gradient/frost-mesh-background.tsx",
+      "sha256": "2b64694390ea2bb48127d025674a465421e2c9a35d6f5ffebb03e124281e3d7f",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "halftone-pop-background",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/background-gradient/halftone-pop-background.tsx",
+      "file": "src/vendor/opensource/original/components/background-gradient/halftone-pop-background.tsx",
+      "sha256": "25641d96a402d335ddbf52ecf59b85aec56e64fd9b9a199062ad5f146a3cc499",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "honey-ember-background",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/background-gradient/honey-ember-background.tsx",
+      "file": "src/vendor/opensource/original/components/background-gradient/honey-ember-background.tsx",
+      "sha256": "456685e4b216c9c5fb052c1caf2ad6ea8c7a8a44d6c25abe0b306cb363aa9955",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "ink-wash-background",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/background-gradient/ink-wash-background.tsx",
+      "file": "src/vendor/opensource/original/components/background-gradient/ink-wash-background.tsx",
+      "sha256": "d81e2de5b38ab0a7ee7495015a172f490482eef336081211e8adfd890c5de761",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "linen-weave-background",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/background-gradient/linen-weave-background.tsx",
+      "file": "src/vendor/opensource/original/components/background-gradient/linen-weave-background.tsx",
+      "sha256": "00761da403278a7d057679a1d160a348d5c76367c28f4f94f8e0ac52898af9d1",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "mint-lagoon-background",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/background-gradient/mint-lagoon-background.tsx",
+      "file": "src/vendor/opensource/original/components/background-gradient/mint-lagoon-background.tsx",
+      "sha256": "14df5344e26712df9f0e3ca4aab13c7f4a27dadc54ff10e51ff1166b7f05fcc7",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "paper-fold-background",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/background-gradient/paper-fold-background.tsx",
+      "file": "src/vendor/opensource/original/components/background-gradient/paper-fold-background.tsx",
+      "sha256": "5779a0cdc16aa127a7d705c9444bce61ca7c870942e5a74028ab0c59a66ec850",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "rain-prism-background",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/background-gradient/rain-prism-background.tsx",
+      "file": "src/vendor/opensource/original/components/background-gradient/rain-prism-background.tsx",
+      "sha256": "ec1e651b60b7d109eed64e66037f917db23e2c53ec5e8eb1b6c3945de6933063",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "sand-drift-background",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/background-gradient/sand-drift-background.tsx",
+      "file": "src/vendor/opensource/original/components/background-gradient/sand-drift-background.tsx",
+      "sha256": "37177e49eb94c8d39308ee9fc091b31994ab67368910e4730852107674dfe0e5",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "soft-spotlight-background",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/background-gradient/soft-spotlight-background.tsx",
+      "file": "src/vendor/opensource/original/components/background-gradient/soft-spotlight-background.tsx",
+      "sha256": "353e3a8a10542d8a229fe796489d27ad0cf6b244377505f7f3a4fdc1d4c08183",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "sunrise-horizon-background",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/background-gradient/sunrise-horizon-background.tsx",
+      "file": "src/vendor/opensource/original/components/background-gradient/sunrise-horizon-background.tsx",
+      "sha256": "a6d6e14ecd0900f0c1adb2c0f9f3e37ed013f7ec4bfe05801698d9b7832c4653",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "sunset-bloom-background",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/background-gradient/sunset-bloom-background.tsx",
+      "file": "src/vendor/opensource/original/components/background-gradient/sunset-bloom-background.tsx",
+      "sha256": "219f94d170d02883f2c52fdb6e8c7f35ba7c8aa4338ba2d6fbb41d54788aab22",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "terrazzo-fragment-background",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/background-gradient/terrazzo-fragment-background.tsx",
+      "file": "src/vendor/opensource/original/components/background-gradient/terrazzo-fragment-background.tsx",
+      "sha256": "c502c58830cf4b79a4fe9eed0e4eead8d0192316480ac49d031cdc620d8c7766",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "tropical-tide-background",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/background-gradient/tropical-tide-background.tsx",
+      "file": "src/vendor/opensource/original/components/background-gradient/tropical-tide-background.tsx",
+      "sha256": "404371ffd1a7fd0cc79d85125d7963b25a3bebcfd09143a1a54244917c473c63",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "add-to-cart-button",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/buttons/add-to-cart-button.tsx",
+      "file": "src/vendor/opensource/original/components/buttons/add-to-cart-button.tsx",
+      "sha256": "bffc9147ddbcf7cd20a4f00436a09b58611b83afe279c594dee72652d6d6976b",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "bookmark-save-button",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/buttons/bookmark-save-button.tsx",
+      "file": "src/vendor/opensource/original/components/buttons/bookmark-save-button.tsx",
+      "sha256": "6b006f6c3676b3ebe2ffb51858f4995722d8216f29e05e96f7a7a2c75cf337e7",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "cinder-latch-button",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/buttons/cinder-latch-button.tsx",
+      "file": "src/vendor/opensource/original/components/buttons/cinder-latch-button.tsx",
+      "sha256": "3ca9a5a2f35f45aacde4e1a9f621706220cc1a39943f25024ebdaf806c081715",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "copy-button",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/buttons/copy-button.tsx",
+      "file": "src/vendor/opensource/original/components/buttons/copy-button.tsx",
+      "sha256": "a79cd74505f117bac20e6fbcdd651be3ebf4e842b5deafb093f7a47945f8d737",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "depth-outline-button",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/buttons/depth-outline-button.tsx",
+      "file": "src/vendor/opensource/original/components/buttons/depth-outline-button.tsx",
+      "sha256": "13de2ecb1594a982686daaf6cedef0ad0cfbd8daf68dfaec43995c74ae7fcb07",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "download-button",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/buttons/download-button.tsx",
+      "file": "src/vendor/opensource/original/components/buttons/download-button.tsx",
+      "sha256": "f8016d48d40c98f40392c1ef16e9ac94b09a4109c7f48f261557f96c5c404924",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "dimple-switch",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/buttons/dimple-switch.tsx",
+      "file": "src/vendor/opensource/original/components/buttons/dimple-switch.tsx",
+      "sha256": "0777f1ccebe4316a58578ffd44e36c474100bd9941c45b35f32552a1a87940ed",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "follow-button",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/buttons/follow-button.tsx",
+      "file": "src/vendor/opensource/original/components/buttons/follow-button.tsx",
+      "sha256": "cf51f51f065588fd98c61c0fc372538ded57a2e257f1c8e2de97a231a0523f0c",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "hold-to-delete-button",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/buttons/hold-to-delete-button.tsx",
+      "file": "src/vendor/opensource/original/components/buttons/hold-to-delete-button.tsx",
+      "sha256": "9dee74cbc62c6c96078d94b8a953a4503a6642d30e228d07b3ed99c594c397f7",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "inset-button",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/buttons/inset-button.tsx",
+      "file": "src/vendor/opensource/original/components/buttons/inset-button.tsx",
+      "sha256": "32763384935c858db7350b58e799b3f232766939eb551b0cdf12167c05866b2d",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "like-button",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/buttons/like-button.tsx",
+      "file": "src/vendor/opensource/original/components/buttons/like-button.tsx",
+      "sha256": "c836476c13c22a9ebee3ba7f2b922360999d4aaf55f33663a4a32121529c6cda",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "linen-tab-button",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/buttons/linen-tab-button.tsx",
+      "file": "src/vendor/opensource/original/components/buttons/linen-tab-button.tsx",
+      "sha256": "a8a8634faec87963f62bb9a0e77072eac2ddb9ecc6d6c4c765610729cf9be1cc",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "apple-hello-loader",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/loaders/apple-hello-loader.tsx",
+      "file": "src/vendor/opensource/original/components/loaders/apple-hello-loader.tsx",
+      "sha256": "43d9a656d1f4a12fa2c8a8a1720365aa4cc9904ec707452b5a8da6d33499497e",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "spin-loader",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/loaders/spin-loader.tsx",
+      "file": "src/vendor/opensource/original/components/loaders/spin-loader.tsx",
+      "sha256": "cf38a81cffc09577751af60183a69f8e824b30f891659ad297f1d7a5bd1b4e4a",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "text-loader",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/loaders/text-loader.tsx",
+      "file": "src/vendor/opensource/original/components/loaders/text-loader.tsx",
+      "sha256": "c7274b492e5e0014ba13fcc2235a451bf615ef5b287909eb9bdd9c2d0bd532c0",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "prism-depth-button",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/buttons/prism-depth-button.tsx",
+      "file": "src/vendor/opensource/original/components/buttons/prism-depth-button.tsx",
+      "sha256": "0bd16fd686b574c29d22151bd08ea9603ce4b2fb91a24433f4b8a22cd758fec1",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "quantity-stepper-button",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/buttons/quantity-stepper-button.tsx",
+      "file": "src/vendor/opensource/original/components/buttons/quantity-stepper-button.tsx",
+      "sha256": "ff4b060de7af0834d19f989a8b7b72684e8c3fdcbee5b5ec954f29edef3ba2a6",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "sheen-pill-button",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/buttons/sheen-pill-button.tsx",
+      "file": "src/vendor/opensource/original/components/buttons/sheen-pill-button.tsx",
+      "sha256": "a76eef8e356f1768ee604b9f244b3dbde32637357347cdb8bdaa3552b65c0b06",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "slate-chip-switch",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/buttons/slate-chip-switch.tsx",
+      "file": "src/vendor/opensource/original/components/buttons/slate-chip-switch.tsx",
+      "sha256": "f95beb90237a555f3534eb8b76e02fec26ea0cbe6c511523f6141632d75a0b34",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "soft-pill-button",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/buttons/soft-pill-button.tsx",
+      "file": "src/vendor/opensource/original/components/buttons/soft-pill-button.tsx",
+      "sha256": "eece1fd05bd0ee74b19f456012e3e264a04af38d24e7939ebd671513a7b5cf44",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "soft-ui-button",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/buttons/soft-ui-button.tsx",
+      "file": "src/vendor/opensource/original/components/buttons/soft-ui-button.tsx",
+      "sha256": "3b053cf7eb7992c03de56655da817dd3c50fdbc1e5e45b1365beb7f2cc0f7dbf",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "three-d-button",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/buttons/three-d-button.tsx",
+      "file": "src/vendor/opensource/original/components/buttons/three-d-button.tsx",
+      "sha256": "0a0a44c19861771c7aafeb692f59bab4f6ff76d3641739ce163a5d99a1a00582",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "three-d-icon-button",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/buttons/three-d-icon-button.tsx",
+      "file": "src/vendor/opensource/original/components/buttons/three-d-icon-button.tsx",
+      "sha256": "1a172f1621714b478d32727f744587e3a15e5c8c38044d27df7f9dea78d51056",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "segmented-toggle-button",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/buttons/segmented-toggle-button.tsx",
+      "file": "src/vendor/opensource/original/components/buttons/segmented-toggle-button.tsx",
+      "sha256": "92d3fc6191e7d45c14899cb9c68dfab80676e4cd8efcb24871ce8a72ea546f43",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "slide-to-confirm-button",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/buttons/slide-to-confirm-button.tsx",
+      "file": "src/vendor/opensource/original/components/buttons/slide-to-confirm-button.tsx",
+      "sha256": "e17b01fdd4d437caefe0d88562ef795046c50f0dcb099f470703aeca5292358a",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "bluetooth-face-widget",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/widgets/bluetooth-face-widget.tsx",
+      "file": "src/vendor/opensource/original/components/widgets/bluetooth-face-widget.tsx",
+      "sha256": "ea3cc3790bcd237449d3aa3109bb261d7717f778fc56999278f9e4e0e8c45743",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "booking-slot-calendar",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/calender/booking-slot-calendar.tsx",
+      "file": "src/vendor/opensource/original/components/calender/booking-slot-calendar.tsx",
+      "sha256": "87189596f4000388030346fe1ce5eddccac72573a48ffbdb21b505033570eb81",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "daily-activity-calendar-widget",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/widgets/daily-activity-calendar-widget.tsx",
+      "file": "src/vendor/opensource/original/components/widgets/daily-activity-calendar-widget.tsx",
+      "sha256": "3004ba5b15a59d4b8cfb6a6fbf4d7da77bdcbb492f4b0a9cc518ae64d100fda2",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "date-range-picker-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/calender/date-range-picker-card.tsx",
+      "file": "src/vendor/opensource/original/components/calender/date-range-picker-card.tsx",
+      "sha256": "7bb811fc52265a489048c425bc00337ad0a7a0f1644c70a5a0f6f3a5514da0ab",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "event-countdown-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/calender/event-countdown-card.tsx",
+      "file": "src/vendor/opensource/original/components/calender/event-countdown-card.tsx",
+      "sha256": "d66e385a3e5dfc8ee0f541fca12f3482bce35704a62ee6fe058a3ab3a2fdcfb9",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "ios-calender-widget",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/widgets/ios-calender-widget.tsx",
+      "file": "src/vendor/opensource/original/components/widgets/ios-calender-widget.tsx",
+      "sha256": "d98f45d56b77108a25ca0adff922f41303e187897a37f53ee04b5ca436ebb4ce",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "month-picker-calendar",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/calender/month-picker-calendar.tsx",
+      "file": "src/vendor/opensource/original/components/calender/month-picker-calendar.tsx",
+      "sha256": "45a03b0276c0188cbd84a9743a937e1f23e1882a7815e8c24f65ff5c1d8c1357",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "week-strip-calendar",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/calender/week-strip-calendar.tsx",
+      "file": "src/vendor/opensource/original/components/calender/week-strip-calendar.tsx",
+      "sha256": "e7f7a11f8a5ffdfc96d064dd25bdebf0be0ffae5288198f5666cb3adb320721e",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "public/profile-picture.png",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/public/profile-picture.png",
+      "file": "src/vendor/opensource/original/public/profile-picture.png",
+      "sha256": "51b7b4ffa5f159460d68a3d921612bea10ae0f9a2e5395ffba262ed9604a3df6",
+      "modifications": "None",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "public/woman.png",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/public/woman.png",
+      "file": "src/vendor/opensource/original/public/woman.png",
+      "sha256": "9f90648881a027635ad838fcc9b7992eec503fcabdfac4caabdddc8ae52248f3",
+      "modifications": "None",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "customers-table",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/table/customers-table.tsx",
+      "file": "src/vendor/opensource/original/components/table/customers-table.tsx",
+      "sha256": "124ba947db55ad0e4437b989b2846bb8117bc69a5a639fb2a23ddae9e2b44983",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "app-dock",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/docks/app-dock.tsx",
+      "file": "src/vendor/opensource/original/components/docks/app-dock.tsx",
+      "sha256": "61a63a07b23b897673376a9ac0bfa2dccb75f2eb0928896bbce452d76f07024f",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "editor-tool-dock",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/docks/editor-tool-dock.tsx",
+      "file": "src/vendor/opensource/original/components/docks/editor-tool-dock.tsx",
+      "sha256": "3f2e19c18ab3987983ad509304871a27d8daae770121f7280e7ddee63aece827",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "Icons",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/docks/Icons.tsx",
+      "file": "src/vendor/opensource/original/components/docks/Icons.tsx",
+      "sha256": "d5ab6935105b5865ceb8e34740bb8d9cb1de225d651285d68a9ccc19e40a7385",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "mac-dock",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/docks/mac-dock.tsx",
+      "file": "src/vendor/opensource/original/components/docks/mac-dock.tsx",
+      "sha256": "1ef819707a8998190e7f574ed97a7294d07ef5c04448723a4d1c81a9ee0fc101",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "presence-dock",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/docks/presence-dock.tsx",
+      "file": "src/vendor/opensource/original/components/docks/presence-dock.tsx",
+      "sha256": "8414ce710dc8118a7c37538f0e29f374aeaaefbc4593ea1689060a286135f8a2",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "spotlight-bar",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/docks/spotlight-bar.tsx",
+      "file": "src/vendor/opensource/original/components/docks/spotlight-bar.tsx",
+      "sha256": "2d2df96c97255f6ef0d36c009080ddd1280558e15e306319bd08bc13dd0aef3b",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "orders-table",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/table/orders-table.tsx",
+      "file": "src/vendor/opensource/original/components/table/orders-table.tsx",
+      "sha256": "25b6923b5de741ec78edea4c35164a13949f0f556955ef42fc9750e3764f8e91",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "recent-transactions-table",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/table/recent-transactions-table.tsx",
+      "file": "src/vendor/opensource/original/components/table/recent-transactions-table.tsx",
+      "sha256": "f18b82e3db92ead590a8ac8917823306e2e485548ccd621daf63426df7c82e97",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "types",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/types/types.tsx",
+      "file": "src/vendor/opensource/original/types/types.tsx",
+      "sha256": "f817852470e00cf559d0864151eb714fb25998a95a6759645300e0c94641e1af",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "producthunt",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/icons/brands/producthunt.tsx",
+      "file": "src/vendor/opensource/original/icons/brands/producthunt.tsx",
+      "sha256": "62f924920c6cf892e689af4966a11302a2794909b20ccecfabf18a3451d62170",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "public/cursor.webp",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/public/cursor.webp",
+      "file": "src/vendor/opensource/original/public/cursor.webp",
+      "sha256": "f72eb5d3afc6f7e7faade10d591094dd928e78e2af9b74998734cf0d0f68ab4f",
+      "modifications": "None",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "public/lucide-logo.svg",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/public/lucide-logo.svg",
+      "file": "src/vendor/opensource/original/public/lucide-logo.svg",
+      "sha256": "0a69607947d19ac6025524091016c4830148ed9ca4a69d4fcce4d848a35a3136",
+      "modifications": "None",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "resource-links-panel",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/resources/resource-links-panel.tsx",
+      "file": "src/vendor/opensource/original/components/resources/resource-links-panel.tsx",
+      "sha256": "529a59ae0d468005eb2ab72815d42ac2178e761772bcbe985b1fc4ebf48ab700",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "tasks-table",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/table/tasks-table.tsx",
+      "file": "src/vendor/opensource/original/components/table/tasks-table.tsx",
+      "sha256": "5fd7e566c0fb75aa74334ecefd2ff51570649a859bf2afbb352e2ce1f4a60255",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "team-members-table",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/table/team-members-table.tsx",
+      "file": "src/vendor/opensource/original/components/table/team-members-table.tsx",
+      "sha256": "ac3232c7d03d6159ea803c7c34f037c1fa71d0f25c7627858d428191cc5499b1",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "users-select-table",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/table/users-select-table.tsx",
+      "file": "src/vendor/opensource/original/components/table/users-select-table.tsx",
+      "sha256": "048df3b3d88cc4dc51557418e60e74c01e13d2fd703f5f4f60aadb6d9a575f5f",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "cafe-menu-board-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/text/cafe-menu-board-card.tsx",
+      "file": "src/vendor/opensource/original/components/text/cafe-menu-board-card.tsx",
+      "sha256": "5d560fa92527a7dec77496a662476b20ddb7e31dbba53803c4b885d6476eb542",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "cinema-ticket-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/text/cinema-ticket-card.tsx",
+      "file": "src/vendor/opensource/original/components/text/cinema-ticket-card.tsx",
+      "sha256": "b339212e230f33272d5e5c813f5e5429877f645b8335d8c3b720aae3a9513084",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "public/background5.webp",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/public/background5.webp",
+      "file": "src/vendor/opensource/original/public/background5.webp",
+      "sha256": "003722d117d8dc930bd7812cee66bae0dc9827e8d587a2592c93136689840b4b",
+      "modifications": "None",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "daily-motivation-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/text/daily-motivation-card.tsx",
+      "file": "src/vendor/opensource/original/components/text/daily-motivation-card.tsx",
+      "sha256": "02e74d0eead700a9748fbc7ece74330db51eab75a8851f8e3136eee7f5e3008d",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "loop-arrow",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/icons/annotations/loop-arrow.tsx",
+      "file": "src/vendor/opensource/original/icons/annotations/loop-arrow.tsx",
+      "sha256": "aedc1beb91426ae9bded98b7d6bd921bd740a71f65568c5540f2721da07b4015",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "public/wallpaper-2.png",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/public/wallpaper-2.png",
+      "file": "src/vendor/opensource/original/public/wallpaper-2.png",
+      "sha256": "56fd84c6f05505aa696db80706e13b66ccb7bfeb7e04f7f67993fc9d181f3305",
+      "modifications": "None",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "public/background1.webp",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/public/background1.webp",
+      "file": "src/vendor/opensource/original/public/background1.webp",
+      "sha256": "bb20d23edf03acf08f4fe27c9d776594bcb24bb422ba261db3c82c676ef6ac12",
+      "modifications": "None",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "denim-product-editorial-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/text/denim-product-editorial-card.tsx",
+      "file": "src/vendor/opensource/original/components/text/denim-product-editorial-card.tsx",
+      "sha256": "b0ddcd60eac4340d84926177b3685256bd0392ae93fc30111fc8fe125d397c0f",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "credit-card-glass",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/users/credit-card-glass.tsx",
+      "file": "src/vendor/opensource/original/components/users/credit-card-glass.tsx",
+      "sha256": "c6dc7bd9e24b5dc376dadd77d923a708b80a1fe7ce3b8cf09d8365dbe014bdc9",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "discord",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/icons/brands/discord.tsx",
+      "file": "src/vendor/opensource/original/icons/brands/discord.tsx",
+      "sha256": "bbcbccc13de62d72b1b49a88cc20be4375b7aa4a5213fcf9ed9272da74f99a3b",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "discord-chat-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/socials/discord-chat-card.tsx",
+      "file": "src/vendor/opensource/original/components/socials/discord-chat-card.tsx",
+      "sha256": "05ac36dfa80505443dec20c24440f02fa75c341e86459ec8a02fb074c5989a04",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "drop-cap-editorial-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/text/drop-cap-editorial-card.tsx",
+      "file": "src/vendor/opensource/original/components/text/drop-cap-editorial-card.tsx",
+      "sha256": "64e68150ee296294e27518aa3c72127945edd53ef14b1d63939f7f7fa338ad91",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "editorial-quote-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/text/editorial-quote-card.tsx",
+      "file": "src/vendor/opensource/original/components/text/editorial-quote-card.tsx",
+      "sha256": "d122588717cff3e82eb18b681ec8589dc3748e8b552ba1686bb7ac23a4097eb7",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "event-ticket-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/event/event-ticket-card.tsx",
+      "file": "src/vendor/opensource/original/components/event/event-ticket-card.tsx",
+      "sha256": "cf895bd1cf13e837f6aaec76c6b895f96a80152e3df61bc5f8c563c589b4312c",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "facebook-post-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/socials/facebook-post-card.tsx",
+      "file": "src/vendor/opensource/original/components/socials/facebook-post-card.tsx",
+      "sha256": "811dc0f349d0041d066db0ccc5e905247aa83d1644dd7ed434c701898b0eea26",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "gallery-wall-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/gallery/gallery-wall-card.tsx",
+      "file": "src/vendor/opensource/original/components/gallery/gallery-wall-card.tsx",
+      "sha256": "f5049967ac7ce1f1646707738550ae1d5c98bdc4814c8a55db34ac0c23451488",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "circle-cut-frame",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/frames/circle-cut-frame.tsx",
+      "file": "src/vendor/opensource/original/components/frames/circle-cut-frame.tsx",
+      "sha256": "9d7f166e2774e5555f9654241dc9d4fc3f2cf1bb7d780413bd9e068341eae0e0",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "hard-shadow-polaroid-frame",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/frames/hard-shadow-polaroid-frame.tsx",
+      "file": "src/vendor/opensource/original/components/frames/hard-shadow-polaroid-frame.tsx",
+      "sha256": "a28422ffd33cb6978e115235d50156581d9fa0220f26ca3806440ce2cb6c4936",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "sticky-note-polaroid-frame",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/frames/sticky-note-polaroid-frame.tsx",
+      "file": "src/vendor/opensource/original/components/frames/sticky-note-polaroid-frame.tsx",
+      "sha256": "1165ebc3f6337270a1c6d72b9d044309b6232b5a87436dc1c24670d68dd0f649",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "transform-box-frame",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/frames/transform-box-frame.tsx",
+      "file": "src/vendor/opensource/original/components/frames/transform-box-frame.tsx",
+      "sha256": "4fc7ab7f2761c58d17361a2f6c0bb33f4a9d5ca6b5f984974476e7e60f4488f4",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "transform-plus-frame",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/frames/transform-plus-frame.tsx",
+      "file": "src/vendor/opensource/original/components/frames/transform-plus-frame.tsx",
+      "sha256": "df8fa9042dc45f66263d1a68b47f66bfcf4815e455665269fc0a87914ba8b056",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "public/wallpaper-11.png",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/public/wallpaper-11.png",
+      "file": "src/vendor/opensource/original/public/wallpaper-11.png",
+      "sha256": "2ad138a19a7e00786ec4f153201a10689b20f276c8bd5a591115efd305f65813",
+      "modifications": "None",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "film-strip-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/gallery/film-strip-card.tsx",
+      "file": "src/vendor/opensource/original/components/gallery/film-strip-card.tsx",
+      "sha256": "230c08b8f30441717540ae8a625aedaf1bb6f9b3fdadde2da571fd2d57a98c8c",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "gallery-grid-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/gallery/gallery-grid-card.tsx",
+      "file": "src/vendor/opensource/original/components/gallery/gallery-grid-card.tsx",
+      "sha256": "208ac542d821c6db43bab1e01e20fbef73565a63fcb63a4ecbd9e7b7e8dc13e9",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "github",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/icons/brands/github.tsx",
+      "file": "src/vendor/opensource/original/icons/brands/github.tsx",
+      "sha256": "2d70a117fbb575f3d86eb0e23d6c75567b9f663c275b6594a1715e7856a0bf6e",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "github-repo-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/socials/github-repo-card.tsx",
+      "file": "src/vendor/opensource/original/components/socials/github-repo-card.tsx",
+      "sha256": "8b8a4865040667bf2dcfc2b780480a1443c34ddfe609b3d7581120dc3a20f422",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "glass-overlay-image-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/gallery/glass-overlay-image-card.tsx",
+      "file": "src/vendor/opensource/original/components/gallery/glass-overlay-image-card.tsx",
+      "sha256": "134c62ebd3d43a6891c72f77508b2ac58c082ca411193cbb4f91a26984227a2b",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "combobox-field-input",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/inputs/combobox-field-input.tsx",
+      "file": "src/vendor/opensource/original/components/inputs/combobox-field-input.tsx",
+      "sha256": "5f441310bfede616def4b31bc70b4e0d6f5e5cfea1bf585b8de87cbf2a1683a8",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "date-field-input",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/inputs/date-field-input.tsx",
+      "file": "src/vendor/opensource/original/components/inputs/date-field-input.tsx",
+      "sha256": "fe240de6226d8c13801a39184385d2f74f95f54c76e86cc27cfdd25e2ed7356b",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "file-upload-field-input",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/inputs/file-upload-field-input.tsx",
+      "file": "src/vendor/opensource/original/components/inputs/file-upload-field-input.tsx",
+      "sha256": "4417dbffc724280a40337f8b2b5733c886611429695156f7011e4215bb71cbd2",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "floating-label-field-input",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/inputs/floating-label-field-input.tsx",
+      "file": "src/vendor/opensource/original/components/inputs/floating-label-field-input.tsx",
+      "sha256": "808cb79bb92bab601351a939af1f964401f50c9c9a2c2b9476419285f415fd14",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "contact-form",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/forms/contact-form.tsx",
+      "file": "src/vendor/opensource/original/components/forms/contact-form.tsx",
+      "sha256": "3cddcacacdfcd79b4a2f4c2c1427643a8fd195289cc13d2454f9e08d5a9867fc",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "forgot-password-form",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/forms/forgot-password-form.tsx",
+      "file": "src/vendor/opensource/original/components/forms/forgot-password-form.tsx",
+      "sha256": "6758086409f6a4677e26a4179cb342f3276456f0c115cadf5620dcf774379a57",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "login-form",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/forms/login-form.tsx",
+      "file": "src/vendor/opensource/original/components/forms/login-form.tsx",
+      "sha256": "9b1ce129471eed19ae4ee010b7013d0ad52e5f2907b8ea37d93f3dcc090195fb",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "newsletter-form",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/forms/newsletter-form.tsx",
+      "file": "src/vendor/opensource/original/components/forms/newsletter-form.tsx",
+      "sha256": "292ce7a986234d8ad5076e034d1e2641d28a5f610b91ef792daf06aeefce9990",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "signup-form",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/forms/signup-form.tsx",
+      "file": "src/vendor/opensource/original/components/forms/signup-form.tsx",
+      "sha256": "dcb1bb7d5b664c4cf4c814740ef26fb7bcf409c8b851a6fc6c4ab4772bfb0777",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "checkbox-field-input",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/inputs/checkbox-field-input.tsx",
+      "file": "src/vendor/opensource/original/components/inputs/checkbox-field-input.tsx",
+      "sha256": "5359c5551f59b0096ccefd058fb3a7e6bc9b8bb08b3b369907830b7cf439c719",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "input-group-field",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/inputs/input-group-field.tsx",
+      "file": "src/vendor/opensource/original/components/inputs/input-group-field.tsx",
+      "sha256": "37fc4a5ac73bb43450440efcda8b72ff29f8b853f1684f5f33be3cc069699c94",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "password-field-input",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/inputs/password-field-input.tsx",
+      "file": "src/vendor/opensource/original/components/inputs/password-field-input.tsx",
+      "sha256": "adeab766580223f936afd30831f28bd5d55b6205bd2bfa2aac3c4a9933618268",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "phone-field-input",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/inputs/phone-field-input.tsx",
+      "file": "src/vendor/opensource/original/components/inputs/phone-field-input.tsx",
+      "sha256": "8a88888161c4c0aba28e76485b3e1a8119c8c2e28bb9f9107b8fad17808f43f9",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "radio-group-field-input",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/inputs/radio-group-field-input.tsx",
+      "file": "src/vendor/opensource/original/components/inputs/radio-group-field-input.tsx",
+      "sha256": "810204a1766ed81fd18938d7bf067ec49fe1053ba803f6c432587af312a6942d",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "search-input",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/inputs/search-input.tsx",
+      "file": "src/vendor/opensource/original/components/inputs/search-input.tsx",
+      "sha256": "ff58aba32914f6a2a8494d7f290e041ccfdde8dc571ddf4ae14848e07f022daf",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "select-field-input",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/inputs/select-field-input.tsx",
+      "file": "src/vendor/opensource/original/components/inputs/select-field-input.tsx",
+      "sha256": "9cdfa5bf45b40503f0de5668e4588917a40b708254749199aa94d18e1bd0e2b2",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "switch-field-input",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/inputs/switch-field-input.tsx",
+      "file": "src/vendor/opensource/original/components/inputs/switch-field-input.tsx",
+      "sha256": "ba6c7edec48231018fabb8f24725decd9476008b7a9bcd2f275da920b27ca3f7",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "text-field-input",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/inputs/text-field-input.tsx",
+      "file": "src/vendor/opensource/original/components/inputs/text-field-input.tsx",
+      "sha256": "afa01dcb5be14fb8fd0d32720fffef6e5490b0e2d98bf8f8aea852d99fd16e5a",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "textarea-field-input",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/inputs/textarea-field-input.tsx",
+      "file": "src/vendor/opensource/original/components/inputs/textarea-field-input.tsx",
+      "sha256": "a8e5a9f00d890fea93adb4c65b3a7e72312d350b183d202909588d804217066e",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "instagram-post-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/socials/instagram-post-card.tsx",
+      "file": "src/vendor/opensource/original/components/socials/instagram-post-card.tsx",
+      "sha256": "49332bd28097a9d0401356d09221fc7940ed707a3bb7c570ba561f6d0f334340",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "journal-writing-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/text/journal-writing-card.tsx",
+      "file": "src/vendor/opensource/original/components/text/journal-writing-card.tsx",
+      "sha256": "3a728fffe94ba67c4068a823ecd61b193ec535cf388c951deab8b9906871f401",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "keyboard-shortcuts-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/text/keyboard-shortcuts-card.tsx",
+      "file": "src/vendor/opensource/original/components/text/keyboard-shortcuts-card.tsx",
+      "sha256": "ccec21947c9c9796c8ef887b348a94eef6ff87d1f7093c95efab15630308d781",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "linked-in-post-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/socials/linked-in-post-card.tsx",
+      "file": "src/vendor/opensource/original/components/socials/linked-in-post-card.tsx",
+      "sha256": "5fe1b7bdd0a6d890c3f92b33d1f612cb0f59b335830a9300148f228537b5ce15",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "linked-in-profile-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/socials/linked-in-profile-card.tsx",
+      "file": "src/vendor/opensource/original/components/socials/linked-in-profile-card.tsx",
+      "sha256": "213f16218675c726d303df6d32fbff97af79f11679cc37cd353aee02499294cc",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "museum-placard-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/gallery/museum-placard-card.tsx",
+      "file": "src/vendor/opensource/original/components/gallery/museum-placard-card.tsx",
+      "sha256": "a2746ae816166c3fbe49d30c161bc85f1f90cccd7e49005b29d0da7f16e98f09",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "magazine-cover-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/text/magazine-cover-card.tsx",
+      "file": "src/vendor/opensource/original/components/text/magazine-cover-card.tsx",
+      "sha256": "7c5644bcf559b10fe2ec4c1d3bafd4dfd8e6bb6fd820e88bceb5000a704f83fb",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "music-player-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/audio/music-player-card.tsx",
+      "file": "src/vendor/opensource/original/components/audio/music-player-card.tsx",
+      "sha256": "2f0d36bfd70eeda30bb31d668bcf796db9b562118a06a018979650873b259bbc",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "music-playlist-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/audio/music-playlist-card.tsx",
+      "file": "src/vendor/opensource/original/components/audio/music-playlist-card.tsx",
+      "sha256": "ae8c8b6451028d4d3d1ff8aefa9936229cb1d53e2f7ddc8bfdab284d048b9235",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "notepad-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/text/notepad-card.tsx",
+      "file": "src/vendor/opensource/original/components/text/notepad-card.tsx",
+      "sha256": "642e3c51b87630f243aa045a2c8590c3e9f58a3ff6c9f58bd475bd4a2fda97b7",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "stacked-folder-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/files/stacked-folder-card.tsx",
+      "file": "src/vendor/opensource/original/components/files/stacked-folder-card.tsx",
+      "sha256": "fdacee3e9db2f7e34299efa51d9016b8024f6d3ea2284cb0d6de4cb82440ad96",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "ink-stamp-document-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/files/ink-stamp-document-card.tsx",
+      "file": "src/vendor/opensource/original/components/files/ink-stamp-document-card.tsx",
+      "sha256": "50f754849ba7ddb632108c7a4188a734855531fb73dee3da5ff3d95870800f72",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "opensource-folder-tab-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/folder/opensource-folder-tab-card.tsx",
+      "file": "src/vendor/opensource/original/components/folder/opensource-folder-tab-card.tsx",
+      "sha256": "5dc63b95f7e932b34f933b20b49e9677da5cacf7ca05b176cf5910dbcfaa3922",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "now-playing-bar",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/audio/now-playing-bar.tsx",
+      "file": "src/vendor/opensource/original/components/audio/now-playing-bar.tsx",
+      "sha256": "9e835d067d67b4157a9559a7f24c4a5446ba98ac27e2f0f7b48076747b330004",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "photo-album-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/gallery/photo-album-card.tsx",
+      "file": "src/vendor/opensource/original/components/gallery/photo-album-card.tsx",
+      "sha256": "c33a27e8007783e3ac55bf8dbde16ea9c65e8147c40d48b72ed616912d90927a",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "photo-contact-sheet-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/gallery/photo-contact-sheet-card.tsx",
+      "file": "src/vendor/opensource/original/components/gallery/photo-contact-sheet-card.tsx",
+      "sha256": "e1f0028fec4e358b335bd823a36d90632f020466deb8e17787eb5ce47d866b50",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "polaroid-image-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/gallery/polaroid-image-card.tsx",
+      "file": "src/vendor/opensource/original/components/gallery/polaroid-image-card.tsx",
+      "sha256": "24b14953992dc2b9beb5b1eec800ed848ccc6bf2c14153292a683e4987e2d28a",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "progress-ring-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/others/progress-ring-card.tsx",
+      "file": "src/vendor/opensource/original/components/others/progress-ring-card.tsx",
+      "sha256": "af896b872861b2f3b712e960adf1116dc596c718e2857cf90558bfd18374c2bb",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "retail-price-tag-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/pricing/retail-price-tag-card.tsx",
+      "file": "src/vendor/opensource/original/components/pricing/retail-price-tag-card.tsx",
+      "sha256": "cf040c326b16b418bd8e6dafbf8e740b7e8a65597fb8ea20f6957f5e6c04fbb7",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "public/background4.webp",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/public/background4.webp",
+      "file": "src/vendor/opensource/original/public/background4.webp",
+      "sha256": "0f30bb9a155c7510400070c9fb74b95f8bd1eed0a6325993150b56e1f2e058b2",
+      "modifications": "None",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "stacked-cards-effect",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/others/stacked-cards-effect.tsx",
+      "file": "src/vendor/opensource/original/components/others/stacked-cards-effect.tsx",
+      "sha256": "612bb854093766a78a94b246ec7aff6e0125c20007c58fbe813fc2f4d3e65b45",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "slow-living-polaroid-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/gallery/slow-living-polaroid-card.tsx",
+      "file": "src/vendor/opensource/original/components/gallery/slow-living-polaroid-card.tsx",
+      "sha256": "dc8748e278c329a336226e16c973e59ea1f5e27758510122581dbcb0984dff92",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "stamp-postcard-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/gallery/stamp-postcard-card.tsx",
+      "file": "src/vendor/opensource/original/components/gallery/stamp-postcard-card.tsx",
+      "sha256": "d93ca40c9fbc9a59036de6d6412f3e2900b20b2360f13359bfefb3a29d9ffbd4",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "team-member-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/users/team-member-card.tsx",
+      "file": "src/vendor/opensource/original/components/users/team-member-card.tsx",
+      "sha256": "51ff274bd485b9270ae4772cda994cbb40b2fb0feaea326228b9a23572c157d2",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "terminal-log-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/others/terminal-log-card.tsx",
+      "file": "src/vendor/opensource/original/components/others/terminal-log-card.tsx",
+      "sha256": "f89607cc6a96c34ed287fc37ef2d745c1ebb2664643284190ba3af7d7395a11f",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "testimonials",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/lib/home/testimonials.ts",
+      "file": "src/vendor/opensource/original/lib/home/testimonials.ts",
+      "sha256": "669e33357779873b8c263d91ea991461e7ea1e1ed0911e9958efb2d0f378d1c9",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "testimonial-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/users/testimonial-card.tsx",
+      "file": "src/vendor/opensource/original/components/users/testimonial-card.tsx",
+      "sha256": "b36ed80102b650982686c555fbe528756f948ccb18b6782c6a6fd4c88f9dd819",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "flight-boarding-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/travel/flight-boarding-card.tsx",
+      "file": "src/vendor/opensource/original/components/travel/flight-boarding-card.tsx",
+      "sha256": "2e613b21d3fae5709ad98b8e629aaa1c81b19c123750c9134dc96d03b318f163",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "thermal-receipt-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/others/thermal-receipt-card.tsx",
+      "file": "src/vendor/opensource/original/components/others/thermal-receipt-card.tsx",
+      "sha256": "a4a9f32a25ecae38a9d20eac7bd5930963695728078065918f12fffa00f3355a",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "weather-snapshot-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/others/weather-snapshot-card.tsx",
+      "file": "src/vendor/opensource/original/components/others/weather-snapshot-card.tsx",
+      "sha256": "23ac47cef2d923b5c96dd707675ba67b74c221ef0956d54554f673966d8f4245",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "threads-post-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/socials/threads-post-card.tsx",
+      "file": "src/vendor/opensource/original/components/socials/threads-post-card.tsx",
+      "sha256": "5717baeca6d899a7de0c20de6f30dc765d3b3428577717729faee4e86dd6201e",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "toggle-pricing-cards",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/pricing/toggle-pricing-cards.tsx",
+      "file": "src/vendor/opensource/original/components/pricing/toggle-pricing-cards.tsx",
+      "sha256": "22f4edc153b5f25b810bb241973975cbbbe0539f6f7e8557e1f1f302d4dee58c",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "travel-postcard-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/travel/travel-postcard-card.tsx",
+      "file": "src/vendor/opensource/original/components/travel/travel-postcard-card.tsx",
+      "sha256": "54c72d372adf2bea1d537a07ab48384ebb81c97f903a52e8d9140562872a4b30",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "twitter-post-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/socials/twitter-post-card.tsx",
+      "file": "src/vendor/opensource/original/components/socials/twitter-post-card.tsx",
+      "sha256": "270666110d336e82cafac0f188b3f6c52a6910027a7a0d917e74d83b1d972363",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "twitter-profile-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/socials/twitter-profile-card.tsx",
+      "file": "src/vendor/opensource/original/components/socials/twitter-profile-card.tsx",
+      "sha256": "60e5082a7674cd2bc400fe00f55eb43fe6d0b291cd93d4e2b9ceafbeb2046f36",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "wallet-pass-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/wallet/wallet-pass-card.tsx",
+      "file": "src/vendor/opensource/original/components/wallet/wallet-pass-card.tsx",
+      "sha256": "ccee9fd9a4654e2903680d536f415fa6eee4178fd773315d2c73fea1aafc2a4c",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "analog-clock-widget",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/widgets/analog-clock-widget.tsx",
+      "file": "src/vendor/opensource/original/components/widgets/analog-clock-widget.tsx",
+      "sha256": "0568b11a1980dff7dd2ab2081c9c60789b23687d5e7d86fd0a168565bae6ca0d",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "ios-digital-clock-widget",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/widgets/ios-digital-clock-widget.tsx",
+      "file": "src/vendor/opensource/original/components/widgets/ios-digital-clock-widget.tsx",
+      "sha256": "eaf04097a195a19a8c67fca1d069bb4a154e466a932c62244a26b315775264e5",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "compass-widget",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/widgets/compass-widget.tsx",
+      "file": "src/vendor/opensource/original/components/widgets/compass-widget.tsx",
+      "sha256": "4139f21e0a96b5951149496e1f2965b58b6d3fe9970f5b28b358f7eecf82f0fa",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "file-menu-dropdown",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/dropdowns/file-menu-dropdown.tsx",
+      "file": "src/vendor/opensource/original/components/dropdowns/file-menu-dropdown.tsx",
+      "sha256": "4e81e19d8ecf71fae129207e73fe07fec766de09cf30aeac83ecdfd68eadb0bc",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "filter-sort-dropdown",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/dropdowns/filter-sort-dropdown.tsx",
+      "file": "src/vendor/opensource/original/components/dropdowns/filter-sort-dropdown.tsx",
+      "sha256": "fe44b23999d1ccad0e645269200e3d01522a4ec61037ff54c7235b6481a4bbde",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "kebab-actions-dropdown",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/dropdowns/kebab-actions-dropdown.tsx",
+      "file": "src/vendor/opensource/original/components/dropdowns/kebab-actions-dropdown.tsx",
+      "sha256": "0403ccad1e0403375926a728366375ad9cb054a773692286b72f8249a8f3ad0f",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "notification-dropdown",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/dropdowns/notification-dropdown.tsx",
+      "file": "src/vendor/opensource/original/components/dropdowns/notification-dropdown.tsx",
+      "sha256": "0d3c28e4f3c20635f84b41d6cad07e120df38704200d92adb84ba1bd99c64623",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "twitter",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/icons/brands/twitter.tsx",
+      "file": "src/vendor/opensource/original/icons/brands/twitter.tsx",
+      "sha256": "042deeb833e74d926d8c2439e21b7af569ff71db5cedf5af9c4d80a536652db6",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "linkedin",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/icons/brands/linkedin.tsx",
+      "file": "src/vendor/opensource/original/icons/brands/linkedin.tsx",
+      "sha256": "d81f0a0b7edc749e2d7812ff8364c1a3c1107ea182954ad4835166fcf7e3afb3",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "share-menu-dropdown",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/dropdowns/share-menu-dropdown.tsx",
+      "file": "src/vendor/opensource/original/components/dropdowns/share-menu-dropdown.tsx",
+      "sha256": "0550537688a486d6adff877f25326b1d2797956fc28e9d2068c0bb76434f22b8",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "user-menu-dropdown",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/dropdowns/user-menu-dropdown.tsx",
+      "file": "src/vendor/opensource/original/components/dropdowns/user-menu-dropdown.tsx",
+      "sha256": "ca136be7a72c419c5555f91f507eae0d70ee198821b7c91e3b6889e0f928307e",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "next-js",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/icons/brands/next-js.tsx",
+      "file": "src/vendor/opensource/original/icons/brands/next-js.tsx",
+      "sha256": "09e5a9d6f5e008dfa489599c62828e87044a4450c4ac782ece65d471ccde58b0",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "vercel",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/icons/brands/vercel.tsx",
+      "file": "src/vendor/opensource/original/icons/brands/vercel.tsx",
+      "sha256": "91c476ae46624590334d62db881f07a86f49ed1fe021103be67fac40f24a1c22",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "workspace-switcher-dropdown",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/dropdowns/workspace-switcher-dropdown.tsx",
+      "file": "src/vendor/opensource/original/components/dropdowns/workspace-switcher-dropdown.tsx",
+      "sha256": "f6937a981a88b79515ad09601e5afc9c94313e33aaba6da0e0295b940dd13eca",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "github-contribution",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/socials/github-contribution.tsx",
+      "file": "src/vendor/opensource/original/components/socials/github-contribution.tsx",
+      "sha256": "63075bb17ed9b906199dc45cbc2f79f76e9d167f1c60cc50c5612410c42bfd68",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "ios-map-location-widget",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/widgets/ios-map-location-widget.tsx",
+      "file": "src/vendor/opensource/original/components/widgets/ios-map-location-widget.tsx",
+      "sha256": "336680cd08d8f6859ab592c26d7547415d216bde9ed49abcaa8623bd2e749f6e",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "apple-watch-mockup-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/mockups/apple-watch-mockup-card.tsx",
+      "file": "src/vendor/opensource/original/components/mockups/apple-watch-mockup-card.tsx",
+      "sha256": "68178e9fb0d4bbe651bedf7892a1f9019d767da905b0c6055f9e9f25f9b08bf0",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "browser-mockup-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/mockups/browser-mockup-card.tsx",
+      "file": "src/vendor/opensource/original/components/mockups/browser-mockup-card.tsx",
+      "sha256": "ba5b8dab38fbe19ca89201e8f1febbcb820a443507db8c4e6c76a2d50130762a",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "apple-ipod-mockup-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/mockups/apple-ipod-mockup-card.tsx",
+      "file": "src/vendor/opensource/original/components/mockups/apple-ipod-mockup-card.tsx",
+      "sha256": "3456b75d3c5dfb2e29884b719d09e00501f2921d3b3c159366ca0f2d10e1b7bb",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "tablet-mockup-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/mockups/tablet-mockup-card.tsx",
+      "file": "src/vendor/opensource/original/components/mockups/tablet-mockup-card.tsx",
+      "sha256": "fb8dd64a4df45d03dd8266e663205113d59eb03aeb3ff3fe39272d7fe91227e7",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "laptop-mockup-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/mockups/laptop-mockup-card.tsx",
+      "file": "src/vendor/opensource/original/components/mockups/laptop-mockup-card.tsx",
+      "sha256": "569476000166d19b27d7e66d8d1c8c439b2ace2ec57574927e65335a6170a339",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "phone-mockup-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/mockups/phone-mockup-card.tsx",
+      "file": "src/vendor/opensource/original/components/mockups/phone-mockup-card.tsx",
+      "sha256": "3eb8f76d1ecc26922745fb9cbaf2e69a452735fd8cdf2c9806111b7cb02d23f9",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "apple-notification-banner",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/notifications/apple-notification-banner.tsx",
+      "file": "src/vendor/opensource/original/components/notifications/apple-notification-banner.tsx",
+      "sha256": "0ed38458e9a2b5a766307f5c88286b3ba740fca8dc17013df02af6c1ac2e2bc6",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "calendar-reminder-notification-banner",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/notifications/calendar-reminder-notification-banner.tsx",
+      "file": "src/vendor/opensource/original/components/notifications/calendar-reminder-notification-banner.tsx",
+      "sha256": "dbf9b677e23203a97f0c1a8c48b0ff7371a62175cb410972c7505f387e94d6c3",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "chat-bubble-notification-banner",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/notifications/chat-bubble-notification-banner.tsx",
+      "file": "src/vendor/opensource/original/components/notifications/chat-bubble-notification-banner.tsx",
+      "sha256": "970ed8f237decdd7b58fbc88fc5b69a293922958ce61de59f4c76f94403218c4",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "delivery-notification-banner",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/notifications/delivery-notification-banner.tsx",
+      "file": "src/vendor/opensource/original/components/notifications/delivery-notification-banner.tsx",
+      "sha256": "f1968855faefdb59f926772a5f654403af62417e3fac9184a477fd570a9ba778",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "deploy-notification-banner",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/notifications/deploy-notification-banner.tsx",
+      "file": "src/vendor/opensource/original/components/notifications/deploy-notification-banner.tsx",
+      "sha256": "2042edfe302a4639dddf22ce40425d325a46dd9a49ac68e81a432e9e69b6e434",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "email-notification-banner",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/notifications/email-notification-banner.tsx",
+      "file": "src/vendor/opensource/original/components/notifications/email-notification-banner.tsx",
+      "sha256": "8ff97fbee68595e56c16bbfda22f8434180643382ff85c2fbe228690453d6cef",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "incoming-call-notification-banner",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/notifications/incoming-call-notification-banner.tsx",
+      "file": "src/vendor/opensource/original/components/notifications/incoming-call-notification-banner.tsx",
+      "sha256": "303dfeb6b13357f5220425a110affd4913bbf2c7962a15366f8356d62b7b930f",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "payment-notification-banner",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/notifications/payment-notification-banner.tsx",
+      "file": "src/vendor/opensource/original/components/notifications/payment-notification-banner.tsx",
+      "sha256": "813d7ce90dade55414777a11e6f1720586fa58c486a1e67bf3aa0126418f3ae8",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "system-alert-banner",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/notifications/system-alert-banner.tsx",
+      "file": "src/vendor/opensource/original/components/notifications/system-alert-banner.tsx",
+      "sha256": "7f4eae328fd1ceb2d72aa2cd4c923f86178ceb4e10ffc95859cd530491cb6c27",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "toast-notification-banner",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/notifications/toast-notification-banner.tsx",
+      "file": "src/vendor/opensource/original/components/notifications/toast-notification-banner.tsx",
+      "sha256": "c756fd252795db281f13f18d07c761cd82497c2ddcbbf4dad235fca81c9878a0",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "team-member-profile-grid",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/profile/team-member-profile-grid.tsx",
+      "file": "src/vendor/opensource/original/components/profile/team-member-profile-grid.tsx",
+      "sha256": "755f21530425fadbf09119e8db94715bc60e150288be72ec4433063bb82c0852",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "blob-profile",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/widgets/blob-profile.tsx",
+      "file": "src/vendor/opensource/original/components/widgets/blob-profile.tsx",
+      "sha256": "7e2f57b0a197f6a4797f52130959a4b83888abf1019977480a0ff79f67584d3f",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "contact-profile-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/profile/contact-profile-card.tsx",
+      "file": "src/vendor/opensource/original/components/profile/contact-profile-card.tsx",
+      "sha256": "de2f9a9a2f100371e72ce73d6ffb1ff52c69fcfc76e0db3bd3d6bc2ce329b5dc",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "editorial-staff-profile-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/profile/editorial-staff-profile-card.tsx",
+      "file": "src/vendor/opensource/original/components/profile/editorial-staff-profile-card.tsx",
+      "sha256": "d68357682a404f84be7ef8e7fb48b868592c75111fd6ad276b99206549f49c79",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "user-profile-card",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/profile/user-profile-card.tsx",
+      "file": "src/vendor/opensource/original/components/profile/user-profile-card.tsx",
+      "sha256": "f57963ea99011d4793472947e9554d475f5915b4c69b99cd3051ba1d13fd5d7a",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "stopwatch-widget",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/widgets/stopwatch-widget.tsx",
+      "file": "src/vendor/opensource/original/components/widgets/stopwatch-widget.tsx",
+      "sha256": "c19218819d76e75a235be8fffb7afd17023c319f3bc2455e6c73fe36363c1cf7",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "torch-face-widget",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/widgets/torch-face-widget.tsx",
+      "file": "src/vendor/opensource/original/components/widgets/torch-face-widget.tsx",
+      "sha256": "410a46d991623d85f6ac393dba8985144d50544c71cfab7e52d41c3927e97cff",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "public/scooter.png",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/public/scooter.png",
+      "file": "src/vendor/opensource/original/public/scooter.png",
+      "sha256": "091042b438fdb10ebf8929c06a0535b6e2affe328fb30bd87f4346445e2ec8e8",
+      "modifications": "None",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "electric-scooter-widget",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/widgets/electric-scooter-widget.tsx",
+      "file": "src/vendor/opensource/original/components/widgets/electric-scooter-widget.tsx",
+      "sha256": "26c2a47e7878766a93bf8062efdb56936a57e07c282f05a7b255b765aa6c076f",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "flight-arrival-widget",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/widgets/flight-arrival-widget.tsx",
+      "file": "src/vendor/opensource/original/components/widgets/flight-arrival-widget.tsx",
+      "sha256": "f41912e02064d9cd39573acdc5afd944355ce417589a219baf67701f3569c87a",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "minimal-agenda-widget",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/widgets/minimal-agenda-widget.tsx",
+      "file": "src/vendor/opensource/original/components/widgets/minimal-agenda-widget.tsx",
+      "sha256": "051b280df06b9046d08a680dc620fdc0a302b4f2fd6fcff958a91ab5e9413e8b",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "public/car.png",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/public/car.png",
+      "file": "src/vendor/opensource/original/public/car.png",
+      "sha256": "79ae4d7f2ad0043db088186a18c099948241bf22a3a612380efe10e29d2683ce",
+      "modifications": "None",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "ride-pickup-widget",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/widgets/ride-pickup-widget.tsx",
+      "file": "src/vendor/opensource/original/components/widgets/ride-pickup-widget.tsx",
+      "sha256": "e11dc45d65201bc281a2c84e3a74324e861a24df285c52aecd18aa1319cf03a1",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "wifi-toggle-widget",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/widgets/wifi-toggle-widget.tsx",
+      "file": "src/vendor/opensource/original/components/widgets/wifi-toggle-widget.tsx",
+      "sha256": "764fd82c909d009038e295cf415f13ed27b5adb1c159ca13ab53378a7f14012d",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "annotated-text",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/underlines/annotated-text.tsx",
+      "file": "src/vendor/opensource/original/components/underlines/annotated-text.tsx",
+      "sha256": "23acf14ae5f7fe4ab37f204cea14abcc3646cd8d5c38527a147715413625ad31",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "annotated-text-showcase",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/underlines/annotated-text-showcase.tsx",
+      "file": "src/vendor/opensource/original/components/underlines/annotated-text-showcase.tsx",
+      "sha256": "d0eb734a2621987c3502ee0ef15afd74a12dfae2a06b67451001391bc5c558eb",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "otp-boxed-input",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/otp/otp-boxed-input.tsx",
+      "file": "src/vendor/opensource/original/components/otp/otp-boxed-input.tsx",
+      "sha256": "53886dae6d4bc8509eb79095a134657dedc4be09ab6db32c9b3db9e299e9268f",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "otp-underline-input",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/components/otp/otp-underline-input.tsx",
+      "file": "src/vendor/opensource/original/components/otp/otp-underline-input.tsx",
+      "sha256": "eab0929f4c2ed732db59df695de7196e733048112eba223d25d1c546360ff3b7",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "showcase",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/lib/showcase/showcase.tsx",
+      "file": "src/vendor/opensource/original/lib/showcase/showcase.tsx",
+      "sha256": "750febbf2ec9cd5b2b6d190adff1fd6303c590cefd110fd6a6a8f233fe0dfe97",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    },
+    {
+      "library": "opensource",
+      "name": "showcase-preview-content",
+      "url": "https://raw.githubusercontent.com/bidyut10/opensourceui/77980822b28ee64b51bccf19eaa4103d9a71724a/app/(docs)/components/_components/shared/showcase-preview-content.tsx",
+      "file": "src/vendor/opensource/original/app/(docs)/components/_components/shared/showcase-preview-content.tsx",
+      "sha256": "627f904dd42ce1bb01dd8a694467190fa58ce6f6dee19a95d3a45cfb2e3e669e",
+      "modifications": "Relative import aliases; local public asset URL imports; TypeScript check directive",
+      "dependencies": []
+    }
+  ],
+  "dependencies": [
+    "clsx",
+    "lucide-react",
+    "next",
+    "react",
+    "tailwind-merge"
+  ],
+  "covered": [
+    "opensource:3d-button",
+    "opensource:3d-icon-button",
+    "opensource:soft-ui-button",
+    "opensource:inset-button",
+    "opensource:soft-pill-button",
+    "opensource:depth-outline-button",
+    "opensource:sheen-pill-button",
+    "opensource:prism-depth-button",
+    "opensource:dimple-switch",
+    "opensource:cinder-latch-button",
+    "opensource:slate-chip-switch",
+    "opensource:linen-tab-button",
+    "opensource:slide-to-confirm-button",
+    "opensource:hold-to-delete-button",
+    "opensource:add-to-cart-button",
+    "opensource:like-button",
+    "opensource:copy-button",
+    "opensource:quantity-stepper-button",
+    "opensource:download-button",
+    "opensource:follow-button",
+    "opensource:bookmark-save-button",
+    "opensource:segmented-toggle-button",
+    "opensource:analog-clock-roman",
+    "opensource:analog-clock-minimal",
+    "opensource:analog-clock-numeric",
+    "opensource:wifi-toggle",
+    "opensource:voice-assistant",
+    "opensource:ios-earbuds",
+    "opensource:recorder-face",
+    "opensource:battery-face",
+    "opensource:compass",
+    "opensource:bluetooth-face",
+    "opensource:torch-face",
+    "opensource:dnd-face",
+    "opensource:ios-digital-clock",
+    "opensource:ios-calender",
+    "opensource:stopwatch",
+    "opensource:ios-map-location",
+    "opensource:focus-breath",
+    "opensource:blob-profile",
+    "opensource:editorial-staff-profile",
+    "opensource:user-profile",
+    "opensource:contact-profile",
+    "opensource:team-member-profile-grid",
+    "opensource:mac-dock",
+    "opensource:app-dock",
+    "opensource:editor-tool-dock",
+    "opensource:presence-dock",
+    "opensource:spotlight-bar",
+    "opensource:step-count",
+    "opensource:pomodoro",
+    "opensource:hydration",
+    "opensource:sleep-score",
+    "opensource:heart-rate",
+    "opensource:daily-activity-calendar",
+    "opensource:month-picker-calendar",
+    "opensource:week-strip-calendar",
+    "opensource:date-range-picker",
+    "opensource:team-members-table",
+    "opensource:orders-table",
+    "opensource:users-select-table",
+    "opensource:recent-transactions-table",
+    "opensource:tasks-table",
+    "opensource:customers-table",
+    "opensource:resource-links-panel",
+    "opensource:event-countdown-card",
+    "opensource:booking-slot-calendar",
+    "opensource:audio-recorder",
+    "opensource:flight-arrival",
+    "opensource:minimal-agenda",
+    "opensource:ride-pickup",
+    "opensource:electric-scooter",
+    "opensource:laptop",
+    "opensource:phone",
+    "opensource:ipad",
+    "opensource:apple-watch",
+    "opensource:browser",
+    "opensource:ipod",
+    "opensource:polaroid-image",
+    "opensource:notepad",
+    "opensource:thermal-receipt",
+    "opensource:weather-snapshot",
+    "opensource:instagram-post",
+    "opensource:threads-post",
+    "opensource:now-playing-bar",
+    "opensource:twitter-post",
+    "opensource:film-strip",
+    "opensource:github-contribution",
+    "opensource:apple-notification",
+    "opensource:toast-notification",
+    "opensource:email-notification",
+    "opensource:system-alert",
+    "opensource:chat-bubble-notification",
+    "opensource:deploy-notification",
+    "opensource:calendar-reminder-notification",
+    "opensource:payment-notification",
+    "opensource:incoming-call-notification",
+    "opensource:delivery-notification",
+    "opensource:file-menu",
+    "opensource:user-menu",
+    "opensource:kebab-actions",
+    "opensource:share-menu",
+    "opensource:notification",
+    "opensource:filter-sort",
+    "opensource:workspace-switcher",
+    "opensource:cinema-ticket",
+    "opensource:wallet-pass",
+    "opensource:credit-card-glass",
+    "opensource:drop-cap-editorial",
+    "opensource:editorial-quote",
+    "opensource:discord-chat",
+    "opensource:linked-in-profile",
+    "opensource:facebook-post",
+    "opensource:twitter-profile",
+    "opensource:event-ticket",
+    "opensource:flight-boarding",
+    "opensource:gallery-grid",
+    "opensource:glass-overlay-image",
+    "opensource:photo-album",
+    "opensource:magazine-cover",
+    "opensource:stacked-folder-card",
+    "opensource:ink-stamp-document",
+    "opensource:opensource-folder-tab-card",
+    "opensource:journal-writing",
+    "opensource:terminal-log",
+    "opensource:keyboard-shortcuts",
+    "opensource:github-repo",
+    "opensource:museum-placard",
+    "opensource:gallery-wall",
+    "opensource:linked-in-post",
+    "opensource:transform-box-frame",
+    "opensource:transform-plus-frame",
+    "opensource:sticky-note-polaroid-frame",
+    "opensource:hard-shadow-polaroid-frame",
+    "opensource:circle-cut-frame",
+    "opensource:music-player",
+    "opensource:photo-contact-sheet",
+    "opensource:music-playlist",
+    "opensource:stacked-cards-effect",
+    "opensource:retail-price-tag",
+    "opensource:stamp-postcard",
+    "opensource:progress-ring",
+    "opensource:team-member",
+    "opensource:testimonial",
+    "opensource:toggle-pricing-cards",
+    "opensource:travel-postcard",
+    "opensource:slow-living-polaroid",
+    "opensource:denim-product-editorial",
+    "opensource:daily-motivation",
+    "opensource:cafe-menu-board",
+    "opensource:annotated-text",
+    "opensource:otp-boxed-input",
+    "opensource:otp-underline-input",
+    "opensource:text-field-input",
+    "opensource:search-input",
+    "opensource:password-field-input",
+    "opensource:textarea-field-input",
+    "opensource:input-group-field",
+    "opensource:floating-label-field-input",
+    "opensource:select-field-input",
+    "opensource:phone-field-input",
+    "opensource:checkbox-field-input",
+    "opensource:switch-field-input",
+    "opensource:combobox-field-input",
+    "opensource:radio-group-field-input",
+    "opensource:file-upload-field-input",
+    "opensource:date-field-input",
+    "opensource:login-form",
+    "opensource:signup-form",
+    "opensource:contact-form",
+    "opensource:newsletter-form",
+    "opensource:forgot-password-form",
+    "opensource:apple-hello-loader",
+    "opensource:spin-loader",
+    "opensource:text-loader",
+    "opensource:aurora-background",
+    "opensource:coral-glow-background",
+    "opensource:mint-lagoon-background",
+    "opensource:sunset-bloom-background",
+    "opensource:honey-ember-background",
+    "opensource:tropical-tide-background",
+    "opensource:sunrise-horizon-background",
+    "opensource:linen-weave-background",
+    "opensource:sand-drift-background",
+    "opensource:frost-mesh-background",
+    "opensource:terrazzo-fragment-background",
+    "opensource:rain-prism-background",
+    "opensource:cherry-petal-background",
+    "opensource:ink-wash-background",
+    "opensource:halftone-pop-background",
+    "opensource:paper-fold-background",
+    "opensource:soft-spotlight-background",
+    "opensource:arc-bands-background",
+    "opensource:dark-aurora-background",
+    "opensource:dark-ember-background",
+    "opensource:dark-teal-depth-background",
+    "opensource:dark-arc-bands-background",
+    "opensource:dark-carbon-spotlight-background",
+    "opensource:dark-midnight-mesh-background",
+    "opensource:dark-ink-field-background",
+    "opensource:dark-rose-noir-background",
+    "opensource:diagonal-box-pattern",
+    "opensource:reverse-diagonal-box-pattern",
+    "opensource:dot-grid-pattern",
+    "opensource:line-grid-pattern",
+    "opensource:graph-paper-pattern",
+    "opensource:fine-grain-pattern"
+  ],
+  "blocked": [],
+  "entrySources": {
+    "opensource:3d-button": [
+      "src/vendor/opensource/original/components/buttons/three-d-button.tsx"
+    ],
+    "opensource:3d-icon-button": [
+      "src/vendor/opensource/original/components/buttons/three-d-icon-button.tsx"
+    ],
+    "opensource:soft-ui-button": [
+      "src/vendor/opensource/original/components/buttons/soft-ui-button.tsx"
+    ],
+    "opensource:inset-button": [
+      "src/vendor/opensource/original/components/buttons/inset-button.tsx"
+    ],
+    "opensource:soft-pill-button": [
+      "src/vendor/opensource/original/components/buttons/soft-pill-button.tsx"
+    ],
+    "opensource:depth-outline-button": [
+      "src/vendor/opensource/original/components/buttons/depth-outline-button.tsx"
+    ],
+    "opensource:sheen-pill-button": [
+      "src/vendor/opensource/original/components/buttons/sheen-pill-button.tsx"
+    ],
+    "opensource:prism-depth-button": [
+      "src/vendor/opensource/original/components/buttons/prism-depth-button.tsx"
+    ],
+    "opensource:dimple-switch": [
+      "src/vendor/opensource/original/components/buttons/dimple-switch.tsx"
+    ],
+    "opensource:cinder-latch-button": [
+      "src/vendor/opensource/original/components/buttons/cinder-latch-button.tsx"
+    ],
+    "opensource:slate-chip-switch": [
+      "src/vendor/opensource/original/components/buttons/slate-chip-switch.tsx"
+    ],
+    "opensource:linen-tab-button": [
+      "src/vendor/opensource/original/components/buttons/linen-tab-button.tsx"
+    ],
+    "opensource:slide-to-confirm-button": [
+      "src/vendor/opensource/original/components/buttons/slide-to-confirm-button.tsx"
+    ],
+    "opensource:hold-to-delete-button": [
+      "src/vendor/opensource/original/components/buttons/hold-to-delete-button.tsx"
+    ],
+    "opensource:add-to-cart-button": [
+      "src/vendor/opensource/original/components/buttons/add-to-cart-button.tsx"
+    ],
+    "opensource:like-button": [
+      "src/vendor/opensource/original/components/buttons/like-button.tsx"
+    ],
+    "opensource:copy-button": [
+      "src/vendor/opensource/original/components/buttons/copy-button.tsx"
+    ],
+    "opensource:quantity-stepper-button": [
+      "src/vendor/opensource/original/components/buttons/quantity-stepper-button.tsx"
+    ],
+    "opensource:download-button": [
+      "src/vendor/opensource/original/components/buttons/download-button.tsx"
+    ],
+    "opensource:follow-button": [
+      "src/vendor/opensource/original/components/buttons/follow-button.tsx"
+    ],
+    "opensource:bookmark-save-button": [
+      "src/vendor/opensource/original/components/buttons/bookmark-save-button.tsx"
+    ],
+    "opensource:segmented-toggle-button": [
+      "src/vendor/opensource/original/components/buttons/segmented-toggle-button.tsx"
+    ],
+    "opensource:analog-clock-roman": [
+      "src/vendor/opensource/original/components/widgets/analog-clock-widget.tsx"
+    ],
+    "opensource:analog-clock-minimal": [
+      "src/vendor/opensource/original/components/widgets/analog-clock-widget.tsx"
+    ],
+    "opensource:analog-clock-numeric": [
+      "src/vendor/opensource/original/components/widgets/analog-clock-widget.tsx"
+    ],
+    "opensource:wifi-toggle": [
+      "src/vendor/opensource/original/components/widgets/wifi-toggle-widget.tsx"
+    ],
+    "opensource:voice-assistant": [
+      "src/vendor/opensource/original/components/widgets/voice-assistant-widget.tsx"
+    ],
+    "opensource:ios-earbuds": [
+      "src/vendor/opensource/original/components/widgets/ios-earbuds-widget.tsx"
+    ],
+    "opensource:recorder-face": [
+      "src/vendor/opensource/original/components/widgets/recorder-face-widget.tsx"
+    ],
+    "opensource:battery-face": [
+      "src/vendor/opensource/original/components/widgets/battery-face-widget.tsx"
+    ],
+    "opensource:compass": [
+      "src/vendor/opensource/original/components/widgets/compass-widget.tsx"
+    ],
+    "opensource:bluetooth-face": [
+      "src/vendor/opensource/original/components/widgets/bluetooth-face-widget.tsx"
+    ],
+    "opensource:torch-face": [
+      "src/vendor/opensource/original/components/widgets/torch-face-widget.tsx"
+    ],
+    "opensource:dnd-face": [
+      "src/vendor/opensource/original/components/widgets/dnd-face-widget.tsx"
+    ],
+    "opensource:ios-digital-clock": [
+      "src/vendor/opensource/original/components/widgets/ios-digital-clock-widget.tsx"
+    ],
+    "opensource:ios-calender": [
+      "src/vendor/opensource/original/components/widgets/ios-calender-widget.tsx"
+    ],
+    "opensource:stopwatch": [
+      "src/vendor/opensource/original/components/widgets/stopwatch-widget.tsx"
+    ],
+    "opensource:ios-map-location": [
+      "src/vendor/opensource/original/components/widgets/ios-map-location-widget.tsx"
+    ],
+    "opensource:focus-breath": [
+      "src/vendor/opensource/original/components/widgets/focus-breath-widget.tsx"
+    ],
+    "opensource:blob-profile": [
+      "src/vendor/opensource/original/components/widgets/blob-profile.tsx"
+    ],
+    "opensource:editorial-staff-profile": [
+      "src/vendor/opensource/original/components/profile/editorial-staff-profile-card.tsx"
+    ],
+    "opensource:user-profile": [
+      "src/vendor/opensource/original/components/profile/user-profile-card.tsx"
+    ],
+    "opensource:contact-profile": [
+      "src/vendor/opensource/original/components/profile/contact-profile-card.tsx"
+    ],
+    "opensource:team-member-profile-grid": [
+      "src/vendor/opensource/original/components/profile/team-member-profile-grid.tsx"
+    ],
+    "opensource:mac-dock": [
+      "src/vendor/opensource/original/components/docks/mac-dock.tsx"
+    ],
+    "opensource:app-dock": [
+      "src/vendor/opensource/original/components/docks/app-dock.tsx"
+    ],
+    "opensource:editor-tool-dock": [
+      "src/vendor/opensource/original/components/docks/editor-tool-dock.tsx"
+    ],
+    "opensource:presence-dock": [
+      "src/vendor/opensource/original/components/docks/presence-dock.tsx"
+    ],
+    "opensource:spotlight-bar": [
+      "src/vendor/opensource/original/components/docks/spotlight-bar.tsx"
+    ],
+    "opensource:step-count": [
+      "src/vendor/opensource/original/components/widgets/step-count-widget.tsx"
+    ],
+    "opensource:pomodoro": [
+      "src/vendor/opensource/original/components/widgets/pomodoro-widget.tsx"
+    ],
+    "opensource:hydration": [
+      "src/vendor/opensource/original/components/widgets/hydration-widget.tsx"
+    ],
+    "opensource:sleep-score": [
+      "src/vendor/opensource/original/components/widgets/sleep-score-widget.tsx"
+    ],
+    "opensource:heart-rate": [
+      "src/vendor/opensource/original/components/widgets/heart-rate-widget.tsx"
+    ],
+    "opensource:daily-activity-calendar": [
+      "src/vendor/opensource/original/components/widgets/daily-activity-calendar-widget.tsx"
+    ],
+    "opensource:month-picker-calendar": [
+      "src/vendor/opensource/original/components/calender/month-picker-calendar.tsx"
+    ],
+    "opensource:week-strip-calendar": [
+      "src/vendor/opensource/original/components/calender/week-strip-calendar.tsx"
+    ],
+    "opensource:date-range-picker": [
+      "src/vendor/opensource/original/components/calender/date-range-picker-card.tsx"
+    ],
+    "opensource:team-members-table": [
+      "src/vendor/opensource/original/components/table/team-members-table.tsx"
+    ],
+    "opensource:orders-table": [
+      "src/vendor/opensource/original/components/table/orders-table.tsx"
+    ],
+    "opensource:users-select-table": [
+      "src/vendor/opensource/original/components/table/users-select-table.tsx"
+    ],
+    "opensource:recent-transactions-table": [
+      "src/vendor/opensource/original/components/table/recent-transactions-table.tsx"
+    ],
+    "opensource:tasks-table": [
+      "src/vendor/opensource/original/components/table/tasks-table.tsx"
+    ],
+    "opensource:customers-table": [
+      "src/vendor/opensource/original/components/table/customers-table.tsx"
+    ],
+    "opensource:resource-links-panel": [
+      "src/vendor/opensource/original/components/resources/resource-links-panel.tsx"
+    ],
+    "opensource:event-countdown-card": [
+      "src/vendor/opensource/original/components/calender/event-countdown-card.tsx"
+    ],
+    "opensource:booking-slot-calendar": [
+      "src/vendor/opensource/original/components/calender/booking-slot-calendar.tsx"
+    ],
+    "opensource:audio-recorder": [
+      "src/vendor/opensource/original/components/widgets/audio-recorder-widget.tsx"
+    ],
+    "opensource:flight-arrival": [
+      "src/vendor/opensource/original/components/widgets/flight-arrival-widget.tsx"
+    ],
+    "opensource:minimal-agenda": [
+      "src/vendor/opensource/original/components/widgets/minimal-agenda-widget.tsx"
+    ],
+    "opensource:ride-pickup": [
+      "src/vendor/opensource/original/components/widgets/ride-pickup-widget.tsx"
+    ],
+    "opensource:electric-scooter": [
+      "src/vendor/opensource/original/components/widgets/electric-scooter-widget.tsx"
+    ],
+    "opensource:laptop": [
+      "src/vendor/opensource/original/components/mockups/laptop-mockup-card.tsx"
+    ],
+    "opensource:phone": [
+      "src/vendor/opensource/original/components/mockups/phone-mockup-card.tsx"
+    ],
+    "opensource:ipad": [
+      "src/vendor/opensource/original/components/mockups/tablet-mockup-card.tsx"
+    ],
+    "opensource:apple-watch": [
+      "src/vendor/opensource/original/components/mockups/apple-watch-mockup-card.tsx"
+    ],
+    "opensource:browser": [
+      "src/vendor/opensource/original/components/mockups/browser-mockup-card.tsx"
+    ],
+    "opensource:ipod": [
+      "src/vendor/opensource/original/components/mockups/apple-ipod-mockup-card.tsx"
+    ],
+    "opensource:polaroid-image": [
+      "src/vendor/opensource/original/components/gallery/polaroid-image-card.tsx"
+    ],
+    "opensource:notepad": [
+      "src/vendor/opensource/original/components/text/notepad-card.tsx"
+    ],
+    "opensource:thermal-receipt": [
+      "src/vendor/opensource/original/components/others/thermal-receipt-card.tsx"
+    ],
+    "opensource:weather-snapshot": [
+      "src/vendor/opensource/original/components/others/weather-snapshot-card.tsx"
+    ],
+    "opensource:instagram-post": [
+      "src/vendor/opensource/original/components/socials/instagram-post-card.tsx"
+    ],
+    "opensource:threads-post": [
+      "src/vendor/opensource/original/components/socials/threads-post-card.tsx"
+    ],
+    "opensource:now-playing-bar": [
+      "src/vendor/opensource/original/components/audio/now-playing-bar.tsx"
+    ],
+    "opensource:twitter-post": [
+      "src/vendor/opensource/original/components/socials/twitter-post-card.tsx"
+    ],
+    "opensource:film-strip": [
+      "src/vendor/opensource/original/components/gallery/film-strip-card.tsx"
+    ],
+    "opensource:github-contribution": [
+      "src/vendor/opensource/original/components/socials/github-contribution.tsx"
+    ],
+    "opensource:apple-notification": [
+      "src/vendor/opensource/original/components/notifications/apple-notification-banner.tsx"
+    ],
+    "opensource:toast-notification": [
+      "src/vendor/opensource/original/components/notifications/toast-notification-banner.tsx"
+    ],
+    "opensource:email-notification": [
+      "src/vendor/opensource/original/components/notifications/email-notification-banner.tsx"
+    ],
+    "opensource:system-alert": [
+      "src/vendor/opensource/original/components/notifications/system-alert-banner.tsx"
+    ],
+    "opensource:chat-bubble-notification": [
+      "src/vendor/opensource/original/components/notifications/chat-bubble-notification-banner.tsx"
+    ],
+    "opensource:deploy-notification": [
+      "src/vendor/opensource/original/components/notifications/deploy-notification-banner.tsx"
+    ],
+    "opensource:calendar-reminder-notification": [
+      "src/vendor/opensource/original/components/notifications/calendar-reminder-notification-banner.tsx"
+    ],
+    "opensource:payment-notification": [
+      "src/vendor/opensource/original/components/notifications/payment-notification-banner.tsx"
+    ],
+    "opensource:incoming-call-notification": [
+      "src/vendor/opensource/original/components/notifications/incoming-call-notification-banner.tsx"
+    ],
+    "opensource:delivery-notification": [
+      "src/vendor/opensource/original/components/notifications/delivery-notification-banner.tsx"
+    ],
+    "opensource:file-menu": [
+      "src/vendor/opensource/original/components/dropdowns/file-menu-dropdown.tsx"
+    ],
+    "opensource:user-menu": [
+      "src/vendor/opensource/original/components/dropdowns/user-menu-dropdown.tsx"
+    ],
+    "opensource:kebab-actions": [
+      "src/vendor/opensource/original/components/dropdowns/kebab-actions-dropdown.tsx"
+    ],
+    "opensource:share-menu": [
+      "src/vendor/opensource/original/components/dropdowns/share-menu-dropdown.tsx"
+    ],
+    "opensource:notification": [
+      "src/vendor/opensource/original/components/dropdowns/notification-dropdown.tsx"
+    ],
+    "opensource:filter-sort": [
+      "src/vendor/opensource/original/components/dropdowns/filter-sort-dropdown.tsx"
+    ],
+    "opensource:workspace-switcher": [
+      "src/vendor/opensource/original/components/dropdowns/workspace-switcher-dropdown.tsx"
+    ],
+    "opensource:cinema-ticket": [
+      "src/vendor/opensource/original/components/text/cinema-ticket-card.tsx"
+    ],
+    "opensource:wallet-pass": [
+      "src/vendor/opensource/original/components/wallet/wallet-pass-card.tsx"
+    ],
+    "opensource:credit-card-glass": [
+      "src/vendor/opensource/original/components/users/credit-card-glass.tsx"
+    ],
+    "opensource:drop-cap-editorial": [
+      "src/vendor/opensource/original/components/text/drop-cap-editorial-card.tsx"
+    ],
+    "opensource:editorial-quote": [
+      "src/vendor/opensource/original/components/text/editorial-quote-card.tsx"
+    ],
+    "opensource:discord-chat": [
+      "src/vendor/opensource/original/components/socials/discord-chat-card.tsx"
+    ],
+    "opensource:linked-in-profile": [
+      "src/vendor/opensource/original/components/socials/linked-in-profile-card.tsx"
+    ],
+    "opensource:facebook-post": [
+      "src/vendor/opensource/original/components/socials/facebook-post-card.tsx"
+    ],
+    "opensource:twitter-profile": [
+      "src/vendor/opensource/original/components/socials/twitter-profile-card.tsx"
+    ],
+    "opensource:event-ticket": [
+      "src/vendor/opensource/original/components/event/event-ticket-card.tsx"
+    ],
+    "opensource:flight-boarding": [
+      "src/vendor/opensource/original/components/travel/flight-boarding-card.tsx"
+    ],
+    "opensource:gallery-grid": [
+      "src/vendor/opensource/original/components/gallery/gallery-grid-card.tsx"
+    ],
+    "opensource:glass-overlay-image": [
+      "src/vendor/opensource/original/components/gallery/glass-overlay-image-card.tsx"
+    ],
+    "opensource:photo-album": [
+      "src/vendor/opensource/original/components/gallery/photo-album-card.tsx"
+    ],
+    "opensource:magazine-cover": [
+      "src/vendor/opensource/original/components/text/magazine-cover-card.tsx"
+    ],
+    "opensource:stacked-folder-card": [
+      "src/vendor/opensource/original/components/files/stacked-folder-card.tsx"
+    ],
+    "opensource:ink-stamp-document": [
+      "src/vendor/opensource/original/components/files/ink-stamp-document-card.tsx"
+    ],
+    "opensource:opensource-folder-tab-card": [
+      "src/vendor/opensource/original/components/folder/opensource-folder-tab-card.tsx"
+    ],
+    "opensource:journal-writing": [
+      "src/vendor/opensource/original/components/text/journal-writing-card.tsx"
+    ],
+    "opensource:terminal-log": [
+      "src/vendor/opensource/original/components/others/terminal-log-card.tsx"
+    ],
+    "opensource:keyboard-shortcuts": [
+      "src/vendor/opensource/original/components/text/keyboard-shortcuts-card.tsx"
+    ],
+    "opensource:github-repo": [
+      "src/vendor/opensource/original/components/socials/github-repo-card.tsx"
+    ],
+    "opensource:museum-placard": [
+      "src/vendor/opensource/original/components/gallery/museum-placard-card.tsx"
+    ],
+    "opensource:gallery-wall": [
+      "src/vendor/opensource/original/components/gallery/gallery-wall-card.tsx"
+    ],
+    "opensource:linked-in-post": [
+      "src/vendor/opensource/original/components/socials/linked-in-post-card.tsx"
+    ],
+    "opensource:transform-box-frame": [
+      "src/vendor/opensource/original/components/frames/transform-box-frame.tsx"
+    ],
+    "opensource:transform-plus-frame": [
+      "src/vendor/opensource/original/components/frames/transform-plus-frame.tsx"
+    ],
+    "opensource:sticky-note-polaroid-frame": [
+      "src/vendor/opensource/original/components/frames/sticky-note-polaroid-frame.tsx"
+    ],
+    "opensource:hard-shadow-polaroid-frame": [
+      "src/vendor/opensource/original/components/frames/hard-shadow-polaroid-frame.tsx"
+    ],
+    "opensource:circle-cut-frame": [
+      "src/vendor/opensource/original/components/frames/circle-cut-frame.tsx"
+    ],
+    "opensource:music-player": [
+      "src/vendor/opensource/original/components/audio/music-player-card.tsx"
+    ],
+    "opensource:photo-contact-sheet": [
+      "src/vendor/opensource/original/components/gallery/photo-contact-sheet-card.tsx"
+    ],
+    "opensource:music-playlist": [
+      "src/vendor/opensource/original/components/audio/music-playlist-card.tsx"
+    ],
+    "opensource:stacked-cards-effect": [
+      "src/vendor/opensource/original/components/others/stacked-cards-effect.tsx"
+    ],
+    "opensource:retail-price-tag": [
+      "src/vendor/opensource/original/components/pricing/retail-price-tag-card.tsx"
+    ],
+    "opensource:stamp-postcard": [
+      "src/vendor/opensource/original/components/gallery/stamp-postcard-card.tsx"
+    ],
+    "opensource:progress-ring": [
+      "src/vendor/opensource/original/components/others/progress-ring-card.tsx"
+    ],
+    "opensource:team-member": [
+      "src/vendor/opensource/original/components/users/team-member-card.tsx"
+    ],
+    "opensource:testimonial": [
+      "src/vendor/opensource/original/components/users/testimonial-card.tsx"
+    ],
+    "opensource:toggle-pricing-cards": [
+      "src/vendor/opensource/original/components/pricing/toggle-pricing-cards.tsx"
+    ],
+    "opensource:travel-postcard": [
+      "src/vendor/opensource/original/components/travel/travel-postcard-card.tsx"
+    ],
+    "opensource:slow-living-polaroid": [
+      "src/vendor/opensource/original/components/gallery/slow-living-polaroid-card.tsx"
+    ],
+    "opensource:denim-product-editorial": [
+      "src/vendor/opensource/original/components/text/denim-product-editorial-card.tsx"
+    ],
+    "opensource:daily-motivation": [
+      "src/vendor/opensource/original/components/text/daily-motivation-card.tsx"
+    ],
+    "opensource:cafe-menu-board": [
+      "src/vendor/opensource/original/components/text/cafe-menu-board-card.tsx"
+    ],
+    "opensource:annotated-text": [
+      "src/vendor/opensource/original/components/underlines/annotated-text.tsx"
+    ],
+    "opensource:otp-boxed-input": [
+      "src/vendor/opensource/original/components/otp/otp-boxed-input.tsx"
+    ],
+    "opensource:otp-underline-input": [
+      "src/vendor/opensource/original/components/otp/otp-underline-input.tsx"
+    ],
+    "opensource:text-field-input": [
+      "src/vendor/opensource/original/components/inputs/text-field-input.tsx"
+    ],
+    "opensource:search-input": [
+      "src/vendor/opensource/original/components/inputs/search-input.tsx"
+    ],
+    "opensource:password-field-input": [
+      "src/vendor/opensource/original/components/inputs/password-field-input.tsx"
+    ],
+    "opensource:textarea-field-input": [
+      "src/vendor/opensource/original/components/inputs/textarea-field-input.tsx"
+    ],
+    "opensource:input-group-field": [
+      "src/vendor/opensource/original/components/inputs/input-group-field.tsx"
+    ],
+    "opensource:floating-label-field-input": [
+      "src/vendor/opensource/original/components/inputs/floating-label-field-input.tsx"
+    ],
+    "opensource:select-field-input": [
+      "src/vendor/opensource/original/components/inputs/select-field-input.tsx"
+    ],
+    "opensource:phone-field-input": [
+      "src/vendor/opensource/original/components/inputs/phone-field-input.tsx"
+    ],
+    "opensource:checkbox-field-input": [
+      "src/vendor/opensource/original/components/inputs/checkbox-field-input.tsx"
+    ],
+    "opensource:switch-field-input": [
+      "src/vendor/opensource/original/components/inputs/switch-field-input.tsx"
+    ],
+    "opensource:combobox-field-input": [
+      "src/vendor/opensource/original/components/inputs/combobox-field-input.tsx"
+    ],
+    "opensource:radio-group-field-input": [
+      "src/vendor/opensource/original/components/inputs/radio-group-field-input.tsx"
+    ],
+    "opensource:file-upload-field-input": [
+      "src/vendor/opensource/original/components/inputs/file-upload-field-input.tsx"
+    ],
+    "opensource:date-field-input": [
+      "src/vendor/opensource/original/components/inputs/date-field-input.tsx"
+    ],
+    "opensource:login-form": [
+      "src/vendor/opensource/original/components/forms/login-form.tsx"
+    ],
+    "opensource:signup-form": [
+      "src/vendor/opensource/original/components/forms/signup-form.tsx"
+    ],
+    "opensource:contact-form": [
+      "src/vendor/opensource/original/components/forms/contact-form.tsx"
+    ],
+    "opensource:newsletter-form": [
+      "src/vendor/opensource/original/components/forms/newsletter-form.tsx"
+    ],
+    "opensource:forgot-password-form": [
+      "src/vendor/opensource/original/components/forms/forgot-password-form.tsx"
+    ],
+    "opensource:apple-hello-loader": [
+      "src/vendor/opensource/original/components/loaders/apple-hello-loader.tsx"
+    ],
+    "opensource:spin-loader": [
+      "src/vendor/opensource/original/components/loaders/spin-loader.tsx"
+    ],
+    "opensource:text-loader": [
+      "src/vendor/opensource/original/components/loaders/text-loader.tsx"
+    ],
+    "opensource:aurora-background": [
+      "src/vendor/opensource/original/components/background-gradient/aurora-background.tsx"
+    ],
+    "opensource:coral-glow-background": [
+      "src/vendor/opensource/original/components/background-gradient/coral-glow-background.tsx"
+    ],
+    "opensource:mint-lagoon-background": [
+      "src/vendor/opensource/original/components/background-gradient/mint-lagoon-background.tsx"
+    ],
+    "opensource:sunset-bloom-background": [
+      "src/vendor/opensource/original/components/background-gradient/sunset-bloom-background.tsx"
+    ],
+    "opensource:honey-ember-background": [
+      "src/vendor/opensource/original/components/background-gradient/honey-ember-background.tsx"
+    ],
+    "opensource:tropical-tide-background": [
+      "src/vendor/opensource/original/components/background-gradient/tropical-tide-background.tsx"
+    ],
+    "opensource:sunrise-horizon-background": [
+      "src/vendor/opensource/original/components/background-gradient/sunrise-horizon-background.tsx"
+    ],
+    "opensource:linen-weave-background": [
+      "src/vendor/opensource/original/components/background-gradient/linen-weave-background.tsx"
+    ],
+    "opensource:sand-drift-background": [
+      "src/vendor/opensource/original/components/background-gradient/sand-drift-background.tsx"
+    ],
+    "opensource:frost-mesh-background": [
+      "src/vendor/opensource/original/components/background-gradient/frost-mesh-background.tsx"
+    ],
+    "opensource:terrazzo-fragment-background": [
+      "src/vendor/opensource/original/components/background-gradient/terrazzo-fragment-background.tsx"
+    ],
+    "opensource:rain-prism-background": [
+      "src/vendor/opensource/original/components/background-gradient/rain-prism-background.tsx"
+    ],
+    "opensource:cherry-petal-background": [
+      "src/vendor/opensource/original/components/background-gradient/cherry-petal-background.tsx"
+    ],
+    "opensource:ink-wash-background": [
+      "src/vendor/opensource/original/components/background-gradient/ink-wash-background.tsx"
+    ],
+    "opensource:halftone-pop-background": [
+      "src/vendor/opensource/original/components/background-gradient/halftone-pop-background.tsx"
+    ],
+    "opensource:paper-fold-background": [
+      "src/vendor/opensource/original/components/background-gradient/paper-fold-background.tsx"
+    ],
+    "opensource:soft-spotlight-background": [
+      "src/vendor/opensource/original/components/background-gradient/soft-spotlight-background.tsx"
+    ],
+    "opensource:arc-bands-background": [
+      "src/vendor/opensource/original/components/background-gradient/arc-bands-background.tsx"
+    ],
+    "opensource:dark-aurora-background": [
+      "src/vendor/opensource/original/components/background-gradient/dark-aurora-background.tsx"
+    ],
+    "opensource:dark-ember-background": [
+      "src/vendor/opensource/original/components/background-gradient/dark-ember-background.tsx"
+    ],
+    "opensource:dark-teal-depth-background": [
+      "src/vendor/opensource/original/components/background-gradient/dark-teal-depth-background.tsx"
+    ],
+    "opensource:dark-arc-bands-background": [
+      "src/vendor/opensource/original/components/background-gradient/dark-arc-bands-background.tsx"
+    ],
+    "opensource:dark-carbon-spotlight-background": [
+      "src/vendor/opensource/original/components/background-gradient/dark-carbon-spotlight-background.tsx"
+    ],
+    "opensource:dark-midnight-mesh-background": [
+      "src/vendor/opensource/original/components/background-gradient/dark-midnight-mesh-background.tsx"
+    ],
+    "opensource:dark-ink-field-background": [
+      "src/vendor/opensource/original/components/background-gradient/dark-ink-field-background.tsx"
+    ],
+    "opensource:dark-rose-noir-background": [
+      "src/vendor/opensource/original/components/background-gradient/dark-rose-noir-background.tsx"
+    ],
+    "opensource:diagonal-box-pattern": [
+      "src/vendor/opensource/original/components/background-pattern/diagonal-box-pattern.tsx"
+    ],
+    "opensource:reverse-diagonal-box-pattern": [
+      "src/vendor/opensource/original/components/background-pattern/reverse-diagonal-box-pattern.tsx"
+    ],
+    "opensource:dot-grid-pattern": [
+      "src/vendor/opensource/original/components/background-pattern/dot-grid-pattern.tsx"
+    ],
+    "opensource:line-grid-pattern": [
+      "src/vendor/opensource/original/components/background-pattern/line-grid-pattern.tsx"
+    ],
+    "opensource:graph-paper-pattern": [
+      "src/vendor/opensource/original/components/background-pattern/graph-paper-pattern.tsx"
+    ],
+    "opensource:fine-grain-pattern": [
+      "src/vendor/opensource/original/components/background-pattern/fine-grain-pattern.tsx"
+    ]
+  }
+}

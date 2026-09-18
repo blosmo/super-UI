@@ -1,0 +1,1140 @@
+{
+  "imports": [
+    {
+      "library": "fluid",
+      "name": "icon-context",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/registry/default/lib/icon-context.tsx",
+      "file": "src/vendor/fluid/registry/default/lib/icon-context.tsx",
+      "sha256": "8bcc5b006b8ad712d5378ddba5839992333a6636c83dbaf74af597b58c8bde8a",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "8bcc5b006b8ad712d5378ddba5839992333a6636c83dbaf74af597b58c8bde8a"
+    },
+    {
+      "library": "fluid",
+      "name": "icon-context",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/lib/icon-context.tsx",
+      "file": "src/vendor/fluid/lib/icon-context.tsx",
+      "sha256": "9a936d1b38258efc6c7d9490124e7727b602e5882acd9f1a4037b2a70479a51a",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "fc1d218e6bc047ad2331890d2fae113d3b6f372c22719595a8cd6361b35c6710"
+    },
+    {
+      "library": "fluid",
+      "name": "font-weight",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/registry/default/lib/font-weight.ts",
+      "file": "src/vendor/fluid/registry/default/lib/font-weight.ts",
+      "sha256": "3d249aa3cf6e7e8bf2830e8367659abededc3ed4d430670537a1bd065953a14a",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "3d249aa3cf6e7e8bf2830e8367659abededc3ed4d430670537a1bd065953a14a"
+    },
+    {
+      "library": "fluid",
+      "name": "font-weight",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/lib/font-weight.ts",
+      "file": "src/vendor/fluid/lib/font-weight.ts",
+      "sha256": "7c14ccb6887ef5fc5d26f9f62576fd9943dbae0cbd35940a73edd1b108acdecf",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "9620f64e6328b2c3a64ebe89cc6d97f974ea7ec9a0f23abb8f300437319b9ce4"
+    },
+    {
+      "library": "fluid",
+      "name": "use-narrow-frame",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/lib/use-narrow-frame.ts",
+      "file": "src/vendor/fluid/lib/use-narrow-frame.ts",
+      "sha256": "6a1b416de08fa34b35ff196faf1259e5385803fd86df63ee0326a4035a5b6620",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "6a1b416de08fa34b35ff196faf1259e5385803fd86df63ee0326a4035a5b6620"
+    },
+    {
+      "library": "fluid",
+      "name": "size-context",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/registry/default/lib/size-context.tsx",
+      "file": "src/vendor/fluid/registry/default/lib/size-context.tsx",
+      "sha256": "cca35a72e37b121a3a5701c95fde8470626ceb74bcf55fe040b99afd06f0e21f",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "cca35a72e37b121a3a5701c95fde8470626ceb74bcf55fe040b99afd06f0e21f"
+    },
+    {
+      "library": "fluid",
+      "name": "size-context",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/lib/size-context.tsx",
+      "file": "src/vendor/fluid/lib/size-context.tsx",
+      "sha256": "33a1b9c41112083529db8db6e9e6efc22802f4796ac4d167a9f004d559f825a8",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "3d933d8b2d20df33cadd6d35ee741c88cdea2017465b99d034ab821d8526236b"
+    },
+    {
+      "library": "fluid",
+      "name": "utils",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/registry/default/lib/utils.ts",
+      "file": "src/vendor/fluid/registry/default/lib/utils.ts",
+      "sha256": "267863ba7a82f11320f207a30735bd19653e0207e1cfd39fde32958ba8c861ce",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "267863ba7a82f11320f207a30735bd19653e0207e1cfd39fde32958ba8c861ce"
+    },
+    {
+      "library": "fluid",
+      "name": "utils",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/lib/utils.ts",
+      "file": "src/vendor/fluid/lib/utils.ts",
+      "sha256": "24c4753aba781368a7984feb5d1e4baa8858b0e5baa895fc9804f80372511190",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "845fedf5c972f18c38424d73daf873f0056775dc105931b84075783ab4d84233"
+    },
+    {
+      "library": "fluid",
+      "name": "springs",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/registry/default/lib/springs.ts",
+      "file": "src/vendor/fluid/registry/default/lib/springs.ts",
+      "sha256": "b5d1c7c55ba4b865ac1156effc9ae41e95e4fdd08b42cefcda2854e93b817057",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "b5d1c7c55ba4b865ac1156effc9ae41e95e4fdd08b42cefcda2854e93b817057"
+    },
+    {
+      "library": "fluid",
+      "name": "springs",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/lib/springs.ts",
+      "file": "src/vendor/fluid/lib/springs.ts",
+      "sha256": "7676f071763de34ed84eb19ae5cc21b09a49e5f4c9ae5d00b2cbe62d3364c6bc",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "d9222b70a94170719fec5f4d61b1d62343be1a9595c971bba7ce20d6457c4ac6"
+    },
+    {
+      "library": "fluid",
+      "name": "shape-context",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/registry/default/lib/shape-context.tsx",
+      "file": "src/vendor/fluid/registry/default/lib/shape-context.tsx",
+      "sha256": "f50445a1ef9178effe6a26a500f0ed13e85643321059c04ca9e2d248193795f6",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "f50445a1ef9178effe6a26a500f0ed13e85643321059c04ca9e2d248193795f6"
+    },
+    {
+      "library": "fluid",
+      "name": "shape-context",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/lib/shape-context.tsx",
+      "file": "src/vendor/fluid/lib/shape-context.tsx",
+      "sha256": "e1416603cdfe6df73ddbaa52499ae9e7a9f772161227f38116bc650224186b61",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "d7bd1d4dcf44212632c8784b4898fbd4dfd65564095a32515b03d875b0dcb1ef"
+    },
+    {
+      "library": "fluid",
+      "name": "use-touch-primary",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/registry/default/hooks/use-touch-primary.tsx",
+      "file": "src/vendor/fluid/registry/default/hooks/use-touch-primary.tsx",
+      "sha256": "7f8faf99f09138e096119da2b2792fb542f4560cd02a4a5974ce9dc549b6ac62",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "7f8faf99f09138e096119da2b2792fb542f4560cd02a4a5974ce9dc549b6ac62"
+    },
+    {
+      "library": "fluid",
+      "name": "use-touch-primary",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/hooks/use-touch-primary.ts",
+      "file": "src/vendor/fluid/hooks/use-touch-primary.ts",
+      "sha256": "a8d2971e5c2a9652b2881668124d765a16444ccff2be67a4c361c8447df8d948",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "6c44f4ec0a679e8bf7eb8d371f1c319d677b17d36907b0a27f2ed0f2e3e8470b"
+    },
+    {
+      "library": "fluid",
+      "name": "file-thumbnail",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/registry/default/file-thumbnail.tsx",
+      "file": "src/vendor/fluid/registry/default/file-thumbnail.tsx",
+      "sha256": "793d7f0fa80de082ec420efb65bc60de8cff1acb611284459fef2bab6177a71c",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "6114b3749acf60b6b69caeec8ed56a8c9ad3e3041126012739ddfb61f287c652"
+    },
+    {
+      "library": "fluid",
+      "name": "chat-message",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/registry/default/chat-message.tsx",
+      "file": "src/vendor/fluid/registry/default/chat-message.tsx",
+      "sha256": "c3ba1bb904047623dbd7f056c6924c7d77c9c818d32dd2e607b761111654deeb",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "9920a048e0965349285d524d2b1cc02674d60b3a6b18a1dc94113c0a0cf29314"
+    },
+    {
+      "library": "fluid",
+      "name": "demo-data",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/app/components/demo-data.ts",
+      "file": "src/vendor/fluid/app/components/demo-data.ts",
+      "sha256": "6178f2479613747031b9e3f9ba316a3d1f907486cd85499371bcc11598fa4a98",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "b2e6efb4cde0b5e2910f25f407371cf8465a1a45692bf3c1a66d422dd255c20a"
+    },
+    {
+      "library": "fluid",
+      "name": "use-fluid-hover",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/registry/default/hooks/use-fluid-hover.ts",
+      "file": "src/vendor/fluid/registry/default/hooks/use-fluid-hover.ts",
+      "sha256": "dba8381f5b50c9120a3eba4e86a75ec252aa4ac401c6afbf35922fe0ff47d61d",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "dba8381f5b50c9120a3eba4e86a75ec252aa4ac401c6afbf35922fe0ff47d61d"
+    },
+    {
+      "library": "fluid",
+      "name": "use-fluid-hover",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/hooks/use-fluid-hover.ts",
+      "file": "src/vendor/fluid/hooks/use-fluid-hover.ts",
+      "sha256": "27890ada1c3e799b583265f00775ead635aefb438d6ca1d260801f6ed9bfac7d",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "f6e9d2d87b700ea59efeb446b0823a7ad075990b99d016227ad571c634b9694e"
+    },
+    {
+      "library": "fluid",
+      "name": "fluid-hover-highlight",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/registry/default/fluid-hover-highlight.tsx",
+      "file": "src/vendor/fluid/registry/default/fluid-hover-highlight.tsx",
+      "sha256": "86d67bbd28a843d7bad433cf499d786476a1f11d7ef74afd4bafc55279304dfc",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "43f9030b04654f226edb9271aac16a26f7672af059b28b802bc303f3bad8a118"
+    },
+    {
+      "library": "fluid",
+      "name": "fluid-hover-highlight",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/components/ui/fluid-hover-highlight.tsx",
+      "file": "src/vendor/fluid/components/ui/fluid-hover-highlight.tsx",
+      "sha256": "7dbfc3661e470f717ed2b71013209851355dd3c7a2f06869f0a0e96e6c3bf62d",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "03fd7d775321ec1d5310d40ea070ef755f62c83391c8f564023d045459d5e896"
+    },
+    {
+      "library": "fluid",
+      "name": "accordion",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/registry/radix/accordion.tsx",
+      "file": "src/vendor/fluid/registry/radix/accordion.tsx",
+      "sha256": "623ceace60ae15b21f2f8175f923acdfb3136eba51fafaeb5ac9f56907792784",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "76cdbbfbf624adc3688d1661134c0925f583e6233eaf293b10f5826106dd5fa9"
+    },
+    {
+      "library": "fluid",
+      "name": "badge",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/registry/default/badge.tsx",
+      "file": "src/vendor/fluid/registry/default/badge.tsx",
+      "sha256": "4887b0f268632d117d386dd941d347cb9c2d227fcea1ebb0313d0724b1530373",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "8a7235daaa7f640ec36b7ef89a69aae4eb746ebb9bd459bedc5d0e715c47301d"
+    },
+    {
+      "library": "fluid",
+      "name": "button",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/registry/radix/button.tsx",
+      "file": "src/vendor/fluid/registry/radix/button.tsx",
+      "sha256": "2edcf69bb11a7c064936ce6f6eccc7cc2afa17030e14b88ac7b2d0f0201b22da",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "816f9a581880bc41e12d8ae0c300829a6104f0e0d9a92d8b336813c23957c9b0"
+    },
+    {
+      "library": "fluid",
+      "name": "card",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/registry/default/card.tsx",
+      "file": "src/vendor/fluid/registry/default/card.tsx",
+      "sha256": "704c2ccd525c320edc61a5fece3ddce05573d52829282bd1c714a12a44295c25",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "210ff4b18fcadda1e851bc39b1341ade5d95ccab1df991901107cf7f11e57e5e"
+    },
+    {
+      "library": "fluid",
+      "name": "surface-classes",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/registry/default/lib/surface-classes.ts",
+      "file": "src/vendor/fluid/registry/default/lib/surface-classes.ts",
+      "sha256": "cb42a715b587950d9adecbb7994f8b67cdea101eed0852a732365549e7cdc896",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "cb42a715b587950d9adecbb7994f8b67cdea101eed0852a732365549e7cdc896"
+    },
+    {
+      "library": "fluid",
+      "name": "surface-classes",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/lib/surface-classes.ts",
+      "file": "src/vendor/fluid/lib/surface-classes.ts",
+      "sha256": "dd8ca48cbf3ce69668fe8d17f5e3c70eab217e45496de93ff894c08701176f18",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "a186b0fe262cf7f89a50e73ad628e2bf39219907099eaae5e91d4b60486205f7"
+    },
+    {
+      "library": "fluid",
+      "name": "surface-context",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/registry/default/lib/surface-context.tsx",
+      "file": "src/vendor/fluid/registry/default/lib/surface-context.tsx",
+      "sha256": "f59001fe724328d76c61b73cac69e6687e9f4c30e6859cf8ea5578510865675c",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "f59001fe724328d76c61b73cac69e6687e9f4c30e6859cf8ea5578510865675c"
+    },
+    {
+      "library": "fluid",
+      "name": "surface-context",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/lib/surface-context.tsx",
+      "file": "src/vendor/fluid/lib/surface-context.tsx",
+      "sha256": "9068728fe63a38bafc526cf7a92e398f8e01515f122fc0a4f10205f2d790a67d",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "be4b77cc6fb7174febba8dd775ac26037d7acc3fc36e2fb0473315dfab28406a"
+    },
+    {
+      "library": "fluid",
+      "name": "tooltip",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/registry/radix/tooltip.tsx",
+      "file": "src/vendor/fluid/registry/radix/tooltip.tsx",
+      "sha256": "d9eca2775a5acca0194e383b84d4fc0ae6ea7a82841c898457f4ff73fa1f75c9",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "d639e0ed3c8fcc464d3e73911a06b7c11db8b889f6b72073e6d7e1fee975eef1"
+    },
+    {
+      "library": "fluid",
+      "name": "input-message",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/registry/default/input-message.tsx",
+      "file": "src/vendor/fluid/registry/default/input-message.tsx",
+      "sha256": "ef40f823138a1ac9260272737389dfc0370b3b0f8103ef8da580788f03452734",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "b0d2cccaf2e19874311e462c840bfa3a2932a27c902bb984c5c448c2bbe0470d"
+    },
+    {
+      "library": "fluid",
+      "name": "dual-flavor-slugs",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/lib/dual-flavor-slugs.mjs",
+      "file": "src/vendor/fluid/lib/dual-flavor-slugs.mjs",
+      "sha256": "45b7181ba07bf68c16619472b71d5677674d2bba8a5404106192260136fa1b9d",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "45b7181ba07bf68c16619472b71d5677674d2bba8a5404106192260136fa1b9d"
+    },
+    {
+      "library": "fluid",
+      "name": "base-context",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/lib/base-context.tsx",
+      "file": "src/vendor/fluid/lib/base-context.tsx",
+      "sha256": "38906a7604fbf042acda11664c8f69ab5d3f80c03047d7138dbbf1418b217d27",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "38906a7604fbf042acda11664c8f69ab5d3f80c03047d7138dbbf1418b217d27"
+    },
+    {
+      "library": "fluid",
+      "name": "flavored",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/components/flavored/flavored.tsx",
+      "file": "src/vendor/fluid/components/flavored/flavored.tsx",
+      "sha256": "986531c6c65c494cb811861ed18939c7268d61c5285e88faf97d9d1439cf08f4",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "c4d93f6a8377295ea2ff072647735bea03f28e88f7713ff226012cc4bd0aea98"
+    },
+    {
+      "library": "fluid",
+      "name": "scroll-area",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/registry/radix/scroll-area.tsx",
+      "file": "src/vendor/fluid/registry/radix/scroll-area.tsx",
+      "sha256": "9ac8798f297fe1582468e6fee57da51f4a48c29cbe4fa59e83e117453815391e",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "3ed30e298ea00c6594e95fe468dc855fad63ed2ee02551a024a083eb49ec0bca"
+    },
+    {
+      "library": "fluid",
+      "name": "scroll-area",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/components/ui/scroll-area.tsx",
+      "file": "src/vendor/fluid/components/ui/scroll-area.tsx",
+      "sha256": "a58e627a8b25223241d731718fbd79daa3237c98cb8b6a0f1293076dea666243",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "6e7ed275cde6696a78d8be144091a8e06fdb07e82a7214a699a3f5d649085497"
+    },
+    {
+      "library": "fluid",
+      "name": "button",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/components/ui/button.tsx",
+      "file": "src/vendor/fluid/components/ui/button.tsx",
+      "sha256": "73fd5f7b149d47c5ce004f8c205e80220b99075719a809f6fb4faed70a0eb479",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "c8f8ff557e3424eb607dbc52b06f5303d3174c9e8c12768393f0fbc9bd07b060"
+    },
+    {
+      "library": "fluid",
+      "name": "tooltip",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/components/ui/tooltip.tsx",
+      "file": "src/vendor/fluid/components/ui/tooltip.tsx",
+      "sha256": "730250882eec17944d5804efe2b6538d27641c564745383e778cabdb3d5efe5b",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "3ae315b4a6c05af358823c47ea5a5fb91e169fac332d0d7f423d21b6c502c50e"
+    },
+    {
+      "library": "fluid",
+      "name": "sidebar-core",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/registry/default/sidebar-core.tsx",
+      "file": "src/vendor/fluid/registry/default/sidebar-core.tsx",
+      "sha256": "2e710a71a2b3131f6a9b6c5a7b325319ae645c480e241ed71b6b6546ca597e8a",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "13675d3a982374771c0de5a27063c03a51eb923024992bb90d79e250bf35a5b0"
+    },
+    {
+      "library": "fluid",
+      "name": "sidebar-core",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/components/ui/sidebar-core.tsx",
+      "file": "src/vendor/fluid/components/ui/sidebar-core.tsx",
+      "sha256": "3c6296ba99395218ab6fe2d183d00ade1e7394043016eea7bd1c21190188db66",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "83cd4a6fb3657e221088732b7dc1770ba74b4a9159cef43a4a8ff939d279bc7a"
+    },
+    {
+      "library": "fluid",
+      "name": "sidebar-menu",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/registry/default/sidebar-menu.tsx",
+      "file": "src/vendor/fluid/registry/default/sidebar-menu.tsx",
+      "sha256": "dc74a015361a2d30900b83bd0f13bb79ceb09593e4e0c85b979318fa644c305c",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "9bdbe7251b15464ead283bd3adae6290d71b878b262df23a90372b5a921364ed"
+    },
+    {
+      "library": "fluid",
+      "name": "sidebar-menu",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/components/ui/sidebar-menu.tsx",
+      "file": "src/vendor/fluid/components/ui/sidebar-menu.tsx",
+      "sha256": "3c12dd25918885244cb407d7a072e51305b63ad316832d2358b838648d4cd334",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "eb91e387d8576d63be172e30abd03e578b69d5f561f13b5232f025aa24e961f2"
+    },
+    {
+      "library": "fluid",
+      "name": "sidebar",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/registry/base/sidebar.tsx",
+      "file": "src/vendor/fluid/registry/base/sidebar.tsx",
+      "sha256": "d644fcb93ca32e1f461b25411d6777208c8cb6510c68a4e2d02a47746e3c3b59",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "0e5ec7778002ba37d352dafb0b0b5b87a37b0407aa9edec1a0bb2f20ea99d1ab"
+    },
+    {
+      "library": "fluid",
+      "name": "sidebar",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/registry/radix/sidebar.tsx",
+      "file": "src/vendor/fluid/registry/radix/sidebar.tsx",
+      "sha256": "5f4381420d9415f3d8f67ebe6413009fdc4c77e0847eb3e792f9fbe15af134a4",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "4297def1fe8cf9021831ca11b5f24dc8b3ed61bc1f7a83380f19ed58e02762df"
+    },
+    {
+      "library": "fluid",
+      "name": "sidebar",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/components/flavored/sidebar.tsx",
+      "file": "src/vendor/fluid/components/flavored/sidebar.tsx",
+      "sha256": "aff76098a40d6f280501981f1ed60dc1486186f880410a83c925d02d783c5504",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "08f13fe613cd0600b994622deac4e62276d52035b4633bbdda3455a64a22011a"
+    },
+    {
+      "library": "fluid",
+      "name": "use-merge-split",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/registry/default/hooks/use-merge-split.tsx",
+      "file": "src/vendor/fluid/registry/default/hooks/use-merge-split.tsx",
+      "sha256": "5dd15075c9da5590d21bb57b34a293bf9ca2d2e0847b8645c8a6bf98686c3517",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "64ac8cc57a6b55b4834ac70b27d77755fe5638e41e58f1c9b6fcb47f7e85a264"
+    },
+    {
+      "library": "fluid",
+      "name": "use-merge-split",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/hooks/use-merge-split.ts",
+      "file": "src/vendor/fluid/hooks/use-merge-split.ts",
+      "sha256": "f3e017d6246ad63f1b0f6757d01d69834406c3e246a448ed4cfd6415aea51f81",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "9569114ebcc69da2a8a584ed0f6c0e73fa7f6a3f26684d406ef778b6e5bf522e"
+    },
+    {
+      "library": "fluid",
+      "name": "checkbox-group",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/registry/radix/checkbox-group.tsx",
+      "file": "src/vendor/fluid/registry/radix/checkbox-group.tsx",
+      "sha256": "6c8d58703f3686d77ee894955645ac5d17d211133e4fc5c4f01188b494890981",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "fe6e794b927982b0f4d5321a422c19382a19de337454ad5b7b74cd9009717747"
+    },
+    {
+      "library": "fluid",
+      "name": "elevated",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/registry/default/lib/elevated.tsx",
+      "file": "src/vendor/fluid/registry/default/lib/elevated.tsx",
+      "sha256": "1af5d74cdafa5259379abeb07d19949dfa9628ce20c14f10b664c66ee0985793",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "6127588ae012a0779985565cc0ba1d0490b652d448cbce3031a3a1cf248ef8e3"
+    },
+    {
+      "library": "fluid",
+      "name": "elevated",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/lib/elevated.tsx",
+      "file": "src/vendor/fluid/lib/elevated.tsx",
+      "sha256": "173a0a77f1ea15d541b69b854d0a156e2fd2d40878ce24dcf5dc92211e1f6cf1",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "189f3ddcd038d5ede297602d9decffb5a4c6340ca7462cc444a53af620de4a81"
+    },
+    {
+      "library": "fluid",
+      "name": "slider",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/registry/radix/slider.tsx",
+      "file": "src/vendor/fluid/registry/radix/slider.tsx",
+      "sha256": "49c47524afaf212661e23c4a3cb762b4e8967270d551c37aeafb3c3cd0676a77",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "fdb670a7fb87865d1561eabd36b64b6c898aa84052bec8cfbdecd970e8e8f041"
+    },
+    {
+      "library": "fluid",
+      "name": "color-picker",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/registry/default/color-picker.tsx",
+      "file": "src/vendor/fluid/registry/default/color-picker.tsx",
+      "sha256": "d5c1f2f22dac89d305daf5fa8e32eeba746999f827f00b155d35f4d344f1b4c1",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "fce0552815f3169efdc4c3e937dd684aa3b2f0ed56a5bf83219477bf27ec56f2"
+    },
+    {
+      "library": "fluid",
+      "name": "dialog",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/registry/radix/dialog.tsx",
+      "file": "src/vendor/fluid/registry/radix/dialog.tsx",
+      "sha256": "be463142cb8055a49b2b8681b79e7d24692dc89725d346932a401f5ecc5ee64a",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "3e8fa8d4ec00bed8a636ea01114f586939f14291656548f2dbfce5c9cd802c0c"
+    },
+    {
+      "library": "fluid",
+      "name": "menu-item",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/registry/default/menu-item.tsx",
+      "file": "src/vendor/fluid/registry/default/menu-item.tsx",
+      "sha256": "aa309d607741b8947cc0b1ecdc57667adebd8a554e5f1f0577b396f461c696df",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "6eca6dc6553beb2742a1009fbb84492ba544f0492393f7b566cf979926901fa5"
+    },
+    {
+      "library": "fluid",
+      "name": "menu-item",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/components/ui/menu-item.tsx",
+      "file": "src/vendor/fluid/components/ui/menu-item.tsx",
+      "sha256": "abafbecc019a1d80ef85d7030e59524dbad6fd751b7439da5d87730364d0e315",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "f4a845fe8f6668311d72acd43a6de10b022acc5d1d2d93212f5687bfb8a66dbf"
+    },
+    {
+      "library": "fluid",
+      "name": "popup",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/registry/default/lib/popup.ts",
+      "file": "src/vendor/fluid/registry/default/lib/popup.ts",
+      "sha256": "4aa866319178458f3b1915b189dfe14bf2f72850317b4f7c2dee3e01f31dec42",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "4aa866319178458f3b1915b189dfe14bf2f72850317b4f7c2dee3e01f31dec42"
+    },
+    {
+      "library": "fluid",
+      "name": "popup",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/lib/popup.ts",
+      "file": "src/vendor/fluid/lib/popup.ts",
+      "sha256": "b1f31f81a848af906a18d1274cd17f1cac7d1de74a0b0f4e7d26b53748d739e9",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "681ccf06ca7188cdde4cd896fec57a1453abe314e1e66d26c4b60cfabd22b658"
+    },
+    {
+      "library": "fluid",
+      "name": "dropdown-search",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/registry/default/dropdown-search.tsx",
+      "file": "src/vendor/fluid/registry/default/dropdown-search.tsx",
+      "sha256": "0d286a1cabcaaac6be9bdf669e1bda7dd5374f94c22a5be33f3d2d597f0240cb",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "5913d962d5577a3bab9eaa02677708779fa0939925615130f73df4bbecb0ec60"
+    },
+    {
+      "library": "fluid",
+      "name": "dropdown-search",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/components/ui/dropdown-search.tsx",
+      "file": "src/vendor/fluid/components/ui/dropdown-search.tsx",
+      "sha256": "a68cb28380bf41c722a98890ed9cf6dd0d725c356c475b8fdb4ae1e164f1e60d",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "3665512278c7713e13f63e6aa747f008a8fcedb1c56f5881c384d2a0d241987c"
+    },
+    {
+      "library": "fluid",
+      "name": "dropdown",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/registry/base/dropdown.tsx",
+      "file": "src/vendor/fluid/registry/base/dropdown.tsx",
+      "sha256": "c5e8ac551e46c1d9ec736ac62f9c31b791d094b30bc5a0de1fb6232ea30a4576",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "855acba2f03284e183379add7fe35dd5280548af1a6b7e086a8102cbde8c069d"
+    },
+    {
+      "library": "fluid",
+      "name": "dropdown",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/registry/radix/dropdown.tsx",
+      "file": "src/vendor/fluid/registry/radix/dropdown.tsx",
+      "sha256": "ce8431615d1a459a3dbac567fcfc12466cf39393b896d8802c5a767a90fba3ea",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "6b9c1c72fb7109e8edeae33b3bb6c3be9b89549d6a92cf989ab62736550e18f2"
+    },
+    {
+      "library": "fluid",
+      "name": "dropdown",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/components/flavored/dropdown.tsx",
+      "file": "src/vendor/fluid/components/flavored/dropdown.tsx",
+      "sha256": "9f17305c53598b95d767f0ec9565f67443c2a64cb32e89b65d08eccd515c6f82",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "92cc847479739dcc8537ed8150342f9981df694a1fcf13752001df8d2112502b"
+    },
+    {
+      "library": "fluid",
+      "name": "input-copy",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/registry/default/input-copy.tsx",
+      "file": "src/vendor/fluid/registry/default/input-copy.tsx",
+      "sha256": "c64f2840a6a1127e168a47ebf00b53ecfc1c3d6c3e28a8a3f9d325cab61a9b87",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "f2cca0afbefdb501fd23bbb2384dfb2d788d1c60cb72d7f60086e66b65ea23bb"
+    },
+    {
+      "library": "fluid",
+      "name": "input-group",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/registry/default/input-group.tsx",
+      "file": "src/vendor/fluid/registry/default/input-group.tsx",
+      "sha256": "f3f9e557501dd88ba0e40c79222e0a708d36194b4c8fbe4b7150201cdd0f7834",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "37bb3b9534451772330c12e8923328b9242ca261b418bce1fb347651e64ff2d1"
+    },
+    {
+      "library": "fluid",
+      "name": "radio-group",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/registry/radix/radio-group.tsx",
+      "file": "src/vendor/fluid/registry/radix/radio-group.tsx",
+      "sha256": "1e8d7d024fbb5a48d7c430a88aa41aa93c72352377d8b19207a2c7371a3f06b0",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "27739bfdc8111156aa0c2baca6d823d96a3346c3632de2ab73ec76dd42a03374"
+    },
+    {
+      "library": "fluid",
+      "name": "use-keyboard-nav-gate",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/registry/default/hooks/use-keyboard-nav-gate.ts",
+      "file": "src/vendor/fluid/registry/default/hooks/use-keyboard-nav-gate.ts",
+      "sha256": "f7edc88b0cead09145e3c81c2fae943fb71c280b89bc49c34ab69b4f4926e976",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "2e38a3430951de057c4a317a4e62a5decd0b0e104b9ccf006083f5eb7811609c"
+    },
+    {
+      "library": "fluid",
+      "name": "use-keyboard-nav-gate",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/hooks/use-keyboard-nav-gate.ts",
+      "file": "src/vendor/fluid/hooks/use-keyboard-nav-gate.ts",
+      "sha256": "464341ec7aec1a4e0caafe2b7ee8826e2ce43bb9b4cfd218f4d8d9d12791f9d6",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "d37f68bb5fa11582d882792d358becc0cc3f0c9c2f715ab96de2e8a5413797df"
+    },
+    {
+      "library": "fluid",
+      "name": "select",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/registry/base/select.tsx",
+      "file": "src/vendor/fluid/registry/base/select.tsx",
+      "sha256": "32f6fba4f4f8018a7d9b64b9842479a998c21657ba5a69edd97a2ddd41edeaf1",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "83cb5aac5cfff87954cbb5c9744f2013b7f8428e396551756dca4de68a7475d7"
+    },
+    {
+      "library": "fluid",
+      "name": "select",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/registry/radix/select.tsx",
+      "file": "src/vendor/fluid/registry/radix/select.tsx",
+      "sha256": "7b7cb293855423e528c33e83382269939e7e9e215c51ddd90daae33a3ab25c9e",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "3e19071c678376b5cf1b963c5b7f18fd3e763e7596eb9e0671d1aff5e14f99d8"
+    },
+    {
+      "library": "fluid",
+      "name": "select",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/components/flavored/select.tsx",
+      "file": "src/vendor/fluid/components/flavored/select.tsx",
+      "sha256": "3568dd76a7193eb98ff637cf7c7dd529c2df60825ad00dd518a0c14f2a5cf1de",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "4798c1508c5422d2004aef46f6d61d546cd6970e4d7fa8e4c7b1bd140f4d2ef7"
+    },
+    {
+      "library": "fluid",
+      "name": "combobox",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/registry/base/combobox.tsx",
+      "file": "src/vendor/fluid/registry/base/combobox.tsx",
+      "sha256": "f39efefed4ecb0cb7c1308dc84f0f217ae82f0ed93e6c14fbad20fd486d44171",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "8546d809c3b65231794364cda388b06867b69a3dcc3b76f7c53524cb959c7eb1"
+    },
+    {
+      "library": "fluid",
+      "name": "combobox",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/registry/radix/combobox.tsx",
+      "file": "src/vendor/fluid/registry/radix/combobox.tsx",
+      "sha256": "6d0e27461d25018aed3f617dab811ed38b1a0d87beacb3c805b63a6aa1578475",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "89f857df77756e92833fc5693d6a81034449cf9c8df96a8a13675b28548ed31f"
+    },
+    {
+      "library": "fluid",
+      "name": "combobox",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/components/flavored/combobox.tsx",
+      "file": "src/vendor/fluid/components/flavored/combobox.tsx",
+      "sha256": "5fd30b94590f5aea78fd8b936625876f8a04f533cf38634608f8d45634bae16c",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "5f6c7468526124310b34fdcd81410b81a3d9abc0c333148a9413914dea760bb9"
+    },
+    {
+      "library": "fluid",
+      "name": "codec",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/lib/preset/codec.ts",
+      "file": "src/vendor/fluid/lib/preset/codec.ts",
+      "sha256": "1229a7c84028595ff5fdfc5eeaf051435a2f3045642b96220fb0798ecc9dee02",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "1229a7c84028595ff5fdfc5eeaf051435a2f3045642b96220fb0798ecc9dee02"
+    },
+    {
+      "library": "fluid",
+      "name": "sidebar-options",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/lib/preset/sidebar-options.ts",
+      "file": "src/vendor/fluid/lib/preset/sidebar-options.ts",
+      "sha256": "73621051bf7f825cf5248a52a6def26168a25d38619af5e55747b9b2ecbd6f48",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "73621051bf7f825cf5248a52a6def26168a25d38619af5e55747b9b2ecbd6f48"
+    },
+    {
+      "library": "fluid",
+      "name": "combobox-options",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/lib/preset/combobox-options.ts",
+      "file": "src/vendor/fluid/lib/preset/combobox-options.ts",
+      "sha256": "c945f849cdb6644a8c026992a2ed1865bd62ac2610fc20f073b8c4d4f68e66d0",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "c945f849cdb6644a8c026992a2ed1865bd62ac2610fc20f073b8c4d4f68e66d0"
+    },
+    {
+      "library": "fluid",
+      "name": "dialog",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/registry/base/dialog.tsx",
+      "file": "src/vendor/fluid/registry/base/dialog.tsx",
+      "sha256": "c616141c4fcd88e732e5bc3d22de210cb03bc89d5df80beccbf561826be2c66d",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "598eb4eac799e5a8c08bdb5f39e116d79aab5cc01b88d748e188824aad70512e"
+    },
+    {
+      "library": "fluid",
+      "name": "dialog",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/components/flavored/dialog.tsx",
+      "file": "src/vendor/fluid/components/flavored/dialog.tsx",
+      "sha256": "8baa15ad15de900d43709063c5a8d86724fa7e052b473cd0283f07b804309648",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "7812e17ff3102ed80e2c732e28f8910b9bbfa12518d0e3673a56fa8f02255d00"
+    },
+    {
+      "library": "fluid",
+      "name": "dialog",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/components/ui/dialog.tsx",
+      "file": "src/vendor/fluid/components/ui/dialog.tsx",
+      "sha256": "bc063f52e71ccb5a95eb3cfe26680a8fd5c511f84c857289450c6b0481f03c32",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "05ac69730ef53c8cb907e34bf1f334d6e2f8192df5e4500c30119603b5e8464f"
+    },
+    {
+      "library": "fluid",
+      "name": "tabs-subtle",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/registry/base/tabs-subtle.tsx",
+      "file": "src/vendor/fluid/registry/base/tabs-subtle.tsx",
+      "sha256": "f18c4277da5e2304bbed975c48177206b2d3b63f1cbf6ab3daa167c2ccd82bf5",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "8a77259eaa9377369df9ba590d17160b628ec5b795333297cce99081eeb2a276"
+    },
+    {
+      "library": "fluid",
+      "name": "tabs-subtle",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/registry/radix/tabs-subtle.tsx",
+      "file": "src/vendor/fluid/registry/radix/tabs-subtle.tsx",
+      "sha256": "765419d185126ce84dfdd19d956983bbdaad92ff8f7606051dd0fc5827289853",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "85f4cbfb52dc76538c900d2ab7e646ea1036e232260da175f82dbe9841e583b7"
+    },
+    {
+      "library": "fluid",
+      "name": "tabs-subtle",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/components/flavored/tabs-subtle.tsx",
+      "file": "src/vendor/fluid/components/flavored/tabs-subtle.tsx",
+      "sha256": "d90df90dba1d566bc8eab8d84115a7ab426ffa85387363a502000b8556cea6cc",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "d5c1d809ada4491e248c4cfd924142d7ca975092941a9c9f4ec7c7fe0075f5bc"
+    },
+    {
+      "library": "fluid",
+      "name": "tabs-subtle",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/components/ui/tabs-subtle.tsx",
+      "file": "src/vendor/fluid/components/ui/tabs-subtle.tsx",
+      "sha256": "99749c8ea3a7c5978c858ccf1028772be76ce2a6eef427abe6d395509dc1c988",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "315a02aefac2fd951ee2084c11ef75749956b5f1ef8435d99766d5c3b710c0a0"
+    },
+    {
+      "library": "fluid",
+      "name": "command-menu",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/registry/default/command-menu.tsx",
+      "file": "src/vendor/fluid/registry/default/command-menu.tsx",
+      "sha256": "6e918a6697f600ea9b4e003fb7df7d09972345a2a300cd5bbe543a8b8b4f29ff",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "fc6dc22fb71013045854c9126dcd06599fa355304debfdb12744f026dc99b29e"
+    },
+    {
+      "library": "fluid",
+      "name": "command-menu-options",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/lib/preset/command-menu-options.ts",
+      "file": "src/vendor/fluid/lib/preset/command-menu-options.ts",
+      "sha256": "c558291188aa780216c632c9f8580587f14506656693a8c9bfa17927795ef578",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "c558291188aa780216c632c9f8580587f14506656693a8c9bfa17927795ef578"
+    },
+    {
+      "library": "fluid",
+      "name": "command-menu-items",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/lib/docs/command-menu-items.ts",
+      "file": "src/vendor/fluid/lib/docs/command-menu-items.ts",
+      "sha256": "c6e115c8deec3b3efa71f0c652f21a72c729a90b0bf1e29b235bb7605cb0b484",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "40e167235d2b21d8ecfe9255eebbb9196c595d483bae29c000361a5afb1acf85"
+    },
+    {
+      "library": "fluid",
+      "name": "bento-card",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/app/components/bento-card.tsx",
+      "file": "src/vendor/fluid/app/components/bento-card.tsx",
+      "sha256": "2da249490bc31d8511460221ad1772aa2c938e6f127c22e339d44bc40b825a40",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "feaabc9da2221c0a67f7ffa1c847e2590ef83253f0980cf1599fb4402bca54af"
+    },
+    {
+      "library": "fluid",
+      "name": "switch",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/registry/radix/switch.tsx",
+      "file": "src/vendor/fluid/registry/radix/switch.tsx",
+      "sha256": "14bd82be44e953e8484330cd7badbf86d9ffac65ebd95adbdd497c0110f4ef41",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "10e9d01a352ad9e38787b6ad4baa87abef3aaed1006b292acaa3b56981179c47"
+    },
+    {
+      "library": "fluid",
+      "name": "table",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/registry/default/table.tsx",
+      "file": "src/vendor/fluid/registry/default/table.tsx",
+      "sha256": "868ed4136b129fbe3994b503b6755134b5ca999f370619ef7e9078e1c9a91f95",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "2f8a29f71bacf78685255691f4b5106b20167bf119860e01a9aed33d95128114"
+    },
+    {
+      "library": "fluid",
+      "name": "tabs",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/registry/radix/tabs.tsx",
+      "file": "src/vendor/fluid/registry/radix/tabs.tsx",
+      "sha256": "99888ec737632e2eec187dad5e2fe0948c6f629199d1652f8983c1a8be3ed9c7",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "de690853ff3015882932ad453487176fe36c509bd0a632ca80232be47996720a"
+    },
+    {
+      "library": "fluid",
+      "name": "thinking-indicator",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/registry/default/thinking-indicator.tsx",
+      "file": "src/vendor/fluid/registry/default/thinking-indicator.tsx",
+      "sha256": "1cdba3c68a7088db39a269c74efd654217b951702d3aa7c552951c460f108bcb",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "2212721110e5fcd8bc2a7d89c35a80f5e7e1c9e0aba14b06c010de04468c9702"
+    },
+    {
+      "library": "fluid",
+      "name": "thinking-steps",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/registry/base/thinking-steps.tsx",
+      "file": "src/vendor/fluid/registry/base/thinking-steps.tsx",
+      "sha256": "5d5abaae84b7226c98e4d0c5c9a7f9dc875353bc326acea52fa4444bfa50977e",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "01a392df9967b52e7cd559650b7cefbe5452f05a84cfb78935076cf82ba928b8"
+    },
+    {
+      "library": "fluid",
+      "name": "thinking-steps",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/registry/radix/thinking-steps.tsx",
+      "file": "src/vendor/fluid/registry/radix/thinking-steps.tsx",
+      "sha256": "6295e27f0fe645ea500e0387d2c464e8a1c02de2852bf84441af79807e78ece7",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "b6d7535ed78d9f65a3f8b990c5144e17ae1b85b02c99bf7238d8954321ff6a14"
+    },
+    {
+      "library": "fluid",
+      "name": "thinking-steps",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/components/flavored/thinking-steps.tsx",
+      "file": "src/vendor/fluid/components/flavored/thinking-steps.tsx",
+      "sha256": "9f00e23fc0fbacecfbd571e8c1752c968c1a01c18b0281b1c37bb0987a3162ea",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "07ce98a43d2beedfb227deabbe7cf6651d51e6187c6f5f76b4c03df051adbd62"
+    },
+    {
+      "library": "fluid",
+      "name": "ask-user-questions",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/registry/default/ask-user-questions.tsx",
+      "file": "src/vendor/fluid/registry/default/ask-user-questions.tsx",
+      "sha256": "2281950ea48e98912710d2c14650f565a1cd2ddcc2180708058bb0f0015eb538",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "6632ce8ab346f1072676e48414a421c171b29dea7382a3b2edae0869edebd828"
+    },
+    {
+      "library": "fluid",
+      "name": "bento-previews",
+      "url": "https://github.com/mickadesign/fluid-functionalism/blob/main/app/components/bento-previews.tsx",
+      "file": "src/vendor/fluid/app/components/bento-previews.tsx",
+      "sha256": "45f66eb59490e0cd870e31a85155f01844e71278d5addb2e7616c3a2812e0fae",
+      "modifications": "Import paths, native Next image adapter, and absolute official asset URL only",
+      "dependencies": [],
+      "outputSha256": "2e10fcdb5a232258dc9b83625e776b8bd3c6702b11df8f717c1bace6d61694b8"
+    }
+  ],
+  "dependencies": [
+    "@base-ui/react",
+    "@radix-ui/react-accordion",
+    "@radix-ui/react-checkbox",
+    "@radix-ui/react-collapsible",
+    "@radix-ui/react-dialog",
+    "@radix-ui/react-dropdown-menu",
+    "@radix-ui/react-popover",
+    "@radix-ui/react-radio-group",
+    "@radix-ui/react-scroll-area",
+    "@radix-ui/react-select",
+    "@radix-ui/react-slider",
+    "@radix-ui/react-slot",
+    "@radix-ui/react-switch",
+    "@radix-ui/react-tabs",
+    "@radix-ui/react-tooltip",
+    "class-variance-authority",
+    "clsx",
+    "framer-motion",
+    "lucide-react",
+    "pdfjs-dist",
+    "react",
+    "tailwind-merge"
+  ],
+  "covered": [
+    "fluid:accordion",
+    "fluid:ask-user-questions",
+    "fluid:badge",
+    "fluid:button",
+    "fluid:card",
+    "fluid:chat-message",
+    "fluid:checkbox-group",
+    "fluid:color-picker",
+    "fluid:combobox",
+    "fluid:command-menu",
+    "fluid:dialog",
+    "fluid:dropdown",
+    "fluid:input-copy",
+    "fluid:input-group",
+    "fluid:input-message",
+    "fluid:radio-group",
+    "fluid:select",
+    "fluid:sidebar",
+    "fluid:slider",
+    "fluid:switch",
+    "fluid:table",
+    "fluid:tabs",
+    "fluid:tabs-subtle",
+    "fluid:thinking-indicator",
+    "fluid:thinking-steps",
+    "fluid:tooltip"
+  ],
+  "blocked": [],
+  "entrySources": {
+    "fluid:accordion": [
+      "src/vendor/fluid/app/components/bento-previews.tsx",
+      "src/vendor/fluid/registry/radix/accordion.tsx"
+    ],
+    "fluid:ask-user-questions": [
+      "src/vendor/fluid/app/components/bento-previews.tsx",
+      "src/vendor/fluid/registry/default/ask-user-questions.tsx"
+    ],
+    "fluid:badge": [
+      "src/vendor/fluid/app/components/bento-previews.tsx",
+      "src/vendor/fluid/registry/default/badge.tsx"
+    ],
+    "fluid:button": [
+      "src/vendor/fluid/app/components/bento-previews.tsx",
+      "src/vendor/fluid/registry/radix/button.tsx"
+    ],
+    "fluid:card": [
+      "src/vendor/fluid/app/components/bento-previews.tsx",
+      "src/vendor/fluid/registry/default/card.tsx"
+    ],
+    "fluid:chat-message": [
+      "src/vendor/fluid/app/components/bento-previews.tsx",
+      "src/vendor/fluid/registry/default/chat-message.tsx"
+    ],
+    "fluid:checkbox-group": [
+      "src/vendor/fluid/app/components/bento-previews.tsx",
+      "src/vendor/fluid/registry/radix/checkbox-group.tsx"
+    ],
+    "fluid:color-picker": [
+      "src/vendor/fluid/app/components/bento-previews.tsx",
+      "src/vendor/fluid/registry/default/color-picker.tsx"
+    ],
+    "fluid:combobox": [
+      "src/vendor/fluid/app/components/bento-previews.tsx",
+      "src/vendor/fluid/registry/base/combobox.tsx",
+      "src/vendor/fluid/registry/radix/combobox.tsx"
+    ],
+    "fluid:command-menu": [
+      "src/vendor/fluid/app/components/bento-previews.tsx",
+      "src/vendor/fluid/registry/default/command-menu.tsx"
+    ],
+    "fluid:dialog": [
+      "src/vendor/fluid/app/components/bento-previews.tsx",
+      "src/vendor/fluid/registry/radix/dialog.tsx",
+      "src/vendor/fluid/registry/base/dialog.tsx"
+    ],
+    "fluid:dropdown": [
+      "src/vendor/fluid/app/components/bento-previews.tsx",
+      "src/vendor/fluid/registry/base/dropdown.tsx",
+      "src/vendor/fluid/registry/radix/dropdown.tsx"
+    ],
+    "fluid:input-copy": [
+      "src/vendor/fluid/app/components/bento-previews.tsx",
+      "src/vendor/fluid/registry/default/input-copy.tsx"
+    ],
+    "fluid:input-group": [
+      "src/vendor/fluid/app/components/bento-previews.tsx",
+      "src/vendor/fluid/registry/default/input-group.tsx"
+    ],
+    "fluid:input-message": [
+      "src/vendor/fluid/app/components/bento-previews.tsx",
+      "src/vendor/fluid/registry/default/input-message.tsx"
+    ],
+    "fluid:radio-group": [
+      "src/vendor/fluid/app/components/bento-previews.tsx",
+      "src/vendor/fluid/registry/radix/radio-group.tsx"
+    ],
+    "fluid:select": [
+      "src/vendor/fluid/app/components/bento-previews.tsx",
+      "src/vendor/fluid/registry/base/select.tsx",
+      "src/vendor/fluid/registry/radix/select.tsx"
+    ],
+    "fluid:sidebar": [
+      "src/vendor/fluid/app/components/bento-previews.tsx",
+      "src/vendor/fluid/registry/base/sidebar.tsx",
+      "src/vendor/fluid/registry/radix/sidebar.tsx"
+    ],
+    "fluid:slider": [
+      "src/vendor/fluid/app/components/bento-previews.tsx",
+      "src/vendor/fluid/registry/radix/slider.tsx"
+    ],
+    "fluid:switch": [
+      "src/vendor/fluid/app/components/bento-previews.tsx",
+      "src/vendor/fluid/registry/radix/switch.tsx"
+    ],
+    "fluid:table": [
+      "src/vendor/fluid/app/components/bento-previews.tsx",
+      "src/vendor/fluid/registry/default/table.tsx"
+    ],
+    "fluid:tabs": [
+      "src/vendor/fluid/app/components/bento-previews.tsx",
+      "src/vendor/fluid/registry/radix/tabs.tsx"
+    ],
+    "fluid:tabs-subtle": [
+      "src/vendor/fluid/app/components/bento-previews.tsx",
+      "src/vendor/fluid/registry/base/tabs-subtle.tsx",
+      "src/vendor/fluid/registry/radix/tabs-subtle.tsx"
+    ],
+    "fluid:thinking-indicator": [
+      "src/vendor/fluid/app/components/bento-previews.tsx",
+      "src/vendor/fluid/registry/default/thinking-indicator.tsx"
+    ],
+    "fluid:thinking-steps": [
+      "src/vendor/fluid/app/components/bento-previews.tsx",
+      "src/vendor/fluid/registry/base/thinking-steps.tsx",
+      "src/vendor/fluid/registry/radix/thinking-steps.tsx"
+    ],
+    "fluid:tooltip": [
+      "src/vendor/fluid/app/components/bento-previews.tsx",
+      "src/vendor/fluid/registry/radix/tooltip.tsx"
+    ]
+  }
+}

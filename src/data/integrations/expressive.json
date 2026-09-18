@@ -1,0 +1,2735 @@
+{
+  "imports": [
+    {
+      "library": "beautiful",
+      "name": "loading-state",
+      "url": "https://www.beautifului.dev/",
+      "file": "src/vendor/beautiful/loading-state.tsx",
+      "sha256": "1b1ee1273717be0b2dfc12abc6853a3c118e543c05bc522b4c80378dd88e8a0d",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "1b1ee1273717be0b2dfc12abc6853a3c118e543c05bc522b4c80378dd88e8a0d"
+    },
+    {
+      "library": "beautiful",
+      "name": "thinking-state",
+      "url": "https://www.beautifului.dev/",
+      "file": "src/vendor/beautiful/thinking-state.tsx",
+      "sha256": "3d73617406120fad93fd15c67054a59debb9e43ccd385a21e2f48a7fb4036e24",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "3d73617406120fad93fd15c67054a59debb9e43ccd385a21e2f48a7fb4036e24"
+    },
+    {
+      "library": "beautiful",
+      "name": "streaming-text",
+      "url": "https://www.beautifului.dev/",
+      "file": "src/vendor/beautiful/streaming-text.tsx",
+      "sha256": "8b17569fbc9c75aef1f82a5310f2402209cc8ab1b13f65fdd71251cb1e1f14d3",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "8b17569fbc9c75aef1f82a5310f2402209cc8ab1b13f65fdd71251cb1e1f14d3"
+    },
+    {
+      "library": "beautiful",
+      "name": "agent-screen",
+      "url": "https://www.beautifului.dev/",
+      "file": "src/vendor/beautiful/agent-screen.tsx",
+      "sha256": "84f53af5b565de34741c656914fdd38b9700fc8765e24fcbba41ac2f6b5da002",
+      "modifications": "Import aliases only",
+      "dependencies": [],
+      "outputSha256": "ddc1731c8f283c77e295bd59c7df47e523a6983201a680342eeca54095b6a732"
+    },
+    {
+      "library": "amicro",
+      "name": "fade-in",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/fade-in.json",
+      "file": "src/vendor/amicro/fade-in.tsx",
+      "sha256": "175cbdba220028261463646bbb74abe8df63b4875da67223a1eb2def470ef587",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "175cbdba220028261463646bbb74abe8df63b4875da67223a1eb2def470ef587"
+    },
+    {
+      "library": "amicro",
+      "name": "fade-up",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/fade-up.json",
+      "file": "src/vendor/amicro/fade-up.tsx",
+      "sha256": "c2e3e79d21c7e62aa198504e92655704b169e9fc40b9433977c134127bb63caf",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "c2e3e79d21c7e62aa198504e92655704b169e9fc40b9433977c134127bb63caf"
+    },
+    {
+      "library": "amicro",
+      "name": "fade-down",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/fade-down.json",
+      "file": "src/vendor/amicro/fade-down.tsx",
+      "sha256": "bdcd1c1a20b7e0f1fca88b6249cabff8d1a1dc05d8cdc212f1fdeb3f7f4a74b2",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "bdcd1c1a20b7e0f1fca88b6249cabff8d1a1dc05d8cdc212f1fdeb3f7f4a74b2"
+    },
+    {
+      "library": "amicro",
+      "name": "slide-left",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/slide-left.json",
+      "file": "src/vendor/amicro/slide-left.tsx",
+      "sha256": "bb882fe8fe0f99a963867a77901981d9c2faedabf47f8a1aa69876652ef914f2",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "bb882fe8fe0f99a963867a77901981d9c2faedabf47f8a1aa69876652ef914f2"
+    },
+    {
+      "library": "amicro",
+      "name": "slide-right",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/slide-right.json",
+      "file": "src/vendor/amicro/slide-right.tsx",
+      "sha256": "6bde50d5f4fdc33e10ce8c0c6a4eec032f433fc8bf23f71f5dc0f64ea3f66fbd",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "6bde50d5f4fdc33e10ce8c0c6a4eec032f433fc8bf23f71f5dc0f64ea3f66fbd"
+    },
+    {
+      "library": "amicro",
+      "name": "scale-in",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/scale-in.json",
+      "file": "src/vendor/amicro/scale-in.tsx",
+      "sha256": "71c1993bae0a674ac85f05f72a54c283b3457975a327e5e2f38e363d8e21cdd8",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "71c1993bae0a674ac85f05f72a54c283b3457975a327e5e2f38e363d8e21cdd8"
+    },
+    {
+      "library": "amicro",
+      "name": "zoom-in",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/zoom-in.json",
+      "file": "src/vendor/amicro/zoom-in.tsx",
+      "sha256": "6db6938e31c85f8c82972ee5b8cf1ab69b7f9d47c7eb9729cb35605b4729d3a8",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "6db6938e31c85f8c82972ee5b8cf1ab69b7f9d47c7eb9729cb35605b4729d3a8"
+    },
+    {
+      "library": "amicro",
+      "name": "text-reveal",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/text-reveal.json",
+      "file": "src/vendor/amicro/text-reveal.tsx",
+      "sha256": "d30b29cf5615697c69a8e01a9f27cd9a12c9d84283faa400ba661408259e85b3",
+      "modifications": "Type-only Motion compatibility annotations; runtime unchanged",
+      "dependencies": [],
+      "outputSha256": "d975e27a0f9da52af4f65dd8d34390bdbe0f4096dd835d483b95209ea8e56c38"
+    },
+    {
+      "library": "amicro",
+      "name": "word-reveal",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/word-reveal.json",
+      "file": "src/vendor/amicro/word-reveal.tsx",
+      "sha256": "ee0ea9f7f9a2757fe9b1a0d256a69c6ac4e3d178dce37f26e08ecdc383b6663b",
+      "modifications": "Type-only Motion compatibility annotations; runtime unchanged",
+      "dependencies": [],
+      "outputSha256": "8ea53774943814e240074b01e44b355f268bd656057c3be20be5aaf1d059fbe1"
+    },
+    {
+      "library": "amicro",
+      "name": "blur-text",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/blur-text.json",
+      "file": "src/vendor/amicro/blur-text.tsx",
+      "sha256": "d605b571d8a8b9ec9435d9d31040a652cb7e938fcfc1bdd8c0ea70353c3884d0",
+      "modifications": "Type-only Motion compatibility annotations; runtime unchanged",
+      "dependencies": [],
+      "outputSha256": "a49c6976d5be3b8302f3ca3e91cb9fccb153cf0fc26ec8cffe66a838ce44696f"
+    },
+    {
+      "library": "amicro",
+      "name": "character-stagger",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/character-stagger.json",
+      "file": "src/vendor/amicro/character-stagger.tsx",
+      "sha256": "b78171e681da6b1a861c4b17b7880a4d734bd3e4b3d8ca089dd1c4f241d1d01a",
+      "modifications": "Type-only Motion compatibility annotations; runtime unchanged",
+      "dependencies": [],
+      "outputSha256": "1af9130440d6b36fa82f544258fb6867399826ea7beaaa31f89384e18ba4f8a4"
+    },
+    {
+      "library": "amicro",
+      "name": "card-hover",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/card-hover.json",
+      "file": "src/vendor/amicro/card-hover.tsx",
+      "sha256": "fa041df1f99d0a276f5de3a70d220e82b7080be76e8b696a451ae3006ca46ab3",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "fa041df1f99d0a276f5de3a70d220e82b7080be76e8b696a451ae3006ca46ab3"
+    },
+    {
+      "library": "amicro",
+      "name": "tilt-card",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/tilt-card.json",
+      "file": "src/vendor/amicro/tilt-card.tsx",
+      "sha256": "b7aa2181e5e1c9030ababee4e0cbd295ba895f56334c380b81cefc52045aec1c",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "b7aa2181e5e1c9030ababee4e0cbd295ba895f56334c380b81cefc52045aec1c"
+    },
+    {
+      "library": "amicro",
+      "name": "magnetic-button",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/magnetic-button.json",
+      "file": "src/vendor/amicro/magnetic-button.tsx",
+      "sha256": "a5fb31df4e7d6661359b609ec5dcce8b0b891a55ea4e560d5a0cbcf99fdff850",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "a5fb31df4e7d6661359b609ec5dcce8b0b891a55ea4e560d5a0cbcf99fdff850"
+    },
+    {
+      "library": "amicro",
+      "name": "glow-button",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/glow-button.json",
+      "file": "src/vendor/amicro/glow-button.tsx",
+      "sha256": "57a2323422835bbaf3a42349e1b6febd831f85fe6b56727aff9d294f2c14a969",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "57a2323422835bbaf3a42349e1b6febd831f85fe6b56727aff9d294f2c14a969"
+    },
+    {
+      "library": "amicro",
+      "name": "cursor-trail",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/cursor-trail.json",
+      "file": "src/vendor/amicro/cursor-trail.tsx",
+      "sha256": "d78b00de89e9705ef5ce50f7d75d7ca150e6a5a9a9833833cda2b76dc248c07c",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "d78b00de89e9705ef5ce50f7d75d7ca150e6a5a9a9833833cda2b76dc248c07c"
+    },
+    {
+      "library": "amicro",
+      "name": "spotlight",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/spotlight.json",
+      "file": "src/vendor/amicro/spotlight.tsx",
+      "sha256": "1a6a3bc71f8e5c02c3406d897981fb4a672f3e46909c410ad9e95bf5c2ee0580",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "1a6a3bc71f8e5c02c3406d897981fb4a672f3e46909c410ad9e95bf5c2ee0580"
+    },
+    {
+      "library": "amicro",
+      "name": "mouse-follow",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/mouse-follow.json",
+      "file": "src/vendor/amicro/mouse-follow.tsx",
+      "sha256": "a58f8ede192c271032e78d532903e61a6086230d755d5188e05971cec3ed99e2",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "a58f8ede192c271032e78d532903e61a6086230d755d5188e05971cec3ed99e2"
+    },
+    {
+      "library": "amicro",
+      "name": "scroll-reveal",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/scroll-reveal.json",
+      "file": "src/vendor/amicro/scroll-reveal.tsx",
+      "sha256": "86028d88738655f185267520a59685e61dd3d8d0298d8ff916bc170483280967",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "86028d88738655f185267520a59685e61dd3d8d0298d8ff916bc170483280967"
+    },
+    {
+      "library": "amicro",
+      "name": "progress-indicator",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/progress-indicator.json",
+      "file": "src/vendor/amicro/progress-indicator.tsx",
+      "sha256": "c5895c5050253ba95e177716767beb75e61fee80b512a4ab95ae56c774402ec3",
+      "modifications": "Removed redundant duplicate style prop (same scaleX retained in full style object)",
+      "dependencies": [],
+      "outputSha256": "7e9a8442e2ff625650e0653046c94789d60e4ec3d116db3c15b2624d970179be"
+    },
+    {
+      "library": "amicro",
+      "name": "sticky-reveal",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/sticky-reveal.json",
+      "file": "src/vendor/amicro/sticky-reveal.tsx",
+      "sha256": "7abf4aaff50e98769a113f0318e7aeb032b56e5c1a304c6c39467de0e9b3bdad",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "7abf4aaff50e98769a113f0318e7aeb032b56e5c1a304c6c39467de0e9b3bdad"
+    },
+    {
+      "library": "amicro",
+      "name": "skeleton",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/skeleton.json",
+      "file": "src/vendor/amicro/skeleton.tsx",
+      "sha256": "5df1da949b0503a97e1d6e18bf6fd727cff60b255979006d406564d8698f2052",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "5df1da949b0503a97e1d6e18bf6fd727cff60b255979006d406564d8698f2052"
+    },
+    {
+      "library": "amicro",
+      "name": "pulse",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/pulse.json",
+      "file": "src/vendor/amicro/pulse.tsx",
+      "sha256": "54ab24b1c7760efff76385ba5067ffe94a02a4cb182c26731152b1da4704334b",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "54ab24b1c7760efff76385ba5067ffe94a02a4cb182c26731152b1da4704334b"
+    },
+    {
+      "library": "amicro",
+      "name": "morph-loader",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/morph-loader.json",
+      "file": "src/vendor/amicro/morph-loader.tsx",
+      "sha256": "78961b1843edae8e3378a5ceffa80b3d67a4150460b20903feb9e5b8d5ec3037",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "78961b1843edae8e3378a5ceffa80b3d67a4150460b20903feb9e5b8d5ec3037"
+    },
+    {
+      "library": "amicro",
+      "name": "accordion-loader",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/accordion-loader.json",
+      "file": "src/vendor/amicro/accordion-loader.tsx",
+      "sha256": "ce254d1b3c71b5405de1c6056468f40ce8f6d7adeaea8669f698fb47ea1bf093",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "ce254d1b3c71b5405de1c6056468f40ce8f6d7adeaea8669f698fb47ea1bf093"
+    },
+    {
+      "library": "amicro",
+      "name": "app-icon-load",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/app-icon-load.json",
+      "file": "src/vendor/amicro/app-icon-load.tsx",
+      "sha256": "e4ff3a678058dab7641df29264f83f74d60b4def5d2352290223e7460b719764",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "e4ff3a678058dab7641df29264f83f74d60b4def5d2352290223e7460b719764"
+    },
+    {
+      "library": "amicro",
+      "name": "apple-breathe",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/apple-breathe.json",
+      "file": "src/vendor/amicro/apple-breathe.tsx",
+      "sha256": "60b936a782a664eaf62bffa2743e2a71e7a56f3cd6f9f1a62adcdedb88e731ce",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "60b936a782a664eaf62bffa2743e2a71e7a56f3cd6f9f1a62adcdedb88e731ce"
+    },
+    {
+      "library": "amicro",
+      "name": "apple-equalizer",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/apple-equalizer.json",
+      "file": "src/vendor/amicro/apple-equalizer.tsx",
+      "sha256": "040ad17bc011c5ca47410e015e49c896a144ccf1bf45d776dd0d08b584aab04a",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "040ad17bc011c5ca47410e015e49c896a144ccf1bf45d776dd0d08b584aab04a"
+    },
+    {
+      "library": "amicro",
+      "name": "apple-icon-morph",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/apple-icon-morph.json",
+      "file": "src/vendor/amicro/apple-icon-morph.tsx",
+      "sha256": "2a16f51ea2df732b5374da73e754db4c245f4b34d0a3e9b7caf04463bc5274bf",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "2a16f51ea2df732b5374da73e754db4c245f4b34d0a3e9b7caf04463bc5274bf"
+    },
+    {
+      "library": "amicro",
+      "name": "apple-pulse-dots",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/apple-pulse-dots.json",
+      "file": "src/vendor/amicro/apple-pulse-dots.tsx",
+      "sha256": "feb973ea7314c49364101b8a960c46014ee627ad1b2d089c66b400b412a916b6",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "feb973ea7314c49364101b8a960c46014ee627ad1b2d089c66b400b412a916b6"
+    },
+    {
+      "library": "amicro",
+      "name": "apple-scale-pulse",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/apple-scale-pulse.json",
+      "file": "src/vendor/amicro/apple-scale-pulse.tsx",
+      "sha256": "693c38d064b98417fd077eabf67cf8436a3b68118d173e7e1b2cd792d4690a2f",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "693c38d064b98417fd077eabf67cf8436a3b68118d173e7e1b2cd792d4690a2f"
+    },
+    {
+      "library": "amicro",
+      "name": "apple-sound-wave",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/apple-sound-wave.json",
+      "file": "src/vendor/amicro/apple-sound-wave.tsx",
+      "sha256": "34e65d39ab2a378f5a71e2f4c66693d53461055fc225d0b71a53adbe22780b02",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "34e65d39ab2a378f5a71e2f4c66693d53461055fc225d0b71a53adbe22780b02"
+    },
+    {
+      "library": "amicro",
+      "name": "apple-text-reveal",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/apple-text-reveal.json",
+      "file": "src/vendor/amicro/apple-text-reveal.tsx",
+      "sha256": "269dc578613dbef045a8e3ebc0219e416d8e72b51c0338b5a938f9c1c9acfe08",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "269dc578613dbef045a8e3ebc0219e416d8e72b51c0338b5a938f9c1c9acfe08"
+    },
+    {
+      "library": "amicro",
+      "name": "apple-unlock",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/apple-unlock.json",
+      "file": "src/vendor/amicro/apple-unlock.tsx",
+      "sha256": "32f1b869ed6074ccd3493e1fe5d664c01c9653af50296cada66c673476708085",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "32f1b869ed6074ccd3493e1fe5d664c01c9653af50296cada66c673476708085"
+    },
+    {
+      "library": "amicro",
+      "name": "arc-tracer",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/arc-tracer.json",
+      "file": "src/vendor/amicro/arc-tracer.tsx",
+      "sha256": "5e1e6a1673061cda4a8666e20da14fb846314ed96a34cd2c7f70c0f69cfaaab3",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "5e1e6a1673061cda4a8666e20da14fb846314ed96a34cd2c7f70c0f69cfaaab3"
+    },
+    {
+      "library": "amicro",
+      "name": "bar-cascade",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/bar-cascade.json",
+      "file": "src/vendor/amicro/bar-cascade.tsx",
+      "sha256": "e72e9209d68ec543d001564a1845eb80f2570948272fb28c1f42f02140afd84b",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "e72e9209d68ec543d001564a1845eb80f2570948272fb28c1f42f02140afd84b"
+    },
+    {
+      "library": "amicro",
+      "name": "bar-sweep",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/bar-sweep.json",
+      "file": "src/vendor/amicro/bar-sweep.tsx",
+      "sha256": "e33c374cc0490cb873f16cb03930586f6d95603d4707601110a4abbd2b1ee7ff",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "e33c374cc0490cb873f16cb03930586f6d95603d4707601110a4abbd2b1ee7ff"
+    },
+    {
+      "library": "amicro",
+      "name": "bobbing-dots",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/bobbing-dots.json",
+      "file": "src/vendor/amicro/bobbing-dots.tsx",
+      "sha256": "6cd482c568901c7adf661d78d90bc5a35248ddaa71264120f654fef6bf14c1d5",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "6cd482c568901c7adf661d78d90bc5a35248ddaa71264120f654fef6bf14c1d5"
+    },
+    {
+      "library": "amicro",
+      "name": "bounce-dots",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/bounce-dots.json",
+      "file": "src/vendor/amicro/bounce-dots.tsx",
+      "sha256": "a9119d7f69bae04109c3fecdb645c66446233fd87bc1f39909655cad13450014",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "a9119d7f69bae04109c3fecdb645c66446233fd87bc1f39909655cad13450014"
+    },
+    {
+      "library": "amicro",
+      "name": "bouncing-bars",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/bouncing-bars.json",
+      "file": "src/vendor/amicro/bouncing-bars.tsx",
+      "sha256": "76919e5cb367b1c9db444bc3dd4887254c996ef1040769f07f6ce5320cf26fb8",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "76919e5cb367b1c9db444bc3dd4887254c996ef1040769f07f6ce5320cf26fb8"
+    },
+    {
+      "library": "amicro",
+      "name": "bouncing-dots",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/bouncing-dots.json",
+      "file": "src/vendor/amicro/bouncing-dots.tsx",
+      "sha256": "90bb8f8b3039f15e6c8e4556a252ab335e5edde1dc096fdc9f383d3083596f08",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "90bb8f8b3039f15e6c8e4556a252ab335e5edde1dc096fdc9f383d3083596f08"
+    },
+    {
+      "library": "amicro",
+      "name": "bouncing-lines",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/bouncing-lines.json",
+      "file": "src/vendor/amicro/bouncing-lines.tsx",
+      "sha256": "713e476dd54b549478f9c9f236c7de48a193a20a6f2b610fb81a9a215ec54262",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "713e476dd54b549478f9c9f236c7de48a193a20a6f2b610fb81a9a215ec54262"
+    },
+    {
+      "library": "amicro",
+      "name": "bouncing-square",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/bouncing-square.json",
+      "file": "src/vendor/amicro/bouncing-square.tsx",
+      "sha256": "c841ddea75795481a5190eea5b206b42f8ba4a33c245fd308e4630a51c0afba1",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "c841ddea75795481a5190eea5b206b42f8ba4a33c245fd308e4630a51c0afba1"
+    },
+    {
+      "library": "amicro",
+      "name": "breathe-ring",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/breathe-ring.json",
+      "file": "src/vendor/amicro/breathe-ring.tsx",
+      "sha256": "d6cc30c27ffd2175d5825afbd80afd076c74bdb199c845d892e04e6f3b879661",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "d6cc30c27ffd2175d5825afbd80afd076c74bdb199c845d892e04e6f3b879661"
+    },
+    {
+      "library": "amicro",
+      "name": "breathing-glow",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/breathing-glow.json",
+      "file": "src/vendor/amicro/breathing-glow.tsx",
+      "sha256": "59b5b1db8136aa2835f5309ae1a6299c4dc6946a4224f38efa63439bcc79ee10",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "59b5b1db8136aa2835f5309ae1a6299c4dc6946a4224f38efa63439bcc79ee10"
+    },
+    {
+      "library": "amicro",
+      "name": "breathing-square",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/breathing-square.json",
+      "file": "src/vendor/amicro/breathing-square.tsx",
+      "sha256": "5bdef19fc534a7c87372333bf5b726e324f8d528516ad2c69b04d9b52588175f",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "5bdef19fc534a7c87372333bf5b726e324f8d528516ad2c69b04d9b52588175f"
+    },
+    {
+      "library": "amicro",
+      "name": "circular-bars",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/circular-bars.json",
+      "file": "src/vendor/amicro/circular-bars.tsx",
+      "sha256": "1a7e2288acfa97b1bb0258d33fc0159b70378771b67f81e42ee53416333b0105",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "1a7e2288acfa97b1bb0258d33fc0159b70378771b67f81e42ee53416333b0105"
+    },
+    {
+      "library": "amicro",
+      "name": "classic-spinner",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/classic-spinner.json",
+      "file": "src/vendor/amicro/classic-spinner.tsx",
+      "sha256": "64e24942a45910a130a412e39183a1cd398d73cfe48097603bbe3b440ef6c94d",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "64e24942a45910a130a412e39183a1cd398d73cfe48097603bbe3b440ef6c94d"
+    },
+    {
+      "library": "amicro",
+      "name": "clock-spinner",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/clock-spinner.json",
+      "file": "src/vendor/amicro/clock-spinner.tsx",
+      "sha256": "185967b509299d9617779598ff923cd7d1f2dbe3db19bbde29aa88554d3a7a94",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "185967b509299d9617779598ff923cd7d1f2dbe3db19bbde29aa88554d3a7a94"
+    },
+    {
+      "library": "amicro",
+      "name": "comet-spinner",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/comet-spinner.json",
+      "file": "src/vendor/amicro/comet-spinner.tsx",
+      "sha256": "ca307ca7342c07c79f64de84bf08073ca56debe6047b268b34e939a8a904b8bc",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "ca307ca7342c07c79f64de84bf08073ca56debe6047b268b34e939a8a904b8bc"
+    },
+    {
+      "library": "amicro",
+      "name": "concentric-pulse",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/concentric-pulse.json",
+      "file": "src/vendor/amicro/concentric-pulse.tsx",
+      "sha256": "aef4a2e89802467aa8ae3c08fabe2e82a0c4f83555142109236c6d3e7bc6417f",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "aef4a2e89802467aa8ae3c08fabe2e82a0c4f83555142109236c6d3e7bc6417f"
+    },
+    {
+      "library": "amicro",
+      "name": "concentric-ring",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/concentric-ring.json",
+      "file": "src/vendor/amicro/concentric-ring.tsx",
+      "sha256": "3a2f5670770039a4fc0c23889f738796beacead20a311f64310385aa7220823b",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "3a2f5670770039a4fc0c23889f738796beacead20a311f64310385aa7220823b"
+    },
+    {
+      "library": "amicro",
+      "name": "concentric-squares",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/concentric-squares.json",
+      "file": "src/vendor/amicro/concentric-squares.tsx",
+      "sha256": "91e8e844ca21fc2b26ca8f6f98d3be63123ba4f893dd3f416dd606c6bb13ff21",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "91e8e844ca21fc2b26ca8f6f98d3be63123ba4f893dd3f416dd606c6bb13ff21"
+    },
+    {
+      "library": "amicro",
+      "name": "conveyor-loop",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/conveyor-loop.json",
+      "file": "src/vendor/amicro/conveyor-loop.tsx",
+      "sha256": "47553cd8cec4ceaeee59ddcac128e9c56b0c6d93630a6fb5037a3acaecc951cb",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "47553cd8cec4ceaeee59ddcac128e9c56b0c6d93630a6fb5037a3acaecc951cb"
+    },
+    {
+      "library": "amicro",
+      "name": "cross-spinner",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/cross-spinner.json",
+      "file": "src/vendor/amicro/cross-spinner.tsx",
+      "sha256": "e66f9075d25ef25f6ec727a0ae8a7ecec8c212dadbd6cd95f8adc3358dad7a65",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "e66f9075d25ef25f6ec727a0ae8a7ecec8c212dadbd6cd95f8adc3358dad7a65"
+    },
+    {
+      "library": "amicro",
+      "name": "cube-flip-spring",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/cube-flip-spring.json",
+      "file": "src/vendor/amicro/cube-flip-spring.tsx",
+      "sha256": "00b964c9fe4ffedbf36245cc5bb7b44f14a0377066921ff433c07b270b6691b9",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "00b964c9fe4ffedbf36245cc5bb7b44f14a0377066921ff433c07b270b6691b9"
+    },
+    {
+      "library": "amicro",
+      "name": "dash-ring",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/dash-ring.json",
+      "file": "src/vendor/amicro/dash-ring.tsx",
+      "sha256": "9ce10b686573db65ea3d3de5049f0729b975cfe011c5d87d0885ed577fdb9877",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "9ce10b686573db65ea3d3de5049f0729b975cfe011c5d87d0885ed577fdb9877"
+    },
+    {
+      "library": "amicro",
+      "name": "dashed-spiral",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/dashed-spiral.json",
+      "file": "src/vendor/amicro/dashed-spiral.tsx",
+      "sha256": "f857b4c977a7c4fe466a88ce9b7df48733c77449e691fbae7f3cb9895ffdb41f",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "f857b4c977a7c4fe466a88ce9b7df48733c77449e691fbae7f3cb9895ffdb41f"
+    },
+    {
+      "library": "amicro",
+      "name": "diamond-grid",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/diamond-grid.json",
+      "file": "src/vendor/amicro/diamond-grid.tsx",
+      "sha256": "d1758f49bff6aef43d81487988da7174706fcac27594954d05c4f8b100b24cf4",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "d1758f49bff6aef43d81487988da7174706fcac27594954d05c4f8b100b24cf4"
+    },
+    {
+      "library": "amicro",
+      "name": "diamond-rotate-spring",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/diamond-rotate-spring.json",
+      "file": "src/vendor/amicro/diamond-rotate-spring.tsx",
+      "sha256": "858e2f39451550aa2ecde45c3609ba7fbdbff528355710b24e433ac087601a21",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "858e2f39451550aa2ecde45c3609ba7fbdbff528355710b24e433ac087601a21"
+    },
+    {
+      "library": "amicro",
+      "name": "dot-spinner",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/dot-spinner.json",
+      "file": "src/vendor/amicro/dot-spinner.tsx",
+      "sha256": "cbd74d6e5147b1f9f22e057a9e0eaee22cc63b98dd0760e5f01b7f10361947c8",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "cbd74d6e5147b1f9f22e057a9e0eaee22cc63b98dd0760e5f01b7f10361947c8"
+    },
+    {
+      "library": "amicro",
+      "name": "dots-ring",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/dots-ring.json",
+      "file": "src/vendor/amicro/dots-ring.tsx",
+      "sha256": "ccf6f092fbfae0e123e24d60515b6eeec8bc5baceb6ccf713635c93e41601f8f",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "ccf6f092fbfae0e123e24d60515b6eeec8bc5baceb6ccf713635c93e41601f8f"
+    },
+    {
+      "library": "amicro",
+      "name": "double-ring",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/double-ring.json",
+      "file": "src/vendor/amicro/double-ring.tsx",
+      "sha256": "00b3e5bea52f64b9cc9e2e5736dbfb9dff122ea38cb7031480d49538532c8dbb",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "00b3e5bea52f64b9cc9e2e5736dbfb9dff122ea38cb7031480d49538532c8dbb"
+    },
+    {
+      "library": "amicro",
+      "name": "drop-dot",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/drop-dot.json",
+      "file": "src/vendor/amicro/drop-dot.tsx",
+      "sha256": "01de189ce33a6cc3719a6a7172463ee8313617d09c9b2e21efe880411d1c0ba5",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "01de189ce33a6cc3719a6a7172463ee8313617d09c9b2e21efe880411d1c0ba5"
+    },
+    {
+      "library": "amicro",
+      "name": "dual-arc",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/dual-arc.json",
+      "file": "src/vendor/amicro/dual-arc.tsx",
+      "sha256": "dbf119b98ef8130a43ea429a6aecaf3c00d9023996b7b7bb25ab5b6ca19713f8",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "dbf119b98ef8130a43ea429a6aecaf3c00d9023996b7b7bb25ab5b6ca19713f8"
+    },
+    {
+      "library": "amicro",
+      "name": "dynamic-island",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/dynamic-island.json",
+      "file": "src/vendor/amicro/dynamic-island.tsx",
+      "sha256": "45a0d5f1e1e62e3271afb77a96d7b2a88c245755ab4b94da6e169f7c341ca9bb",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "45a0d5f1e1e62e3271afb77a96d7b2a88c245755ab4b94da6e169f7c341ca9bb"
+    },
+    {
+      "library": "amicro",
+      "name": "elastic-bars",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/elastic-bars.json",
+      "file": "src/vendor/amicro/elastic-bars.tsx",
+      "sha256": "afa4e54245a42ee383aacfe5e8e02cbb0ae823d18fe27a37b305752e3b5135be",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "afa4e54245a42ee383aacfe5e8e02cbb0ae823d18fe27a37b305752e3b5135be"
+    },
+    {
+      "library": "amicro",
+      "name": "elastic-square",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/elastic-square.json",
+      "file": "src/vendor/amicro/elastic-square.tsx",
+      "sha256": "8b0bda69c9242cea54ad519420dc0f3881493a358290460e5acac2054511cba0",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "8b0bda69c9242cea54ad519420dc0f3881493a358290460e5acac2054511cba0"
+    },
+    {
+      "library": "amicro",
+      "name": "expanding-cross",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/expanding-cross.json",
+      "file": "src/vendor/amicro/expanding-cross.tsx",
+      "sha256": "928cf08687a27333a06e41bc893fe4d02eb93f8ba576475a09974efd23a6971e",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "928cf08687a27333a06e41bc893fe4d02eb93f8ba576475a09974efd23a6971e"
+    },
+    {
+      "library": "amicro",
+      "name": "face-id-scan",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/face-id-scan.json",
+      "file": "src/vendor/amicro/face-id-scan.tsx",
+      "sha256": "b2244562967a2d650c78039d0f1cc6bcf14fe62e021a076c047713e3e59d5207",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "b2244562967a2d650c78039d0f1cc6bcf14fe62e021a076c047713e3e59d5207"
+    },
+    {
+      "library": "amicro",
+      "name": "fade-arc",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/fade-arc.json",
+      "file": "src/vendor/amicro/fade-arc.tsx",
+      "sha256": "753c32c1c07ddaa3ca2c74050ddce4cac26e07fa0c589e42a6b321888304ac95",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "753c32c1c07ddaa3ca2c74050ddce4cac26e07fa0c589e42a6b321888304ac95"
+    },
+    {
+      "library": "amicro",
+      "name": "fade-dots",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/fade-dots.json",
+      "file": "src/vendor/amicro/fade-dots.tsx",
+      "sha256": "002cb7d2583ba8127ceb2de0d9f5c0aa8514a4325ce598124b753377e507709c",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "002cb7d2583ba8127ceb2de0d9f5c0aa8514a4325ce598124b753377e507709c"
+    },
+    {
+      "library": "amicro",
+      "name": "flip-square",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/flip-square.json",
+      "file": "src/vendor/amicro/flip-square.tsx",
+      "sha256": "66f7ebbf6583f1bc32b29d668bc6d2bfa41a9a9b555eac0b06ae1bc3e620c3e7",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "66f7ebbf6583f1bc32b29d668bc6d2bfa41a9a9b555eac0b06ae1bc3e620c3e7"
+    },
+    {
+      "library": "amicro",
+      "name": "floating-diamonds",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/floating-diamonds.json",
+      "file": "src/vendor/amicro/floating-diamonds.tsx",
+      "sha256": "3ffb7166eeddc2257190e8f4bf70e564b809a121fd1d3f79f558fe985c46dce4",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "3ffb7166eeddc2257190e8f4bf70e564b809a121fd1d3f79f558fe985c46dce4"
+    },
+    {
+      "library": "amicro",
+      "name": "fluid-bars",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/fluid-bars.json",
+      "file": "src/vendor/amicro/fluid-bars.tsx",
+      "sha256": "9c8fb250ec7a3bf06bbb1776fd64d77ef909afa26dfd10e06ddbe225752cb2f5",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "9c8fb250ec7a3bf06bbb1776fd64d77ef909afa26dfd10e06ddbe225752cb2f5"
+    },
+    {
+      "library": "amicro",
+      "name": "fluid-diamond",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/fluid-diamond.json",
+      "file": "src/vendor/amicro/fluid-diamond.tsx",
+      "sha256": "7b9fdeb59338acb849edc23d88779130ad5eb6ae82264eed8ca2aa37fec9e82e",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "7b9fdeb59338acb849edc23d88779130ad5eb6ae82264eed8ca2aa37fec9e82e"
+    },
+    {
+      "library": "amicro",
+      "name": "fluid-dot-orbit",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/fluid-dot-orbit.json",
+      "file": "src/vendor/amicro/fluid-dot-orbit.tsx",
+      "sha256": "4ef4844c459264e0c1559c050524cbb5e9cf516d34ffa4ef4acf2e5a550582cb",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "4ef4844c459264e0c1559c050524cbb5e9cf516d34ffa4ef4acf2e5a550582cb"
+    },
+    {
+      "library": "amicro",
+      "name": "fluid-skeleton",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/fluid-skeleton.json",
+      "file": "src/vendor/amicro/fluid-skeleton.tsx",
+      "sha256": "73ae93803522b5782bf7360858142c27b6f0c0c73711e2f5eba94f4f0fb5ea2b",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "73ae93803522b5782bf7360858142c27b6f0c0c73711e2f5eba94f4f0fb5ea2b"
+    },
+    {
+      "library": "amicro",
+      "name": "gears",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/gears.json",
+      "file": "src/vendor/amicro/gears.tsx",
+      "sha256": "92ff87d1d4e48019d44dadf4ffad99df59cab4696d45a6e7c7668f59af204706",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "92ff87d1d4e48019d44dadf4ffad99df59cab4696d45a6e7c7668f59af204706"
+    },
+    {
+      "library": "amicro",
+      "name": "glassmorphic-card",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/glassmorphic-card.json",
+      "file": "src/vendor/amicro/glassmorphic-card.tsx",
+      "sha256": "6bf9e6288c99b8020d80efadf0feb20d37871a030fbe8aeef9e6aa586413425a",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "6bf9e6288c99b8020d80efadf0feb20d37871a030fbe8aeef9e6aa586413425a"
+    },
+    {
+      "library": "amicro",
+      "name": "gradient-arc",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/gradient-arc.json",
+      "file": "src/vendor/amicro/gradient-arc.tsx",
+      "sha256": "5fbbb4b9d18764ace8c4cff6fb45615f3702358f47d4a55ecf9bf423230ce781",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "5fbbb4b9d18764ace8c4cff6fb45615f3702358f47d4a55ecf9bf423230ce781"
+    },
+    {
+      "library": "amicro",
+      "name": "grid-dots",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/grid-dots.json",
+      "file": "src/vendor/amicro/grid-dots.tsx",
+      "sha256": "4b9c8cbb3ae4cc634b16cbddf891501fdda2e1a6c0e8ce930962605f48342c1f",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "4b9c8cbb3ae4cc634b16cbddf891501fdda2e1a6c0e8ce930962605f48342c1f"
+    },
+    {
+      "library": "amicro",
+      "name": "haptic-ring",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/haptic-ring.json",
+      "file": "src/vendor/amicro/haptic-ring.tsx",
+      "sha256": "db664b528e516fe19e733e7abce967624bce4e0d471858a71a9f1ccb25a9bc86",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "db664b528e516fe19e733e7abce967624bce4e0d471858a71a9f1ccb25a9bc86"
+    },
+    {
+      "library": "amicro",
+      "name": "heartbeat",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/heartbeat.json",
+      "file": "src/vendor/amicro/heartbeat.tsx",
+      "sha256": "89ff1d66d541f7e197e43402426cc336decaa0cf9f55bdd7d3beec29ca058756",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "89ff1d66d541f7e197e43402426cc336decaa0cf9f55bdd7d3beec29ca058756"
+    },
+    {
+      "library": "amicro",
+      "name": "hexagon-spinner",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/hexagon-spinner.json",
+      "file": "src/vendor/amicro/hexagon-spinner.tsx",
+      "sha256": "2f0994d29913a0e967d8bd0aee953e4787335e0de1867f0b7e51eb4dc6037aad",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "2f0994d29913a0e967d8bd0aee953e4787335e0de1867f0b7e51eb4dc6037aad"
+    },
+    {
+      "library": "amicro",
+      "name": "hourglass",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/hourglass.json",
+      "file": "src/vendor/amicro/hourglass.tsx",
+      "sha256": "2b0a4e8ccb3ab729f92519a25b2428e46682bf935012719683edc079fce40160",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "2b0a4e8ccb3ab729f92519a25b2428e46682bf935012719683edc079fce40160"
+    },
+    {
+      "library": "amicro",
+      "name": "infinity-path",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/infinity-path.json",
+      "file": "src/vendor/amicro/infinity-path.tsx",
+      "sha256": "a473568fd4b2eeeae9ec04c0b757286d91e17c0920a8551385500e63dec425c8",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "a473568fd4b2eeeae9ec04c0b757286d91e17c0920a8551385500e63dec425c8"
+    },
+    {
+      "library": "amicro",
+      "name": "intersecting-rings",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/intersecting-rings.json",
+      "file": "src/vendor/amicro/intersecting-rings.tsx",
+      "sha256": "6e3de809f9193f759c17a99e9af094894a0740e3a06e231486b46a8c7284976f",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "6e3de809f9193f759c17a99e9af094894a0740e3a06e231486b46a8c7284976f"
+    },
+    {
+      "library": "amicro",
+      "name": "ios-spinner",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/ios-spinner.json",
+      "file": "src/vendor/amicro/ios-spinner.tsx",
+      "sha256": "e6a5b78c94659b08007f0b49be1d64601923d9e1b19b7e9613f64561d8c793a5",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "e6a5b78c94659b08007f0b49be1d64601923d9e1b19b7e9613f64561d8c793a5"
+    },
+    {
+      "library": "amicro",
+      "name": "line-spinner",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/line-spinner.json",
+      "file": "src/vendor/amicro/line-spinner.tsx",
+      "sha256": "60f4157c745f86a2dd7faac117bd81fc6af184e6cf7073f1008786d68d39cdcd",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "60f4157c745f86a2dd7faac117bd81fc6af184e6cf7073f1008786d68d39cdcd"
+    },
+    {
+      "library": "amicro",
+      "name": "liquid-dots",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/liquid-dots.json",
+      "file": "src/vendor/amicro/liquid-dots.tsx",
+      "sha256": "f10e7dcbfd21d42fb525b4e51b83770b6dbf628b1f9435cc1b4b6c701ef7e8d8",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "f10e7dcbfd21d42fb525b4e51b83770b6dbf628b1f9435cc1b4b6c701ef7e8d8"
+    },
+    {
+      "library": "amicro",
+      "name": "mac-terminal",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/mac-terminal.json",
+      "file": "src/vendor/amicro/mac-terminal.tsx",
+      "sha256": "6c017bb88237349cb84666336d019f2f50afd0b3cef43ab50c738dace2bf930b",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "6c017bb88237349cb84666336d019f2f50afd0b3cef43ab50c738dace2bf930b"
+    },
+    {
+      "library": "amicro",
+      "name": "magnetic-dots",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/magnetic-dots.json",
+      "file": "src/vendor/amicro/magnetic-dots.tsx",
+      "sha256": "acef46ce4fe0ea7e252b8bbaddb5ec26cce019beb24382ec10ffa56ba552c040",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "acef46ce4fe0ea7e252b8bbaddb5ec26cce019beb24382ec10ffa56ba552c040"
+    },
+    {
+      "library": "amicro",
+      "name": "minimal-triangle",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/minimal-triangle.json",
+      "file": "src/vendor/amicro/minimal-triangle.tsx",
+      "sha256": "e62e3f3c86278dd4109ccf786aa1324ab9301c62e193787014d5c50880348d49",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "e62e3f3c86278dd4109ccf786aa1324ab9301c62e193787014d5c50880348d49"
+    },
+    {
+      "library": "amicro",
+      "name": "morph-dot-ring",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/morph-dot-ring.json",
+      "file": "src/vendor/amicro/morph-dot-ring.tsx",
+      "sha256": "c61bd64c4ba4222a0ae2e3c6fefd4d78cbbac541bb007d30b193850c7d76e436",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "c61bd64c4ba4222a0ae2e3c6fefd4d78cbbac541bb007d30b193850c7d76e436"
+    },
+    {
+      "library": "amicro",
+      "name": "morphing-bars",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/morphing-bars.json",
+      "file": "src/vendor/amicro/morphing-bars.tsx",
+      "sha256": "3bbdde7990df0d84fdf830248759a3edef70966e6291e66116ec507ea9728677",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "3bbdde7990df0d84fdf830248759a3edef70966e6291e66116ec507ea9728677"
+    },
+    {
+      "library": "amicro",
+      "name": "morphing-infinity",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/morphing-infinity.json",
+      "file": "src/vendor/amicro/morphing-infinity.tsx",
+      "sha256": "2588820f3fdf0d400625ae5ca5b0a729b0aac4d189837eb94d2375fb37dc42c0",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "2588820f3fdf0d400625ae5ca5b0a729b0aac4d189837eb94d2375fb37dc42c0"
+    },
+    {
+      "library": "amicro",
+      "name": "morphing-ring",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/morphing-ring.json",
+      "file": "src/vendor/amicro/morphing-ring.tsx",
+      "sha256": "c9ddb680452a0589abe4d94dd01de606ec65c07482f70e3bc19e086480726ca1",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "c9ddb680452a0589abe4d94dd01de606ec65c07482f70e3bc19e086480726ca1"
+    },
+    {
+      "library": "amicro",
+      "name": "morphing-shape",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/morphing-shape.json",
+      "file": "src/vendor/amicro/morphing-shape.tsx",
+      "sha256": "6c8960ccb9d197a847376c732859b319a8c7903fcd99617366df103d9d466848",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "6c8960ccb9d197a847376c732859b319a8c7903fcd99617366df103d9d466848"
+    },
+    {
+      "library": "amicro",
+      "name": "newtons-cradle",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/newtons-cradle.json",
+      "file": "src/vendor/amicro/newtons-cradle.tsx",
+      "sha256": "0ff5f01a73d818465c7cd0728cc9a0699afbc3bcee4236f045adff87f614a0c6",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "0ff5f01a73d818465c7cd0728cc9a0699afbc3bcee4236f045adff87f614a0c6"
+    },
+    {
+      "library": "amicro",
+      "name": "offset-rings",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/offset-rings.json",
+      "file": "src/vendor/amicro/offset-rings.tsx",
+      "sha256": "763907f2c12ec8a6c665cd94054be433b32f682903eef406cfedab7254813192",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "763907f2c12ec8a6c665cd94054be433b32f682903eef406cfedab7254813192"
+    },
+    {
+      "library": "amicro",
+      "name": "orbiting-circles",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/orbiting-circles.json",
+      "file": "src/vendor/amicro/orbiting-circles.tsx",
+      "sha256": "97a018bbd2ed75eb07e94bc1b1c4594bab6ff39e218d03a106b8921671b804d3",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "97a018bbd2ed75eb07e94bc1b1c4594bab6ff39e218d03a106b8921671b804d3"
+    },
+    {
+      "library": "amicro",
+      "name": "orbiting-dot",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/orbiting-dot.json",
+      "file": "src/vendor/amicro/orbiting-dot.tsx",
+      "sha256": "dd13e188e0dcda6936bd14a065a810ca2cec16be0482e20c07b8c458631bd24e",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "dd13e188e0dcda6936bd14a065a810ca2cec16be0482e20c07b8c458631bd24e"
+    },
+    {
+      "library": "amicro",
+      "name": "origami-shape",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/origami-shape.json",
+      "file": "src/vendor/amicro/origami-shape.tsx",
+      "sha256": "93333dc33ed3afc46853db89450e3e3ba0a6bff869eaf02ac6a477cbcef57687",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "93333dc33ed3afc46853db89450e3e3ba0a6bff869eaf02ac6a477cbcef57687"
+    },
+    {
+      "library": "amicro",
+      "name": "pendulum",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/pendulum.json",
+      "file": "src/vendor/amicro/pendulum.tsx",
+      "sha256": "2d521647c601f0c787302145929b6ce55434d676ec4002e8e467348a1a3c4596",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "2d521647c601f0c787302145929b6ce55434d676ec4002e8e467348a1a3c4596"
+    },
+    {
+      "library": "amicro",
+      "name": "pulsating-dots",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/pulsating-dots.json",
+      "file": "src/vendor/amicro/pulsating-dots.tsx",
+      "sha256": "cfa2b32e76ae2a33a73e37213af1860e3d427c9e9c1eb490b106d0d913a7ac55",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "cfa2b32e76ae2a33a73e37213af1860e3d427c9e9c1eb490b106d0d913a7ac55"
+    },
+    {
+      "library": "amicro",
+      "name": "pulse-dot",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/pulse-dot.json",
+      "file": "src/vendor/amicro/pulse-dot.tsx",
+      "sha256": "92280626088e8538c981e93a2f90c019711dd838adb14483af143e286150af58",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "92280626088e8538c981e93a2f90c019711dd838adb14483af143e286150af58"
+    },
+    {
+      "library": "amicro",
+      "name": "pulse-dots",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/pulse-dots.json",
+      "file": "src/vendor/amicro/pulse-dots.tsx",
+      "sha256": "1dfd0ff5d4349dd6bb303c8caedcc784ecf0ab3c434e26edcb4920bc7aa1645a",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "1dfd0ff5d4349dd6bb303c8caedcc784ecf0ab3c434e26edcb4920bc7aa1645a"
+    },
+    {
+      "library": "amicro",
+      "name": "pulse-square",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/pulse-square.json",
+      "file": "src/vendor/amicro/pulse-square.tsx",
+      "sha256": "574e8912332d2f823b75605cf6d4f4a0687ffc4b4a6598e856beee03571e175b",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "574e8912332d2f823b75605cf6d4f4a0687ffc4b4a6598e856beee03571e175b"
+    },
+    {
+      "library": "amicro",
+      "name": "pumping-heart",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/pumping-heart.json",
+      "file": "src/vendor/amicro/pumping-heart.tsx",
+      "sha256": "de896b9c52991e32d40898d2802599c086da508899b2d506ea0055baddd17e8f",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "de896b9c52991e32d40898d2802599c086da508899b2d506ea0055baddd17e8f"
+    },
+    {
+      "library": "amicro",
+      "name": "radar-sweep",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/radar-sweep.json",
+      "file": "src/vendor/amicro/radar-sweep.tsx",
+      "sha256": "38142d97d9dd4daaead2fdf46f5b147a0ff1879aa8181f6debdbe6bd8c6a5aec",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "38142d97d9dd4daaead2fdf46f5b147a0ff1879aa8181f6debdbe6bd8c6a5aec"
+    },
+    {
+      "library": "amicro",
+      "name": "ring-sweep",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/ring-sweep.json",
+      "file": "src/vendor/amicro/ring-sweep.tsx",
+      "sha256": "1a3cf4217d6497b5842c81808905be214c75a48e219d16baec93bf57f587426f",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "1a3cf4217d6497b5842c81808905be214c75a48e219d16baec93bf57f587426f"
+    },
+    {
+      "library": "amicro",
+      "name": "ripple-effect",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/ripple-effect.json",
+      "file": "src/vendor/amicro/ripple-effect.tsx",
+      "sha256": "f38cb71f54ca7d2d85cabaed358ce8a4ecc8ba689f02e41efc48c69d2ce605cc",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "f38cb71f54ca7d2d85cabaed358ce8a4ecc8ba689f02e41efc48c69d2ce605cc"
+    },
+    {
+      "library": "amicro",
+      "name": "rotating-cross",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/rotating-cross.json",
+      "file": "src/vendor/amicro/rotating-cross.tsx",
+      "sha256": "09ee99f638891c8cf623e7381cd6d8953506b076f9d090b99b4cd1364498ff0d",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "09ee99f638891c8cf623e7381cd6d8953506b076f9d090b99b4cd1364498ff0d"
+    },
+    {
+      "library": "amicro",
+      "name": "rotating-triangle",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/rotating-triangle.json",
+      "file": "src/vendor/amicro/rotating-triangle.tsx",
+      "sha256": "ec1a6e7502010955d87c10ab5f1cd087a746e2778e472cd0597c276e21e83398",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "ec1a6e7502010955d87c10ab5f1cd087a746e2778e472cd0597c276e21e83398"
+    },
+    {
+      "library": "amicro",
+      "name": "shape-shift-grid",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/shape-shift-grid.json",
+      "file": "src/vendor/amicro/shape-shift-grid.tsx",
+      "sha256": "3a05a0d801b0b10a69f7205859dc648fd0ed5a265dd55ab894860b6c40a9da0a",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "3a05a0d801b0b10a69f7205859dc648fd0ed5a265dd55ab894860b6c40a9da0a"
+    },
+    {
+      "library": "amicro",
+      "name": "shimmer-line",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/shimmer-line.json",
+      "file": "src/vendor/amicro/shimmer-line.tsx",
+      "sha256": "067b8b2be7e13f07c55131310e04052ebf54e24c1dd8d326278363e3cf3aaa8c",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "067b8b2be7e13f07c55131310e04052ebf54e24c1dd8d326278363e3cf3aaa8c"
+    },
+    {
+      "library": "amicro",
+      "name": "siri-wave",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/siri-wave.json",
+      "file": "src/vendor/amicro/siri-wave.tsx",
+      "sha256": "9cddd6c6acb7903ce4fa901e06fc9f2d5e8464aa9fa68dd8355f7f1d9fb1c1ee",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "9cddd6c6acb7903ce4fa901e06fc9f2d5e8464aa9fa68dd8355f7f1d9fb1c1ee"
+    },
+    {
+      "library": "amicro",
+      "name": "skeleton-loader",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/skeleton-loader.json",
+      "file": "src/vendor/amicro/skeleton-loader.tsx",
+      "sha256": "fecd434e90f0c90b0a12ed59ebb233e74b047ca9e0b1255bf8f0a30df97c143b",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "fecd434e90f0c90b0a12ed59ebb233e74b047ca9e0b1255bf8f0a30df97c143b"
+    },
+    {
+      "library": "amicro",
+      "name": "sliding-bars",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/sliding-bars.json",
+      "file": "src/vendor/amicro/sliding-bars.tsx",
+      "sha256": "342fd18b9fba1bf9e6a084272fa43013456b6f5a262941ede9e4ebbd299dac12",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "342fd18b9fba1bf9e6a084272fa43013456b6f5a262941ede9e4ebbd299dac12"
+    },
+    {
+      "library": "amicro",
+      "name": "smooth-dot-shift",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/smooth-dot-shift.json",
+      "file": "src/vendor/amicro/smooth-dot-shift.tsx",
+      "sha256": "efe650393ea379c1cd6e18d6c305b19955f7a0ebefd7e84c679edbd98de88d48",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "efe650393ea379c1cd6e18d6c305b19955f7a0ebefd7e84c679edbd98de88d48"
+    },
+    {
+      "library": "amicro",
+      "name": "smooth-ring",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/smooth-ring.json",
+      "file": "src/vendor/amicro/smooth-ring.tsx",
+      "sha256": "e0552cc84a36b082d71a9350d1e3aa7bc610e32fe03af12c8daa7860f1aa18ae",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "e0552cc84a36b082d71a9350d1e3aa7bc610e32fe03af12c8daa7860f1aa18ae"
+    },
+    {
+      "library": "amicro",
+      "name": "smooth-rounded-square",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/smooth-rounded-square.json",
+      "file": "src/vendor/amicro/smooth-rounded-square.tsx",
+      "sha256": "330900993262a14fd957ae5ce5569e6592f934076bb50bcf5dfa284180067e2a",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "330900993262a14fd957ae5ce5569e6592f934076bb50bcf5dfa284180067e2a"
+    },
+    {
+      "library": "amicro",
+      "name": "spinning-squares",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/spinning-squares.json",
+      "file": "src/vendor/amicro/spinning-squares.tsx",
+      "sha256": "3f51c5e4de4026fa4cd541c058e3553421718aa3ea25bb7c4dee2494009ec4b7",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "3f51c5e4de4026fa4cd541c058e3553421718aa3ea25bb7c4dee2494009ec4b7"
+    },
+    {
+      "library": "amicro",
+      "name": "spiral-spinner",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/spiral-spinner.json",
+      "file": "src/vendor/amicro/spiral-spinner.tsx",
+      "sha256": "0f14ea6a7182057342435234ffe9f7771917eda2d718f8b8767b6984ed631faa",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "0f14ea6a7182057342435234ffe9f7771917eda2d718f8b8767b6984ed631faa"
+    },
+    {
+      "library": "amicro",
+      "name": "spring-bars",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/spring-bars.json",
+      "file": "src/vendor/amicro/spring-bars.tsx",
+      "sha256": "2431314d0e2a480072adb90ee0df5cc2fec92292cac1ca4fa2d3eb0aa75acb0c",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "2431314d0e2a480072adb90ee0df5cc2fec92292cac1ca4fa2d3eb0aa75acb0c"
+    },
+    {
+      "library": "amicro",
+      "name": "spring-dot-matrix",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/spring-dot-matrix.json",
+      "file": "src/vendor/amicro/spring-dot-matrix.tsx",
+      "sha256": "b63bd5a4482c8d3911bf6e8fc2af1681ad01958fa52d6c41e57cd3d0b2c34cba",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "b63bd5a4482c8d3911bf6e8fc2af1681ad01958fa52d6c41e57cd3d0b2c34cba"
+    },
+    {
+      "library": "amicro",
+      "name": "spring-hexagon",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/spring-hexagon.json",
+      "file": "src/vendor/amicro/spring-hexagon.tsx",
+      "sha256": "e0fd596dd0edae314e50bef697efb060164927eccbfb50d4aaece0e7210bb4a5",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "e0fd596dd0edae314e50bef697efb060164927eccbfb50d4aaece0e7210bb4a5"
+    },
+    {
+      "library": "amicro",
+      "name": "spring-ring-expand",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/spring-ring-expand.json",
+      "file": "src/vendor/amicro/spring-ring-expand.tsx",
+      "sha256": "678696ee465c259e7592599913fcfc0cf5f10f905cb15f90c6bb6ec069848ba3",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "678696ee465c259e7592599913fcfc0cf5f10f905cb15f90c6bb6ec069848ba3"
+    },
+    {
+      "library": "amicro",
+      "name": "spring-text-pop",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/spring-text-pop.json",
+      "file": "src/vendor/amicro/spring-text-pop.tsx",
+      "sha256": "a7327e0fd4581cbbcf2d85f52e4b362e0d30c93dbef9381526361e76427b2374",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "a7327e0fd4581cbbcf2d85f52e4b362e0d30c93dbef9381526361e76427b2374"
+    },
+    {
+      "library": "amicro",
+      "name": "square-accordion",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/square-accordion.json",
+      "file": "src/vendor/amicro/square-accordion.tsx",
+      "sha256": "377021cd1f8f582011ef198a482ad0cc4a3290abee922c6f6e810a5c0e7ce077",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "377021cd1f8f582011ef198a482ad0cc4a3290abee922c6f6e810a5c0e7ce077"
+    },
+    {
+      "library": "amicro",
+      "name": "square-grid",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/square-grid.json",
+      "file": "src/vendor/amicro/square-grid.tsx",
+      "sha256": "d7ac9811dfaae95a567999c19db037e1a462a39decf8a724ac011febd97051e6",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "d7ac9811dfaae95a567999c19db037e1a462a39decf8a724ac011febd97051e6"
+    },
+    {
+      "library": "amicro",
+      "name": "square-snake",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/square-snake.json",
+      "file": "src/vendor/amicro/square-snake.tsx",
+      "sha256": "fbea131f5bab88c6d396b853bcca5f75f0aa72ec2643052beb7b26ad651d5b56",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "fbea131f5bab88c6d396b853bcca5f75f0aa72ec2643052beb7b26ad651d5b56"
+    },
+    {
+      "library": "amicro",
+      "name": "square-spinner",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/square-spinner.json",
+      "file": "src/vendor/amicro/square-spinner.tsx",
+      "sha256": "2b7e55efe17996dfd83340f920ced6d22e641747d91eed5f3bf40da94384a271",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "2b7e55efe17996dfd83340f920ced6d22e641747d91eed5f3bf40da94384a271"
+    },
+    {
+      "library": "amicro",
+      "name": "stacked-bar-pulse",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/stacked-bar-pulse.json",
+      "file": "src/vendor/amicro/stacked-bar-pulse.tsx",
+      "sha256": "d1e8b5808e5a2802cd267c3bc26f1cbd331116e2041679b0f199f3e4f72e35b7",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "d1e8b5808e5a2802cd267c3bc26f1cbd331116e2041679b0f199f3e4f72e35b7"
+    },
+    {
+      "library": "amicro",
+      "name": "swapping-dots",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/swapping-dots.json",
+      "file": "src/vendor/amicro/swapping-dots.tsx",
+      "sha256": "460a992ba0f3c92dc582b1b3bfb4aa3022171150331fc072d482d105f8ddbd55",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "460a992ba0f3c92dc582b1b3bfb4aa3022171150331fc072d482d105f8ddbd55"
+    },
+    {
+      "library": "amicro",
+      "name": "swirling-spinner",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/swirling-spinner.json",
+      "file": "src/vendor/amicro/swirling-spinner.tsx",
+      "sha256": "c734a034fa4096a430371de37cee9f4b56b0c646dadf404176d8b42141691f62",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "c734a034fa4096a430371de37cee9f4b56b0c646dadf404176d8b42141691f62"
+    },
+    {
+      "library": "amicro",
+      "name": "symmetric-wave",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/symmetric-wave.json",
+      "file": "src/vendor/amicro/symmetric-wave.tsx",
+      "sha256": "72b85aae415ec8ed5b0d7bfaa3f4a7ca803cf6d1fdfd040ad89302225f7b30c8",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "72b85aae415ec8ed5b0d7bfaa3f4a7ca803cf6d1fdfd040ad89302225f7b30c8"
+    },
+    {
+      "library": "amicro",
+      "name": "terminal-loader",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/terminal-loader.json",
+      "file": "src/vendor/amicro/terminal-loader.tsx",
+      "sha256": "f8e5571968457cb3c83c97a22f1802516a8289231a0ea546c43f70917f17c4fd",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "f8e5571968457cb3c83c97a22f1802516a8289231a0ea546c43f70917f17c4fd"
+    },
+    {
+      "library": "amicro",
+      "name": "text-blink",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/text-blink.json",
+      "file": "src/vendor/amicro/text-blink.tsx",
+      "sha256": "da1729af5c59515a81bf578de14276bdd36674d156ed51e19f9208413e41d929",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "da1729af5c59515a81bf578de14276bdd36674d156ed51e19f9208413e41d929"
+    },
+    {
+      "library": "amicro",
+      "name": "text-dots",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/text-dots.json",
+      "file": "src/vendor/amicro/text-dots.tsx",
+      "sha256": "f4f6543c0a1567246a58f79b8f4353f9e843841d77e79f3ef07eab0634118de3",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "f4f6543c0a1567246a58f79b8f4353f9e843841d77e79f3ef07eab0634118de3"
+    },
+    {
+      "library": "amicro",
+      "name": "text-morph",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/text-morph.json",
+      "file": "src/vendor/amicro/text-morph.tsx",
+      "sha256": "97a0b48b0b7f265ac0adcf8679d7a5e1bf0eaf59c40e4ace9a9234b96a39f4fb",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "97a0b48b0b7f265ac0adcf8679d7a5e1bf0eaf59c40e4ace9a9234b96a39f4fb"
+    },
+    {
+      "library": "amicro",
+      "name": "text-shimmer-wave",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/text-shimmer-wave.json",
+      "file": "src/vendor/amicro/text-shimmer-wave.tsx",
+      "sha256": "63578e679ef509d6e880e570dd1da6af80b0975b09c7ee934809ac210411321e",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "63578e679ef509d6e880e570dd1da6af80b0975b09c7ee934809ac210411321e"
+    },
+    {
+      "library": "amicro",
+      "name": "text-shimmer",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/text-shimmer.json",
+      "file": "src/vendor/amicro/text-shimmer.tsx",
+      "sha256": "f9ff396e5a305910014481a1573bc36f07436feffb2abb96ecbf66c1a7733db1",
+      "modifications": "Type-only Motion compatibility annotations; runtime unchanged",
+      "dependencies": [],
+      "outputSha256": "966a99e7f12d1ef8f538b12c73c5448593efa0e95bb29a4f725ae395935e19a0"
+    },
+    {
+      "library": "amicro",
+      "name": "trailing-dots",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/trailing-dots.json",
+      "file": "src/vendor/amicro/trailing-dots.tsx",
+      "sha256": "8243b18492a5a74d527da927d02af9c632f6e7fa072bcef329273170242e9de5",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "8243b18492a5a74d527da927d02af9c632f6e7fa072bcef329273170242e9de5"
+    },
+    {
+      "library": "amicro",
+      "name": "triple-dot-spinner",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/triple-dot-spinner.json",
+      "file": "src/vendor/amicro/triple-dot-spinner.tsx",
+      "sha256": "c5a92da2a1d61c6f1971e76aa7d61a0039fb6b8a8a63d34f356beca8230a11e8",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "c5a92da2a1d61c6f1971e76aa7d61a0039fb6b8a8a63d34f356beca8230a11e8"
+    },
+    {
+      "library": "amicro",
+      "name": "twin-orbit",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/twin-orbit.json",
+      "file": "src/vendor/amicro/twin-orbit.tsx",
+      "sha256": "7d91f0490d3b35a80cf5d18dbb1763fe75d0f322f22ecc6cef1c3d03e77f4400",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "7d91f0490d3b35a80cf5d18dbb1763fe75d0f322f22ecc6cef1c3d03e77f4400"
+    },
+    {
+      "library": "amicro",
+      "name": "typing-indicator",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/typing-indicator.json",
+      "file": "src/vendor/amicro/typing-indicator.tsx",
+      "sha256": "c7f535652a63287760293e6865324c9d831cfb51d05c7c2aa4f4b38aa9a42f70",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "c7f535652a63287760293e6865324c9d831cfb51d05c7c2aa4f4b38aa9a42f70"
+    },
+    {
+      "library": "amicro",
+      "name": "typing",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/typing.json",
+      "file": "src/vendor/amicro/typing.tsx",
+      "sha256": "d1e599ef726ab1bdef2d732c5aff521c6898263140eef765ec0cebbc2465b1f8",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "d1e599ef726ab1bdef2d732c5aff521c6898263140eef765ec0cebbc2465b1f8"
+    },
+    {
+      "library": "amicro",
+      "name": "wandering-cube",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/wandering-cube.json",
+      "file": "src/vendor/amicro/wandering-cube.tsx",
+      "sha256": "7f6c421a1b139f2f9db1c3b2824adf80ae1fe4773c5c42cc337581b1627c626e",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "7f6c421a1b139f2f9db1c3b2824adf80ae1fe4773c5c42cc337581b1627c626e"
+    },
+    {
+      "library": "amicro",
+      "name": "watch-spinner",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/watch-spinner.json",
+      "file": "src/vendor/amicro/watch-spinner.tsx",
+      "sha256": "5643f8a65b25ac41a5b25506286a5d074139c350a2a40e857c70780f93a2f6b2",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "5643f8a65b25ac41a5b25506286a5d074139c350a2a40e857c70780f93a2f6b2"
+    },
+    {
+      "library": "amicro",
+      "name": "wave-dots",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/wave-dots.json",
+      "file": "src/vendor/amicro/wave-dots.tsx",
+      "sha256": "f183f9cd04d5fd333b550d89ad484702e6540a92bf0002e67eaf310893a21f51",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "f183f9cd04d5fd333b550d89ad484702e6540a92bf0002e67eaf310893a21f51"
+    },
+    {
+      "library": "amicro",
+      "name": "wave-physics-loader",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/wave-physics-loader.json",
+      "file": "src/vendor/amicro/wave-physics-loader.tsx",
+      "sha256": "f47147680454e36323bd5996219398ef2057bceddf440bc1ebd42851c37d90c6",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "f47147680454e36323bd5996219398ef2057bceddf440bc1ebd42851c37d90c6"
+    },
+    {
+      "library": "amicro",
+      "name": "waveform-loader",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/waveform-loader.json",
+      "file": "src/vendor/amicro/waveform-loader.tsx",
+      "sha256": "62e43ffc729f4a289d83388c61e12ff98b3902ec1275fcecbbe871141875e12a",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "62e43ffc729f4a289d83388c61e12ff98b3902ec1275fcecbbe871141875e12a"
+    },
+    {
+      "library": "amicro",
+      "name": "zig-zag-pulse",
+      "url": "https://raw.githubusercontent.com/Subhan-code/Amicro--Micro-transitions-/86b55340bfb939b8e93bb53aa46ba017c3449f1c/registry/ui/zig-zag-pulse.json",
+      "file": "src/vendor/amicro/zig-zag-pulse.tsx",
+      "sha256": "ab16cd4d385b61617f05d935aaa42af2203d720e608d7f73250768de1a101d4d",
+      "modifications": "None",
+      "dependencies": [],
+      "outputSha256": "ab16cd4d385b61617f05d935aaa42af2203d720e608d7f73250768de1a101d4d"
+    },
+    {
+      "library": "beautiful",
+      "name": "foundation",
+      "url": "https://www.beautifului.dev/r/foundation.json",
+      "file": "src/vendor/beautiful/app/beautifui/foundation.css",
+      "sha256": "32c68b62b5bfa18fc33cb291f6966d02dc2585a87e75e925c86225b2cf058e1d",
+      "modifications": "Import aliases only",
+      "dependencies": [],
+      "outputSha256": "32c68b62b5bfa18fc33cb291f6966d02dc2585a87e75e925c86225b2cf058e1d"
+    },
+    {
+      "library": "beautiful",
+      "name": "loading-state",
+      "url": "https://www.beautifului.dev/r/loading-state.json",
+      "file": "src/vendor/beautiful/components/primitives/LoadingState.tsx",
+      "sha256": "1b1ee1273717be0b2dfc12abc6853a3c118e543c05bc522b4c80378dd88e8a0d",
+      "modifications": "Import aliases only",
+      "dependencies": [],
+      "outputSha256": "1b1ee1273717be0b2dfc12abc6853a3c118e543c05bc522b4c80378dd88e8a0d"
+    },
+    {
+      "library": "beautiful",
+      "name": "thinking-state",
+      "url": "https://www.beautifului.dev/r/thinking-state.json",
+      "file": "src/vendor/beautiful/components/primitives/ThinkingState.tsx",
+      "sha256": "3d73617406120fad93fd15c67054a59debb9e43ccd385a21e2f48a7fb4036e24",
+      "modifications": "Import aliases only",
+      "dependencies": [],
+      "outputSha256": "3d73617406120fad93fd15c67054a59debb9e43ccd385a21e2f48a7fb4036e24"
+    },
+    {
+      "library": "beautiful",
+      "name": "streaming-text",
+      "url": "https://www.beautifului.dev/r/streaming-text.json",
+      "file": "src/vendor/beautiful/components/primitives/StreamingText.tsx",
+      "sha256": "8b17569fbc9c75aef1f82a5310f2402209cc8ab1b13f65fdd71251cb1e1f14d3",
+      "modifications": "Import aliases only",
+      "dependencies": [],
+      "outputSha256": "8b17569fbc9c75aef1f82a5310f2402209cc8ab1b13f65fdd71251cb1e1f14d3"
+    },
+    {
+      "library": "beautiful",
+      "name": "button",
+      "url": "https://www.beautifului.dev/r/button.json",
+      "file": "src/vendor/beautiful/components/atoms/Button.tsx",
+      "sha256": "1d939f68820366648a7b3292b88001da41253154bc49494be60cb8188100f0b0",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "class-variance-authority"
+      ],
+      "outputSha256": "1d939f68820366648a7b3292b88001da41253154bc49494be60cb8188100f0b0"
+    },
+    {
+      "library": "beautiful",
+      "name": "glide-menu",
+      "url": "https://www.beautifului.dev/r/glide-menu.json",
+      "file": "src/vendor/beautiful/components/primitives/GlideMenu.tsx",
+      "sha256": "2b8b64092740dad23aed3367b1e7eaa3e15a8bc0a2ed559c3dec13bb4ba2e00f",
+      "modifications": "Import aliases only",
+      "dependencies": [],
+      "outputSha256": "2b8b64092740dad23aed3367b1e7eaa3e15a8bc0a2ed559c3dec13bb4ba2e00f"
+    },
+    {
+      "library": "beautiful",
+      "name": "approval-card",
+      "url": "https://www.beautifului.dev/r/approval-card.json",
+      "file": "src/vendor/beautiful/components/primitives/ApprovalCard.tsx",
+      "sha256": "5e90ba19b79f4d385a34e9cf703b15e819c72df93d70a72c8c01aa85d500ca95",
+      "modifications": "Import aliases only",
+      "dependencies": [],
+      "outputSha256": "767476649e8959905e16523aa6c9fd8948f4f6811233e24624dcfb315cc6c640"
+    },
+    {
+      "library": "beautiful",
+      "name": "tool-chips",
+      "url": "https://www.beautifului.dev/r/tool-chips.json",
+      "file": "src/vendor/beautiful/components/primitives/ToolChips.tsx",
+      "sha256": "dc06a0ec805825622bf622f0f56cc8305f79751fe7fcb55727a59869b443c9c8",
+      "modifications": "Import aliases only",
+      "dependencies": [],
+      "outputSha256": "dc06a0ec805825622bf622f0f56cc8305f79751fe7fcb55727a59869b443c9c8"
+    },
+    {
+      "library": "beautiful",
+      "name": "task-rows",
+      "url": "https://www.beautifului.dev/r/task-rows.json",
+      "file": "src/vendor/beautiful/components/primitives/TaskRows.tsx",
+      "sha256": "7a81c2a264528405826b8ac9db9e92d4c14ef6fa3fcdb39010022df3cf4c0920",
+      "modifications": "Import aliases only",
+      "dependencies": [],
+      "outputSha256": "7a81c2a264528405826b8ac9db9e92d4c14ef6fa3fcdb39010022df3cf4c0920"
+    },
+    {
+      "library": "beautiful",
+      "name": "chat-composer",
+      "url": "https://www.beautifului.dev/r/chat-composer.json",
+      "file": "src/vendor/beautiful/components/primitives/ChatComposer.tsx",
+      "sha256": "1b8ac6cd342a5ccab92c0e0265d7431a35703e23496bd85c4cf64d883e6cc7f5",
+      "modifications": "Import aliases only",
+      "dependencies": [],
+      "outputSha256": "1b8ac6cd342a5ccab92c0e0265d7431a35703e23496bd85c4cf64d883e6cc7f5"
+    },
+    {
+      "library": "beautiful",
+      "name": "prompt-bar",
+      "url": "https://www.beautifului.dev/r/prompt-bar.json",
+      "file": "src/vendor/beautiful/components/primitives/PromptBar.tsx",
+      "sha256": "1f2ff02adae3f1fe80b00fd0ef1c54c3558e8638502c1b7d71b1d0000dfceb5a",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "glimm"
+      ],
+      "outputSha256": "1f2ff02adae3f1fe80b00fd0ef1c54c3558e8638502c1b7d71b1d0000dfceb5a"
+    },
+    {
+      "library": "beautiful",
+      "name": "entity-chip",
+      "url": "https://www.beautifului.dev/r/entity-chip.json",
+      "file": "src/vendor/beautiful/components/atoms/EntityChip.tsx",
+      "sha256": "d8c194f2adf0a48af9ab20c70361cd3ba4f89636f267200ef6263a32af432e52",
+      "modifications": "Import aliases only",
+      "dependencies": [],
+      "outputSha256": "d8c194f2adf0a48af9ab20c70361cd3ba4f89636f267200ef6263a32af432e52"
+    },
+    {
+      "library": "beautiful",
+      "name": "value-pill",
+      "url": "https://www.beautifului.dev/r/value-pill.json",
+      "file": "src/vendor/beautiful/components/atoms/ValuePill.tsx",
+      "sha256": "685ca5fba3cccfc1bc23bc6203c066567c200809e83d5d81d3c3491d0a4c9a0a",
+      "modifications": "Import aliases only",
+      "dependencies": [],
+      "outputSha256": "685ca5fba3cccfc1bc23bc6203c066567c200809e83d5d81d3c3491d0a4c9a0a"
+    },
+    {
+      "library": "beautiful",
+      "name": "recommendation-card",
+      "url": "https://www.beautifului.dev/r/recommendation-card.json",
+      "file": "src/vendor/beautiful/components/primitives/RecommendationCard.tsx",
+      "sha256": "fe4c56f271f147bb84cdef3f2c7238bdc9eb9a5643a0e4a949e62adb9e25abba",
+      "modifications": "Import aliases only",
+      "dependencies": [],
+      "outputSha256": "3df3a41d5fd38ce410f1d5cdab4e6d867a3ae36484bca9095ee69791bace722f"
+    },
+    {
+      "library": "beautiful",
+      "name": "context-cards",
+      "url": "https://www.beautifului.dev/r/context-cards.json",
+      "file": "src/vendor/beautiful/components/primitives/ContextCards.tsx",
+      "sha256": "64cdf631c76bbe1516a9580237599e45657f8ce2691a512286c1ce062da78ee0",
+      "modifications": "Import aliases only",
+      "dependencies": [],
+      "outputSha256": "64cdf631c76bbe1516a9580237599e45657f8ce2691a512286c1ce062da78ee0"
+    },
+    {
+      "library": "beautiful",
+      "name": "diff-table",
+      "url": "https://www.beautifului.dev/r/diff-table.json",
+      "file": "src/vendor/beautiful/components/primitives/DiffTable.tsx",
+      "sha256": "e15f0958af2c25dc112a8b90b16f20243a34392f96b300cee513afe82ec55460",
+      "modifications": "Import aliases only",
+      "dependencies": [],
+      "outputSha256": "bfdff8862342d4fac9905f90310013da1930bb141e921914cb12871acbf189e4"
+    },
+    {
+      "library": "beautiful",
+      "name": "records-table",
+      "url": "https://www.beautifului.dev/r/records-table.json",
+      "file": "src/vendor/beautiful/components/primitives/RecordsTable.tsx",
+      "sha256": "e96875352a82d06cdb96e7657db2adbf51d70c8697e4f8ef584086e933f38f29",
+      "modifications": "Import aliases only",
+      "dependencies": [],
+      "outputSha256": "877ea0f36b8d6a8213dc78579832a9afe7685ba074f8f45638c961060faf5596"
+    },
+    {
+      "library": "beautiful",
+      "name": "records-table",
+      "url": "https://www.beautifului.dev/r/records-table.json",
+      "file": "src/vendor/beautiful/app/beautifui/records-table.css",
+      "sha256": "2b3e944ce7c4fd861882810654ea2ab93b9b08f320ea30f83ea6e4c2524a2e46",
+      "modifications": "Import aliases only",
+      "dependencies": [],
+      "outputSha256": "2b3e944ce7c4fd861882810654ea2ab93b9b08f320ea30f83ea6e4c2524a2e46"
+    },
+    {
+      "library": "beautiful",
+      "name": "filter-table",
+      "url": "https://www.beautifului.dev/r/filter-table.json",
+      "file": "src/vendor/beautiful/components/primitives/FilterTable.tsx",
+      "sha256": "7075a6ff652f2a539f835a4ed77e4357404906aff4ba5fb786255965d7aefa74",
+      "modifications": "Import aliases only",
+      "dependencies": [],
+      "outputSha256": "7075a6ff652f2a539f835a4ed77e4357404906aff4ba5fb786255965d7aefa74"
+    },
+    {
+      "library": "beautiful",
+      "name": "sidebar-nav",
+      "url": "https://www.beautifului.dev/r/sidebar-nav.json",
+      "file": "src/vendor/beautiful/components/primitives/SidebarNav.tsx",
+      "sha256": "06a0685ab35c16789231ee1947b4efd7f49adc50ae1f0ce4e0f7a2f2e35a6a59",
+      "modifications": "Import aliases; 12 paid Central Icons glyphs replaced by free Lucide equivalents through free-icons.tsx. Layout and behavior unchanged.",
+      "dependencies": [],
+      "outputSha256": "a35bf5532a3aa2007141bf45bf25665c187b8b0dfdb8a52d2d4011e1002c6588"
+    },
+    {
+      "library": "beautiful",
+      "name": "sidebar-nav",
+      "url": "https://www.beautifului.dev/r/sidebar-nav.json",
+      "file": "src/vendor/beautiful/app/beautifui/sidebar-nav.css",
+      "sha256": "bd159b23d48bbe7eb4c3b2cf59599b54a9c32bb82e099c9cbca55b698270f4ae",
+      "modifications": "Import aliases only",
+      "dependencies": [],
+      "outputSha256": "bd159b23d48bbe7eb4c3b2cf59599b54a9c32bb82e099c9cbca55b698270f4ae"
+    },
+    {
+      "library": "beautiful",
+      "name": "search",
+      "url": "https://www.beautifului.dev/r/search.json",
+      "file": "src/vendor/beautiful/components/primitives/SearchList.tsx",
+      "sha256": "9fdb3720c5bc06f62915317f967f7ae0fe340e4f9c6181731794558e2248b3bf",
+      "modifications": "Import aliases only",
+      "dependencies": [],
+      "outputSha256": "a35cfcffc4a570af3105fdade170b2594c1e8f50a37e1ab08f79e345f970b69b"
+    },
+    {
+      "library": "beautiful",
+      "name": "flowchart",
+      "url": "https://www.beautifului.dev/r/flowchart.json",
+      "file": "src/vendor/beautiful/components/primitives/Flowchart.tsx",
+      "sha256": "2f1a0e7c29df38916a06cdbc00f6d1ce043bf9052bc2bb3e780beaa339077d23",
+      "modifications": "Import aliases only",
+      "dependencies": [],
+      "outputSha256": "2f1a0e7c29df38916a06cdbc00f6d1ce043bf9052bc2bb3e780beaa339077d23"
+    },
+    {
+      "library": "beautiful",
+      "name": "insight-cards",
+      "url": "https://www.beautifului.dev/r/insight-cards.json",
+      "file": "src/vendor/beautiful/components/primitives/InsightCards.tsx",
+      "sha256": "7d6def83506070a8316759f82e531dc56b2d2d1b9e76bf6c95e2ef0c3fb69ff2",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "liveline"
+      ],
+      "outputSha256": "7d6def83506070a8316759f82e531dc56b2d2d1b9e76bf6c95e2ef0c3fb69ff2"
+    },
+    {
+      "library": "beautiful",
+      "name": "code-block",
+      "url": "https://www.beautifului.dev/r/code-block.json",
+      "file": "src/vendor/beautiful/components/primitives/CodeBlock.tsx",
+      "sha256": "8a6226378fae2334cc3070abf3b768cc09c99e47f711cca4db013a3441b5abe5",
+      "modifications": "Import aliases only",
+      "dependencies": [],
+      "outputSha256": "8a6226378fae2334cc3070abf3b768cc09c99e47f711cca4db013a3441b5abe5"
+    },
+    {
+      "library": "beautiful",
+      "name": "fine-tune-card",
+      "url": "https://www.beautifului.dev/r/fine-tune-card.json",
+      "file": "src/vendor/beautiful/components/primitives/FineTuneCard.tsx",
+      "sha256": "fb8df4d8c5aabbb399d115b143af39fcf3bf8a00b77bd7375a01a77ee8e93c24",
+      "modifications": "Import aliases only",
+      "dependencies": [],
+      "outputSha256": "c71c30377105e0d3149dc05ee54c78f8dc692c877bf48428b4ebec1d359ebb5e"
+    },
+    {
+      "library": "beautiful",
+      "name": "shimmer",
+      "url": "https://www.beautifului.dev/r/shimmer.json",
+      "file": "src/vendor/beautiful/components/atoms/Shimmer.tsx",
+      "sha256": "f93280df5726018b9efec117ea9fe90e6e128d0b530250553bf4a4aee9363c28",
+      "modifications": "Import aliases only",
+      "dependencies": [],
+      "outputSha256": "f93280df5726018b9efec117ea9fe90e6e128d0b530250553bf4a4aee9363c28"
+    },
+    {
+      "library": "beautiful",
+      "name": "stream-text",
+      "url": "https://www.beautifului.dev/r/stream-text.json",
+      "file": "src/vendor/beautiful/components/atoms/StreamText.tsx",
+      "sha256": "a98d273d90965b7691e97520e12f6f32df7555ccf08ea60e3eed1b24966bae6f",
+      "modifications": "Import aliases only",
+      "dependencies": [],
+      "outputSha256": "a98d273d90965b7691e97520e12f6f32df7555ccf08ea60e3eed1b24966bae6f"
+    },
+    {
+      "library": "beautiful",
+      "name": "selection-actions",
+      "url": "https://www.beautifului.dev/r/selection-actions.json",
+      "file": "src/vendor/beautiful/components/primitives/SelectionActions.tsx",
+      "sha256": "5447a5488c3d390bc877acde5e0c3c04096ec89b2ee5b12d11e2523032c007c6",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "iconoir-react"
+      ],
+      "outputSha256": "89f376e592c78d1630839b23d3502c9f530c48be04012212ca0edb8a80a77ba3"
+    },
+    {
+      "library": "beautiful",
+      "name": "preview-styles",
+      "url": "https://www.beautifului.dev/_next/static/css/f1a0855b27dc8a58.css",
+      "file": "src/vendor/beautiful/scoped.css",
+      "sha256": "a13204971b7dede60eade261bafb02ff7719a1ffa1e7fd3492da129dd43bf4ff",
+      "modifications": "Selectors scoped under .beautiful-demo; font-face removed to avoid cross-site font requests",
+      "dependencies": [],
+      "outputSha256": "0d3db25001762575c2efeb8fc79bc61721f8a81d3abb87e716d009004951f53c"
+    },
+    {
+      "library": "libraries",
+      "name": "border-beam",
+      "url": "https://www.npmjs.com/package/border-beam/v/1.3.0",
+      "file": "src/vendor/libraries/border-beam.source.js",
+      "sha256": "4224c219b4e8724ca5017b8094b0bd7cd53514d3837279c1f762c48d5ceb0c73",
+      "modifications": "None; official npm distribution, installed package imported unchanged. License retained alongside source.",
+      "dependencies": [
+        "border-beam"
+      ],
+      "outputSha256": "4224c219b4e8724ca5017b8094b0bd7cd53514d3837279c1f762c48d5ceb0c73"
+    },
+    {
+      "library": "libraries",
+      "name": "orbs",
+      "url": "https://www.npmjs.com/package/thinking-orbs/v/0.3.1",
+      "file": "src/vendor/libraries/thinking-orbs.source.js",
+      "sha256": "75e56cc39faca624f30230d4c68243132ab30fc86c53962f8855e194bd290029",
+      "modifications": "None; official npm distribution, installed package imported unchanged. License retained alongside source.",
+      "dependencies": [
+        "thinking-orbs"
+      ],
+      "outputSha256": "75e56cc39faca624f30230d4c68243132ab30fc86c53962f8855e194bd290029"
+    },
+    {
+      "library": "libraries",
+      "name": "gooey",
+      "url": "https://www.npmjs.com/package/liquid-gooey/v/0.2.1",
+      "file": "src/vendor/libraries/liquid-gooey.source.js",
+      "sha256": "b3b6882ce3cf39bc65277d2be3f126f1f904f2da2a4d56d4a85fa75a264600ea",
+      "modifications": "None; official npm distribution, installed package imported unchanged. License retained alongside source.",
+      "dependencies": [
+        "liquid-gooey"
+      ],
+      "outputSha256": "b3b6882ce3cf39bc65277d2be3f126f1f904f2da2a4d56d4a85fa75a264600ea"
+    },
+    {
+      "library": "libraries",
+      "name": "metal",
+      "url": "https://www.npmjs.com/package/metal-fx/v/2.0.10",
+      "file": "src/vendor/libraries/metal-fx.source.js",
+      "sha256": "4d904d0a17e8139f655a98bb6fb3a8e38f394d293bb847eb460ccb32618bf495",
+      "modifications": "None; official npm distribution, installed package imported unchanged. License retained alongside source.",
+      "dependencies": [
+        "metal-fx"
+      ],
+      "outputSha256": "4d904d0a17e8139f655a98bb6fb3a8e38f394d293bb847eb460ccb32618bf495"
+    },
+    {
+      "library": "libraries",
+      "name": "image",
+      "url": "https://www.npmjs.com/package/img-fx/v/0.5.1",
+      "file": "src/vendor/libraries/img-fx.source.js",
+      "sha256": "a80feb5a3fe199974ce9d491398937a2565f0b46edb0c41066b951d6c6ecc673",
+      "modifications": "None; official npm distribution, installed package imported unchanged. License retained alongside source.",
+      "dependencies": [
+        "img-fx"
+      ],
+      "outputSha256": "a80feb5a3fe199974ce9d491398937a2565f0b46edb0c41066b951d6c6ecc673"
+    },
+    {
+      "library": "beautiful",
+      "name": "free-icons",
+      "url": "https://lucide.dev/icons/",
+      "file": "src/vendor/beautiful/free-icons.tsx",
+      "sha256": "60be6c8aa15048c358035f348c2fc01a96cd646581bf273329c5964d7ee63c70",
+      "outputSha256": "60be6c8aa15048c358035f348c2fc01a96cd646581bf273329c5964d7ee63c70",
+      "modifications": "Local import adapter mapping 12 paid Central Icons names to free Lucide glyphs; not an upstream Beautiful UI component.",
+      "dependencies": [
+        "lucide-react"
+      ]
+    }
+  ],
+  "dependencies": [
+    "border-beam",
+    "thinking-orbs",
+    "liquid-gooey",
+    "metal-fx",
+    "class-variance-authority",
+    "glimm",
+    "liveline",
+    "iconoir-react",
+    "shadow-plugin"
+  ],
+  "covered": [
+    "beautiful:loading-state",
+    "beautiful:thinking-state",
+    "beautiful:streaming-text",
+    "beautiful:approval-card",
+    "beautiful:tool-chips",
+    "beautiful:task-rows",
+    "beautiful:chat-composer",
+    "beautiful:prompt-bar",
+    "beautiful:recommendation-card",
+    "beautiful:context-cards",
+    "beautiful:diff-table",
+    "beautiful:records-table",
+    "beautiful:filter-table",
+    "beautiful:sidebar-nav",
+    "beautiful:search",
+    "beautiful:flowchart",
+    "beautiful:insight-cards",
+    "beautiful:code-block",
+    "beautiful:fine-tune-card",
+    "beautiful:selection-actions",
+    "beautiful:agent-screen",
+    "amicro:fade-in",
+    "amicro:fade-up",
+    "amicro:fade-down",
+    "amicro:slide-left",
+    "amicro:slide-right",
+    "amicro:scale-in",
+    "amicro:zoom-in",
+    "amicro:text-reveal",
+    "amicro:word-reveal",
+    "amicro:blur-text",
+    "amicro:character-stagger",
+    "amicro:card-hover",
+    "amicro:tilt-card",
+    "amicro:magnetic-button",
+    "amicro:glow-button",
+    "amicro:cursor-trail",
+    "amicro:spotlight",
+    "amicro:mouse-follow",
+    "amicro:scroll-reveal",
+    "amicro:progress-indicator",
+    "amicro:sticky-reveal",
+    "amicro:skeleton",
+    "amicro:pulse",
+    "amicro:morph-loader",
+    "amicro:accordion-loader",
+    "amicro:app-icon-load",
+    "amicro:apple-breathe",
+    "amicro:apple-equalizer",
+    "amicro:apple-icon-morph",
+    "amicro:apple-pulse-dots",
+    "amicro:apple-scale-pulse",
+    "amicro:apple-sound-wave",
+    "amicro:apple-text-reveal",
+    "amicro:apple-unlock",
+    "amicro:arc-tracer",
+    "amicro:bar-cascade",
+    "amicro:bar-sweep",
+    "amicro:bobbing-dots",
+    "amicro:bounce-dots",
+    "amicro:bouncing-bars",
+    "amicro:bouncing-dots",
+    "amicro:bouncing-lines",
+    "amicro:bouncing-square",
+    "amicro:breathe-ring",
+    "amicro:breathing-glow",
+    "amicro:breathing-square",
+    "amicro:circular-bars",
+    "amicro:classic-spinner",
+    "amicro:clock-spinner",
+    "amicro:comet-spinner",
+    "amicro:concentric-pulse",
+    "amicro:concentric-ring",
+    "amicro:concentric-squares",
+    "amicro:conveyor-loop",
+    "amicro:cross-spinner",
+    "amicro:cube-flip-spring",
+    "amicro:dash-ring",
+    "amicro:dashed-spiral",
+    "amicro:diamond-grid",
+    "amicro:diamond-rotate-spring",
+    "amicro:dot-spinner",
+    "amicro:dots-ring",
+    "amicro:double-ring",
+    "amicro:drop-dot",
+    "amicro:dual-arc",
+    "amicro:dynamic-island",
+    "amicro:elastic-bars",
+    "amicro:elastic-square",
+    "amicro:expanding-cross",
+    "amicro:face-id-scan",
+    "amicro:fade-arc",
+    "amicro:fade-dots",
+    "amicro:flip-square",
+    "amicro:floating-diamonds",
+    "amicro:fluid-bars",
+    "amicro:fluid-diamond",
+    "amicro:fluid-dot-orbit",
+    "amicro:fluid-skeleton",
+    "amicro:gears",
+    "amicro:glassmorphic-card",
+    "amicro:gradient-arc",
+    "amicro:grid-dots",
+    "amicro:haptic-ring",
+    "amicro:heartbeat",
+    "amicro:hexagon-spinner",
+    "amicro:hourglass",
+    "amicro:infinity-path",
+    "amicro:intersecting-rings",
+    "amicro:ios-spinner",
+    "amicro:line-spinner",
+    "amicro:liquid-dots",
+    "amicro:mac-terminal",
+    "amicro:magnetic-dots",
+    "amicro:minimal-triangle",
+    "amicro:morph-dot-ring",
+    "amicro:morphing-bars",
+    "amicro:morphing-infinity",
+    "amicro:morphing-ring",
+    "amicro:morphing-shape",
+    "amicro:newtons-cradle",
+    "amicro:offset-rings",
+    "amicro:orbiting-circles",
+    "amicro:orbiting-dot",
+    "amicro:origami-shape",
+    "amicro:pendulum",
+    "amicro:pulsating-dots",
+    "amicro:pulse-dot",
+    "amicro:pulse-dots",
+    "amicro:pulse-square",
+    "amicro:pumping-heart",
+    "amicro:radar-sweep",
+    "amicro:ring-sweep",
+    "amicro:ripple-effect",
+    "amicro:rotating-cross",
+    "amicro:rotating-triangle",
+    "amicro:shape-shift-grid",
+    "amicro:shimmer-line",
+    "amicro:siri-wave",
+    "amicro:skeleton-loader",
+    "amicro:sliding-bars",
+    "amicro:smooth-dot-shift",
+    "amicro:smooth-ring",
+    "amicro:smooth-rounded-square",
+    "amicro:spinning-squares",
+    "amicro:spiral-spinner",
+    "amicro:spring-bars",
+    "amicro:spring-dot-matrix",
+    "amicro:spring-hexagon",
+    "amicro:spring-ring-expand",
+    "amicro:spring-text-pop",
+    "amicro:square-accordion",
+    "amicro:square-grid",
+    "amicro:square-snake",
+    "amicro:square-spinner",
+    "amicro:stacked-bar-pulse",
+    "amicro:swapping-dots",
+    "amicro:swirling-spinner",
+    "amicro:symmetric-wave",
+    "amicro:terminal-loader",
+    "amicro:text-blink",
+    "amicro:text-dots",
+    "amicro:text-morph",
+    "amicro:text-shimmer-wave",
+    "amicro:text-shimmer",
+    "amicro:trailing-dots",
+    "amicro:triple-dot-spinner",
+    "amicro:twin-orbit",
+    "amicro:typing-indicator",
+    "amicro:typing",
+    "amicro:wandering-cube",
+    "amicro:watch-spinner",
+    "amicro:wave-dots",
+    "amicro:wave-physics-loader",
+    "amicro:waveform-loader",
+    "amicro:zig-zag-pulse",
+    "libraries:border-beam",
+    "libraries:orbs",
+    "libraries:gooey",
+    "libraries:metal",
+    "libraries:image"
+  ],
+  "blocked": [],
+  "notes": [
+    {
+      "id": "beautiful:sidebar-nav",
+      "note": "Official sidebar behavior and layout retained. Twelve paid Central Icons glyphs use free Lucide equivalents: LogOut, Check, ChevronDown, X, Pencil, House, Search, Plus, IceCreamCone, Settings, PanelLeftClose, UserPlus."
+    }
+  ],
+  "entrySources": {
+    "beautiful:loading-state": [
+      "src/vendor/beautiful/loading-state.tsx"
+    ],
+    "beautiful:thinking-state": [
+      "src/vendor/beautiful/thinking-state.tsx"
+    ],
+    "beautiful:streaming-text": [
+      "src/vendor/beautiful/streaming-text.tsx"
+    ],
+    "beautiful:approval-card": [
+      "src/vendor/beautiful/components/primitives/ApprovalCard.tsx",
+      "src/vendor/beautiful/components/atoms/Button.tsx",
+      "src/vendor/beautiful/components/primitives/GlideMenu.tsx"
+    ],
+    "beautiful:tool-chips": [
+      "src/vendor/beautiful/components/primitives/ToolChips.tsx"
+    ],
+    "beautiful:task-rows": [
+      "src/vendor/beautiful/components/primitives/TaskRows.tsx"
+    ],
+    "beautiful:chat-composer": [
+      "src/vendor/beautiful/components/primitives/ChatComposer.tsx"
+    ],
+    "beautiful:prompt-bar": [
+      "src/vendor/beautiful/components/primitives/PromptBar.tsx"
+    ],
+    "beautiful:recommendation-card": [
+      "src/vendor/beautiful/components/primitives/RecommendationCard.tsx",
+      "src/vendor/beautiful/components/atoms/Button.tsx",
+      "src/vendor/beautiful/components/atoms/EntityChip.tsx",
+      "src/vendor/beautiful/components/atoms/ValuePill.tsx"
+    ],
+    "beautiful:context-cards": [
+      "src/vendor/beautiful/components/primitives/ContextCards.tsx"
+    ],
+    "beautiful:diff-table": [
+      "src/vendor/beautiful/components/primitives/DiffTable.tsx",
+      "src/vendor/beautiful/components/atoms/Button.tsx"
+    ],
+    "beautiful:records-table": [
+      "src/vendor/beautiful/components/primitives/RecordsTable.tsx",
+      "src/vendor/beautiful/components/primitives/GlideMenu.tsx"
+    ],
+    "beautiful:filter-table": [
+      "src/vendor/beautiful/components/primitives/FilterTable.tsx"
+    ],
+    "beautiful:sidebar-nav": [
+      "src/vendor/beautiful/components/primitives/SidebarNav.tsx",
+      "src/vendor/beautiful/free-icons.tsx",
+      "src/vendor/beautiful/components/primitives/GlideMenu.tsx"
+    ],
+    "beautiful:search": [
+      "src/vendor/beautiful/components/primitives/SearchList.tsx",
+      "src/vendor/beautiful/components/primitives/GlideMenu.tsx"
+    ],
+    "beautiful:flowchart": [
+      "src/vendor/beautiful/components/primitives/Flowchart.tsx"
+    ],
+    "beautiful:insight-cards": [
+      "src/vendor/beautiful/components/primitives/InsightCards.tsx"
+    ],
+    "beautiful:code-block": [
+      "src/vendor/beautiful/components/primitives/CodeBlock.tsx"
+    ],
+    "beautiful:fine-tune-card": [
+      "src/vendor/beautiful/components/primitives/FineTuneCard.tsx",
+      "src/vendor/beautiful/components/primitives/GlideMenu.tsx"
+    ],
+    "beautiful:selection-actions": [
+      "src/vendor/beautiful/components/primitives/SelectionActions.tsx",
+      "src/vendor/beautiful/components/atoms/Button.tsx",
+      "src/vendor/beautiful/components/atoms/Shimmer.tsx",
+      "src/vendor/beautiful/components/atoms/StreamText.tsx"
+    ],
+    "beautiful:agent-screen": [
+      "src/vendor/beautiful/agent-screen.tsx",
+      "src/vendor/beautiful/components/atoms/Button.tsx"
+    ],
+    "amicro:fade-in": [
+      "src/vendor/amicro/fade-in.tsx"
+    ],
+    "amicro:fade-up": [
+      "src/vendor/amicro/fade-up.tsx"
+    ],
+    "amicro:fade-down": [
+      "src/vendor/amicro/fade-down.tsx"
+    ],
+    "amicro:slide-left": [
+      "src/vendor/amicro/slide-left.tsx"
+    ],
+    "amicro:slide-right": [
+      "src/vendor/amicro/slide-right.tsx"
+    ],
+    "amicro:scale-in": [
+      "src/vendor/amicro/scale-in.tsx"
+    ],
+    "amicro:zoom-in": [
+      "src/vendor/amicro/zoom-in.tsx"
+    ],
+    "amicro:text-reveal": [
+      "src/vendor/amicro/text-reveal.tsx"
+    ],
+    "amicro:word-reveal": [
+      "src/vendor/amicro/word-reveal.tsx"
+    ],
+    "amicro:blur-text": [
+      "src/vendor/amicro/blur-text.tsx"
+    ],
+    "amicro:character-stagger": [
+      "src/vendor/amicro/character-stagger.tsx"
+    ],
+    "amicro:card-hover": [
+      "src/vendor/amicro/card-hover.tsx"
+    ],
+    "amicro:tilt-card": [
+      "src/vendor/amicro/tilt-card.tsx"
+    ],
+    "amicro:magnetic-button": [
+      "src/vendor/amicro/magnetic-button.tsx"
+    ],
+    "amicro:glow-button": [
+      "src/vendor/amicro/glow-button.tsx"
+    ],
+    "amicro:cursor-trail": [
+      "src/vendor/amicro/cursor-trail.tsx"
+    ],
+    "amicro:spotlight": [
+      "src/vendor/amicro/spotlight.tsx"
+    ],
+    "amicro:mouse-follow": [
+      "src/vendor/amicro/mouse-follow.tsx"
+    ],
+    "amicro:scroll-reveal": [
+      "src/vendor/amicro/scroll-reveal.tsx"
+    ],
+    "amicro:progress-indicator": [
+      "src/vendor/amicro/progress-indicator.tsx"
+    ],
+    "amicro:sticky-reveal": [
+      "src/vendor/amicro/sticky-reveal.tsx"
+    ],
+    "amicro:skeleton": [
+      "src/vendor/amicro/skeleton.tsx"
+    ],
+    "amicro:pulse": [
+      "src/vendor/amicro/pulse.tsx"
+    ],
+    "amicro:morph-loader": [
+      "src/vendor/amicro/morph-loader.tsx"
+    ],
+    "amicro:accordion-loader": [
+      "src/vendor/amicro/accordion-loader.tsx"
+    ],
+    "amicro:app-icon-load": [
+      "src/vendor/amicro/app-icon-load.tsx"
+    ],
+    "amicro:apple-breathe": [
+      "src/vendor/amicro/apple-breathe.tsx"
+    ],
+    "amicro:apple-equalizer": [
+      "src/vendor/amicro/apple-equalizer.tsx"
+    ],
+    "amicro:apple-icon-morph": [
+      "src/vendor/amicro/apple-icon-morph.tsx"
+    ],
+    "amicro:apple-pulse-dots": [
+      "src/vendor/amicro/apple-pulse-dots.tsx"
+    ],
+    "amicro:apple-scale-pulse": [
+      "src/vendor/amicro/apple-scale-pulse.tsx"
+    ],
+    "amicro:apple-sound-wave": [
+      "src/vendor/amicro/apple-sound-wave.tsx"
+    ],
+    "amicro:apple-text-reveal": [
+      "src/vendor/amicro/apple-text-reveal.tsx"
+    ],
+    "amicro:apple-unlock": [
+      "src/vendor/amicro/apple-unlock.tsx"
+    ],
+    "amicro:arc-tracer": [
+      "src/vendor/amicro/arc-tracer.tsx"
+    ],
+    "amicro:bar-cascade": [
+      "src/vendor/amicro/bar-cascade.tsx"
+    ],
+    "amicro:bar-sweep": [
+      "src/vendor/amicro/bar-sweep.tsx"
+    ],
+    "amicro:bobbing-dots": [
+      "src/vendor/amicro/bobbing-dots.tsx"
+    ],
+    "amicro:bounce-dots": [
+      "src/vendor/amicro/bounce-dots.tsx"
+    ],
+    "amicro:bouncing-bars": [
+      "src/vendor/amicro/bouncing-bars.tsx"
+    ],
+    "amicro:bouncing-dots": [
+      "src/vendor/amicro/bouncing-dots.tsx"
+    ],
+    "amicro:bouncing-lines": [
+      "src/vendor/amicro/bouncing-lines.tsx"
+    ],
+    "amicro:bouncing-square": [
+      "src/vendor/amicro/bouncing-square.tsx"
+    ],
+    "amicro:breathe-ring": [
+      "src/vendor/amicro/breathe-ring.tsx"
+    ],
+    "amicro:breathing-glow": [
+      "src/vendor/amicro/breathing-glow.tsx"
+    ],
+    "amicro:breathing-square": [
+      "src/vendor/amicro/breathing-square.tsx"
+    ],
+    "amicro:circular-bars": [
+      "src/vendor/amicro/circular-bars.tsx"
+    ],
+    "amicro:classic-spinner": [
+      "src/vendor/amicro/classic-spinner.tsx"
+    ],
+    "amicro:clock-spinner": [
+      "src/vendor/amicro/clock-spinner.tsx"
+    ],
+    "amicro:comet-spinner": [
+      "src/vendor/amicro/comet-spinner.tsx"
+    ],
+    "amicro:concentric-pulse": [
+      "src/vendor/amicro/concentric-pulse.tsx"
+    ],
+    "amicro:concentric-ring": [
+      "src/vendor/amicro/concentric-ring.tsx"
+    ],
+    "amicro:concentric-squares": [
+      "src/vendor/amicro/concentric-squares.tsx"
+    ],
+    "amicro:conveyor-loop": [
+      "src/vendor/amicro/conveyor-loop.tsx"
+    ],
+    "amicro:cross-spinner": [
+      "src/vendor/amicro/cross-spinner.tsx"
+    ],
+    "amicro:cube-flip-spring": [
+      "src/vendor/amicro/cube-flip-spring.tsx"
+    ],
+    "amicro:dash-ring": [
+      "src/vendor/amicro/dash-ring.tsx"
+    ],
+    "amicro:dashed-spiral": [
+      "src/vendor/amicro/dashed-spiral.tsx"
+    ],
+    "amicro:diamond-grid": [
+      "src/vendor/amicro/diamond-grid.tsx"
+    ],
+    "amicro:diamond-rotate-spring": [
+      "src/vendor/amicro/diamond-rotate-spring.tsx"
+    ],
+    "amicro:dot-spinner": [
+      "src/vendor/amicro/dot-spinner.tsx"
+    ],
+    "amicro:dots-ring": [
+      "src/vendor/amicro/dots-ring.tsx"
+    ],
+    "amicro:double-ring": [
+      "src/vendor/amicro/double-ring.tsx"
+    ],
+    "amicro:drop-dot": [
+      "src/vendor/amicro/drop-dot.tsx"
+    ],
+    "amicro:dual-arc": [
+      "src/vendor/amicro/dual-arc.tsx"
+    ],
+    "amicro:dynamic-island": [
+      "src/vendor/amicro/dynamic-island.tsx"
+    ],
+    "amicro:elastic-bars": [
+      "src/vendor/amicro/elastic-bars.tsx"
+    ],
+    "amicro:elastic-square": [
+      "src/vendor/amicro/elastic-square.tsx"
+    ],
+    "amicro:expanding-cross": [
+      "src/vendor/amicro/expanding-cross.tsx"
+    ],
+    "amicro:face-id-scan": [
+      "src/vendor/amicro/face-id-scan.tsx"
+    ],
+    "amicro:fade-arc": [
+      "src/vendor/amicro/fade-arc.tsx"
+    ],
+    "amicro:fade-dots": [
+      "src/vendor/amicro/fade-dots.tsx"
+    ],
+    "amicro:flip-square": [
+      "src/vendor/amicro/flip-square.tsx"
+    ],
+    "amicro:floating-diamonds": [
+      "src/vendor/amicro/floating-diamonds.tsx"
+    ],
+    "amicro:fluid-bars": [
+      "src/vendor/amicro/fluid-bars.tsx"
+    ],
+    "amicro:fluid-diamond": [
+      "src/vendor/amicro/fluid-diamond.tsx"
+    ],
+    "amicro:fluid-dot-orbit": [
+      "src/vendor/amicro/fluid-dot-orbit.tsx"
+    ],
+    "amicro:fluid-skeleton": [
+      "src/vendor/amicro/fluid-skeleton.tsx"
+    ],
+    "amicro:gears": [
+      "src/vendor/amicro/gears.tsx"
+    ],
+    "amicro:glassmorphic-card": [
+      "src/vendor/amicro/glassmorphic-card.tsx"
+    ],
+    "amicro:gradient-arc": [
+      "src/vendor/amicro/gradient-arc.tsx"
+    ],
+    "amicro:grid-dots": [
+      "src/vendor/amicro/grid-dots.tsx"
+    ],
+    "amicro:haptic-ring": [
+      "src/vendor/amicro/haptic-ring.tsx"
+    ],
+    "amicro:heartbeat": [
+      "src/vendor/amicro/heartbeat.tsx"
+    ],
+    "amicro:hexagon-spinner": [
+      "src/vendor/amicro/hexagon-spinner.tsx"
+    ],
+    "amicro:hourglass": [
+      "src/vendor/amicro/hourglass.tsx"
+    ],
+    "amicro:infinity-path": [
+      "src/vendor/amicro/infinity-path.tsx"
+    ],
+    "amicro:intersecting-rings": [
+      "src/vendor/amicro/intersecting-rings.tsx"
+    ],
+    "amicro:ios-spinner": [
+      "src/vendor/amicro/ios-spinner.tsx"
+    ],
+    "amicro:line-spinner": [
+      "src/vendor/amicro/line-spinner.tsx"
+    ],
+    "amicro:liquid-dots": [
+      "src/vendor/amicro/liquid-dots.tsx"
+    ],
+    "amicro:mac-terminal": [
+      "src/vendor/amicro/mac-terminal.tsx"
+    ],
+    "amicro:magnetic-dots": [
+      "src/vendor/amicro/magnetic-dots.tsx"
+    ],
+    "amicro:minimal-triangle": [
+      "src/vendor/amicro/minimal-triangle.tsx"
+    ],
+    "amicro:morph-dot-ring": [
+      "src/vendor/amicro/morph-dot-ring.tsx"
+    ],
+    "amicro:morphing-bars": [
+      "src/vendor/amicro/morphing-bars.tsx"
+    ],
+    "amicro:morphing-infinity": [
+      "src/vendor/amicro/morphing-infinity.tsx"
+    ],
+    "amicro:morphing-ring": [
+      "src/vendor/amicro/morphing-ring.tsx"
+    ],
+    "amicro:morphing-shape": [
+      "src/vendor/amicro/morphing-shape.tsx"
+    ],
+    "amicro:newtons-cradle": [
+      "src/vendor/amicro/newtons-cradle.tsx"
+    ],
+    "amicro:offset-rings": [
+      "src/vendor/amicro/offset-rings.tsx"
+    ],
+    "amicro:orbiting-circles": [
+      "src/vendor/amicro/orbiting-circles.tsx"
+    ],
+    "amicro:orbiting-dot": [
+      "src/vendor/amicro/orbiting-dot.tsx"
+    ],
+    "amicro:origami-shape": [
+      "src/vendor/amicro/origami-shape.tsx"
+    ],
+    "amicro:pendulum": [
+      "src/vendor/amicro/pendulum.tsx"
+    ],
+    "amicro:pulsating-dots": [
+      "src/vendor/amicro/pulsating-dots.tsx"
+    ],
+    "amicro:pulse-dot": [
+      "src/vendor/amicro/pulse-dot.tsx"
+    ],
+    "amicro:pulse-dots": [
+      "src/vendor/amicro/pulse-dots.tsx"
+    ],
+    "amicro:pulse-square": [
+      "src/vendor/amicro/pulse-square.tsx"
+    ],
+    "amicro:pumping-heart": [
+      "src/vendor/amicro/pumping-heart.tsx"
+    ],
+    "amicro:radar-sweep": [
+      "src/vendor/amicro/radar-sweep.tsx"
+    ],
+    "amicro:ring-sweep": [
+      "src/vendor/amicro/ring-sweep.tsx"
+    ],
+    "amicro:ripple-effect": [
+      "src/vendor/amicro/ripple-effect.tsx"
+    ],
+    "amicro:rotating-cross": [
+      "src/vendor/amicro/rotating-cross.tsx"
+    ],
+    "amicro:rotating-triangle": [
+      "src/vendor/amicro/rotating-triangle.tsx"
+    ],
+    "amicro:shape-shift-grid": [
+      "src/vendor/amicro/shape-shift-grid.tsx"
+    ],
+    "amicro:shimmer-line": [
+      "src/vendor/amicro/shimmer-line.tsx"
+    ],
+    "amicro:siri-wave": [
+      "src/vendor/amicro/siri-wave.tsx"
+    ],
+    "amicro:skeleton-loader": [
+      "src/vendor/amicro/skeleton-loader.tsx"
+    ],
+    "amicro:sliding-bars": [
+      "src/vendor/amicro/sliding-bars.tsx"
+    ],
+    "amicro:smooth-dot-shift": [
+      "src/vendor/amicro/smooth-dot-shift.tsx"
+    ],
+    "amicro:smooth-ring": [
+      "src/vendor/amicro/smooth-ring.tsx"
+    ],
+    "amicro:smooth-rounded-square": [
+      "src/vendor/amicro/smooth-rounded-square.tsx"
+    ],
+    "amicro:spinning-squares": [
+      "src/vendor/amicro/spinning-squares.tsx"
+    ],
+    "amicro:spiral-spinner": [
+      "src/vendor/amicro/spiral-spinner.tsx"
+    ],
+    "amicro:spring-bars": [
+      "src/vendor/amicro/spring-bars.tsx"
+    ],
+    "amicro:spring-dot-matrix": [
+      "src/vendor/amicro/spring-dot-matrix.tsx"
+    ],
+    "amicro:spring-hexagon": [
+      "src/vendor/amicro/spring-hexagon.tsx"
+    ],
+    "amicro:spring-ring-expand": [
+      "src/vendor/amicro/spring-ring-expand.tsx"
+    ],
+    "amicro:spring-text-pop": [
+      "src/vendor/amicro/spring-text-pop.tsx"
+    ],
+    "amicro:square-accordion": [
+      "src/vendor/amicro/square-accordion.tsx"
+    ],
+    "amicro:square-grid": [
+      "src/vendor/amicro/square-grid.tsx"
+    ],
+    "amicro:square-snake": [
+      "src/vendor/amicro/square-snake.tsx"
+    ],
+    "amicro:square-spinner": [
+      "src/vendor/amicro/square-spinner.tsx"
+    ],
+    "amicro:stacked-bar-pulse": [
+      "src/vendor/amicro/stacked-bar-pulse.tsx"
+    ],
+    "amicro:swapping-dots": [
+      "src/vendor/amicro/swapping-dots.tsx"
+    ],
+    "amicro:swirling-spinner": [
+      "src/vendor/amicro/swirling-spinner.tsx"
+    ],
+    "amicro:symmetric-wave": [
+      "src/vendor/amicro/symmetric-wave.tsx"
+    ],
+    "amicro:terminal-loader": [
+      "src/vendor/amicro/terminal-loader.tsx"
+    ],
+    "amicro:text-blink": [
+      "src/vendor/amicro/text-blink.tsx"
+    ],
+    "amicro:text-dots": [
+      "src/vendor/amicro/text-dots.tsx"
+    ],
+    "amicro:text-morph": [
+      "src/vendor/amicro/text-morph.tsx"
+    ],
+    "amicro:text-shimmer-wave": [
+      "src/vendor/amicro/text-shimmer-wave.tsx"
+    ],
+    "amicro:text-shimmer": [
+      "src/vendor/amicro/text-shimmer.tsx"
+    ],
+    "amicro:trailing-dots": [
+      "src/vendor/amicro/trailing-dots.tsx"
+    ],
+    "amicro:triple-dot-spinner": [
+      "src/vendor/amicro/triple-dot-spinner.tsx"
+    ],
+    "amicro:twin-orbit": [
+      "src/vendor/amicro/twin-orbit.tsx"
+    ],
+    "amicro:typing-indicator": [
+      "src/vendor/amicro/typing-indicator.tsx"
+    ],
+    "amicro:typing": [
+      "src/vendor/amicro/typing.tsx"
+    ],
+    "amicro:wandering-cube": [
+      "src/vendor/amicro/wandering-cube.tsx"
+    ],
+    "amicro:watch-spinner": [
+      "src/vendor/amicro/watch-spinner.tsx"
+    ],
+    "amicro:wave-dots": [
+      "src/vendor/amicro/wave-dots.tsx"
+    ],
+    "amicro:wave-physics-loader": [
+      "src/vendor/amicro/wave-physics-loader.tsx"
+    ],
+    "amicro:waveform-loader": [
+      "src/vendor/amicro/waveform-loader.tsx"
+    ],
+    "amicro:zig-zag-pulse": [
+      "src/vendor/amicro/zig-zag-pulse.tsx"
+    ],
+    "libraries:border-beam": [
+      "src/vendor/libraries/border-beam.source.js"
+    ],
+    "libraries:orbs": [
+      "src/vendor/libraries/thinking-orbs.source.js"
+    ],
+    "libraries:gooey": [
+      "src/vendor/libraries/liquid-gooey.source.js"
+    ],
+    "libraries:metal": [
+      "src/vendor/libraries/metal-fx.source.js"
+    ],
+    "libraries:image": [
+      "src/vendor/libraries/img-fx.source.js"
+    ]
+  }
+}

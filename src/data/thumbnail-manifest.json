@@ -1,0 +1,4117 @@
+{
+  "captured": "2026-09-18",
+  "appearance": "light",
+  "method": "Browser screenshot of original demo, unused canvas trimmed and normalized to WebP",
+  "entries": [
+    {
+      "id": "interior:copy-button",
+      "file": "public/thumbnails/interior--copy-button.webp",
+      "originalUrl": "https://www.interior.dev/docs/copy-button",
+      "sha256": "f4efd8f3627762ea145fe956ad3bcda0a9d8c01829b4e39594c4c7f892c747c9"
+    },
+    {
+      "id": "interior:loading-button",
+      "file": "public/thumbnails/interior--loading-button.webp",
+      "originalUrl": "https://www.interior.dev/docs/loading-button",
+      "sha256": "ce56240c26983efdf9f138c248f673e8501481c5dfa4f43408d3504496c13dcb"
+    },
+    {
+      "id": "interior:hold-to-confirm",
+      "file": "public/thumbnails/interior--hold-to-confirm.webp",
+      "originalUrl": "https://www.interior.dev/docs/hold-to-confirm",
+      "sha256": "9fa60079bf52e88f01697c45e42e2ee9a2ae698c9d11f738358f43b4c9c60332"
+    },
+    {
+      "id": "interior:like-burst",
+      "file": "public/thumbnails/interior--like-burst.webp",
+      "originalUrl": "https://www.interior.dev/docs/like-burst",
+      "sha256": "b138bfea03a349a2105b4f2f0e602571ab1ee124a9c9fb21f488f52d3ec00f2d"
+    },
+    {
+      "id": "interior:ripple",
+      "file": "public/thumbnails/interior--ripple.webp",
+      "originalUrl": "https://www.interior.dev/docs/ripple",
+      "sha256": "bb080ec8f390e8ee50974db1a94e0739291af4c3fba726121201e2c65b6633fe"
+    },
+    {
+      "id": "interior:icon-morph",
+      "file": "public/thumbnails/interior--icon-morph.webp",
+      "originalUrl": "https://www.interior.dev/docs/icon-morph",
+      "sha256": "143beb1f90a1e3f6516e06827ca9b6d7bcf86254d80aab0b13f727fe82f75d63"
+    },
+    {
+      "id": "interior:press-depth",
+      "file": "public/thumbnails/interior--press-depth.webp",
+      "originalUrl": "https://www.interior.dev/docs/press-depth",
+      "sha256": "9a560171344c5f415cb3296a29aa0bf45b061cc59036958cd44d5428f73e32cb"
+    },
+    {
+      "id": "interior:floating-label",
+      "file": "public/thumbnails/interior--floating-label.webp",
+      "originalUrl": "https://www.interior.dev/docs/floating-label",
+      "sha256": "5291b36a2c44d7c9ee2d4bb60dd7bd73ef5dddf7260993fb3202278ae243a650"
+    },
+    {
+      "id": "interior:inline-validation",
+      "file": "public/thumbnails/interior--inline-validation.webp",
+      "originalUrl": "https://www.interior.dev/docs/inline-validation",
+      "sha256": "e24a471319fb77e2c55f9027b1b835221b5b554d0b76b55b5b52b81a3b0a3927"
+    },
+    {
+      "id": "interior:password-strength",
+      "file": "public/thumbnails/interior--password-strength.webp",
+      "originalUrl": "https://www.interior.dev/docs/password-strength",
+      "sha256": "3eef9b041682e345b4d0a0414d4d8c2149b49a0c39540c5a0e8a482d51ef4dd2"
+    },
+    {
+      "id": "interior:otp-input",
+      "file": "public/thumbnails/interior--otp-input.webp",
+      "originalUrl": "https://www.interior.dev/docs/otp-input",
+      "sha256": "144ab6ec944e5c33e074bf9faea4b953f9560994dfb52972ec8f8dfeaeb647e8"
+    },
+    {
+      "id": "interior:tag-input",
+      "file": "public/thumbnails/interior--tag-input.webp",
+      "originalUrl": "https://www.interior.dev/docs/tag-input",
+      "sha256": "0ebb85b06c17263f39cb699fa2661579be62d1121624b61ad52848ff3fa85ec3"
+    },
+    {
+      "id": "interior:expanding-search",
+      "file": "public/thumbnails/interior--expanding-search.webp",
+      "originalUrl": "https://www.interior.dev/docs/expanding-search",
+      "sha256": "de6e708b2b1ae5e83ea0bae4e94223dc2e9965e3ed4ca4b282a8b4047e182599"
+    },
+    {
+      "id": "interior:skeleton-swap",
+      "file": "public/thumbnails/interior--skeleton-swap.webp",
+      "originalUrl": "https://www.interior.dev/docs/skeleton-swap",
+      "sha256": "a309f1e0cc886a8f3c70f03860d6e8127b600a8dbec698e5d4e5dcf5f20a09e4"
+    },
+    {
+      "id": "interior:progress-bar",
+      "file": "public/thumbnails/interior--progress-bar.webp",
+      "originalUrl": "https://www.interior.dev/docs/progress-bar",
+      "sha256": "0ba2678b99da42b6559496946024e054463bfc2a971c56963802272d5097c60e"
+    },
+    {
+      "id": "interior:load-more",
+      "file": "public/thumbnails/interior--load-more.webp",
+      "originalUrl": "https://www.interior.dev/docs/load-more",
+      "sha256": "5a41bb5d3a7969e254e801b8856c952d12c68fd1508b7ba486270c3a17b2b757"
+    },
+    {
+      "id": "interior:streaming-text",
+      "file": "public/thumbnails/interior--streaming-text.webp",
+      "originalUrl": "https://www.interior.dev/docs/streaming-text",
+      "sha256": "65ddceb6309670205112bf60c6e72c6ace577d51bdd895cce048720f0b4d2fba"
+    },
+    {
+      "id": "interior:task-steps",
+      "file": "public/thumbnails/interior--task-steps.webp",
+      "originalUrl": "https://www.interior.dev/docs/task-steps",
+      "sha256": "61628f4de9817ea012e2a941dbe98120dfab7e57f30449e61c372694770fe80b"
+    },
+    {
+      "id": "interior:live-activity",
+      "file": "public/thumbnails/interior--live-activity.webp",
+      "originalUrl": "https://www.interior.dev/docs/live-activity",
+      "sha256": "36e93f3a955179d8e2b81b0540a27a89593386d33617ff4bdcc427115d7fb67d"
+    },
+    {
+      "id": "interior:collapsible-banner",
+      "file": "public/thumbnails/interior--collapsible-banner.webp",
+      "originalUrl": "https://www.interior.dev/docs/collapsible-banner",
+      "sha256": "d05f079133d72ac0eb1341815f6a4cb9967d1bd873b98bc605310ebea65069b1"
+    },
+    {
+      "id": "interior:presence-avatars",
+      "file": "public/thumbnails/interior--presence-avatars.webp",
+      "originalUrl": "https://www.interior.dev/docs/presence-avatars",
+      "sha256": "e11aa78fe5bf6957b0b0215f61911ba4ff38c5e12d1bf81edf620a9972bdc6a4"
+    },
+    {
+      "id": "interior:typing-indicator",
+      "file": "public/thumbnails/interior--typing-indicator.webp",
+      "originalUrl": "https://www.interior.dev/docs/typing-indicator",
+      "sha256": "03578df08b69aec25c8baf8a06b4ee09f745ecd762f47e8c2f51072f334a2056"
+    },
+    {
+      "id": "interior:new-items-pill",
+      "file": "public/thumbnails/interior--new-items-pill.webp",
+      "originalUrl": "https://www.interior.dev/docs/new-items-pill",
+      "sha256": "6ea4adf673bc76085eb6992cbb93ae068dd933813a4d6560673ef730bc698d69"
+    },
+    {
+      "id": "interior:modal",
+      "file": "public/thumbnails/interior--modal.webp",
+      "originalUrl": "https://www.interior.dev/docs/modal",
+      "sha256": "7f53c0795652adbf5f4d930d197b309119f612446215d9305bc23bd0da58b77d"
+    },
+    {
+      "id": "interior:popover",
+      "file": "public/thumbnails/interior--popover.webp",
+      "originalUrl": "https://www.interior.dev/docs/popover",
+      "sha256": "44ba4bd1886108e77adc278b1a7acb73e18c001b7a772cde2fe0f847b0ea332e"
+    },
+    {
+      "id": "interior:tooltip-group",
+      "file": "public/thumbnails/interior--tooltip-group.webp",
+      "originalUrl": "https://www.interior.dev/docs/tooltip-group",
+      "sha256": "e74be312bc6c536ab6d98d626836a3f096764d51b87a2aa9b9ff4d0891ae5764"
+    },
+    {
+      "id": "interior:command-palette",
+      "file": "public/thumbnails/interior--command-palette.webp",
+      "originalUrl": "https://www.interior.dev/docs/command-palette",
+      "sha256": "4166cbb966a387d1d083c464e6326d3ee4e95e88439869efc1477581d8fa553a"
+    },
+    {
+      "id": "interior:drawer",
+      "file": "public/thumbnails/interior--drawer.webp",
+      "originalUrl": "https://www.interior.dev/docs/drawer",
+      "sha256": "67456c692350fdc62738e74a63398f5249c3cb6626107f836b9b619261b333c6"
+    },
+    {
+      "id": "interior:context-menu",
+      "file": "public/thumbnails/interior--context-menu.webp",
+      "originalUrl": "https://www.interior.dev/docs/context-menu",
+      "sha256": "b050a9419ceb18a2c52f2777be8e34780537e60af7562ac93e0c9917462a71e2"
+    },
+    {
+      "id": "interior:dropdown",
+      "file": "public/thumbnails/interior--dropdown.webp",
+      "originalUrl": "https://www.interior.dev/docs/dropdown",
+      "sha256": "634ea303eed2d4613c95fdef1a3fefc4ae380e9517bec0d600fc90077a09f5c7"
+    },
+    {
+      "id": "interior:tabs",
+      "file": "public/thumbnails/interior--tabs.webp",
+      "originalUrl": "https://www.interior.dev/docs/tabs",
+      "sha256": "86f84b5a4aa56ebc1138589ebbc86b558dcb6ae11a3d9996de886af48c4acadc"
+    },
+    {
+      "id": "interior:segmented-control",
+      "file": "public/thumbnails/interior--segmented-control.webp",
+      "originalUrl": "https://www.interior.dev/docs/segmented-control",
+      "sha256": "82b1a13296523c34984ccbcfe6237caff1fe4f736762f9abf10a12222f9df17a"
+    },
+    {
+      "id": "interior:accordion",
+      "file": "public/thumbnails/interior--accordion.webp",
+      "originalUrl": "https://www.interior.dev/docs/accordion",
+      "sha256": "06f227acb90edf81ee16e0da05f4d05df70049d784ab2d89ec93248a11115294"
+    },
+    {
+      "id": "interior:wizard-steps",
+      "file": "public/thumbnails/interior--wizard-steps.webp",
+      "originalUrl": "https://www.interior.dev/docs/wizard-steps",
+      "sha256": "d230e38a39ac5b788ee6b9b83c50803c6b0f7170645a33dd7049d6d6316ee7f8"
+    },
+    {
+      "id": "interior:pagination",
+      "file": "public/thumbnails/interior--pagination.webp",
+      "originalUrl": "https://www.interior.dev/docs/pagination",
+      "sha256": "4c49934f0a98a7bd8c345e35e186d65244504245c0f08d2bf1fe61685d64c1d3"
+    },
+    {
+      "id": "interior:tree-view",
+      "file": "public/thumbnails/interior--tree-view.webp",
+      "originalUrl": "https://www.interior.dev/docs/tree-view",
+      "sha256": "77c16ed7f3b13e54b53bcc1638945de3806723f0814c5934b89c1874a9d4f7de"
+    },
+    {
+      "id": "interior:sticky-header",
+      "file": "public/thumbnails/interior--sticky-header.webp",
+      "originalUrl": "https://www.interior.dev/docs/sticky-header",
+      "sha256": "34a528424d03cd70cd5a7927efddd3b9a866bb56d274776765da1ee266acd1e1"
+    },
+    {
+      "id": "interior:reading-progress",
+      "file": "public/thumbnails/interior--reading-progress.webp",
+      "originalUrl": "https://www.interior.dev/docs/reading-progress",
+      "sha256": "ad52b1dc4cacc62279485b6e6f6d492ed4e2dad25ce406f68b59fd6f82993b20"
+    },
+    {
+      "id": "interior:scroll-spy",
+      "file": "public/thumbnails/interior--scroll-spy.webp",
+      "originalUrl": "https://www.interior.dev/docs/scroll-spy",
+      "sha256": "2f89aa5fb7f88888734d0224977e3f59adb73e8a8f126f0053e17ec524087a62"
+    },
+    {
+      "id": "interior:snap-carousel",
+      "file": "public/thumbnails/interior--snap-carousel.webp",
+      "originalUrl": "https://www.interior.dev/docs/snap-carousel",
+      "sha256": "3a57cd879a8aca8f686345bcaf6c4950e506e01c8f2166031dbd2a7a01bea95a"
+    },
+    {
+      "id": "interior:hide-on-scroll",
+      "file": "public/thumbnails/interior--hide-on-scroll.webp",
+      "originalUrl": "https://www.interior.dev/docs/hide-on-scroll",
+      "sha256": "b65b470752b586928f9cc2de472876671ab2503593a1e14a1956d22fc9798f78"
+    },
+    {
+      "id": "interior:sortable-table",
+      "file": "public/thumbnails/interior--sortable-table.webp",
+      "originalUrl": "https://www.interior.dev/docs/sortable-table",
+      "sha256": "d58e48636f239692d9d629254136e8e3e03423f32019fd5fab32bfe951d8cf63"
+    },
+    {
+      "id": "interior:filter-grid",
+      "file": "public/thumbnails/interior--filter-grid.webp",
+      "originalUrl": "https://www.interior.dev/docs/filter-grid",
+      "sha256": "1d34ae8d105a69d2352dccc9e348edbb9a97c8506e8448c434b78af37b545e4a"
+    },
+    {
+      "id": "interior:value-flash",
+      "file": "public/thumbnails/interior--value-flash.webp",
+      "originalUrl": "https://www.interior.dev/docs/value-flash",
+      "sha256": "01196c0d6d1860199d1bb5b8c5ac9a423c5398b5cd37fb98a6c7b402559886fe"
+    },
+    {
+      "id": "interior:poll-results",
+      "file": "public/thumbnails/interior--poll-results.webp",
+      "originalUrl": "https://www.interior.dev/docs/poll-results",
+      "sha256": "69c36b84270935a8f7a347944b97a499df8d0e40604cd5d999a38b9fcc41eedd"
+    },
+    {
+      "id": "interior:slider-detents",
+      "file": "public/thumbnails/interior--slider-detents.webp",
+      "originalUrl": "https://www.interior.dev/docs/slider-detents",
+      "sha256": "79cbf1ea5b9ac8eff36790ed2ddf58c5828d26e966a40bfda9f6e89486359c63"
+    },
+    {
+      "id": "interior:swipe-deck",
+      "file": "public/thumbnails/interior--swipe-deck.webp",
+      "originalUrl": "https://www.interior.dev/docs/swipe-deck",
+      "sha256": "c5bc5c8566969d58bc6f6fb5ad65b4f8c4f6194e9ba04cbf027a2c17789c5b23"
+    },
+    {
+      "id": "interior:reorder-list",
+      "file": "public/thumbnails/interior--reorder-list.webp",
+      "originalUrl": "https://www.interior.dev/docs/reorder-list",
+      "sha256": "056da86c894ea5802514f4647a172c8d568da3c21cf5f5d8da4a12687f52ae80"
+    },
+    {
+      "id": "interior:long-press",
+      "file": "public/thumbnails/interior--long-press.webp",
+      "originalUrl": "https://www.interior.dev/docs/long-press",
+      "sha256": "ff23f20a0305d53201f8f28795dc457c4b1c6e9c5c8f72ff5a91fe4ef71698a6"
+    },
+    {
+      "id": "interior:lightbox",
+      "file": "public/thumbnails/interior--lightbox.webp",
+      "originalUrl": "https://www.interior.dev/docs/lightbox",
+      "sha256": "6f672a56ac0f44edc50cae2fd55ad82fe9778a6573072602a32776d8aa51537d"
+    },
+    {
+      "id": "interior:text-reveal",
+      "file": "public/thumbnails/interior--text-reveal.webp",
+      "originalUrl": "https://www.interior.dev/docs/text-reveal",
+      "sha256": "8ddef0cbdc9c935cf726fe9aea67af78e308be2880ff088f6ca7949e3d46b599"
+    },
+    {
+      "id": "interior:logo-marquee",
+      "file": "public/thumbnails/interior--logo-marquee.webp",
+      "originalUrl": "https://www.interior.dev/docs/logo-marquee",
+      "sha256": "bb4c7be4baf604397917e13c0018075afbaa4f2ee9286b0f93a16a80caec215d"
+    },
+    {
+      "id": "interior:blur-up-image",
+      "file": "public/thumbnails/interior--blur-up-image.webp",
+      "originalUrl": "https://www.interior.dev/docs/blur-up-image",
+      "sha256": "4d7f59c64ba43e6e313cd55e732b3bffd77a106bfd3ada3618619623df6405ba"
+    },
+    {
+      "id": "interior:show-more",
+      "file": "public/thumbnails/interior--show-more.webp",
+      "originalUrl": "https://www.interior.dev/docs/show-more",
+      "sha256": "246881fb826252cfdfe4ebb3b7014992af67ad75a347d3dbbb93185c62c52730"
+    },
+    {
+      "id": "rare:utils",
+      "file": "public/thumbnails/rare--utils.webp",
+      "originalUrl": "https://www.rareui.com/components/utils",
+      "sha256": "9503d5ea584ee2269cf9336126061aaa2d12a0abb3fae6291bd390fc78a37169"
+    },
+    {
+      "id": "rare:folder-component",
+      "file": "public/thumbnails/rare--folder-component.webp",
+      "originalUrl": "https://rareui.com/components/foldercomponent",
+      "sha256": "7405890288a1711dab058d9b546b73b378df2eea869b075f8ca669725b9501da"
+    },
+    {
+      "id": "rare:bounce-sidebar",
+      "file": "public/thumbnails/rare--bounce-sidebar.webp",
+      "originalUrl": "https://rareui.com/components/bouncesidebar",
+      "sha256": "2e1d0acaa2f9b234c2f78d69c4c185727b28e288d9ed0cf002989a8f39a66eb8"
+    },
+    {
+      "id": "rare:hook-sidebar",
+      "file": "public/thumbnails/rare--hook-sidebar.webp",
+      "originalUrl": "https://rareui.com/components/hooksidebar",
+      "sha256": "57bdf1fd6d488a6e5dd4259dac7eab90f1c4ac95fac5ebb734684fe9cd6c7d6c"
+    },
+    {
+      "id": "rare:family-drawer",
+      "file": "public/thumbnails/rare--family-drawer.webp",
+      "originalUrl": "https://www.rareui.com/components/family-drawer",
+      "sha256": "e334bfc2329f1ecda0864859558170c2483165caa4ebcefb64a320f1aad0909c"
+    },
+    {
+      "id": "rare:proximity-sidebar",
+      "file": "public/thumbnails/rare--proximity-sidebar.webp",
+      "originalUrl": "https://rareui.com/components/proximitysidebar",
+      "sha256": "aa59d9cc64a94faeb54ae82571f1fa89a6db163fef403bfca056f0f277466b90"
+    },
+    {
+      "id": "rare:duration-picker",
+      "file": "public/thumbnails/rare--duration-picker.webp",
+      "originalUrl": "https://rareui.com/components/durationpicker",
+      "sha256": "8e635b98af7dba41bfeb0bd636cc947e4fc20c114611643441e16ebe6abcabb6"
+    },
+    {
+      "id": "rare:fluid-orb",
+      "file": "public/thumbnails/rare--fluid-orb.webp",
+      "originalUrl": "https://rareui.com/components/fluidorb",
+      "sha256": "1ae9a5c40dd523afd98e5de68c79b6da191e090b1a707955c17a9e4ff48fa545"
+    },
+    {
+      "id": "rare:scroll-progress",
+      "file": "public/thumbnails/rare--scroll-progress.webp",
+      "originalUrl": "https://rareui.com/components/scrollprogressindicator",
+      "sha256": "a6637afb14d8b987f447dc664378607800ae5262f4339418af175fefa072a549"
+    },
+    {
+      "id": "rare:code-block",
+      "file": "public/thumbnails/rare--code-block.webp",
+      "originalUrl": "https://rareui.com/components/codeblock",
+      "sha256": "376129220d893e56cf618e5d36e09a04ffb17fb092ce0fe99da68e347b51435d"
+    },
+    {
+      "id": "rare:otp-input",
+      "file": "public/thumbnails/rare--otp-input.webp",
+      "originalUrl": "https://rareui.com/components/otpinput",
+      "sha256": "ce2fc1a821c4734f89721ec1305458ae14b3c5672c2588dfb6cf38abd645cdd8"
+    },
+    {
+      "id": "rare:gravity-letters",
+      "file": "public/thumbnails/rare--gravity-letters.webp",
+      "originalUrl": "https://rareui.com/components/gravityletters",
+      "sha256": "63e42be2c82961f4fa882fd37b35eae2d0d59370eb60c4e43e79757661bda4db"
+    },
+    {
+      "id": "rare:github-activity",
+      "file": "public/thumbnails/rare--github-activity.webp",
+      "originalUrl": "https://rareui.com/components/githubactivity",
+      "sha256": "c07fd135918027e4a7eb7d08a0136934883f07acabc66a1f91072fd13dec5932"
+    },
+    {
+      "id": "rare:emoji-reaction",
+      "file": "public/thumbnails/rare--emoji-reaction.webp",
+      "originalUrl": "https://rareui.com/components/emojireaction",
+      "sha256": "5913c2f416e640e194fdb4e3b0f4066e83c660686aa68547e3e0241dc6d26a38"
+    },
+    {
+      "id": "rare:notification-bell",
+      "file": "public/thumbnails/rare--notification-bell.webp",
+      "originalUrl": "https://rareui.com/components/notificationbell",
+      "sha256": "2651caed5768782607533827c4555377c22d89cad54f74842dcf52fe2ca96674"
+    },
+    {
+      "id": "rare:step-player",
+      "file": "public/thumbnails/rare--step-player.webp",
+      "originalUrl": "https://rareui.com/components/stepplayer",
+      "sha256": "dddbc2a5010ee8dcdaeae4ac53edb80676faf50a1aea6486e4dde96e37fb3aa9"
+    },
+    {
+      "id": "rare:grid-reveal",
+      "file": "public/thumbnails/rare--grid-reveal.webp",
+      "originalUrl": "https://rareui.com/components/gridreveal",
+      "sha256": "ef659c493b80f7c8e13eec4c5e057ff607a0f56934ec1f2ae880ffed24e9eaf9"
+    },
+    {
+      "id": "rare:gooey-nav",
+      "file": "public/thumbnails/rare--gooey-nav.webp",
+      "originalUrl": "https://rareui.com/components/gooeynav",
+      "sha256": "bba65190ef59693fd153153c75515410a7d7f9384ebdb4f2d65209132933d7a0"
+    },
+    {
+      "id": "rare:delete-button",
+      "file": "public/thumbnails/rare--delete-button.webp",
+      "originalUrl": "https://rareui.com/components/deletebutton",
+      "sha256": "411d52c237ec9152d47d560f73acd7b688e9edb767cd93bfb061611b1b40cebe"
+    },
+    {
+      "id": "rare:animated-counter",
+      "file": "public/thumbnails/rare--animated-counter.webp",
+      "originalUrl": "https://rareui.com/components/animatedcounter",
+      "sha256": "6e7aa397dd7bae12d26c388b8be8e111a54ebcf772a09c876cd8efaca82798a4"
+    },
+    {
+      "id": "rare:matrix-orb",
+      "file": "public/thumbnails/rare--matrix-orb.webp",
+      "originalUrl": "https://rareui.com/components/matrixorb",
+      "sha256": "10e9da86b68806d720bebcdcde5f7cbb5d777aa373294c8f920ada142a04824b"
+    },
+    {
+      "id": "coss:accordion",
+      "file": "public/thumbnails/coss--accordion.webp",
+      "originalUrl": "https://coss.com/ui/docs/components/accordion",
+      "sha256": "52ca36eec5ba836e8cc86ea090f72ff2ca13bec8545c95d4dca65a3597fc37d1"
+    },
+    {
+      "id": "coss:alert",
+      "file": "public/thumbnails/coss--alert.webp",
+      "originalUrl": "https://coss.com/ui/docs/components/alert",
+      "sha256": "ae4bb2a0faa47e4510e80bd88ef57a135d7c0a45a6a49c661d5b3f6b3ed55838"
+    },
+    {
+      "id": "coss:alert-dialog",
+      "file": "public/thumbnails/coss--alert-dialog.webp",
+      "originalUrl": "https://coss.com/ui/docs/components/alert-dialog",
+      "sha256": "db063acde80db06816280cbf92131955d28777794ac8aa270f07009408a5f1c9"
+    },
+    {
+      "id": "coss:autocomplete",
+      "file": "public/thumbnails/coss--autocomplete.webp",
+      "originalUrl": "https://coss.com/ui/docs/components/autocomplete",
+      "sha256": "9307e51ba5801cadcc091615f4b46eca7069893c09bbbf99ed1fdfdf79ffec00"
+    },
+    {
+      "id": "coss:avatar",
+      "file": "public/thumbnails/coss--avatar.webp",
+      "originalUrl": "https://coss.com/ui/docs/components/avatar",
+      "sha256": "63dae7e8329d24419823f0968fee545510908ce3aa7032ec453ae58813f9b510"
+    },
+    {
+      "id": "coss:badge",
+      "file": "public/thumbnails/coss--badge.webp",
+      "originalUrl": "https://coss.com/ui/docs/components/badge",
+      "sha256": "47b067c01f5c4399fe17f575c88588e30994ed59b201750b17e7cca21819486f"
+    },
+    {
+      "id": "coss:breadcrumb",
+      "file": "public/thumbnails/coss--breadcrumb.webp",
+      "originalUrl": "https://coss.com/ui/docs/components/breadcrumb",
+      "sha256": "6af70ce4d2f96b5c6aba0b4ae3904975e255328d8a4dd6b49bafe17cb84a0c5f"
+    },
+    {
+      "id": "coss:button",
+      "file": "public/thumbnails/coss--button.webp",
+      "originalUrl": "https://coss.com/ui/docs/components/button",
+      "sha256": "566267085e5ea4491574f3db2416532da1a0a65ead9560d8ecdd06e016d65ad3"
+    },
+    {
+      "id": "coss:calendar",
+      "file": "public/thumbnails/coss--calendar.webp",
+      "originalUrl": "https://coss.com/ui/docs/components/calendar",
+      "sha256": "6ce0c21a3bf657d454205d89bd7581801922c17bae94c61ae140941fa07f5aa9"
+    },
+    {
+      "id": "coss:card",
+      "file": "public/thumbnails/coss--card.webp",
+      "originalUrl": "https://coss.com/ui/docs/components/card",
+      "sha256": "1e210cc038d3295f0ee3b07a01d00d2cbb49997776a6b3bb3c23605f67dd38d2"
+    },
+    {
+      "id": "coss:checkbox",
+      "file": "public/thumbnails/coss--checkbox.webp",
+      "originalUrl": "https://coss.com/ui/docs/components/checkbox",
+      "sha256": "a9df63f2444e2fd7546cce7071783de1b1f8d72e65a64d968860cd94b79c749a"
+    },
+    {
+      "id": "coss:checkbox-group",
+      "file": "public/thumbnails/coss--checkbox-group.webp",
+      "originalUrl": "https://coss.com/ui/docs/components/checkbox-group",
+      "sha256": "d80a6f386d75fdbf33d8a7c0c67055a346a8fff90d9b3d451e2594d1d34e051d"
+    },
+    {
+      "id": "coss:collapsible",
+      "file": "public/thumbnails/coss--collapsible.webp",
+      "originalUrl": "https://coss.com/ui/docs/components/collapsible",
+      "sha256": "a048994babfda0315def1e1053df3031ad4f848115dc5f3f265a5e6595555eff"
+    },
+    {
+      "id": "coss:combobox",
+      "file": "public/thumbnails/coss--combobox.webp",
+      "originalUrl": "https://coss.com/ui/docs/components/combobox",
+      "sha256": "187c5318cd6be1f695318833eef8732e4665f9a51c8e03710a313008296d9e4a"
+    },
+    {
+      "id": "coss:command",
+      "file": "public/thumbnails/coss--command.webp",
+      "originalUrl": "https://coss.com/ui/docs/components/command",
+      "sha256": "bcf747b169c6c068b8739476cac06aedb5e951a036317031447428ae9ec34858"
+    },
+    {
+      "id": "coss:context-menu",
+      "file": "public/thumbnails/coss--context-menu.webp",
+      "originalUrl": "https://coss.com/ui/docs/components/context-menu",
+      "sha256": "69232a23c1bf1c4856d047b8c59a6f7cc26f0f1d66bbe532af3483e43fe5f22b"
+    },
+    {
+      "id": "coss:date-picker",
+      "file": "public/thumbnails/coss--date-picker.webp",
+      "originalUrl": "https://coss.com/ui/docs/components/date-picker",
+      "sha256": "23f17542e9e70e2568b2bf48bfd301fcc939011cf07634662047cc019785e30a"
+    },
+    {
+      "id": "coss:dialog",
+      "file": "public/thumbnails/coss--dialog.webp",
+      "originalUrl": "https://coss.com/ui/docs/components/dialog",
+      "sha256": "38d3febceb57f316c26342040152e84a33a4241e6db4a99e978c081ec10b6aed"
+    },
+    {
+      "id": "coss:drawer",
+      "file": "public/thumbnails/coss--drawer.webp",
+      "originalUrl": "https://coss.com/ui/docs/components/drawer",
+      "sha256": "46c9c352464c727330d33685ee9d4c33b25f108ecebc274a864db3bebeb19350"
+    },
+    {
+      "id": "coss:empty",
+      "file": "public/thumbnails/coss--empty.webp",
+      "originalUrl": "https://coss.com/ui/docs/components/empty",
+      "sha256": "ae4b4d6b888754d09d2b02e12da28c0af2bf1702a3c8d13035f26e22612cf658"
+    },
+    {
+      "id": "coss:field",
+      "file": "public/thumbnails/coss--field.webp",
+      "originalUrl": "https://coss.com/ui/docs/components/field",
+      "sha256": "8f90f06c4367aeb0ba8352491a98bd269d635c9fcbf2bd491d9cc4075c3625dc"
+    },
+    {
+      "id": "coss:fieldset",
+      "file": "public/thumbnails/coss--fieldset.webp",
+      "originalUrl": "https://coss.com/ui/docs/components/fieldset",
+      "sha256": "47577d59b333bdbe18fe4aff52765f21e80f68ed0304465da9e9cebcae9c613e"
+    },
+    {
+      "id": "coss:form",
+      "file": "public/thumbnails/coss--form.webp",
+      "originalUrl": "https://coss.com/ui/docs/components/form",
+      "sha256": "6a70b4bc05e31e54a321ccd2440180ffcd3b6198aba8657568496f636ef24c85"
+    },
+    {
+      "id": "coss:frame",
+      "file": "public/thumbnails/coss--frame.webp",
+      "originalUrl": "https://coss.com/ui/docs/components/frame",
+      "sha256": "4a3d2f629d54328773509a03c3a311e9718fdd1e2ff25c52abc8d0e4abca4a77"
+    },
+    {
+      "id": "coss:group",
+      "file": "public/thumbnails/coss--group.webp",
+      "originalUrl": "https://coss.com/ui/docs/components/group",
+      "sha256": "492a17ea7ce37a78e3a9ac4657aa93f883d20cfea4b5cd6270c86a5a4f648788"
+    },
+    {
+      "id": "coss:input",
+      "file": "public/thumbnails/coss--input.webp",
+      "originalUrl": "https://coss.com/ui/docs/components/input",
+      "sha256": "401203a1ee4ce1b99784775c5a75022d22c431eaf09020b7b90506cb2aa8d59f"
+    },
+    {
+      "id": "coss:input-group",
+      "file": "public/thumbnails/coss--input-group.webp",
+      "originalUrl": "https://coss.com/ui/docs/components/input-group",
+      "sha256": "ff1d975a21ed13157994ab5db1d112d4dc1f9c211ee0515ff2c030b29529ce8b"
+    },
+    {
+      "id": "coss:kbd",
+      "file": "public/thumbnails/coss--kbd.webp",
+      "originalUrl": "https://coss.com/ui/docs/components/kbd",
+      "sha256": "cbdc948a4ee4261e27659f65673ccfdc5f829d4ed633ae3813d5de2198e820de"
+    },
+    {
+      "id": "coss:label",
+      "file": "public/thumbnails/coss--label.webp",
+      "originalUrl": "https://coss.com/ui/docs/components/label",
+      "sha256": "4548955f2053e073d4d1b69a12d3f9dcdb7548750a80fbcfcb67bc84eacb1a06"
+    },
+    {
+      "id": "coss:menu",
+      "file": "public/thumbnails/coss--menu.webp",
+      "originalUrl": "https://coss.com/ui/docs/components/menu",
+      "sha256": "0f03288e77dd4c3abb17d8119dcc76c316ef05dd1d8dc7c9425fd8f0e67f1ecb"
+    },
+    {
+      "id": "coss:meter",
+      "file": "public/thumbnails/coss--meter.webp",
+      "originalUrl": "https://coss.com/ui/docs/components/meter",
+      "sha256": "d7418c0fd9debbb24300634d448b65f46807dda5a57bbfdf8e7aa69745f3d798"
+    },
+    {
+      "id": "coss:number-field",
+      "file": "public/thumbnails/coss--number-field.webp",
+      "originalUrl": "https://coss.com/ui/docs/components/number-field",
+      "sha256": "a0a2df6e61e7f22a0d56629d7d7061e9853922add55ea90154e5bac37e744422"
+    },
+    {
+      "id": "coss:otp-field",
+      "file": "public/thumbnails/coss--otp-field.webp",
+      "originalUrl": "https://coss.com/ui/docs/components/otp-field",
+      "sha256": "6556671a5faa52b0b095c68d3149c2cb0c2b95e0e9e6168b33a4b55d830624ce"
+    },
+    {
+      "id": "coss:pagination",
+      "file": "public/thumbnails/coss--pagination.webp",
+      "originalUrl": "https://coss.com/ui/docs/components/pagination",
+      "sha256": "b59f2c5702375a496f3f63d5b689f3bbebbe69ab8585bf056aa2c96ff796b817"
+    },
+    {
+      "id": "coss:popover",
+      "file": "public/thumbnails/coss--popover.webp",
+      "originalUrl": "https://coss.com/ui/docs/components/popover",
+      "sha256": "84b23fda31e47bec2b1e4a3734465182bcd278928f190c8c45c2fb332bf800a8"
+    },
+    {
+      "id": "coss:preview-card",
+      "file": "public/thumbnails/coss--preview-card.webp",
+      "originalUrl": "https://coss.com/ui/docs/components/preview-card",
+      "sha256": "d2ab1981c4b5445f5b809258415dc7c1b1d27f42e06258a2e6977d08fea23dc1"
+    },
+    {
+      "id": "coss:progress",
+      "file": "public/thumbnails/coss--progress.webp",
+      "originalUrl": "https://coss.com/ui/docs/components/progress",
+      "sha256": "448db3456e21f057b654abd8235f7f7a8e1a0e8e04422969247a5e25d3e31904"
+    },
+    {
+      "id": "coss:radio-group",
+      "file": "public/thumbnails/coss--radio-group.webp",
+      "originalUrl": "https://coss.com/ui/docs/components/radio-group",
+      "sha256": "1cb8db2c5d6b64a3e460a18732dfcc0f96af8fc50691059aa43af06a807110d6"
+    },
+    {
+      "id": "coss:scroll-area",
+      "file": "public/thumbnails/coss--scroll-area.webp",
+      "originalUrl": "https://coss.com/ui/docs/components/scroll-area",
+      "sha256": "ede8783caed9728685847960aed72221f4f6420e072c70a87e098c95547d64c8"
+    },
+    {
+      "id": "coss:select",
+      "file": "public/thumbnails/coss--select.webp",
+      "originalUrl": "https://coss.com/ui/docs/components/select",
+      "sha256": "01190d57df2820ac1817e6df7b3d1d4aeabc7bd34efc94647680f748fd986608"
+    },
+    {
+      "id": "coss:separator",
+      "file": "public/thumbnails/coss--separator.webp",
+      "originalUrl": "https://coss.com/ui/docs/components/separator",
+      "sha256": "55a13322a91daa9c16ff35855a047e58f9918ce35e0201827e6cf6ba209a6b73"
+    },
+    {
+      "id": "coss:sheet",
+      "file": "public/thumbnails/coss--sheet.webp",
+      "originalUrl": "https://coss.com/ui/docs/components/sheet",
+      "sha256": "34ce214ff572c215e4c9278d895c9262b401830e766b86f99800f5754453a714"
+    },
+    {
+      "id": "coss:sidebar",
+      "file": "public/thumbnails/coss--sidebar.webp",
+      "originalUrl": "https://coss.com/ui/docs/components/sidebar",
+      "sha256": "ee43270023ace9a3c97e8476bdfda1e2d66f9199b6fe962b4da169e9ac6b24f2"
+    },
+    {
+      "id": "coss:skeleton",
+      "file": "public/thumbnails/coss--skeleton.webp",
+      "originalUrl": "https://coss.com/ui/docs/components/skeleton",
+      "sha256": "acc7708ee6f36f719f4e39250da5b698735dde4e8c5ef736b45b9bd0df7f71cc"
+    },
+    {
+      "id": "coss:slider",
+      "file": "public/thumbnails/coss--slider.webp",
+      "originalUrl": "https://coss.com/ui/docs/components/slider",
+      "sha256": "42a9b63fb433db27cc533f8f82a6bbe8c4a051d4f5457cd5dc95e43e29c2d0be"
+    },
+    {
+      "id": "coss:spinner",
+      "file": "public/thumbnails/coss--spinner.webp",
+      "originalUrl": "https://coss.com/ui/docs/components/spinner",
+      "sha256": "93f3528c02db18ccdc073910670927a97ef3a7ec14848d54776f3671f271990d"
+    },
+    {
+      "id": "coss:switch",
+      "file": "public/thumbnails/coss--switch.webp",
+      "originalUrl": "https://coss.com/ui/docs/components/switch",
+      "sha256": "1e62681621df2157f0fdadaf1e9907eb5860e3ccc6073aead0a38f6a4ecc9e75"
+    },
+    {
+      "id": "coss:table",
+      "file": "public/thumbnails/coss--table.webp",
+      "originalUrl": "https://coss.com/ui/docs/components/table",
+      "sha256": "faaf1d0960a4cb5ab8bb21c34796bad838966e20bf436be87cdeed679e236a6c"
+    },
+    {
+      "id": "coss:tabs",
+      "file": "public/thumbnails/coss--tabs.webp",
+      "originalUrl": "https://coss.com/ui/docs/components/tabs",
+      "sha256": "a40465f265fd98e42a7c9e2880b13d68f99c6b4bb2b56086cf76bcae0a90f158"
+    },
+    {
+      "id": "coss:textarea",
+      "file": "public/thumbnails/coss--textarea.webp",
+      "originalUrl": "https://coss.com/ui/docs/components/textarea",
+      "sha256": "fdc4921bce5ea44582011919ec8662f5edf352fea8e76beb2aecb555dce005c4"
+    },
+    {
+      "id": "coss:toast",
+      "file": "public/thumbnails/coss--toast.webp",
+      "originalUrl": "https://coss.com/ui/docs/components/toast",
+      "sha256": "d3be17832ca0b9575f104181f63a2a49c2875e9ce0db3b24cd5025d8bb8b75e9"
+    },
+    {
+      "id": "coss:toggle",
+      "file": "public/thumbnails/coss--toggle.webp",
+      "originalUrl": "https://coss.com/ui/docs/components/toggle",
+      "sha256": "08041a3ba51d5ffad2397cabcccdedd95f0131b5c45ab47e22aff46d0f07d0c7"
+    },
+    {
+      "id": "coss:toggle-group",
+      "file": "public/thumbnails/coss--toggle-group.webp",
+      "originalUrl": "https://coss.com/ui/docs/components/toggle-group",
+      "sha256": "e2a3da259c91355b37ea1c62c961b4b09df09f07c8c2335b3eabe91bb9249056"
+    },
+    {
+      "id": "coss:toolbar",
+      "file": "public/thumbnails/coss--toolbar.webp",
+      "originalUrl": "https://coss.com/ui/docs/components/toolbar",
+      "sha256": "f531b628d0c4c93fba9cd68231a4dba023cf37ec172623f16e02bb40d6b8c8f9"
+    },
+    {
+      "id": "coss:tooltip",
+      "file": "public/thumbnails/coss--tooltip.webp",
+      "originalUrl": "https://coss.com/ui/docs/components/tooltip",
+      "sha256": "42c48d7fa93a7d52b910ce3d04f43826736ccd3baaa46ab2fc24b23646de3f0b"
+    },
+    {
+      "id": "shadcn:field",
+      "file": "public/thumbnails/shadcn--field.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/field",
+      "sha256": "d6b384d13a9a4086d5c2ab98613fe2e266fe5d9005f916b1a9199b984cf5957a"
+    },
+    {
+      "id": "shadcn:button",
+      "file": "public/thumbnails/shadcn--button.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/button",
+      "sha256": "5e693b029f97d708bebaaba66304f5c906d6b31e8d68f4cd1ad3845e111f84af"
+    },
+    {
+      "id": "shadcn:button-group",
+      "file": "public/thumbnails/shadcn--button-group.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/button-group",
+      "sha256": "51d1fc4de056844a1446337ce41ba58f75f067e144f2b9833cc5024dd5378b56"
+    },
+    {
+      "id": "shadcn:input",
+      "file": "public/thumbnails/shadcn--input.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/input",
+      "sha256": "11de03424520c56697453a327f450915bb06f9a533527ace5499bc1ad1137ee6"
+    },
+    {
+      "id": "shadcn:input-group",
+      "file": "public/thumbnails/shadcn--input-group.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/input-group",
+      "sha256": "04eb33e01cacef2cfd7633614b9cdda15787c43b0fc9edd20d5c6500997eb2c8"
+    },
+    {
+      "id": "shadcn:input-otp",
+      "file": "public/thumbnails/shadcn--input-otp.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/input-otp",
+      "sha256": "b52c8ce53d03bdb6ec0493fabb29d3f9f61a4860ab8eb046481da53d945a3112"
+    },
+    {
+      "id": "shadcn:textarea",
+      "file": "public/thumbnails/shadcn--textarea.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/textarea",
+      "sha256": "5098f96fdfd36067eae0ac644f7355d497e423252dd45f6bbc9e527f039b777e"
+    },
+    {
+      "id": "shadcn:checkbox",
+      "file": "public/thumbnails/shadcn--checkbox.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/checkbox",
+      "sha256": "6db880c67d443a022fff90128b9bbbb89c5f048291c34a2183519cf1f969ede9"
+    },
+    {
+      "id": "shadcn:radio-group",
+      "file": "public/thumbnails/shadcn--radio-group.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/radio-group",
+      "sha256": "f855c66735f94ae10960813eb282a4332fea09cf68e35fceeac8f01138457d14"
+    },
+    {
+      "id": "shadcn:select",
+      "file": "public/thumbnails/shadcn--select.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/select",
+      "sha256": "f9359925dc84c961870aed7f7bd8cd39232d21a8f311e440d19ff5a57ff49ad7"
+    },
+    {
+      "id": "shadcn:native-select",
+      "file": "public/thumbnails/shadcn--native-select.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/native-select",
+      "sha256": "ad5ab89392c3c3f628e25be9ab400f15e82ce842063462557d93b6bbc82182fd"
+    },
+    {
+      "id": "shadcn:switch",
+      "file": "public/thumbnails/shadcn--switch.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/switch",
+      "sha256": "26c2ef3f8f9fcdaff188b7684007c7dce303bcfa47321a37d66920c451024787"
+    },
+    {
+      "id": "shadcn:slider",
+      "file": "public/thumbnails/shadcn--slider.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/slider",
+      "sha256": "079c9da3a439736bfb3737b679ed3774d3041190fead063799d013af24a95b45"
+    },
+    {
+      "id": "shadcn:calendar",
+      "file": "public/thumbnails/shadcn--calendar.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/calendar",
+      "sha256": "78fcc164474209bdcaa9ac460703b137c11281192bccad1ae6ba92470c8c2bf9"
+    },
+    {
+      "id": "shadcn:date-picker",
+      "file": "public/thumbnails/shadcn--date-picker.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/date-picker",
+      "sha256": "564566e7c20db2d3fb960f486ca2cde3f89c60bead046ece04fffcbe3cec2b66"
+    },
+    {
+      "id": "shadcn:combobox",
+      "file": "public/thumbnails/shadcn--combobox.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/combobox",
+      "sha256": "8cf0aa57104beb237702db6e69f004ee072313bc1886576849222301567eef6a"
+    },
+    {
+      "id": "shadcn:label",
+      "file": "public/thumbnails/shadcn--label.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/label",
+      "sha256": "bbd14a7eb8b31343a7f52d46ce96ba5e3c015ccc0ac7b2367a116a81be26cdff"
+    },
+    {
+      "id": "shadcn:accordion",
+      "file": "public/thumbnails/shadcn--accordion.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/accordion",
+      "sha256": "b7cae12729f97687eacf77493c392a3b787ae430547f233c1e40ff0a8c0ce677"
+    },
+    {
+      "id": "shadcn:breadcrumb",
+      "file": "public/thumbnails/shadcn--breadcrumb.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/breadcrumb",
+      "sha256": "4a93a9567086581138e48fdee4e7c192579229bc2770e8d6efd5e6bec42f3d9e"
+    },
+    {
+      "id": "shadcn:navigation-menu",
+      "file": "public/thumbnails/shadcn--navigation-menu.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/navigation-menu",
+      "sha256": "ace10bd2e5f31e95c34ece583a7da22ca96bfe51bc576ee157adaa46cd0503dd"
+    },
+    {
+      "id": "shadcn:sidebar",
+      "file": "public/thumbnails/shadcn--sidebar.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/sidebar",
+      "sha256": "72e94b13e80d48ce0c201616c0c7399f3c9e0cca3fae506ebd11861cf57031b6"
+    },
+    {
+      "id": "shadcn:tabs",
+      "file": "public/thumbnails/shadcn--tabs.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/tabs",
+      "sha256": "18273d486277583660f473c78403825cad8647752c3988d1cce5ff99de141b9d"
+    },
+    {
+      "id": "shadcn:separator",
+      "file": "public/thumbnails/shadcn--separator.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/separator",
+      "sha256": "4e762f213a887f27c6312a0d06a0ad37b3d1b59daaf7c7dd04aa57d48fc7e027"
+    },
+    {
+      "id": "shadcn:scroll-area",
+      "file": "public/thumbnails/shadcn--scroll-area.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/scroll-area",
+      "sha256": "c8e0985f12279dbfb1b3e8decc32b13f2c0477ae4b5752cbf8b8f48dfbe7c054"
+    },
+    {
+      "id": "shadcn:resizable",
+      "file": "public/thumbnails/shadcn--resizable.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/resizable",
+      "sha256": "12c293baa10ffc7906c5b5b2a9636fb1e33a40a8ee2dc6c503b1c61a472ae988"
+    },
+    {
+      "id": "shadcn:dialog",
+      "file": "public/thumbnails/shadcn--dialog.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/dialog",
+      "sha256": "e2e97fbf65c4eae40d0c783c6f9980ad10283011683ccb819e4eb11d3ee3f12d"
+    },
+    {
+      "id": "shadcn:alert-dialog",
+      "file": "public/thumbnails/shadcn--alert-dialog.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/alert-dialog",
+      "sha256": "8e3699ffdd475746008e90289fb6dbb27f9d178bb9e1e2b3af7d904740e06347"
+    },
+    {
+      "id": "shadcn:sheet",
+      "file": "public/thumbnails/shadcn--sheet.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/sheet",
+      "sha256": "1824e60dd7a8211af0def857f21c42e6a6e59691841fd2ea48aa9124e9fcb980"
+    },
+    {
+      "id": "shadcn:drawer",
+      "file": "public/thumbnails/shadcn--drawer.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/drawer",
+      "sha256": "5b14792c93f152309069bc0257e3dcbbb38926b6cb40ecef05388e206c2ba123"
+    },
+    {
+      "id": "shadcn:popover",
+      "file": "public/thumbnails/shadcn--popover.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/popover",
+      "sha256": "39b5b12f958dbbaef74501854a7806227bf44a26c73f0f04b5dbb75a65791c9d"
+    },
+    {
+      "id": "shadcn:tooltip",
+      "file": "public/thumbnails/shadcn--tooltip.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/tooltip",
+      "sha256": "50fbb17d3d3900086c572407bd04b55260768daf6261dd3329667310bc626c77"
+    },
+    {
+      "id": "shadcn:hover-card",
+      "file": "public/thumbnails/shadcn--hover-card.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/hover-card",
+      "sha256": "6b237d2d7aed98569f8c94db15e28154b026557aa99478f245a3319db193839f"
+    },
+    {
+      "id": "shadcn:context-menu",
+      "file": "public/thumbnails/shadcn--context-menu.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/context-menu",
+      "sha256": "ba9c239b83a91e736b3766aad1804a91c4ffdff88a42cda1abddb35f77c225f3"
+    },
+    {
+      "id": "shadcn:dropdown-menu",
+      "file": "public/thumbnails/shadcn--dropdown-menu.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/dropdown-menu",
+      "sha256": "1824e60dd7a8211af0def857f21c42e6a6e59691841fd2ea48aa9124e9fcb980"
+    },
+    {
+      "id": "shadcn:menubar",
+      "file": "public/thumbnails/shadcn--menubar.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/menubar",
+      "sha256": "91f9c4900e445715bd4af4e337ed05963522c45c625783f1580a71a78deed02d"
+    },
+    {
+      "id": "shadcn:command",
+      "file": "public/thumbnails/shadcn--command.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/command",
+      "sha256": "3404704340e846187cf46b97d95a12f9ee96f18cd56c14fc72a87aa0662bc98c"
+    },
+    {
+      "id": "shadcn:alert",
+      "file": "public/thumbnails/shadcn--alert.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/alert",
+      "sha256": "eb12b736114fe626aa17e3ff3bf8363b01dd4d526fa3c2448b1c7b478b69dcf2"
+    },
+    {
+      "id": "shadcn:toast",
+      "file": "public/thumbnails/shadcn--toast.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/toast",
+      "sha256": "56e90f20de6b0a81dae94f338ba486b8286d451287be001d2084cb85a6af0585"
+    },
+    {
+      "id": "shadcn:sonner",
+      "file": "public/thumbnails/shadcn--sonner.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/sonner",
+      "sha256": "56e90f20de6b0a81dae94f338ba486b8286d451287be001d2084cb85a6af0585"
+    },
+    {
+      "id": "shadcn:progress",
+      "file": "public/thumbnails/shadcn--progress.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/progress",
+      "sha256": "1503c01715f207d42efd6c290fa6d4caa3ae5a3f88b9aab6fbedfe972d306a06"
+    },
+    {
+      "id": "shadcn:spinner",
+      "file": "public/thumbnails/shadcn--spinner.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/spinner",
+      "sha256": "c13433a94db42f952ed43a71bc0236ba0ed09e521ff0b008b47e1a0926aa04af"
+    },
+    {
+      "id": "shadcn:skeleton",
+      "file": "public/thumbnails/shadcn--skeleton.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/skeleton",
+      "sha256": "93aed83c5659a724c80a56ba40c0dd37a370d583bcebb2c929ba044edabe90bd"
+    },
+    {
+      "id": "shadcn:badge",
+      "file": "public/thumbnails/shadcn--badge.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/badge",
+      "sha256": "1c1684cead184ca4fcfb10f9b1796c1c4051cca8942392b43ab39b96c232cefe"
+    },
+    {
+      "id": "shadcn:empty",
+      "file": "public/thumbnails/shadcn--empty.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/empty",
+      "sha256": "90152118ad51ca4dbf43a76affaba01509c4759d5cbbe2fb79d2202c86cb3b44"
+    },
+    {
+      "id": "shadcn:avatar",
+      "file": "public/thumbnails/shadcn--avatar.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/avatar",
+      "sha256": "bc9b61d50a182b3224f13268053b42271fb63dba37a4160fdbb04cdd0698223d"
+    },
+    {
+      "id": "shadcn:card",
+      "file": "public/thumbnails/shadcn--card.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/card",
+      "sha256": "e0415222e1b16639fca16a5ecc3ae723be6998c998e284560bf9158e52a43cc6"
+    },
+    {
+      "id": "shadcn:table",
+      "file": "public/thumbnails/shadcn--table.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/table",
+      "sha256": "ab3616f8114b925c7296516f79dcace2363e0617bb67f9835324d87cc252732e"
+    },
+    {
+      "id": "shadcn:data-table",
+      "file": "public/thumbnails/shadcn--data-table.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/data-table",
+      "sha256": "2750812da4a0a0c9d360714602a520ecd0ae67cdf60718336f9a39f1656645a9"
+    },
+    {
+      "id": "shadcn:chart",
+      "file": "public/thumbnails/shadcn--chart.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/chart",
+      "sha256": "4879fc8d4989517c250131431db469bdfb105dcaf525d8192808931f4a2d4c43"
+    },
+    {
+      "id": "shadcn:carousel",
+      "file": "public/thumbnails/shadcn--carousel.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/carousel",
+      "sha256": "50f906d6e9fc0355a9d3a5335f4c65b091d3a5de36ed5df871d67996b4661d50"
+    },
+    {
+      "id": "shadcn:aspect-ratio",
+      "file": "public/thumbnails/shadcn--aspect-ratio.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/aspect-ratio",
+      "sha256": "6e1864556ca0580f7bf66c481012d4e6d9f9ff3320838d13624506c236e59436"
+    },
+    {
+      "id": "shadcn:typography",
+      "file": "public/thumbnails/shadcn--typography.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/typography",
+      "sha256": "6fc68c63df0f08b6cc5bd7bcc61d65e7c4b8794df34cad26d621947ee70c5b58"
+    },
+    {
+      "id": "shadcn:item",
+      "file": "public/thumbnails/shadcn--item.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/item",
+      "sha256": "8219e76318b8f1f6e6d35ad105093c1485e0b1eabd6fa6a97564f8178f084595"
+    },
+    {
+      "id": "shadcn:kbd",
+      "file": "public/thumbnails/shadcn--kbd.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/kbd",
+      "sha256": "e090c95b1f5e35acf48edfb08abbbcda4b0861fe63a8053f343daeea97d1b33d"
+    },
+    {
+      "id": "shadcn:collapsible",
+      "file": "public/thumbnails/shadcn--collapsible.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/collapsible",
+      "sha256": "d742273f37176f8daf8c0c1f8d8cfb67e151a0f8559e39df966adeb75fa32a4e"
+    },
+    {
+      "id": "shadcn:toggle",
+      "file": "public/thumbnails/shadcn--toggle.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/toggle",
+      "sha256": "8ad121338c3682d9e8e0afc99fd53c5c717d2269d8bd74a8becde2f5fc1d58cb"
+    },
+    {
+      "id": "shadcn:toggle-group",
+      "file": "public/thumbnails/shadcn--toggle-group.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/toggle-group",
+      "sha256": "f937c78e5d816f86000a0bb16cba51e0d094521a430b147d0579d25b54017442"
+    },
+    {
+      "id": "shadcn:pagination",
+      "file": "public/thumbnails/shadcn--pagination.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/pagination",
+      "sha256": "0e095b03d31f2d3598be1d7dae61e8bb182b057014ba8ff79e1743e0bbd139ca"
+    },
+    {
+      "id": "shadcn:direction",
+      "file": "public/thumbnails/shadcn--direction.webp",
+      "originalUrl": "https://ui.shadcn.com/docs/components/direction",
+      "sha256": "a9a94f707bd6d859164e123f7e6034b7fa7ad62b8c87652961464794d25cb42a"
+    },
+    {
+      "id": "beui:tilt-card",
+      "file": "public/thumbnails/beui--tilt-card.webp",
+      "originalUrl": "https://beui.dev/components/motion/tilt-card",
+      "sha256": "7508cb71075990109bba4047d6d75b3325434f556f1bac87f23995236611b466"
+    },
+    {
+      "id": "beui:button",
+      "file": "public/thumbnails/beui--button.webp",
+      "originalUrl": "https://beui.dev/components/motion/button",
+      "sha256": "1ef9d2dbed7b46b11a9b96ae2a3c5acb14f7b79017f16fbd8cfbcb8109ebfccd"
+    },
+    {
+      "id": "beui:expanding-arrow-button",
+      "file": "public/thumbnails/beui--expanding-arrow-button.webp",
+      "originalUrl": "https://beui.dev/components/motion/expanding-arrow-button",
+      "sha256": "fb43bdbc7fd53b4110fc62d5cb340bc670bec9b8279b929c2a92a4cb14b874cb"
+    },
+    {
+      "id": "beui:expandable-control",
+      "file": "public/thumbnails/beui--expandable-control.webp",
+      "originalUrl": "https://beui.dev/components/motion/expandable-control",
+      "sha256": "9a7f6791b7866102e62549b835b0f9d065528b8b4c2c2dd33ff7dac08df77c5f"
+    },
+    {
+      "id": "beui:adaptive-stepper",
+      "file": "public/thumbnails/beui--adaptive-stepper.webp",
+      "originalUrl": "https://beui.dev/components/motion/adaptive-stepper",
+      "sha256": "fefda276ccc9626bdac09eaf60911a3cf760940597d6da0e509f61d5b1238514"
+    },
+    {
+      "id": "beui:marquee",
+      "file": "public/thumbnails/beui--marquee.webp",
+      "originalUrl": "https://beui.dev/components/motion/marquee",
+      "sha256": "4e309dddcff855999f8491ea46efe0201205253adb6fac3880ee43fbe7e306d6"
+    },
+    {
+      "id": "beui:tabs",
+      "file": "public/thumbnails/beui--tabs.webp",
+      "originalUrl": "https://beui.dev/components/motion/tabs",
+      "sha256": "7b8f6949368be87058fffe0850c0bb0b14c7bb25ddcbc73385a82b29da66a68c"
+    },
+    {
+      "id": "beui:switch",
+      "file": "public/thumbnails/beui--switch.webp",
+      "originalUrl": "https://beui.dev/components/motion/switch",
+      "sha256": "96c0d86c9f81fcc079bca22355b281ed01708f36cac884c7b910808b21dd50fa"
+    },
+    {
+      "id": "beui:input",
+      "file": "public/thumbnails/beui--input.webp",
+      "originalUrl": "https://beui.dev/components/motion/input",
+      "sha256": "4520b6d2cceaa01c27d70a92040b53b8444acefbfd2f0fa2c00e7a30d9e67d4d"
+    },
+    {
+      "id": "beui:select",
+      "file": "public/thumbnails/beui--select.webp",
+      "originalUrl": "https://beui.dev/components/motion/select",
+      "sha256": "cc0239ef32aa75aa96433bcc49ba302f09b2201c72a57812575f6a3c46e075f4"
+    },
+    {
+      "id": "beui:combobox",
+      "file": "public/thumbnails/beui--combobox.webp",
+      "originalUrl": "https://beui.dev/components/motion/combobox",
+      "sha256": "5ebb7e1346d974ae0211cf1fa38f71777e18a75bf5344b299655a48fdb2df90a"
+    },
+    {
+      "id": "beui:multi-select",
+      "file": "public/thumbnails/beui--multi-select.webp",
+      "originalUrl": "https://beui.dev/components/motion/multi-select",
+      "sha256": "b2f188bc416a1cb18ea003acc17a7a156ac6b5985da02a3c4c51da46d5c78f5a"
+    },
+    {
+      "id": "beui:checkbox",
+      "file": "public/thumbnails/beui--checkbox.webp",
+      "originalUrl": "https://beui.dev/components/motion/checkbox",
+      "sha256": "5e20b79d16932eb76131df00898c90c0ab9dfda7667ff43ed611866a89aadd08"
+    },
+    {
+      "id": "beui:radio",
+      "file": "public/thumbnails/beui--radio.webp",
+      "originalUrl": "https://beui.dev/components/motion/radio",
+      "sha256": "9799d5a5abb75760c5adc40f0cce4f7eb4cccb69232c8ce9844f6e5e45181e8c"
+    },
+    {
+      "id": "beui:bottom-sheet",
+      "file": "public/thumbnails/beui--bottom-sheet.webp",
+      "originalUrl": "https://beui.dev/components/motion/bottom-sheet",
+      "sha256": "4a388330c2fc17507a7688b2f802c805230c48e4ad6109e1d42c30ea30267009"
+    },
+    {
+      "id": "beui:pull-to-refresh",
+      "file": "public/thumbnails/beui--pull-to-refresh.webp",
+      "originalUrl": "https://beui.dev/components/motion/pull-to-refresh",
+      "sha256": "028e07383ef197586015f2e1bc3ae6fd86c62f034ad75fabe81f42fb0dad8da7"
+    },
+    {
+      "id": "beui:shared-layout-bg",
+      "file": "public/thumbnails/beui--shared-layout-bg.webp",
+      "originalUrl": "https://beui.dev/components/motion/shared-layout-bg",
+      "sha256": "570168cf287bed2b525cc49de143622166165c1904e0474da9076af1acc9abc3"
+    },
+    {
+      "id": "beui:bounce-sidebar",
+      "file": "public/thumbnails/beui--bounce-sidebar.webp",
+      "originalUrl": "https://beui.dev/components/motion/bounce-sidebar",
+      "sha256": "fb120181cba1eb32fd6528e5051d62fafdd28de5799f0b92ff91e390bb2a722e"
+    },
+    {
+      "id": "beui:animated-sidebar",
+      "file": "public/thumbnails/beui--animated-sidebar.webp",
+      "originalUrl": "https://beui.dev/components/motion/animated-sidebar",
+      "sha256": "9fd4055fffd10a5eec90b21d8e4f0858b529e672cb2014d5d1a9181c08e89faf"
+    },
+    {
+      "id": "beui:file-tree",
+      "file": "public/thumbnails/beui--file-tree.webp",
+      "originalUrl": "https://beui.dev/components/motion/file-tree",
+      "sha256": "46c225c7af5af9f0fd2e791c3f04dce5bacf56b33da670493a00277d2217f91c"
+    },
+    {
+      "id": "beui:preview-rail",
+      "file": "public/thumbnails/beui--preview-rail.webp",
+      "originalUrl": "https://beui.dev/components/motion/preview-rail",
+      "sha256": "bac6e82895dfc1fbee8c3174c2b50c41ebd4ca649d9593f9c47861439025b760"
+    },
+    {
+      "id": "beui:dock",
+      "file": "public/thumbnails/beui--dock.webp",
+      "originalUrl": "https://beui.dev/components/motion/dock",
+      "sha256": "c7cebf0f7f1cbb5b9e1743f912f9eb0e7df515f63ea95ad87f8074c24a562814"
+    },
+    {
+      "id": "beui:tooltip",
+      "file": "public/thumbnails/beui--tooltip.webp",
+      "originalUrl": "https://beui.dev/components/motion/tooltip",
+      "sha256": "4c563e2e28be2ba2c03c892d915d0a37b0bd4b4a18f7682af6540ed05464c9c4"
+    },
+    {
+      "id": "beui:context-menu",
+      "file": "public/thumbnails/beui--context-menu.webp",
+      "originalUrl": "https://beui.dev/components/motion/context-menu",
+      "sha256": "bc14898a0afbcca97cb50db4055f58a5cac303daadbd26ffbbe4d4fac1791988"
+    },
+    {
+      "id": "beui:popover",
+      "file": "public/thumbnails/beui--popover.webp",
+      "originalUrl": "https://beui.dev/components/motion/popover",
+      "sha256": "382422a735153589596ff0a3769e6d29c1f79b7f65b1c09d7806e448ca7bdde0"
+    },
+    {
+      "id": "beui:morphing-modal",
+      "file": "public/thumbnails/beui--morphing-modal.webp",
+      "originalUrl": "https://beui.dev/components/motion/morphing-modal",
+      "sha256": "b2e374ee1aa728a416145c4f991c3136b7c178d2ddf114457fd1b8847bf51134"
+    },
+    {
+      "id": "beui:center-morph-modal",
+      "file": "public/thumbnails/beui--center-morph-modal.webp",
+      "originalUrl": "https://beui.dev/components/motion/center-morph-modal",
+      "sha256": "3977767465daf2e6b16086c9c97263a652233d32f696b444ba1feec54123f44a"
+    },
+    {
+      "id": "beui:text-animation",
+      "file": "public/thumbnails/beui--text-animation.webp",
+      "originalUrl": "https://beui.dev/components/motion/text-animation",
+      "sha256": "b519eba39edcbbe16056b1ef444d40d052304978ff1367931d56fbb4d62dfa1e"
+    },
+    {
+      "id": "beui:number",
+      "file": "public/thumbnails/beui--number.webp",
+      "originalUrl": "https://beui.dev/components/motion/number",
+      "sha256": "69c1bb344e9e516b34c984e8a562b4e5817c1f55beed1c58bdc623b325a25320"
+    },
+    {
+      "id": "beui:animated-badge",
+      "file": "public/thumbnails/beui--animated-badge.webp",
+      "originalUrl": "https://beui.dev/components/motion/animated-badge",
+      "sha256": "d3555c2ad2c5dad4c85cea2cd64925d05891b1884c2479d63d77a8bdb1acded3"
+    },
+    {
+      "id": "beui:action-swap",
+      "file": "public/thumbnails/beui--action-swap.webp",
+      "originalUrl": "https://beui.dev/components/motion/action-swap",
+      "sha256": "6e3866d4f3336aaff16e1e73fe7555f1558268f171f703b848c6c3bbaea26810"
+    },
+    {
+      "id": "beui:animated-toast-stack",
+      "file": "public/thumbnails/beui--animated-toast-stack.webp",
+      "originalUrl": "https://beui.dev/components/motion/animated-toast-stack",
+      "sha256": "fbed6752e0a58257a19db0adc0a32563d6f0c7f11c6b2803033a9129c75ac89a"
+    },
+    {
+      "id": "beui:theme-toggle",
+      "file": "public/thumbnails/beui--theme-toggle.webp",
+      "originalUrl": "https://beui.dev/components/motion/theme-toggle",
+      "sha256": "07885675ecaec732cdf0bde5d8adb84adf6b41e42d3bf546d6ecdca35eeb72e2"
+    },
+    {
+      "id": "beui:bouncy-accordion",
+      "file": "public/thumbnails/beui--bouncy-accordion.webp",
+      "originalUrl": "https://beui.dev/components/motion/bouncy-accordion",
+      "sha256": "c95821b8176968886e4f48314172d9f5c724a2801eb7fa5a9478506131999499"
+    },
+    {
+      "id": "beui:drawer",
+      "file": "public/thumbnails/beui--drawer.webp",
+      "originalUrl": "https://beui.dev/components/motion/drawer",
+      "sha256": "0bad53e06d0e30a596b09cd076e50d158018ffa1d6833f473509da9e736ef256"
+    },
+    {
+      "id": "beui:scroll-animation",
+      "file": "public/thumbnails/beui--scroll-animation.webp",
+      "originalUrl": "https://beui.dev/components/motion/scroll-animation",
+      "sha256": "e983fe364a8cff74b1da7c48b37c7fc3877b4ca32ca9d690c663b301a7c26f90"
+    },
+    {
+      "id": "beui:range-slider",
+      "file": "public/thumbnails/beui--range-slider.webp",
+      "originalUrl": "https://beui.dev/components/motion/range-slider",
+      "sha256": "922e5b8fad38a037706628ebe422e743814cf97c252f91895bb939e55f6176ae"
+    },
+    {
+      "id": "beui:wheel-picker",
+      "file": "public/thumbnails/beui--wheel-picker.webp",
+      "originalUrl": "https://beui.dev/components/motion/wheel-picker",
+      "sha256": "ebca7e71c6012cd7c893cdc3365ad5828e438ea65f82a60b6ad6b6ad9652bba7"
+    },
+    {
+      "id": "beui:table",
+      "file": "public/thumbnails/beui--table.webp",
+      "originalUrl": "https://beui.dev/components/motion/table",
+      "sha256": "2e4c8ac71b9646d7a8dc658e8182be17511e5d73c9405bc9e77bcce4b7f59a0b"
+    },
+    {
+      "id": "beui:shader-background",
+      "file": "public/thumbnails/beui--shader-background.webp",
+      "originalUrl": "https://beui.dev/components/motion/shader-background",
+      "sha256": "b38dd89814d2645e03b755cb4ac13203f1a8c092ca5f9d1dd3e377257b69924f"
+    },
+    {
+      "id": "beui:cylinder-carousel",
+      "file": "public/thumbnails/beui--cylinder-carousel.webp",
+      "originalUrl": "https://beui.dev/components/motion/cylinder-carousel",
+      "sha256": "bcfdf15013c1ec7cf9b93a46259ffd8c79399f31e7cd41ab028bfbc477f4ec90"
+    },
+    {
+      "id": "beui:loader",
+      "file": "public/thumbnails/beui--loader.webp",
+      "originalUrl": "https://beui.dev/components/motion/loader",
+      "sha256": "59c0fcbd6bf176aa8b57ce01015674481c5bc9f1cf9588264cc9289fd3577742"
+    },
+    {
+      "id": "beui:message-bubble",
+      "file": "public/thumbnails/beui--message-bubble.webp",
+      "originalUrl": "https://beui.dev/components/agents/message-bubble",
+      "sha256": "fd91094513436323d316e6ea4851719a0431d1720902fdbd8bc7edaa496cf4f2"
+    },
+    {
+      "id": "beui:message",
+      "file": "public/thumbnails/beui--message.webp",
+      "originalUrl": "https://beui.dev/components/agents/message",
+      "sha256": "58ccebbed24573275429e66a050e953722a8c95723845717438ddbc52de5e224"
+    },
+    {
+      "id": "beui:message-scroller",
+      "file": "public/thumbnails/beui--message-scroller.webp",
+      "originalUrl": "https://beui.dev/components/agents/message-scroller",
+      "sha256": "03d4b3ef2d7d3ed147938b0123e1feeb6f6ff1112363806aa490649564834cb6"
+    },
+    {
+      "id": "beui:prompt-input",
+      "file": "public/thumbnails/beui--prompt-input.webp",
+      "originalUrl": "https://beui.dev/components/agents/prompt-input",
+      "sha256": "f9383d5c40db95e040f89b1f86c1ac51acc415ce417dbe0747f91b22a4d3d152"
+    },
+    {
+      "id": "beui:todo-list",
+      "file": "public/thumbnails/beui--todo-list.webp",
+      "originalUrl": "https://beui.dev/components/agents/todo-list",
+      "sha256": "209b6743895a4d00f2d21f26fb36c303941e775984c9b9ceb8ca4dc9234e1bec"
+    },
+    {
+      "id": "beui:code-block",
+      "file": "public/thumbnails/beui--code-block.webp",
+      "originalUrl": "https://beui.dev/components/agents/code-block",
+      "sha256": "60da8d1633b05e7b0217dc074a29ee2b0a31320f753bafb1bf3274905cfb7b27"
+    },
+    {
+      "id": "beui:approval-card",
+      "file": "public/thumbnails/beui--approval-card.webp",
+      "originalUrl": "https://beui.dev/components/agents/approval-card",
+      "sha256": "a31263be0a75be810384d4e4734acf770e6f19dce54d9955b68c971054eaf1fb"
+    },
+    {
+      "id": "beui:file-diff",
+      "file": "public/thumbnails/beui--file-diff.webp",
+      "originalUrl": "https://beui.dev/components/agents/file-diff",
+      "sha256": "19206c49eb445cb065f65db99707dce08b6158afd6398d19b8130322fd2e2978"
+    },
+    {
+      "id": "beui:tool-result",
+      "file": "public/thumbnails/beui--tool-result.webp",
+      "originalUrl": "https://beui.dev/components/agents/tool-result",
+      "sha256": "dae7d1fab6ff2a58967bec310be98d0cf3b93a7a3fd70ee2a608d6a4967ad806"
+    },
+    {
+      "id": "beui:streaming-response",
+      "file": "public/thumbnails/beui--streaming-response.webp",
+      "originalUrl": "https://beui.dev/components/agents/streaming-response",
+      "sha256": "fa3bb648e08bca560a35ac8363b1abb0aa28048ee71d5e431c962401cb205eaa"
+    },
+    {
+      "id": "beui:image-generation",
+      "file": "public/thumbnails/beui--image-generation.webp",
+      "originalUrl": "https://beui.dev/components/agents/image-generation",
+      "sha256": "0a0229366c9c9fa56d4b70921ab7b775aa38539fe3f5ee196e55b6ddfa992d85"
+    },
+    {
+      "id": "beui:tool-approval",
+      "file": "public/thumbnails/beui--tool-approval.webp",
+      "originalUrl": "https://beui.dev/components/agents/tool-approval",
+      "sha256": "d8a7795733336abe1df00160a16432fdcee4c3d7de4206c2fad5d59f03021f69"
+    },
+    {
+      "id": "beui:citations",
+      "file": "public/thumbnails/beui--citations.webp",
+      "originalUrl": "https://beui.dev/components/agents/citations",
+      "sha256": "ea6639ceb255306d8c9bacf1e4ff6c7165c882292b1711464413c1ce6b4f13ab"
+    },
+    {
+      "id": "beui:agent-activity",
+      "file": "public/thumbnails/beui--agent-activity.webp",
+      "originalUrl": "https://beui.dev/components/agents/agent-activity",
+      "sha256": "6c2c71e0a1a31c321cd0b74d63da51654e85bc9d09947fb9b3e13bf638444ddb"
+    },
+    {
+      "id": "beui:loading-states",
+      "file": "public/thumbnails/beui--loading-states.webp",
+      "originalUrl": "https://beui.dev/components/agents/loading-states",
+      "sha256": "fec8b3ab6f9dc0bc5ddcf3078b6456e43bb34774e53b17c0d27b3216dee598ff"
+    },
+    {
+      "id": "beui:ai-sidebar",
+      "file": "public/thumbnails/beui--ai-sidebar.webp",
+      "originalUrl": "https://beui.dev/components/agents/ai-sidebar",
+      "sha256": "31ce0d73bfba13a70129c97e981eac7454371edf84a471b4f2e2c5822b8720bb"
+    },
+    {
+      "id": "beui:chat-app",
+      "file": "public/thumbnails/beui--chat-app.webp",
+      "originalUrl": "https://beui.dev/components/agents/chat-app",
+      "sha256": "846cce6e1d17692b368e2ac34efaaf33df29a4fe18947a7a8f8f80afcbe60a0f"
+    },
+    {
+      "id": "beui:infinite-masonry",
+      "file": "public/thumbnails/beui--infinite-masonry.webp",
+      "originalUrl": "https://beui.dev/components/blocks/infinite-masonry",
+      "sha256": "4d818c739f0809fe44303db1ba5e744448f1808916c16944e4e0d0e550ca0879"
+    },
+    {
+      "id": "beui:notification-stack",
+      "file": "public/thumbnails/beui--notification-stack.webp",
+      "originalUrl": "https://beui.dev/components/blocks/notification-stack",
+      "sha256": "59f24e260e01d4de49e11d8f889b019d8dd66b83755abcc4b2acdfe75c5556d3"
+    },
+    {
+      "id": "beui:project-folder",
+      "file": "public/thumbnails/beui--project-folder.webp",
+      "originalUrl": "https://beui.dev/components/blocks/project-folder",
+      "sha256": "997a00beaf11f45e322d90e2db2dbc873c0ae4407932466e448650f00f7cf14e"
+    },
+    {
+      "id": "beui:card-folder",
+      "file": "public/thumbnails/beui--card-folder.webp",
+      "originalUrl": "https://beui.dev/components/blocks/card-folder",
+      "sha256": "df70132d2368c7e187fd94d47a9b5e5788b8f71cf397e4de5252e751364bb76d"
+    },
+    {
+      "id": "beui:knockout-bracket",
+      "file": "public/thumbnails/beui--knockout-bracket.webp",
+      "originalUrl": "https://beui.dev/components/blocks/knockout-bracket",
+      "sha256": "1c0b16b4ce023303209a99addc2aba023fa610f209033be3a0d27e20fcb30e88"
+    },
+    {
+      "id": "beui:availability-scheduler",
+      "file": "public/thumbnails/beui--availability-scheduler.webp",
+      "originalUrl": "https://beui.dev/components/blocks/availability-scheduler",
+      "sha256": "3ae88bdfa0bd4a2d2a55394c4d5f24f3ad3b0301d82f8b1255eefd5259cf9c3d"
+    },
+    {
+      "id": "beui:swap",
+      "file": "public/thumbnails/beui--swap.webp",
+      "originalUrl": "https://beui.dev/components/blocks/swap",
+      "sha256": "89c3f0d5bd5ffe4045d998f91b0e8ea9b4233c96e7f545ea099bb34549313046"
+    },
+    {
+      "id": "beui:dynamic-island",
+      "file": "public/thumbnails/beui--dynamic-island.webp",
+      "originalUrl": "https://beui.dev/components/blocks/dynamic-island",
+      "sha256": "8a28c3c183a22a98a6c14f9374db741205759cb3cbf7fcd9f00a57aba0c90027"
+    },
+    {
+      "id": "beui:command-palette",
+      "file": "public/thumbnails/beui--command-palette.webp",
+      "originalUrl": "https://beui.dev/components/blocks/command-palette",
+      "sha256": "ff39af911779a395e26077d06ead2f0020e307167e869581d2e357de40452adb"
+    },
+    {
+      "id": "beui:morphing-search",
+      "file": "public/thumbnails/beui--morphing-search.webp",
+      "originalUrl": "https://beui.dev/components/blocks/morphing-search",
+      "sha256": "208540479f8ffe34e80d2b502715269721de73e09f7b21c22a498d05ba1c8f28"
+    },
+    {
+      "id": "beui:expandable-action-bar",
+      "file": "public/thumbnails/beui--expandable-action-bar.webp",
+      "originalUrl": "https://beui.dev/components/blocks/expandable-action-bar",
+      "sha256": "0be63cc3032a506c1bade1cf1b04e8fd3c09e3ca4dec69f3c8e5239a3de4a027"
+    },
+    {
+      "id": "beui:overflow-actions",
+      "file": "public/thumbnails/beui--overflow-actions.webp",
+      "originalUrl": "https://beui.dev/components/blocks/overflow-actions",
+      "sha256": "66eb0519038f310c0ec5e4f4eac9f65f506aba48c589732fbb649404b3eb307e"
+    },
+    {
+      "id": "beui:expandable-tabs",
+      "file": "public/thumbnails/beui--expandable-tabs.webp",
+      "originalUrl": "https://beui.dev/components/blocks/expandable-tabs",
+      "sha256": "754653824ff04503edf79910df4b7ba9b23babbb6b2645b99339627ac0c237a3"
+    },
+    {
+      "id": "beui:morphing-tabs",
+      "file": "public/thumbnails/beui--morphing-tabs.webp",
+      "originalUrl": "https://beui.dev/components/blocks/morphing-tabs",
+      "sha256": "0a49afba0a8f605cb47a3a7d7cd9087a3ddce29c8843251e67fd1485b6540171"
+    },
+    {
+      "id": "beui:swipeable-list",
+      "file": "public/thumbnails/beui--swipeable-list.webp",
+      "originalUrl": "https://beui.dev/components/blocks/swipeable-list",
+      "sha256": "08f713cf90a37f49c26d9b93ce33196d1c426e1f29eb6a5e4c438038d9a5ccaa"
+    },
+    {
+      "id": "beui:file-upload",
+      "file": "public/thumbnails/beui--file-upload.webp",
+      "originalUrl": "https://beui.dev/components/blocks/file-upload",
+      "sha256": "88df59b55cd8061814111b9f82e00ca1816fa57b94b76b18bfb1e1b2044a4674"
+    },
+    {
+      "id": "beui:prediction-market",
+      "file": "public/thumbnails/beui--prediction-market.webp",
+      "originalUrl": "https://beui.dev/components/blocks/prediction-market",
+      "sha256": "978fd5814b00ae1b78b4f0e1294f2c25868a22675feb61bec96258cfe2ddfee1"
+    },
+    {
+      "id": "beui:wallet-card",
+      "file": "public/thumbnails/beui--wallet-card.webp",
+      "originalUrl": "https://beui.dev/components/blocks/wallet-card",
+      "sha256": "56991a6e2d8480e062778146b32ea44e71c592fbed61f351d940353454d2cd53"
+    },
+    {
+      "id": "beui:otp-input",
+      "file": "public/thumbnails/beui--otp-input.webp",
+      "originalUrl": "https://beui.dev/components/blocks/otp-input",
+      "sha256": "ec81080e282f9c82c4ac1eb05fd2b3733b1c14911632731ad3be1d71c6e1de87"
+    },
+    {
+      "id": "beui:signup-form",
+      "file": "public/thumbnails/beui--signup-form.webp",
+      "originalUrl": "https://beui.dev/components/blocks/signup-form",
+      "sha256": "38de4d55d3ff3d2509fdde44d9ab9e516746c4541d2858ac03f0c4917626a049"
+    },
+    {
+      "id": "beui:bloom-menu",
+      "file": "public/thumbnails/beui--bloom-menu.webp",
+      "originalUrl": "https://beui.dev/components/blocks/bloom-menu",
+      "sha256": "24c736c2b4ecf8003b541e44c291f6dd4f217af317792d4bdfbc3203e935c4f7"
+    },
+    {
+      "id": "beui:feedback-widget",
+      "file": "public/thumbnails/beui--feedback-widget.webp",
+      "originalUrl": "https://beui.dev/components/blocks/feedback-widget",
+      "sha256": "e57b215dafb0dd875cb5568e2f87d233a669c956842396ddcf78ebe46c730f4a"
+    },
+    {
+      "id": "beui:not-found",
+      "file": "public/thumbnails/beui--not-found.webp",
+      "originalUrl": "https://beui.dev/components/blocks/not-found",
+      "sha256": "39e63352aea78ba6ffa54a87ae58fa81cf4df6c9f2cbd9601a685143e228c11a"
+    },
+    {
+      "id": "opensource:3d-button",
+      "file": "public/thumbnails/opensource--3d-button.webp",
+      "originalUrl": "https://opensourceui.in/components/3d-button",
+      "sha256": "4b623a672016992a174226c3b2748adac0a43c0f04261a4ee4c621b93719b578"
+    },
+    {
+      "id": "opensource:3d-icon-button",
+      "file": "public/thumbnails/opensource--3d-icon-button.webp",
+      "originalUrl": "https://opensourceui.in/components/3d-icon-button",
+      "sha256": "4f998d570978c50ae0c3f997af8b68c499acf2787c2bc8e6dd6a09fe6f81825c"
+    },
+    {
+      "id": "opensource:soft-ui-button",
+      "file": "public/thumbnails/opensource--soft-ui-button.webp",
+      "originalUrl": "https://opensourceui.in/components/soft-ui-button",
+      "sha256": "4928a0d54b4a8a0f0bc75da593e8cad8bb34a28e081de99062043b381cd5b701"
+    },
+    {
+      "id": "opensource:inset-button",
+      "file": "public/thumbnails/opensource--inset-button.webp",
+      "originalUrl": "https://opensourceui.in/components/inset-button",
+      "sha256": "bbae8ee1b38749dac1d2a5611ca03a811c42e7bf24b1dc6e45bf279bf6c9ce55"
+    },
+    {
+      "id": "opensource:soft-pill-button",
+      "file": "public/thumbnails/opensource--soft-pill-button.webp",
+      "originalUrl": "https://opensourceui.in/components/soft-pill-button",
+      "sha256": "88a41dc40e94ffd7e088e9eaf4e80528c5162ff6e44e8a0a796d68d057318b09"
+    },
+    {
+      "id": "opensource:depth-outline-button",
+      "file": "public/thumbnails/opensource--depth-outline-button.webp",
+      "originalUrl": "https://opensourceui.in/components/depth-outline-button",
+      "sha256": "3d8dcc48f215e8039428e6e21fb29c2d122be7c9b2d943c80ad1205f4d6b3b3d"
+    },
+    {
+      "id": "opensource:sheen-pill-button",
+      "file": "public/thumbnails/opensource--sheen-pill-button.webp",
+      "originalUrl": "https://opensourceui.in/components/sheen-pill-button",
+      "sha256": "70cffc2738103db7e78a06b70fbe79de2daf98ff32aa8967e3cca0909fde09f7"
+    },
+    {
+      "id": "opensource:prism-depth-button",
+      "file": "public/thumbnails/opensource--prism-depth-button.webp",
+      "originalUrl": "https://opensourceui.in/components/prism-depth-button",
+      "sha256": "d3345944e03d3b1d5a21012f3602ef05789e77ec5a80e7be944de113ffb37ae6"
+    },
+    {
+      "id": "opensource:dimple-switch",
+      "file": "public/thumbnails/opensource--dimple-switch.webp",
+      "originalUrl": "https://opensourceui.in/components/dimple-switch",
+      "sha256": "994d6e0830643fd13a74efc8282dc50914cb6b1310a4766f1e03f0240859ca35"
+    },
+    {
+      "id": "opensource:cinder-latch-button",
+      "file": "public/thumbnails/opensource--cinder-latch-button.webp",
+      "originalUrl": "https://opensourceui.in/components/cinder-latch-button",
+      "sha256": "99f07de8605e4e5eee5bf3cfa9891e07f8f7ba7ec3246dcb944aa6ced3745d20"
+    },
+    {
+      "id": "opensource:slate-chip-switch",
+      "file": "public/thumbnails/opensource--slate-chip-switch.webp",
+      "originalUrl": "https://opensourceui.in/components/slate-chip-switch",
+      "sha256": "c62cf13315adff4d2a0951b90128a45fcddcd0b075f98f6cba23555081383947"
+    },
+    {
+      "id": "opensource:linen-tab-button",
+      "file": "public/thumbnails/opensource--linen-tab-button.webp",
+      "originalUrl": "https://opensourceui.in/components/linen-tab-button",
+      "sha256": "6965db4cd720679f178c8af8a884092440ea77a52d71623e4f90bca274ef6287"
+    },
+    {
+      "id": "opensource:slide-to-confirm-button",
+      "file": "public/thumbnails/opensource--slide-to-confirm-button.webp",
+      "originalUrl": "https://opensourceui.in/components/slide-to-confirm-button",
+      "sha256": "0c8bb23a9020a521f52cb9a2a54ccab0895006a25cdee036f174888dbde9d08f"
+    },
+    {
+      "id": "opensource:hold-to-delete-button",
+      "file": "public/thumbnails/opensource--hold-to-delete-button.webp",
+      "originalUrl": "https://opensourceui.in/components/hold-to-delete-button",
+      "sha256": "39e2f44c618c0228395a26ff12f8478f1fc5990e902e119afa1670f048169d76"
+    },
+    {
+      "id": "opensource:add-to-cart-button",
+      "file": "public/thumbnails/opensource--add-to-cart-button.webp",
+      "originalUrl": "https://opensourceui.in/components/add-to-cart-button",
+      "sha256": "4b81294655d60afba03ccc57d1772a7e0f5ae03d4f29476092b5cfd887575ef4"
+    },
+    {
+      "id": "opensource:like-button",
+      "file": "public/thumbnails/opensource--like-button.webp",
+      "originalUrl": "https://opensourceui.in/components/like-button",
+      "sha256": "436eb4409b4e92eb7b2e476b3a050c728aa852b79f7032fe9a46fca795ce5801"
+    },
+    {
+      "id": "opensource:copy-button",
+      "file": "public/thumbnails/opensource--copy-button.webp",
+      "originalUrl": "https://opensourceui.in/components/copy-button",
+      "sha256": "323d33c7a8e1392338c67176b54cf9180cd29825f354bac5f05a126d77dade7e"
+    },
+    {
+      "id": "opensource:quantity-stepper-button",
+      "file": "public/thumbnails/opensource--quantity-stepper-button.webp",
+      "originalUrl": "https://opensourceui.in/components/quantity-stepper-button",
+      "sha256": "ee04ffdf73bebee3639c49853c7fe85c1de466743bba22ec4de85bf0de204c21"
+    },
+    {
+      "id": "opensource:download-button",
+      "file": "public/thumbnails/opensource--download-button.webp",
+      "originalUrl": "https://opensourceui.in/components/download-button",
+      "sha256": "d2486cd4e7ec869e34a58f1e30297d2ae2f664a63e97152cd56940edcf49c16b"
+    },
+    {
+      "id": "opensource:follow-button",
+      "file": "public/thumbnails/opensource--follow-button.webp",
+      "originalUrl": "https://opensourceui.in/components/follow-button",
+      "sha256": "9364cad5a67dd164f1069a881f5cd087eb6d171bda3744de02093c3d3e85b28b"
+    },
+    {
+      "id": "opensource:bookmark-save-button",
+      "file": "public/thumbnails/opensource--bookmark-save-button.webp",
+      "originalUrl": "https://opensourceui.in/components/bookmark-save-button",
+      "sha256": "447d10a14decc32fb7bd6cf685563636c340af0262f16ee5ef9d379a87e809a4"
+    },
+    {
+      "id": "opensource:segmented-toggle-button",
+      "file": "public/thumbnails/opensource--segmented-toggle-button.webp",
+      "originalUrl": "https://opensourceui.in/components/segmented-toggle-button",
+      "sha256": "9f3a361a598c364c0ddafe86120c282d4c55d793145b4cae8e2dad1784342b7f"
+    },
+    {
+      "id": "opensource:analog-clock-roman",
+      "file": "public/thumbnails/opensource--analog-clock-roman.webp",
+      "originalUrl": "https://opensourceui.in/components/analog-clock-roman",
+      "sha256": "abeab205ca7520c15011b193007afead503bdd8724c69237973f10f444e395a0"
+    },
+    {
+      "id": "opensource:analog-clock-minimal",
+      "file": "public/thumbnails/opensource--analog-clock-minimal.webp",
+      "originalUrl": "https://opensourceui.in/components/analog-clock-minimal",
+      "sha256": "947dca1eb34c2d1e7c512aeb38c59e5317f439d2f5502ee95f1b873a7be2a1f8"
+    },
+    {
+      "id": "opensource:analog-clock-numeric",
+      "file": "public/thumbnails/opensource--analog-clock-numeric.webp",
+      "originalUrl": "https://opensourceui.in/components/analog-clock-numeric",
+      "sha256": "2b29131fda4d5466e590c7ddd3f59046721bf9fcb3734fd097e0a91130435c93"
+    },
+    {
+      "id": "opensource:wifi-toggle",
+      "file": "public/thumbnails/opensource--wifi-toggle.webp",
+      "originalUrl": "https://opensourceui.in/components/wifi-toggle",
+      "sha256": "2fe753800a54c2c2e6d03e914b00290e4b7a688f80ca86fba12767f05bead9f8"
+    },
+    {
+      "id": "opensource:voice-assistant",
+      "file": "public/thumbnails/opensource--voice-assistant.webp",
+      "originalUrl": "https://opensourceui.in/components/voice-assistant",
+      "sha256": "d99e865ad2453a8766ac76289f684060bcbeb7ced1b54b4779391867a9be3dc0"
+    },
+    {
+      "id": "opensource:ios-earbuds",
+      "file": "public/thumbnails/opensource--ios-earbuds.webp",
+      "originalUrl": "https://opensourceui.in/components/ios-earbuds",
+      "sha256": "0f9ad95f2b05a37f5f41c9c713264e3461192a302a9d49cd1ca73b54f19b7792"
+    },
+    {
+      "id": "opensource:recorder-face",
+      "file": "public/thumbnails/opensource--recorder-face.webp",
+      "originalUrl": "https://opensourceui.in/components/recorder-face",
+      "sha256": "401a5ae10629d69fb50a59e03380433a2722a86e72c488a9769077499c71150c"
+    },
+    {
+      "id": "opensource:battery-face",
+      "file": "public/thumbnails/opensource--battery-face.webp",
+      "originalUrl": "https://opensourceui.in/components/battery-face",
+      "sha256": "803e30036b3d3e9688069f147d77dd5e3142163e3bc7cf0ce5b9270e2cc1911d"
+    },
+    {
+      "id": "opensource:compass",
+      "file": "public/thumbnails/opensource--compass.webp",
+      "originalUrl": "https://opensourceui.in/components/compass",
+      "sha256": "abdbe2cf4b4d091740a7e423bdde8432df78dc1eda1a2b40e339803c2e293218"
+    },
+    {
+      "id": "opensource:bluetooth-face",
+      "file": "public/thumbnails/opensource--bluetooth-face.webp",
+      "originalUrl": "https://opensourceui.in/components/bluetooth-face",
+      "sha256": "c3fc884665172892cf3e6b7c44e25445dc40962c47a9e96759da563b219541a2"
+    },
+    {
+      "id": "opensource:torch-face",
+      "file": "public/thumbnails/opensource--torch-face.webp",
+      "originalUrl": "https://opensourceui.in/components/torch-face",
+      "sha256": "e13db2a24564383ab79e8756c833cf382ab829f86edbb471eb6d69401f9ef6f5"
+    },
+    {
+      "id": "opensource:dnd-face",
+      "file": "public/thumbnails/opensource--dnd-face.webp",
+      "originalUrl": "https://opensourceui.in/components/dnd-face",
+      "sha256": "8695980cba7f55664dcd70a5940ec5248f40b077610442b426615ad386c454d6"
+    },
+    {
+      "id": "opensource:ios-digital-clock",
+      "file": "public/thumbnails/opensource--ios-digital-clock.webp",
+      "originalUrl": "https://opensourceui.in/components/ios-digital-clock",
+      "sha256": "7105c861d5dcb9324ed0578dd4f5072feea0af63cbf116aeb868b9417fccc80e"
+    },
+    {
+      "id": "opensource:ios-calender",
+      "file": "public/thumbnails/opensource--ios-calender.webp",
+      "originalUrl": "https://opensourceui.in/components/ios-calender",
+      "sha256": "fe2bf4baf432c57f09f3a7d240222e47bf4a45a52f84db338935052bbc81a608"
+    },
+    {
+      "id": "opensource:stopwatch",
+      "file": "public/thumbnails/opensource--stopwatch.webp",
+      "originalUrl": "https://opensourceui.in/components/stopwatch",
+      "sha256": "c16e922b744f1c7af881c2e0ff6e1d39aadfd1f51dc3376fea3dcb10ba2034fd"
+    },
+    {
+      "id": "opensource:ios-map-location",
+      "file": "public/thumbnails/opensource--ios-map-location.webp",
+      "originalUrl": "https://opensourceui.in/components/ios-map-location",
+      "sha256": "79b6b58c8c8563605a32df67b200988846f04822c0f0e5d35baa2ab266fca68b"
+    },
+    {
+      "id": "opensource:focus-breath",
+      "file": "public/thumbnails/opensource--focus-breath.webp",
+      "originalUrl": "https://opensourceui.in/components/focus-breath",
+      "sha256": "1644b1e68b3635c81a987a29e21df0901fbdde8eb197083176b8de8feca247af"
+    },
+    {
+      "id": "opensource:blob-profile",
+      "file": "public/thumbnails/opensource--blob-profile.webp",
+      "originalUrl": "https://opensourceui.in/components/blob-profile",
+      "sha256": "e955752986f999d5d38f642a53a5f5b3f788cab37f120e652db01480e1d2f1cd"
+    },
+    {
+      "id": "opensource:editorial-staff-profile",
+      "file": "public/thumbnails/opensource--editorial-staff-profile.webp",
+      "originalUrl": "https://opensourceui.in/components/editorial-staff-profile",
+      "sha256": "3824491d3114b54cca2373b542f4adf0dd04485a7c9403573befba85ad75c29c"
+    },
+    {
+      "id": "opensource:user-profile",
+      "file": "public/thumbnails/opensource--user-profile.webp",
+      "originalUrl": "https://opensourceui.in/components/user-profile",
+      "sha256": "c992a9a17da5d4588af672d63185130644de31717d527cf0dbf80246ad8e86a3"
+    },
+    {
+      "id": "opensource:contact-profile",
+      "file": "public/thumbnails/opensource--contact-profile.webp",
+      "originalUrl": "https://opensourceui.in/components/contact-profile",
+      "sha256": "77a763ad440597017f89fdb844f3db9ee75c586273dd3c405a298534479411ff"
+    },
+    {
+      "id": "opensource:team-member-profile-grid",
+      "file": "public/thumbnails/opensource--team-member-profile-grid.webp",
+      "originalUrl": "https://opensourceui.in/components/team-member-profile-grid",
+      "sha256": "6b12542f41701a27535c036caa00c4610d1c51ed90f6cad400317fda8b75a53e"
+    },
+    {
+      "id": "opensource:mac-dock",
+      "file": "public/thumbnails/opensource--mac-dock.webp",
+      "originalUrl": "https://opensourceui.in/components/mac-dock",
+      "sha256": "3ae74cf71f603a15565ba744eafb3ca8fe329e06b5fbde9dc323c83cdabfdf9d"
+    },
+    {
+      "id": "opensource:app-dock",
+      "file": "public/thumbnails/opensource--app-dock.webp",
+      "originalUrl": "https://opensourceui.in/components/app-dock",
+      "sha256": "4c25f35a9c44b0e73feba47bfdbe3a5cb3ddb96b202ca3923483163366fbacfc"
+    },
+    {
+      "id": "opensource:editor-tool-dock",
+      "file": "public/thumbnails/opensource--editor-tool-dock.webp",
+      "originalUrl": "https://opensourceui.in/components/editor-tool-dock",
+      "sha256": "d2d0ef0d21338f1a8470e26da137b317997bb3069c4b202e7a8c0260004d7064"
+    },
+    {
+      "id": "opensource:presence-dock",
+      "file": "public/thumbnails/opensource--presence-dock.webp",
+      "originalUrl": "https://opensourceui.in/components/presence-dock",
+      "sha256": "a882b121f21937c1e529703241a665482c24030ff4e06172176a9a95d2325931"
+    },
+    {
+      "id": "opensource:spotlight-bar",
+      "file": "public/thumbnails/opensource--spotlight-bar.webp",
+      "originalUrl": "https://opensourceui.in/components/spotlight-bar",
+      "sha256": "884f95b423e4e2ad782c87cad4fa24130b788b9a3569fda8967bafa3afdf15f7"
+    },
+    {
+      "id": "opensource:step-count",
+      "file": "public/thumbnails/opensource--step-count.webp",
+      "originalUrl": "https://opensourceui.in/components/step-count",
+      "sha256": "78977ccca71817d117e1d7c7103731492af60d68f23f3ed69981bc12360cc879"
+    },
+    {
+      "id": "opensource:pomodoro",
+      "file": "public/thumbnails/opensource--pomodoro.webp",
+      "originalUrl": "https://opensourceui.in/components/pomodoro",
+      "sha256": "0bc6f35319abd48cdc7ca5ef3a803c798fb7bfe1ce76311e29fa2bcd04cf5b45"
+    },
+    {
+      "id": "opensource:hydration",
+      "file": "public/thumbnails/opensource--hydration.webp",
+      "originalUrl": "https://opensourceui.in/components/hydration",
+      "sha256": "f7a3bdaaa204b0d80088fa6cdabcabfc0ff78a4297ddc027156aa59e14a98fab"
+    },
+    {
+      "id": "opensource:sleep-score",
+      "file": "public/thumbnails/opensource--sleep-score.webp",
+      "originalUrl": "https://opensourceui.in/components/sleep-score",
+      "sha256": "d1ac0a1c1ea04a224ed75029db45423a965d67ade691d922bd60535119e9a8a1"
+    },
+    {
+      "id": "opensource:heart-rate",
+      "file": "public/thumbnails/opensource--heart-rate.webp",
+      "originalUrl": "https://opensourceui.in/components/heart-rate",
+      "sha256": "d3feb6ddfe25bd4aac99b2b527c801a9988f9efeb2474bf4956cdfd431c2682f"
+    },
+    {
+      "id": "opensource:daily-activity-calendar",
+      "file": "public/thumbnails/opensource--daily-activity-calendar.webp",
+      "originalUrl": "https://opensourceui.in/components/daily-activity-calendar",
+      "sha256": "04cfc8bbada313e3bb7aa68469b163c58cc09721396a3df35612fedbb18c9d07"
+    },
+    {
+      "id": "opensource:month-picker-calendar",
+      "file": "public/thumbnails/opensource--month-picker-calendar.webp",
+      "originalUrl": "https://opensourceui.in/components/month-picker-calendar",
+      "sha256": "59dd504a10abce7b6948f4e82b9516ebc4098c6c391b5b0b3c057aca7ec6aa33"
+    },
+    {
+      "id": "opensource:week-strip-calendar",
+      "file": "public/thumbnails/opensource--week-strip-calendar.webp",
+      "originalUrl": "https://opensourceui.in/components/week-strip-calendar",
+      "sha256": "a9811f9c577b816118b343c88964cbe938cf085f3ce00176814cd869c05b0cfe"
+    },
+    {
+      "id": "opensource:date-range-picker",
+      "file": "public/thumbnails/opensource--date-range-picker.webp",
+      "originalUrl": "https://opensourceui.in/components/date-range-picker",
+      "sha256": "50f7f8df642debc1e1daaf8533ba67913533aca4918e0183d069d429f4fa2486"
+    },
+    {
+      "id": "opensource:team-members-table",
+      "file": "public/thumbnails/opensource--team-members-table.webp",
+      "originalUrl": "https://opensourceui.in/components/team-members-table",
+      "sha256": "9cf6d6f733af017d36353275f9dc542ebcc07a9e8ef4ec70b202197ad052630d"
+    },
+    {
+      "id": "opensource:orders-table",
+      "file": "public/thumbnails/opensource--orders-table.webp",
+      "originalUrl": "https://opensourceui.in/components/orders-table",
+      "sha256": "648ec02489dc3b2447ee4492a1d1cc1d9c588adc788e65daf378ac0123c18476"
+    },
+    {
+      "id": "opensource:users-select-table",
+      "file": "public/thumbnails/opensource--users-select-table.webp",
+      "originalUrl": "https://opensourceui.in/components/users-select-table",
+      "sha256": "6ee91d5d67a0dfa3038a9cce0553217b827f481395cf5c4d0a5dbe8dfc28e9c6"
+    },
+    {
+      "id": "opensource:recent-transactions-table",
+      "file": "public/thumbnails/opensource--recent-transactions-table.webp",
+      "originalUrl": "https://opensourceui.in/components/recent-transactions-table",
+      "sha256": "3dd418a055507b82caf520464c9a4f88a3646612e775b8664dd6455adb5c75c9"
+    },
+    {
+      "id": "opensource:tasks-table",
+      "file": "public/thumbnails/opensource--tasks-table.webp",
+      "originalUrl": "https://opensourceui.in/components/tasks-table",
+      "sha256": "3685d559896465b4449fc2b96330d831da8af13215858d50b79c810fa9f70620"
+    },
+    {
+      "id": "opensource:customers-table",
+      "file": "public/thumbnails/opensource--customers-table.webp",
+      "originalUrl": "https://opensourceui.in/components/customers-table",
+      "sha256": "2436544e218d5e413e521deb880cae5dbadfe4bb1c832a608f9fd4b956bec21c"
+    },
+    {
+      "id": "opensource:resource-links-panel",
+      "file": "public/thumbnails/opensource--resource-links-panel.webp",
+      "originalUrl": "https://opensourceui.in/components/resource-links-panel",
+      "sha256": "0b488f266d2d5c521da0b74582743ece43b5b46735caf49478a565f6481d1e6f"
+    },
+    {
+      "id": "opensource:event-countdown-card",
+      "file": "public/thumbnails/opensource--event-countdown-card.webp",
+      "originalUrl": "https://opensourceui.in/components/event-countdown-card",
+      "sha256": "2811ebbc0c1ae0a3dcc4f4658cde904e3de9cc7006bb1e1dc3d90e508609a05a"
+    },
+    {
+      "id": "opensource:booking-slot-calendar",
+      "file": "public/thumbnails/opensource--booking-slot-calendar.webp",
+      "originalUrl": "https://opensourceui.in/components/booking-slot-calendar",
+      "sha256": "3887040b035e855b8fd29b2b9d030bd338fac93aba38f3fd8474621f578a881c"
+    },
+    {
+      "id": "opensource:audio-recorder",
+      "file": "public/thumbnails/opensource--audio-recorder.webp",
+      "originalUrl": "https://opensourceui.in/components/audio-recorder",
+      "sha256": "cf82235da0560b7ca18042e04d6267b418e0b75e43819fc53462f6df371ee35b"
+    },
+    {
+      "id": "opensource:flight-arrival",
+      "file": "public/thumbnails/opensource--flight-arrival.webp",
+      "originalUrl": "https://opensourceui.in/components/flight-arrival",
+      "sha256": "87b8a30652fa0be53575948e9297fa12666031efe7ec1c234a8dd3e0bd44e2f7"
+    },
+    {
+      "id": "opensource:minimal-agenda",
+      "file": "public/thumbnails/opensource--minimal-agenda.webp",
+      "originalUrl": "https://opensourceui.in/components/minimal-agenda",
+      "sha256": "1d1ef4968ff16d0ddfe5dc87f814149022bfee9f905d0d1f3bc760874f6e86f3"
+    },
+    {
+      "id": "opensource:ride-pickup",
+      "file": "public/thumbnails/opensource--ride-pickup.webp",
+      "originalUrl": "https://opensourceui.in/components/ride-pickup",
+      "sha256": "99808954c7f7b53ad03a683e3cb459ab6535cbf9061a84c11cd0590cf3eca005"
+    },
+    {
+      "id": "opensource:electric-scooter",
+      "file": "public/thumbnails/opensource--electric-scooter.webp",
+      "originalUrl": "https://opensourceui.in/components/electric-scooter",
+      "sha256": "d374e641e3c41f2cee3082becacc50a9189eff888fdc549225290159b9c4eac0"
+    },
+    {
+      "id": "opensource:laptop",
+      "file": "public/thumbnails/opensource--laptop.webp",
+      "originalUrl": "https://opensourceui.in/components/laptop",
+      "sha256": "1665086bcddfc53a91bffe3f034def79c7ca1b0cd7cea4719dcc4bfd8a9a8925"
+    },
+    {
+      "id": "opensource:phone",
+      "file": "public/thumbnails/opensource--phone.webp",
+      "originalUrl": "https://opensourceui.in/components/phone",
+      "sha256": "46adb78bcca131fed96b3f0dcb44c9ed6169dbb3c33c44e917afe5cb21d533e1"
+    },
+    {
+      "id": "opensource:ipad",
+      "file": "public/thumbnails/opensource--ipad.webp",
+      "originalUrl": "https://opensourceui.in/components/ipad",
+      "sha256": "7a2fdc24af404d779ca7b152811f68b12acada0372aa1c84bffdd3f2d392859a"
+    },
+    {
+      "id": "opensource:apple-watch",
+      "file": "public/thumbnails/opensource--apple-watch.webp",
+      "originalUrl": "https://opensourceui.in/components/apple-watch",
+      "sha256": "d11c5aa7bdd03ee0ff9a7083e2d09f17320c16850d1d38a7c991e47b26b3e7a7"
+    },
+    {
+      "id": "opensource:browser",
+      "file": "public/thumbnails/opensource--browser.webp",
+      "originalUrl": "https://opensourceui.in/components/browser",
+      "sha256": "a1db5b877d76228e908da9dbcfb52323086b5d3919858b7ffde597c84feb27be"
+    },
+    {
+      "id": "opensource:ipod",
+      "file": "public/thumbnails/opensource--ipod.webp",
+      "originalUrl": "https://opensourceui.in/components/ipod",
+      "sha256": "355aeb9c2c7270323b29d7d5026b4e7718611037449a201dee25cdf356c28988"
+    },
+    {
+      "id": "opensource:polaroid-image",
+      "file": "public/thumbnails/opensource--polaroid-image.webp",
+      "originalUrl": "https://opensourceui.in/components/polaroid-image",
+      "sha256": "e9da1e0ce5f9c18c8392632cde27307d8136097184454f63caa12eb399e0ea49"
+    },
+    {
+      "id": "opensource:notepad",
+      "file": "public/thumbnails/opensource--notepad.webp",
+      "originalUrl": "https://opensourceui.in/components/notepad",
+      "sha256": "927d679c923c0a86ce517f3133b82ed63b9ff19cc105f87e8a132887099033bd"
+    },
+    {
+      "id": "opensource:thermal-receipt",
+      "file": "public/thumbnails/opensource--thermal-receipt.webp",
+      "originalUrl": "https://opensourceui.in/components/thermal-receipt",
+      "sha256": "15b944ddde1fa3512de0e66d7eabee5e91a0fcfd0eae8b2492b7a5ca08add0dc"
+    },
+    {
+      "id": "opensource:weather-snapshot",
+      "file": "public/thumbnails/opensource--weather-snapshot.webp",
+      "originalUrl": "https://opensourceui.in/components/weather-snapshot",
+      "sha256": "bdf9d50f2280bd5bccafe86f4f1ca64c7ab0401ea7328be8283e9b2f444836e8"
+    },
+    {
+      "id": "opensource:instagram-post",
+      "file": "public/thumbnails/opensource--instagram-post.webp",
+      "originalUrl": "https://opensourceui.in/components/instagram-post",
+      "sha256": "8b3955eec2f1374e33768f82482fc073dcf8519f4d1096510352edeb6d3c4f94"
+    },
+    {
+      "id": "opensource:threads-post",
+      "file": "public/thumbnails/opensource--threads-post.webp",
+      "originalUrl": "https://opensourceui.in/components/threads-post",
+      "sha256": "c0ded732782eb20e9692eb0a030a3d7f7d3ba0993269f2f69619cb399c7112aa"
+    },
+    {
+      "id": "opensource:now-playing-bar",
+      "file": "public/thumbnails/opensource--now-playing-bar.webp",
+      "originalUrl": "https://opensourceui.in/components/now-playing-bar",
+      "sha256": "4a23e5925374d38277fec6dd5946eaba130636a89d38669de4dbf442645d9087"
+    },
+    {
+      "id": "opensource:twitter-post",
+      "file": "public/thumbnails/opensource--twitter-post.webp",
+      "originalUrl": "https://opensourceui.in/components/twitter-post",
+      "sha256": "fb19822fbc27433cfc85b859a1fef5572bb23f99d9af6a4abc0b4943850cd826"
+    },
+    {
+      "id": "opensource:film-strip",
+      "file": "public/thumbnails/opensource--film-strip.webp",
+      "originalUrl": "https://opensourceui.in/components/film-strip",
+      "sha256": "4e4b4bdc8875c586389756dc54ef9e3eb7c70ece40ce90bb538bae1f261f5a35"
+    },
+    {
+      "id": "opensource:github-contribution",
+      "file": "public/thumbnails/opensource--github-contribution.webp",
+      "originalUrl": "https://opensourceui.in/components/github-contribution",
+      "sha256": "5c6cb3da1d3bb5e46c541f8580086f5605b48ba7dde7682ad9ca6aacdb65eaab"
+    },
+    {
+      "id": "opensource:apple-notification",
+      "file": "public/thumbnails/opensource--apple-notification.webp",
+      "originalUrl": "https://opensourceui.in/components/apple-notification",
+      "sha256": "9fdd33e85d0ca8a12686b53049dae939e68bb81ab697d0a59c3634d3f9ba8b6d"
+    },
+    {
+      "id": "opensource:toast-notification",
+      "file": "public/thumbnails/opensource--toast-notification.webp",
+      "originalUrl": "https://opensourceui.in/components/toast-notification",
+      "sha256": "a688f08a39c28478c35e1c53882c2015a1f34fb879dd94819627124aa09a78ac"
+    },
+    {
+      "id": "opensource:email-notification",
+      "file": "public/thumbnails/opensource--email-notification.webp",
+      "originalUrl": "https://opensourceui.in/components/email-notification",
+      "sha256": "739bcd719f701e12f261b2e1d963fc2eb0c367c2acc7f52337e8fb0910e3e211"
+    },
+    {
+      "id": "opensource:system-alert",
+      "file": "public/thumbnails/opensource--system-alert.webp",
+      "originalUrl": "https://opensourceui.in/components/system-alert",
+      "sha256": "6ec8213a1ebaf12446f44c8f0546f38af3ef61a5ba612beb67e2028d4740e170"
+    },
+    {
+      "id": "opensource:chat-bubble-notification",
+      "file": "public/thumbnails/opensource--chat-bubble-notification.webp",
+      "originalUrl": "https://opensourceui.in/components/chat-bubble-notification",
+      "sha256": "f40875aa219bec23e865caf7fc17cb8e9b99bb37bba56493009d47558abbb3a5"
+    },
+    {
+      "id": "opensource:deploy-notification",
+      "file": "public/thumbnails/opensource--deploy-notification.webp",
+      "originalUrl": "https://opensourceui.in/components/deploy-notification",
+      "sha256": "1fcd2aad095209f907623d247309cc906925bfb676dc7e79bf3aa171c166670c"
+    },
+    {
+      "id": "opensource:calendar-reminder-notification",
+      "file": "public/thumbnails/opensource--calendar-reminder-notification.webp",
+      "originalUrl": "https://opensourceui.in/components/calendar-reminder-notification",
+      "sha256": "c8f0259681ff3846dc567a69cad50b81bc31d38b9a8522797e051296701acea2"
+    },
+    {
+      "id": "opensource:payment-notification",
+      "file": "public/thumbnails/opensource--payment-notification.webp",
+      "originalUrl": "https://opensourceui.in/components/payment-notification",
+      "sha256": "5392214dfdea7c94309c702b7a76a91c080040523102c42e5e597c66bdc52ed6"
+    },
+    {
+      "id": "opensource:incoming-call-notification",
+      "file": "public/thumbnails/opensource--incoming-call-notification.webp",
+      "originalUrl": "https://opensourceui.in/components/incoming-call-notification",
+      "sha256": "29e9150d306822b4bff71e19bd3efcd9f240df67a3d787bc9bc929df71933d8f"
+    },
+    {
+      "id": "opensource:delivery-notification",
+      "file": "public/thumbnails/opensource--delivery-notification.webp",
+      "originalUrl": "https://opensourceui.in/components/delivery-notification",
+      "sha256": "e67d55826581c7a60d437e9c31fdcc1c4c12454d561752b4f59661d73a84d945"
+    },
+    {
+      "id": "opensource:file-menu",
+      "file": "public/thumbnails/opensource--file-menu.webp",
+      "originalUrl": "https://opensourceui.in/components/file-menu",
+      "sha256": "6fa588041056cef5bfe616405932cfb76148ebc7fbe8328a2da551d838948442"
+    },
+    {
+      "id": "opensource:user-menu",
+      "file": "public/thumbnails/opensource--user-menu.webp",
+      "originalUrl": "https://opensourceui.in/components/user-menu",
+      "sha256": "4152c4fa29ebc2ac7daa6409368518d5415516d10f5de46183aa4cdaf33cdcbc"
+    },
+    {
+      "id": "opensource:kebab-actions",
+      "file": "public/thumbnails/opensource--kebab-actions.webp",
+      "originalUrl": "https://opensourceui.in/components/kebab-actions",
+      "sha256": "fb895f0f6d85b5c05c6662bd62807ea049e0593333c08782952b970289afcf0b"
+    },
+    {
+      "id": "opensource:share-menu",
+      "file": "public/thumbnails/opensource--share-menu.webp",
+      "originalUrl": "https://opensourceui.in/components/share-menu",
+      "sha256": "c91dd2affca6055f0ba6fb8c131612536538e2d003e324fffe4cc53fb577c103"
+    },
+    {
+      "id": "opensource:notification",
+      "file": "public/thumbnails/opensource--notification.webp",
+      "originalUrl": "https://opensourceui.in/components/notification",
+      "sha256": "445303ad53651669a9077b8086ade5250a4ecee3377ffd9e6d625ead1c52fec2"
+    },
+    {
+      "id": "opensource:filter-sort",
+      "file": "public/thumbnails/opensource--filter-sort.webp",
+      "originalUrl": "https://opensourceui.in/components/filter-sort",
+      "sha256": "01c03382b3cc9d34fa2161894a4263d4de9ce68bbbdd94ec58762dc748021dd7"
+    },
+    {
+      "id": "opensource:workspace-switcher",
+      "file": "public/thumbnails/opensource--workspace-switcher.webp",
+      "originalUrl": "https://opensourceui.in/components/workspace-switcher",
+      "sha256": "f1d215a86080292fb01b0247c26b3040ab57f01b5da8a922bb4085bdc4cc1ba7"
+    },
+    {
+      "id": "opensource:cinema-ticket",
+      "file": "public/thumbnails/opensource--cinema-ticket.webp",
+      "originalUrl": "https://opensourceui.in/components/cinema-ticket",
+      "sha256": "364c2dba6ca7dbc0600d98b219f201a88035e418a38ced58c265d05456296cdf"
+    },
+    {
+      "id": "opensource:wallet-pass",
+      "file": "public/thumbnails/opensource--wallet-pass.webp",
+      "originalUrl": "https://opensourceui.in/components/wallet-pass",
+      "sha256": "7f98833d6bc77168c0ffa6df0c7f7c6db0b66c1753db800768fe00f52f90d753"
+    },
+    {
+      "id": "opensource:credit-card-glass",
+      "file": "public/thumbnails/opensource--credit-card-glass.webp",
+      "originalUrl": "https://opensourceui.in/components/credit-card-glass",
+      "sha256": "1be7787621778a6fdc8674c02f7e356768279a516199dd6c52a365d1525fd0b0"
+    },
+    {
+      "id": "opensource:drop-cap-editorial",
+      "file": "public/thumbnails/opensource--drop-cap-editorial.webp",
+      "originalUrl": "https://opensourceui.in/components/drop-cap-editorial",
+      "sha256": "12a6e75e31e635ad5cb15b9000279ef3262348f3d023c7689536336f0b327798"
+    },
+    {
+      "id": "opensource:editorial-quote",
+      "file": "public/thumbnails/opensource--editorial-quote.webp",
+      "originalUrl": "https://opensourceui.in/components/editorial-quote",
+      "sha256": "f3c3363d983dd84e04888eeffa9fe7f27246f35bd81b4e4ccd89d681d56b4858"
+    },
+    {
+      "id": "opensource:discord-chat",
+      "file": "public/thumbnails/opensource--discord-chat.webp",
+      "originalUrl": "https://opensourceui.in/components/discord-chat",
+      "sha256": "462d21cd18a5a022297832ebb573155a28256078e19c3a195281f58bd2a8a99b"
+    },
+    {
+      "id": "opensource:linked-in-profile",
+      "file": "public/thumbnails/opensource--linked-in-profile.webp",
+      "originalUrl": "https://opensourceui.in/components/linked-in-profile",
+      "sha256": "828efad56b623a76195a7ffdc79724a804dbea587c4bb502f96d583f6da23639"
+    },
+    {
+      "id": "opensource:facebook-post",
+      "file": "public/thumbnails/opensource--facebook-post.webp",
+      "originalUrl": "https://opensourceui.in/components/facebook-post",
+      "sha256": "15a5512a53e6d321641c7b4957758939bf32f3ee3d6644911c521b684bd660c0"
+    },
+    {
+      "id": "opensource:twitter-profile",
+      "file": "public/thumbnails/opensource--twitter-profile.webp",
+      "originalUrl": "https://opensourceui.in/components/twitter-profile",
+      "sha256": "012b6f4aeff033c40bbdee26ee89025b8ccf88747bfdcff181c10347392c25fc"
+    },
+    {
+      "id": "opensource:event-ticket",
+      "file": "public/thumbnails/opensource--event-ticket.webp",
+      "originalUrl": "https://opensourceui.in/components/event-ticket",
+      "sha256": "68601458027fe4cc62cb9ea2fc3c0f288575eb02edd8e0387aaf1b958f622abd"
+    },
+    {
+      "id": "opensource:flight-boarding",
+      "file": "public/thumbnails/opensource--flight-boarding.webp",
+      "originalUrl": "https://opensourceui.in/components/flight-boarding",
+      "sha256": "c3fdb15d387973ed9790b7f469e8b4431e2d6033dd2e5682eb5e3bb27236a90e"
+    },
+    {
+      "id": "opensource:gallery-grid",
+      "file": "public/thumbnails/opensource--gallery-grid.webp",
+      "originalUrl": "https://opensourceui.in/components/gallery-grid",
+      "sha256": "6d07235adb77c63d7a719bbf7be30ff74ac4eec39faeae85478a1a4c03c8b530"
+    },
+    {
+      "id": "opensource:glass-overlay-image",
+      "file": "public/thumbnails/opensource--glass-overlay-image.webp",
+      "originalUrl": "https://opensourceui.in/components/glass-overlay-image",
+      "sha256": "0004b5a999e36af752e1cc3bb230dd36c09cb05fe68b3815cbbef259b5a2f8e9"
+    },
+    {
+      "id": "opensource:photo-album",
+      "file": "public/thumbnails/opensource--photo-album.webp",
+      "originalUrl": "https://opensourceui.in/components/photo-album",
+      "sha256": "4e5f4e652a1535cc4731e8e098aeecae13a6860497c66e16e07a9cc140020ed9"
+    },
+    {
+      "id": "opensource:magazine-cover",
+      "file": "public/thumbnails/opensource--magazine-cover.webp",
+      "originalUrl": "https://opensourceui.in/components/magazine-cover",
+      "sha256": "d19383f93bc8a76fc3e07b7b1e1aacb07932b14d8c1b9a3fbc66315ef1f915a4"
+    },
+    {
+      "id": "opensource:stacked-folder-card",
+      "file": "public/thumbnails/opensource--stacked-folder-card.webp",
+      "originalUrl": "https://opensourceui.in/components/stacked-folder-card",
+      "sha256": "3754a5769bcbfa33c868a8461c7aee9e516cacf4316776e90907cf76c601560d"
+    },
+    {
+      "id": "opensource:ink-stamp-document",
+      "file": "public/thumbnails/opensource--ink-stamp-document.webp",
+      "originalUrl": "https://opensourceui.in/components/ink-stamp-document",
+      "sha256": "0c93b2508f918dc2fe92449d6200ac7b93fee81b1a939895253ff1a2a7241397"
+    },
+    {
+      "id": "opensource:opensource-folder-tab-card",
+      "file": "public/thumbnails/opensource--opensource-folder-tab-card.webp",
+      "originalUrl": "https://opensourceui.in/components/opensource-folder-tab-card",
+      "sha256": "f64fef05961cceb62ca0bd96e2e2671d9c3d07e7b2038606755532225f3e5620"
+    },
+    {
+      "id": "opensource:journal-writing",
+      "file": "public/thumbnails/opensource--journal-writing.webp",
+      "originalUrl": "https://opensourceui.in/components/journal-writing",
+      "sha256": "991044dda486fea65c1d84e7dc78dfc60fff1b508826463b92dd6e30213bdcd4"
+    },
+    {
+      "id": "opensource:terminal-log",
+      "file": "public/thumbnails/opensource--terminal-log.webp",
+      "originalUrl": "https://opensourceui.in/components/terminal-log",
+      "sha256": "e37b1cc22ca372330df86a0d6cb1a1586f2bc40269451d2c4aa88e623047b0b8"
+    },
+    {
+      "id": "opensource:keyboard-shortcuts",
+      "file": "public/thumbnails/opensource--keyboard-shortcuts.webp",
+      "originalUrl": "https://opensourceui.in/components/keyboard-shortcuts",
+      "sha256": "08181c14a1ce1c9710080456ee94bce92463edc0dd66896d1cbb53d3f88088cf"
+    },
+    {
+      "id": "opensource:github-repo",
+      "file": "public/thumbnails/opensource--github-repo.webp",
+      "originalUrl": "https://opensourceui.in/components/github-repo",
+      "sha256": "b45c6fe1a0b1f1eabfa8a7b9e184dd152be8b09f9403addad1d1ef8e34155add"
+    },
+    {
+      "id": "opensource:museum-placard",
+      "file": "public/thumbnails/opensource--museum-placard.webp",
+      "originalUrl": "https://opensourceui.in/components/museum-placard",
+      "sha256": "a808a05dacbc0f055c2864ba7bc37d153857fa336ad758c50dd7b94035d9372e"
+    },
+    {
+      "id": "opensource:gallery-wall",
+      "file": "public/thumbnails/opensource--gallery-wall.webp",
+      "originalUrl": "https://opensourceui.in/components/gallery-wall",
+      "sha256": "2e79d41e08589ad300aa5e833ba4c7a463d4de9c50318260b6a351de1eaba4b6"
+    },
+    {
+      "id": "opensource:linked-in-post",
+      "file": "public/thumbnails/opensource--linked-in-post.webp",
+      "originalUrl": "https://opensourceui.in/components/linked-in-post",
+      "sha256": "766a3e0b9caf227f4308b56a04ab9d0ef7fb8c784ed707d3dde9d91338ac1ad2"
+    },
+    {
+      "id": "opensource:transform-box-frame",
+      "file": "public/thumbnails/opensource--transform-box-frame.webp",
+      "originalUrl": "https://opensourceui.in/components/transform-box-frame",
+      "sha256": "1a160337f53b4f747962d583a2d5730ae291e388a6db1877f17da7bd084b1dc5"
+    },
+    {
+      "id": "opensource:transform-plus-frame",
+      "file": "public/thumbnails/opensource--transform-plus-frame.webp",
+      "originalUrl": "https://opensourceui.in/components/transform-plus-frame",
+      "sha256": "60e44c1a0b17a4854f14ae3d6391715dbaf05dfbfea71f57f0e5c2f0bf3813b4"
+    },
+    {
+      "id": "opensource:sticky-note-polaroid-frame",
+      "file": "public/thumbnails/opensource--sticky-note-polaroid-frame.webp",
+      "originalUrl": "https://opensourceui.in/components/sticky-note-polaroid-frame",
+      "sha256": "f68836dd4cd491ed1d5624d1824f642eafa161dcda87f26e23d0b8e750b48ff4"
+    },
+    {
+      "id": "opensource:hard-shadow-polaroid-frame",
+      "file": "public/thumbnails/opensource--hard-shadow-polaroid-frame.webp",
+      "originalUrl": "https://opensourceui.in/components/hard-shadow-polaroid-frame",
+      "sha256": "6fe88e1096be96e8f9dadf92e9ee5488cf338f1cf94184663310c4b5aa2e4cfe"
+    },
+    {
+      "id": "opensource:circle-cut-frame",
+      "file": "public/thumbnails/opensource--circle-cut-frame.webp",
+      "originalUrl": "https://opensourceui.in/components/circle-cut-frame",
+      "sha256": "4c87548d29852278b02b5c50cbc654034aacbbd718b00b14f624d61f9ad0c0f0"
+    },
+    {
+      "id": "opensource:music-player",
+      "file": "public/thumbnails/opensource--music-player.webp",
+      "originalUrl": "https://opensourceui.in/components/music-player",
+      "sha256": "8a4273e2815a0ff5ca17356958e2bde9882593ce152ee32927c2948e32d79c44"
+    },
+    {
+      "id": "opensource:photo-contact-sheet",
+      "file": "public/thumbnails/opensource--photo-contact-sheet.webp",
+      "originalUrl": "https://opensourceui.in/components/photo-contact-sheet",
+      "sha256": "98bedaf5256c559cadaadb5139f35f81e2dbc73fb1e896dfc56e18a62cbd9717"
+    },
+    {
+      "id": "opensource:music-playlist",
+      "file": "public/thumbnails/opensource--music-playlist.webp",
+      "originalUrl": "https://opensourceui.in/components/music-playlist",
+      "sha256": "0bad1218b116c77b12dcfa73e33796ea3f809f72b2b0a50e2750c2f03d937fcc"
+    },
+    {
+      "id": "opensource:stacked-cards-effect",
+      "file": "public/thumbnails/opensource--stacked-cards-effect.webp",
+      "originalUrl": "https://opensourceui.in/components/stacked-cards-effect",
+      "sha256": "aa3ceb4bcd35ac9d85f81309ef0f5b110c59c48379ac2ebffc025819775b2e73"
+    },
+    {
+      "id": "opensource:retail-price-tag",
+      "file": "public/thumbnails/opensource--retail-price-tag.webp",
+      "originalUrl": "https://opensourceui.in/components/retail-price-tag",
+      "sha256": "315e1f813917009b03a3fadb56b9e700e822fb309bc5ef84133dbd45c3c5d9ad"
+    },
+    {
+      "id": "opensource:stamp-postcard",
+      "file": "public/thumbnails/opensource--stamp-postcard.webp",
+      "originalUrl": "https://opensourceui.in/components/stamp-postcard",
+      "sha256": "bd280f2daff17c11e68830790e9ec23a4159fb65eaa58203ebb991638fc6151c"
+    },
+    {
+      "id": "opensource:progress-ring",
+      "file": "public/thumbnails/opensource--progress-ring.webp",
+      "originalUrl": "https://opensourceui.in/components/progress-ring",
+      "sha256": "3d6432895450a699943fffe758fcbad97dc37bf826750c263a058c4b28cd02ed"
+    },
+    {
+      "id": "opensource:team-member",
+      "file": "public/thumbnails/opensource--team-member.webp",
+      "originalUrl": "https://opensourceui.in/components/team-member",
+      "sha256": "1ea679fedbadac470f2d01a879ff627024cddc507deae3718406bf963e219646"
+    },
+    {
+      "id": "opensource:testimonial",
+      "file": "public/thumbnails/opensource--testimonial.webp",
+      "originalUrl": "https://opensourceui.in/components/testimonial",
+      "sha256": "c6bc619a9da2ed83bc5142fcb71602cd0efe667d782d457c963c9ca7ea700a5f"
+    },
+    {
+      "id": "opensource:toggle-pricing-cards",
+      "file": "public/thumbnails/opensource--toggle-pricing-cards.webp",
+      "originalUrl": "https://opensourceui.in/components/toggle-pricing-cards",
+      "sha256": "b710502bd11c77ff13341831f5ba63459b3ad697dfdd330263633fc438175e0b"
+    },
+    {
+      "id": "opensource:travel-postcard",
+      "file": "public/thumbnails/opensource--travel-postcard.webp",
+      "originalUrl": "https://opensourceui.in/components/travel-postcard",
+      "sha256": "a4a149d0e19b6d7d8f0fb2c0e52d5703e1fb8f21636405e59115250b0a8b8930"
+    },
+    {
+      "id": "opensource:slow-living-polaroid",
+      "file": "public/thumbnails/opensource--slow-living-polaroid.webp",
+      "originalUrl": "https://opensourceui.in/components/slow-living-polaroid",
+      "sha256": "80ce3742015cd0ffcc8897a20c11370e63be0415918b931849c9f35a2e2e97c5"
+    },
+    {
+      "id": "opensource:denim-product-editorial",
+      "file": "public/thumbnails/opensource--denim-product-editorial.webp",
+      "originalUrl": "https://opensourceui.in/components/denim-product-editorial",
+      "sha256": "6bbe68624eacee482b243361c8ba2a4bc7880302f9b66e80df8422bd7fba32cc"
+    },
+    {
+      "id": "opensource:daily-motivation",
+      "file": "public/thumbnails/opensource--daily-motivation.webp",
+      "originalUrl": "https://opensourceui.in/components/daily-motivation",
+      "sha256": "c4557733d5b871955d764bbc4eb60b52df976b2c762a63c88de6d2a1fb172e23"
+    },
+    {
+      "id": "opensource:cafe-menu-board",
+      "file": "public/thumbnails/opensource--cafe-menu-board.webp",
+      "originalUrl": "https://opensourceui.in/components/cafe-menu-board",
+      "sha256": "ec4d8a3dd4f831dbba7c58da68c05c7aabe26f08284e11d7119fa390bba35bfd"
+    },
+    {
+      "id": "opensource:annotated-text",
+      "file": "public/thumbnails/opensource--annotated-text.webp",
+      "originalUrl": "https://opensourceui.in/components/annotated-text",
+      "sha256": "a659c2202daca319bcd3631b5b9de4282c1a27949ada719b3e6051319d3bfc8f"
+    },
+    {
+      "id": "opensource:otp-boxed-input",
+      "file": "public/thumbnails/opensource--otp-boxed-input.webp",
+      "originalUrl": "https://opensourceui.in/components/otp-boxed-input",
+      "sha256": "e9956ce6648864627636c85243063e0a38e237179271889c1968b02e5f3022e3"
+    },
+    {
+      "id": "opensource:otp-underline-input",
+      "file": "public/thumbnails/opensource--otp-underline-input.webp",
+      "originalUrl": "https://opensourceui.in/components/otp-underline-input",
+      "sha256": "92a92f04734ff6856bd06ab150aead0fda83095165d1d4873e8fd295c621ef8a"
+    },
+    {
+      "id": "opensource:text-field-input",
+      "file": "public/thumbnails/opensource--text-field-input.webp",
+      "originalUrl": "https://opensourceui.in/components/text-field-input",
+      "sha256": "3701731841af93ab1561310edeec952b18da05238af52a1d8d10bdc0671f5c98"
+    },
+    {
+      "id": "opensource:search-input",
+      "file": "public/thumbnails/opensource--search-input.webp",
+      "originalUrl": "https://opensourceui.in/components/search-input",
+      "sha256": "8ff25393729e8aa79535744ea4b5b48842cfa6703fe032b7f5ea67773bab97ee"
+    },
+    {
+      "id": "opensource:password-field-input",
+      "file": "public/thumbnails/opensource--password-field-input.webp",
+      "originalUrl": "https://opensourceui.in/components/password-field-input",
+      "sha256": "ba3251e932ab03b5d6c0e32c2cfdb3fd25fc854c2a79dde7ea66ddadca4cfd4b"
+    },
+    {
+      "id": "opensource:textarea-field-input",
+      "file": "public/thumbnails/opensource--textarea-field-input.webp",
+      "originalUrl": "https://opensourceui.in/components/textarea-field-input",
+      "sha256": "9fc97c8583156db1e0acc8a2bffd7ac4f60e8aea362603c6f3270f2fb006252e"
+    },
+    {
+      "id": "opensource:input-group-field",
+      "file": "public/thumbnails/opensource--input-group-field.webp",
+      "originalUrl": "https://opensourceui.in/components/input-group-field",
+      "sha256": "d6dd46e5b86d3788fa30c6e89ac00b8752ce3a8dd9279b0783cec62ac6f4c3df"
+    },
+    {
+      "id": "opensource:floating-label-field-input",
+      "file": "public/thumbnails/opensource--floating-label-field-input.webp",
+      "originalUrl": "https://opensourceui.in/components/floating-label-field-input",
+      "sha256": "06abc2e450157d6250725fa0d6bcacd741e8679d24fb98e216c18289eea5cbd4"
+    },
+    {
+      "id": "opensource:select-field-input",
+      "file": "public/thumbnails/opensource--select-field-input.webp",
+      "originalUrl": "https://opensourceui.in/components/select-field-input",
+      "sha256": "31e83c3962cca92cf73ec50de4230e30bf86cf891e34200fa106a089175fe8e2"
+    },
+    {
+      "id": "opensource:phone-field-input",
+      "file": "public/thumbnails/opensource--phone-field-input.webp",
+      "originalUrl": "https://opensourceui.in/components/phone-field-input",
+      "sha256": "d2feb0f59db2c10a505b8091539ed613c0344375d893940a4bad5bd15bf6c4a1"
+    },
+    {
+      "id": "opensource:checkbox-field-input",
+      "file": "public/thumbnails/opensource--checkbox-field-input.webp",
+      "originalUrl": "https://opensourceui.in/components/checkbox-field-input",
+      "sha256": "738cd7e2190d62caa74aaa141fffbfe7f14dd943c1e893ca452e87442012bd02"
+    },
+    {
+      "id": "opensource:switch-field-input",
+      "file": "public/thumbnails/opensource--switch-field-input.webp",
+      "originalUrl": "https://opensourceui.in/components/switch-field-input",
+      "sha256": "107b9429c90a616b867c2611d6901dd6fde18495eb768ebeef5dfc0147c4519d"
+    },
+    {
+      "id": "opensource:combobox-field-input",
+      "file": "public/thumbnails/opensource--combobox-field-input.webp",
+      "originalUrl": "https://opensourceui.in/components/combobox-field-input",
+      "sha256": "48172f9e5eb8665e78d4b095ae21c034a65bcd7a3bb858dc006670dc08ca19a4"
+    },
+    {
+      "id": "opensource:radio-group-field-input",
+      "file": "public/thumbnails/opensource--radio-group-field-input.webp",
+      "originalUrl": "https://opensourceui.in/components/radio-group-field-input",
+      "sha256": "92bc816083b857359c1889d167b3b2419a58db79333ecb5eafc7770b064f5667"
+    },
+    {
+      "id": "opensource:file-upload-field-input",
+      "file": "public/thumbnails/opensource--file-upload-field-input.webp",
+      "originalUrl": "https://opensourceui.in/components/file-upload-field-input",
+      "sha256": "74673871f3fe3827d92028b490798ffa232124de54f7a75246af56a97ae133b8"
+    },
+    {
+      "id": "opensource:date-field-input",
+      "file": "public/thumbnails/opensource--date-field-input.webp",
+      "originalUrl": "https://opensourceui.in/components/date-field-input",
+      "sha256": "5592ea47b1826357c824092b310f02697375a26d1c85d63c3d1fa9c391fd62d8"
+    },
+    {
+      "id": "opensource:login-form",
+      "file": "public/thumbnails/opensource--login-form.webp",
+      "originalUrl": "https://opensourceui.in/components/login-form",
+      "sha256": "b7df434122eadff6ffad328e970c083e1d27550711309531f4ff92cc1d5ffefb"
+    },
+    {
+      "id": "opensource:signup-form",
+      "file": "public/thumbnails/opensource--signup-form.webp",
+      "originalUrl": "https://opensourceui.in/components/signup-form",
+      "sha256": "82b4eba30f450cac20d88de9afedb56253d31923cca18e60f5e2bce1019ab8e6"
+    },
+    {
+      "id": "opensource:contact-form",
+      "file": "public/thumbnails/opensource--contact-form.webp",
+      "originalUrl": "https://opensourceui.in/components/contact-form",
+      "sha256": "fcd459e59ed40f6178b2a74fa24b1dd7697befed8848e40218fa05f5c8e30302"
+    },
+    {
+      "id": "opensource:newsletter-form",
+      "file": "public/thumbnails/opensource--newsletter-form.webp",
+      "originalUrl": "https://opensourceui.in/components/newsletter-form",
+      "sha256": "eb1d5d09b49ee22f36b1ad1f75824c82438720c0cbfc7233df523e013458c3ed"
+    },
+    {
+      "id": "opensource:forgot-password-form",
+      "file": "public/thumbnails/opensource--forgot-password-form.webp",
+      "originalUrl": "https://opensourceui.in/components/forgot-password-form",
+      "sha256": "1d297716ea6c851e29d4ff9fbc1f11a32eae4d2df05d5ca4d9e08c5b7b399498"
+    },
+    {
+      "id": "opensource:apple-hello-loader",
+      "file": "public/thumbnails/opensource--apple-hello-loader.webp",
+      "originalUrl": "https://opensourceui.in/components/apple-hello-loader",
+      "sha256": "665c48767f327d85d9f0e113beb34f87bf3be77507acc847a95fec61bd60d576"
+    },
+    {
+      "id": "opensource:spin-loader",
+      "file": "public/thumbnails/opensource--spin-loader.webp",
+      "originalUrl": "https://opensourceui.in/components/spin-loader",
+      "sha256": "6c0ee0078f8edbdc97a48baf4894017f1c4e0f4094f539c15317c96ff1d4184b"
+    },
+    {
+      "id": "opensource:text-loader",
+      "file": "public/thumbnails/opensource--text-loader.webp",
+      "originalUrl": "https://opensourceui.in/components/text-loader",
+      "sha256": "cca8c19feaaf1a2fa9237b942cf72632874d475d638bbed3ae8d1d4358c37936"
+    },
+    {
+      "id": "opensource:aurora-background",
+      "file": "public/thumbnails/opensource--aurora-background.webp",
+      "originalUrl": "https://opensourceui.in/components/aurora-background",
+      "sha256": "17558e87c047abeb7c23b554c22cdce2bd6dadf7a66754d1bb9084dbdfc1e513"
+    },
+    {
+      "id": "opensource:coral-glow-background",
+      "file": "public/thumbnails/opensource--coral-glow-background.webp",
+      "originalUrl": "https://opensourceui.in/components/coral-glow-background",
+      "sha256": "3065a6aed2dd065392ed3d81dc2effa97f0d0074f5ce6f86f9763a16fe380270"
+    },
+    {
+      "id": "opensource:mint-lagoon-background",
+      "file": "public/thumbnails/opensource--mint-lagoon-background.webp",
+      "originalUrl": "https://opensourceui.in/components/mint-lagoon-background",
+      "sha256": "518aee892ba761156cdef1659def01b9877b7ac8618e17d769dec0b61b9a8999"
+    },
+    {
+      "id": "opensource:sunset-bloom-background",
+      "file": "public/thumbnails/opensource--sunset-bloom-background.webp",
+      "originalUrl": "https://opensourceui.in/components/sunset-bloom-background",
+      "sha256": "6888379db0d701f8deda909c2a4ab352d6f88f7adb1261cfd7f63ea5943c55b9"
+    },
+    {
+      "id": "opensource:honey-ember-background",
+      "file": "public/thumbnails/opensource--honey-ember-background.webp",
+      "originalUrl": "https://opensourceui.in/components/honey-ember-background",
+      "sha256": "a42e795b3f9886644e9492cc44d287c26a7bf21fd51ce649f2523c83557af04f"
+    },
+    {
+      "id": "opensource:tropical-tide-background",
+      "file": "public/thumbnails/opensource--tropical-tide-background.webp",
+      "originalUrl": "https://opensourceui.in/components/tropical-tide-background",
+      "sha256": "defd85f748713e4509073e963e9d244c1d3d41a96ed275eae1ba8103ff167b7e"
+    },
+    {
+      "id": "opensource:sunrise-horizon-background",
+      "file": "public/thumbnails/opensource--sunrise-horizon-background.webp",
+      "originalUrl": "https://opensourceui.in/components/sunrise-horizon-background",
+      "sha256": "1726dd5b0d41b445683ffddd6086cbbf00483c35f556f096aaf7d257c4c5ea3e"
+    },
+    {
+      "id": "opensource:linen-weave-background",
+      "file": "public/thumbnails/opensource--linen-weave-background.webp",
+      "originalUrl": "https://opensourceui.in/components/linen-weave-background",
+      "sha256": "008b5c7a4d8d5c2b2fda9028ed63067be9e813e1d39f7fe10f48dc53f5c61a4f"
+    },
+    {
+      "id": "opensource:sand-drift-background",
+      "file": "public/thumbnails/opensource--sand-drift-background.webp",
+      "originalUrl": "https://opensourceui.in/components/sand-drift-background",
+      "sha256": "bbe485654ca7810267c4fe141b8543c31665b02db2004be9efb1d92b218143ef"
+    },
+    {
+      "id": "opensource:frost-mesh-background",
+      "file": "public/thumbnails/opensource--frost-mesh-background.webp",
+      "originalUrl": "https://opensourceui.in/components/frost-mesh-background",
+      "sha256": "48df052364e547ed149a0988af7bb39656dbf48588a6fc0e1e3dc161ad82285a"
+    },
+    {
+      "id": "opensource:terrazzo-fragment-background",
+      "file": "public/thumbnails/opensource--terrazzo-fragment-background.webp",
+      "originalUrl": "https://opensourceui.in/components/terrazzo-fragment-background",
+      "sha256": "a583ac9999b7f5cedb8cefcfc8c430ffa1b941aee4f9f2f50160cd392bb0af0f"
+    },
+    {
+      "id": "opensource:rain-prism-background",
+      "file": "public/thumbnails/opensource--rain-prism-background.webp",
+      "originalUrl": "https://opensourceui.in/components/rain-prism-background",
+      "sha256": "0cfc99cb8be79ae46468c508bd00d6db155145f476966bd64aa93354841d8fc5"
+    },
+    {
+      "id": "opensource:cherry-petal-background",
+      "file": "public/thumbnails/opensource--cherry-petal-background.webp",
+      "originalUrl": "https://opensourceui.in/components/cherry-petal-background",
+      "sha256": "6c2acdeacbf21ab7e664faf611811b5cfb032005ca3572cee93d374961b64983"
+    },
+    {
+      "id": "opensource:ink-wash-background",
+      "file": "public/thumbnails/opensource--ink-wash-background.webp",
+      "originalUrl": "https://opensourceui.in/components/ink-wash-background",
+      "sha256": "dd2ae896d8b4d68aeab55b58aa883466e32f7063e8d14462c513393fbbc09e82"
+    },
+    {
+      "id": "opensource:halftone-pop-background",
+      "file": "public/thumbnails/opensource--halftone-pop-background.webp",
+      "originalUrl": "https://opensourceui.in/components/halftone-pop-background",
+      "sha256": "794b0089fa49a854a47c87e7e6052732a333d30095e3083ec01849270af3d001"
+    },
+    {
+      "id": "opensource:paper-fold-background",
+      "file": "public/thumbnails/opensource--paper-fold-background.webp",
+      "originalUrl": "https://opensourceui.in/components/paper-fold-background",
+      "sha256": "6b464606166ae040c3991251f9c9556068d535be527b869179a3c3a5d8f0929d"
+    },
+    {
+      "id": "opensource:soft-spotlight-background",
+      "file": "public/thumbnails/opensource--soft-spotlight-background.webp",
+      "originalUrl": "https://opensourceui.in/components/soft-spotlight-background",
+      "sha256": "bffa29c4591ede88ece20e817c9ca73b1e28553258e633c27cc83b57d2661b79"
+    },
+    {
+      "id": "opensource:arc-bands-background",
+      "file": "public/thumbnails/opensource--arc-bands-background.webp",
+      "originalUrl": "https://opensourceui.in/components/arc-bands-background",
+      "sha256": "da599cd6af17379074735a304f93e09e92614c8c34c6c5809313a50c85e406cc"
+    },
+    {
+      "id": "opensource:dark-aurora-background",
+      "file": "public/thumbnails/opensource--dark-aurora-background.webp",
+      "originalUrl": "https://opensourceui.in/components/dark-aurora-background",
+      "sha256": "6e2d3d087b3c97b9077c2ff5c14bd604538bffa89616d5b52cb96f8d3664f994"
+    },
+    {
+      "id": "opensource:dark-ember-background",
+      "file": "public/thumbnails/opensource--dark-ember-background.webp",
+      "originalUrl": "https://opensourceui.in/components/dark-ember-background",
+      "sha256": "47e153b023f4ccff190cd6e15fc4378b688b8d3007a0d0c955c49fa1ed9154b3"
+    },
+    {
+      "id": "opensource:dark-teal-depth-background",
+      "file": "public/thumbnails/opensource--dark-teal-depth-background.webp",
+      "originalUrl": "https://opensourceui.in/components/dark-teal-depth-background",
+      "sha256": "7fb994615c7f448b49ca35e8285fa1c58f9edbbea4d3307e95461e114af213ac"
+    },
+    {
+      "id": "opensource:dark-arc-bands-background",
+      "file": "public/thumbnails/opensource--dark-arc-bands-background.webp",
+      "originalUrl": "https://opensourceui.in/components/dark-arc-bands-background",
+      "sha256": "60d11bbf71992a1f555bf91aba5c9f0a0876001bbf88d9307e3216a2115060f5"
+    },
+    {
+      "id": "opensource:dark-carbon-spotlight-background",
+      "file": "public/thumbnails/opensource--dark-carbon-spotlight-background.webp",
+      "originalUrl": "https://opensourceui.in/components/dark-carbon-spotlight-background",
+      "sha256": "b944f0709ec468c26ef3d8ef0b2fe6d9d9b790085231160e2bbca11f31da3f2c"
+    },
+    {
+      "id": "opensource:dark-midnight-mesh-background",
+      "file": "public/thumbnails/opensource--dark-midnight-mesh-background.webp",
+      "originalUrl": "https://opensourceui.in/components/dark-midnight-mesh-background",
+      "sha256": "e872ec09b9252e989b8a2a32f535eef471849a6a1d72b0d390150dcbc0744f51"
+    },
+    {
+      "id": "opensource:dark-ink-field-background",
+      "file": "public/thumbnails/opensource--dark-ink-field-background.webp",
+      "originalUrl": "https://opensourceui.in/components/dark-ink-field-background",
+      "sha256": "61fef76d8279b2502eae1561079e258e2651da8e0e99a162cf7acf715f41b193"
+    },
+    {
+      "id": "opensource:dark-rose-noir-background",
+      "file": "public/thumbnails/opensource--dark-rose-noir-background.webp",
+      "originalUrl": "https://opensourceui.in/components/dark-rose-noir-background",
+      "sha256": "ed947c30aff67350cea637bb3944e2f725aa477111645a583b25294303e4c25f"
+    },
+    {
+      "id": "opensource:diagonal-box-pattern",
+      "file": "public/thumbnails/opensource--diagonal-box-pattern.webp",
+      "originalUrl": "https://opensourceui.in/components/diagonal-box-pattern",
+      "sha256": "5aad008bb4230424f2f91bb97165781288ce79e696269c59d1a01e36f6d57a58"
+    },
+    {
+      "id": "opensource:reverse-diagonal-box-pattern",
+      "file": "public/thumbnails/opensource--reverse-diagonal-box-pattern.webp",
+      "originalUrl": "https://opensourceui.in/components/reverse-diagonal-box-pattern",
+      "sha256": "f104f3188dc40b505e59f9436921f49503625e26d02b8e9b2cc5fcb007df6c55"
+    },
+    {
+      "id": "opensource:dot-grid-pattern",
+      "file": "public/thumbnails/opensource--dot-grid-pattern.webp",
+      "originalUrl": "https://opensourceui.in/components/dot-grid-pattern",
+      "sha256": "a072480bc2b2bd2566531f2eabdb9c9576d0296e02f02a00785c12576ed62eb4"
+    },
+    {
+      "id": "opensource:line-grid-pattern",
+      "file": "public/thumbnails/opensource--line-grid-pattern.webp",
+      "originalUrl": "https://opensourceui.in/components/line-grid-pattern",
+      "sha256": "b0ca48c37d59b4e69c5dca930f4d001e0d9e6211dad6d9105074c99caa755528"
+    },
+    {
+      "id": "opensource:graph-paper-pattern",
+      "file": "public/thumbnails/opensource--graph-paper-pattern.webp",
+      "originalUrl": "https://opensourceui.in/components/graph-paper-pattern",
+      "sha256": "caf036c1784b416e9cf02ffb8436309d73de466d981d0edf919d6c95e40482da"
+    },
+    {
+      "id": "opensource:fine-grain-pattern",
+      "file": "public/thumbnails/opensource--fine-grain-pattern.webp",
+      "originalUrl": "https://opensourceui.in/components/fine-grain-pattern",
+      "sha256": "7f662be341e1fb09d684b433f84727f9c6fa2bc54503876904b1666c49e6d0c2"
+    },
+    {
+      "id": "fluid:accordion",
+      "file": "public/thumbnails/fluid--accordion.webp",
+      "originalUrl": "https://www.fluidfunctionalism.com/docs/accordion",
+      "sha256": "decb19cc26f213a5d9db0458a19b193d349121b02c068e37540619d2cc0d8121"
+    },
+    {
+      "id": "fluid:ask-user-questions",
+      "file": "public/thumbnails/fluid--ask-user-questions.webp",
+      "originalUrl": "https://www.fluidfunctionalism.com/docs/ask-user-questions",
+      "sha256": "2e8e9e37ae90a2618278c6277912874e43ac41c6878422087f4dd8b59af5e58d"
+    },
+    {
+      "id": "fluid:badge",
+      "file": "public/thumbnails/fluid--badge.webp",
+      "originalUrl": "https://www.fluidfunctionalism.com/docs/badge",
+      "sha256": "9e9b911cd4580e0b3768d1bbac25bea0bcc6b71afa9b4c05312bb1a7cbcc0fb2"
+    },
+    {
+      "id": "fluid:button",
+      "file": "public/thumbnails/fluid--button.webp",
+      "originalUrl": "https://www.fluidfunctionalism.com/docs/button",
+      "sha256": "aab16d86a763650e74d74d01864c7985f073aea5d822bf3f3e06611a54e6c310"
+    },
+    {
+      "id": "fluid:card",
+      "file": "public/thumbnails/fluid--card.webp",
+      "originalUrl": "https://www.fluidfunctionalism.com/docs/card",
+      "sha256": "90393a1634b6b7547b1c77da63e747ddfcc9fd14e762eb580f493929a04c23d3"
+    },
+    {
+      "id": "fluid:chat-message",
+      "file": "public/thumbnails/fluid--chat-message.webp",
+      "originalUrl": "https://www.fluidfunctionalism.com/docs/chat-message",
+      "sha256": "8bd03bbb336e3d98c43f96a693e546202ffe1c5ce378705a737351d43e50290e"
+    },
+    {
+      "id": "fluid:checkbox-group",
+      "file": "public/thumbnails/fluid--checkbox-group.webp",
+      "originalUrl": "https://www.fluidfunctionalism.com/docs/checkbox-group",
+      "sha256": "e737d44ca6b41f3de6ce8f3e10c92a2d26f1cfc3fdcdf5d2dec970b421120572"
+    },
+    {
+      "id": "fluid:color-picker",
+      "file": "public/thumbnails/fluid--color-picker.webp",
+      "originalUrl": "https://www.fluidfunctionalism.com/docs/color-picker",
+      "sha256": "6d8b66e218dc34991bc5c57a50b30da4908628193fe18e66e9cf8fcbfc8dbbeb"
+    },
+    {
+      "id": "fluid:combobox",
+      "file": "public/thumbnails/fluid--combobox.webp",
+      "originalUrl": "https://www.fluidfunctionalism.com/docs/combobox",
+      "sha256": "bdc7f66121c4da427d915c5c463dac845e29c9f855d7e0d1ba84aa9780f8c45a"
+    },
+    {
+      "id": "fluid:command-menu",
+      "file": "public/thumbnails/fluid--command-menu.webp",
+      "originalUrl": "https://www.fluidfunctionalism.com/docs/command-menu",
+      "sha256": "08e99cdea58a6cb11ec8eff0ad216b64e831602b3ef1899b086045007aa94904"
+    },
+    {
+      "id": "fluid:dialog",
+      "file": "public/thumbnails/fluid--dialog.webp",
+      "originalUrl": "https://www.fluidfunctionalism.com/docs/dialog",
+      "sha256": "a11ac5aca0891da3e4705d98405608e96231e7480dc9188b9ecb50cdd9363fad"
+    },
+    {
+      "id": "fluid:dropdown",
+      "file": "public/thumbnails/fluid--dropdown.webp",
+      "originalUrl": "https://www.fluidfunctionalism.com/docs/dropdown",
+      "sha256": "0d983ed76d48692fb1d0c8e55ca116fd0d16be3c729aebb3d276e544addcee88"
+    },
+    {
+      "id": "fluid:input-copy",
+      "file": "public/thumbnails/fluid--input-copy.webp",
+      "originalUrl": "https://www.fluidfunctionalism.com/docs/input-copy",
+      "sha256": "c13176814c42f953fd6a2dd43f7565aba487baa58936a5c9afa82c6715f96252"
+    },
+    {
+      "id": "fluid:input-group",
+      "file": "public/thumbnails/fluid--input-group.webp",
+      "originalUrl": "https://www.fluidfunctionalism.com/docs/input-group",
+      "sha256": "eb849affac96e3dcf0e3e25f5c6d4457c6abcee48b36d96b65f04db200e0ac01"
+    },
+    {
+      "id": "fluid:input-message",
+      "file": "public/thumbnails/fluid--input-message.webp",
+      "originalUrl": "https://www.fluidfunctionalism.com/docs/input-message",
+      "sha256": "9e103434af8e935c09418747ad918e8aa2036479c4fad8da1314267b5b43a68b"
+    },
+    {
+      "id": "fluid:radio-group",
+      "file": "public/thumbnails/fluid--radio-group.webp",
+      "originalUrl": "https://www.fluidfunctionalism.com/docs/radio-group",
+      "sha256": "68d0d252c93ed1ed1cad15788e6a74963229ed76b5a26b0e58fafed4c71e9a87"
+    },
+    {
+      "id": "fluid:select",
+      "file": "public/thumbnails/fluid--select.webp",
+      "originalUrl": "https://www.fluidfunctionalism.com/docs/select",
+      "sha256": "4a53b353106710fabcb5ae358e9e35e8aec19c6a1633c2e4ce70c8c5335bc192"
+    },
+    {
+      "id": "fluid:sidebar",
+      "file": "public/thumbnails/fluid--sidebar.webp",
+      "originalUrl": "https://www.fluidfunctionalism.com/docs/sidebar",
+      "sha256": "9630f891f84b925e2347957b99710db02eb4c31d8e1badb60f9be66d5f663870"
+    },
+    {
+      "id": "fluid:slider",
+      "file": "public/thumbnails/fluid--slider.webp",
+      "originalUrl": "https://www.fluidfunctionalism.com/docs/slider",
+      "sha256": "2ce650579125a89596aba06dd5a6cd0dee4157c790d833f03a202c918a7653d2"
+    },
+    {
+      "id": "fluid:switch",
+      "file": "public/thumbnails/fluid--switch.webp",
+      "originalUrl": "https://www.fluidfunctionalism.com/docs/switch",
+      "sha256": "85a6940a95b1cd6f2f860e7f043d1f25f18ca6390c534f9176c2025235a14d10"
+    },
+    {
+      "id": "fluid:table",
+      "file": "public/thumbnails/fluid--table.webp",
+      "originalUrl": "https://www.fluidfunctionalism.com/docs/table",
+      "sha256": "66a1e07d1f6d83ef3b7a2ce9603bf1fa11ad7f4f3f25be3af1c31b5cbef93d60"
+    },
+    {
+      "id": "fluid:tabs",
+      "file": "public/thumbnails/fluid--tabs.webp",
+      "originalUrl": "https://www.fluidfunctionalism.com/docs/tabs",
+      "sha256": "cea6de3beedb230862f7fd5f692a017e6c0b5613d8bb07618861b70245d7f04a"
+    },
+    {
+      "id": "fluid:tabs-subtle",
+      "file": "public/thumbnails/fluid--tabs-subtle.webp",
+      "originalUrl": "https://www.fluidfunctionalism.com/docs/tabs-subtle",
+      "sha256": "2a228b337a92e2d7dea41c0c4fee6e31cbe6b62995c8565df75de4b01c71c384"
+    },
+    {
+      "id": "fluid:thinking-indicator",
+      "file": "public/thumbnails/fluid--thinking-indicator.webp",
+      "originalUrl": "https://www.fluidfunctionalism.com/docs/thinking-indicator",
+      "sha256": "38ff9c9629ecbf7ad15dae14fc3a08b1212c1bf6d30c43ae7bea64b36bcdcc6e"
+    },
+    {
+      "id": "fluid:thinking-steps",
+      "file": "public/thumbnails/fluid--thinking-steps.webp",
+      "originalUrl": "https://www.fluidfunctionalism.com/docs/thinking-steps",
+      "sha256": "631fd7f20887e3c233e700abecbc29079ea8f3d27455989be07916a854c511ff"
+    },
+    {
+      "id": "fluid:tooltip",
+      "file": "public/thumbnails/fluid--tooltip.webp",
+      "originalUrl": "https://www.fluidfunctionalism.com/docs/tooltip",
+      "sha256": "389e1a143a3b62a6f41f5fe2771d9ea7598696c03dc79fc4dce8be61cc1a6a9c"
+    },
+    {
+      "id": "beautiful:loading-state",
+      "file": "public/thumbnails/beautiful--loading-state.webp",
+      "originalUrl": "https://www.beautifului.dev/#loading-state",
+      "sha256": "082a2e121166b9a0fbbbc4b2fc25d8de6cbdcac1ea585227892b405f2d0949a3"
+    },
+    {
+      "id": "beautiful:thinking-state",
+      "file": "public/thumbnails/beautiful--thinking-state.webp",
+      "originalUrl": "https://www.beautifului.dev/#thinking-state",
+      "sha256": "c0a90603a4fce885318ac689bd952ab3dc1eb3f11be758f77c0d296e6d2702c0"
+    },
+    {
+      "id": "beautiful:streaming-text",
+      "file": "public/thumbnails/beautiful--streaming-text.webp",
+      "originalUrl": "https://www.beautifului.dev/#streaming-text",
+      "sha256": "ef904d363cce5fb0afdcf0427eee02d8a4ad495c8fa4d3ec2f189f62674c8174"
+    },
+    {
+      "id": "beautiful:approval-card",
+      "file": "public/thumbnails/beautiful--approval-card.webp",
+      "originalUrl": "https://www.beautifului.dev/#approval-card",
+      "sha256": "a7381a08bf08824dfa42cc51e997471332d7cd63100988ce0b66d7fe6dc06d23"
+    },
+    {
+      "id": "beautiful:tool-chips",
+      "file": "public/thumbnails/beautiful--tool-chips.webp",
+      "originalUrl": "https://www.beautifului.dev/#tool-chips",
+      "sha256": "b29db36461b400b4495d09ef75551e1e4e9c037b504125d244da521a3af949b7"
+    },
+    {
+      "id": "beautiful:task-rows",
+      "file": "public/thumbnails/beautiful--task-rows.webp",
+      "originalUrl": "https://www.beautifului.dev/#task-rows",
+      "sha256": "9e208ee470b9137ccf95ebc85b53e0955b3e4d298fc980d47640762f13050508"
+    },
+    {
+      "id": "beautiful:chat-composer",
+      "file": "public/thumbnails/beautiful--chat-composer.webp",
+      "originalUrl": "https://www.beautifului.dev/#chat-composer",
+      "sha256": "15868c15f7ab844dbf60dd33a8196f3f304e0e9d5c0bafa48e8330c740d559b6"
+    },
+    {
+      "id": "beautiful:prompt-bar",
+      "file": "public/thumbnails/beautiful--prompt-bar.webp",
+      "originalUrl": "https://www.beautifului.dev/#prompt-bar",
+      "sha256": "69d3346db457165cc6ba134208f4ef434a706559c759118e292f48f9c81bf11e"
+    },
+    {
+      "id": "beautiful:recommendation-card",
+      "file": "public/thumbnails/beautiful--recommendation-card.webp",
+      "originalUrl": "https://www.beautifului.dev/#recommendation-card",
+      "sha256": "58dc59f4f32bff7349f1b37887a463ee6194b17468420fb83fdfd686305232ee"
+    },
+    {
+      "id": "beautiful:context-cards",
+      "file": "public/thumbnails/beautiful--context-cards.webp",
+      "originalUrl": "https://www.beautifului.dev/#context-cards",
+      "sha256": "f2c46afb4743f8af0606868af5a8500a056a1144a8dcdbbb9a5ed902715528cf"
+    },
+    {
+      "id": "beautiful:diff-table",
+      "file": "public/thumbnails/beautiful--diff-table.webp",
+      "originalUrl": "https://www.beautifului.dev/#diff-table",
+      "sha256": "ef6914e975051c2b5174ed6f8d41cddb391bccf56381afaf172ca651bdece291"
+    },
+    {
+      "id": "beautiful:records-table",
+      "file": "public/thumbnails/beautiful--records-table.webp",
+      "originalUrl": "https://www.beautifului.dev/#records-table",
+      "sha256": "b1a84581b2564b60569347b92e8f9d463a7d6ebadd0c230a6bfdf2bdc7bea3f0"
+    },
+    {
+      "id": "beautiful:filter-table",
+      "file": "public/thumbnails/beautiful--filter-table.webp",
+      "originalUrl": "https://www.beautifului.dev/#filter-table",
+      "sha256": "199e20c9ac18801c8a33aa3f47971d1c5573c1f2f3d914ebe7295c1251901868"
+    },
+    {
+      "id": "beautiful:sidebar-nav",
+      "file": "public/thumbnails/beautiful--sidebar-nav.webp",
+      "originalUrl": "https://www.beautifului.dev/#sidebar-nav",
+      "sha256": "739cee08a0f10f017b006ede8543498f6fa0271f9e526038934a52bca870a7f0"
+    },
+    {
+      "id": "beautiful:search",
+      "file": "public/thumbnails/beautiful--search.webp",
+      "originalUrl": "https://www.beautifului.dev/#search",
+      "sha256": "4505d19616baa8520bfe6a25d2cfee4cbe7400c250bd4a4f297833427cecd9f1"
+    },
+    {
+      "id": "beautiful:flowchart",
+      "file": "public/thumbnails/beautiful--flowchart.webp",
+      "originalUrl": "https://www.beautifului.dev/#flowchart",
+      "sha256": "bc86d7fa5dcfaf995bfe12a6487c2b5f46eed026985f49519f9276405600ef02"
+    },
+    {
+      "id": "beautiful:insight-cards",
+      "file": "public/thumbnails/beautiful--insight-cards.webp",
+      "originalUrl": "https://www.beautifului.dev/#insight-cards",
+      "sha256": "3dff13609d51c7439821ebf3c5285068fd0bbcb74b001e228c303e3259ae1332"
+    },
+    {
+      "id": "beautiful:code-block",
+      "file": "public/thumbnails/beautiful--code-block.webp",
+      "originalUrl": "https://www.beautifului.dev/#code-block",
+      "sha256": "263084309d861b47cf5f58148a6971fae7af46f481f495fca3400fafb266a2b2"
+    },
+    {
+      "id": "beautiful:fine-tune-card",
+      "file": "public/thumbnails/beautiful--fine-tune-card.webp",
+      "originalUrl": "https://www.beautifului.dev/#fine-tune-card",
+      "sha256": "56adde2defd463c815198242eb7a045afe8c22dcbcc263e86e16338ce3b172e2"
+    },
+    {
+      "id": "beautiful:selection-actions",
+      "file": "public/thumbnails/beautiful--selection-actions.webp",
+      "originalUrl": "https://www.beautifului.dev/#selection-actions",
+      "sha256": "cf211bed76945086836b469810e95fdaa2451accf2544283588381ff1e2f3a28"
+    },
+    {
+      "id": "beautiful:agent-screen",
+      "file": "public/thumbnails/beautiful--agent-screen.webp",
+      "originalUrl": "https://www.beautifului.dev/#agent-screen",
+      "sha256": "31e8e10c2a30930990cdeb0768020baf54fa696d120e0dbaccc3238ffad0aa04"
+    },
+    {
+      "id": "libraries:border-beam",
+      "file": "public/thumbnails/libraries--border-beam.webp",
+      "originalUrl": "https://libraries.dev/border-beam",
+      "sha256": "80c10dfe46e3e13156b3bb6bea9fa18665f83e6922fe8dfd8e59fcc7375f7671"
+    },
+    {
+      "id": "libraries:orbs",
+      "file": "public/thumbnails/libraries--orbs.webp",
+      "originalUrl": "https://libraries.dev/orbs",
+      "sha256": "91a6ff9debb4f4bb3537d569919797d3afa7ec60c72b673c0995b1c3b42a7913"
+    },
+    {
+      "id": "libraries:gooey",
+      "file": "public/thumbnails/libraries--gooey.webp",
+      "originalUrl": "https://libraries.dev/gooey",
+      "sha256": "392374b82da14de955781ffdcbf293451146ea254fd6038c86d66d21e81b1c64"
+    },
+    {
+      "id": "libraries:metal",
+      "file": "public/thumbnails/libraries--metal.webp",
+      "originalUrl": "https://libraries.dev/metal",
+      "sha256": "702181661e935912bfe6d6808fbc0bf2858289d00e5aeadcc7c688cc5d9856c6"
+    },
+    {
+      "id": "libraries:image",
+      "file": "public/thumbnails/libraries--image.webp",
+      "originalUrl": "https://libraries.dev/image",
+      "sha256": "44d954b63733015fe4030f98585ed64efbdf68a66183187a3f495a2ef66f5b60"
+    },
+    {
+      "id": "amicro:fade-in",
+      "file": "public/thumbnails/amicro--fade-in.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "2ee10f397d50d402f6abf7469575b84c40536f8e40b0d57c6d1cb21eb7491766"
+    },
+    {
+      "id": "amicro:fade-up",
+      "file": "public/thumbnails/amicro--fade-up.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "2ee10f397d50d402f6abf7469575b84c40536f8e40b0d57c6d1cb21eb7491766"
+    },
+    {
+      "id": "amicro:fade-down",
+      "file": "public/thumbnails/amicro--fade-down.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "2ee10f397d50d402f6abf7469575b84c40536f8e40b0d57c6d1cb21eb7491766"
+    },
+    {
+      "id": "amicro:slide-left",
+      "file": "public/thumbnails/amicro--slide-left.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "2ee10f397d50d402f6abf7469575b84c40536f8e40b0d57c6d1cb21eb7491766"
+    },
+    {
+      "id": "amicro:slide-right",
+      "file": "public/thumbnails/amicro--slide-right.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "2ee10f397d50d402f6abf7469575b84c40536f8e40b0d57c6d1cb21eb7491766"
+    },
+    {
+      "id": "amicro:scale-in",
+      "file": "public/thumbnails/amicro--scale-in.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "2ee10f397d50d402f6abf7469575b84c40536f8e40b0d57c6d1cb21eb7491766"
+    },
+    {
+      "id": "amicro:zoom-in",
+      "file": "public/thumbnails/amicro--zoom-in.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "484eef7489f171217e17884e3958780136f04356b8331b4c51cf23cacec96b04"
+    },
+    {
+      "id": "amicro:text-reveal",
+      "file": "public/thumbnails/amicro--text-reveal.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "7991fa564d4cf58778da19606ea674c9219ab43205d63918d239984ee8b593d9"
+    },
+    {
+      "id": "amicro:word-reveal",
+      "file": "public/thumbnails/amicro--word-reveal.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "00e3eccb601498816d29478ef870f858ed8b400ac89ebbae9eb9952e4a5e2e1a"
+    },
+    {
+      "id": "amicro:blur-text",
+      "file": "public/thumbnails/amicro--blur-text.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "e178e2cd81e263913f2dc141b0f0504148f2225f7506ec1d194f86e583f6128c"
+    },
+    {
+      "id": "amicro:character-stagger",
+      "file": "public/thumbnails/amicro--character-stagger.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "e178e2cd81e263913f2dc141b0f0504148f2225f7506ec1d194f86e583f6128c"
+    },
+    {
+      "id": "amicro:card-hover",
+      "file": "public/thumbnails/amicro--card-hover.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "9854becdc0b76de1c20d7cbd46bfa58834bec4eebf23d4c6f7c398362cb3760e"
+    },
+    {
+      "id": "amicro:tilt-card",
+      "file": "public/thumbnails/amicro--tilt-card.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "35f662bc46830a779326cc7ae93413c18404a27786ea45a3c56d41088f4e84fa"
+    },
+    {
+      "id": "amicro:magnetic-button",
+      "file": "public/thumbnails/amicro--magnetic-button.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "01f92b74b3418907cd3f2b526187075017badd161e36461288ac0c465125154d"
+    },
+    {
+      "id": "amicro:glow-button",
+      "file": "public/thumbnails/amicro--glow-button.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "44a2e7368e9786c7f9b59faa881e6b8e4b6d0da090578ec36b7956c9f755aafc"
+    },
+    {
+      "id": "amicro:cursor-trail",
+      "file": "public/thumbnails/amicro--cursor-trail.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "4d5c972e9f43982c241159e542929d616988ae1bd60a7c1e20c74551bbb533dd"
+    },
+    {
+      "id": "amicro:spotlight",
+      "file": "public/thumbnails/amicro--spotlight.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "b5bc399c08d2cac2948a26012d46892a34b8acdf1389c16fc3a5aaa3aab28488"
+    },
+    {
+      "id": "amicro:mouse-follow",
+      "file": "public/thumbnails/amicro--mouse-follow.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "4d5c972e9f43982c241159e542929d616988ae1bd60a7c1e20c74551bbb533dd"
+    },
+    {
+      "id": "amicro:scroll-reveal",
+      "file": "public/thumbnails/amicro--scroll-reveal.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "2ee10f397d50d402f6abf7469575b84c40536f8e40b0d57c6d1cb21eb7491766"
+    },
+    {
+      "id": "amicro:progress-indicator",
+      "file": "public/thumbnails/amicro--progress-indicator.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "4cf0370217b9d8989cb6aa3653239ef69f77ff3101e0c6087245dec7a97b4ed3"
+    },
+    {
+      "id": "amicro:sticky-reveal",
+      "file": "public/thumbnails/amicro--sticky-reveal.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "b6da8918443cff726d13b4a40968f72e897940aaebecc6959795785deee7ea42"
+    },
+    {
+      "id": "amicro:skeleton",
+      "file": "public/thumbnails/amicro--skeleton.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "4ce91204242457f9e4c5c53ffea4aba3527cc92526e9f6a1d4defa4b9b679aa0"
+    },
+    {
+      "id": "amicro:pulse",
+      "file": "public/thumbnails/amicro--pulse.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "4a0c2af6b8e6c31750784b3e872d4629a53d4abe0ebc66fb8455c8aad14beb8b"
+    },
+    {
+      "id": "amicro:morph-loader",
+      "file": "public/thumbnails/amicro--morph-loader.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "fc6b64d84331fc270900d1a47617e14433b3ae5a05c9017c05f5b4ed95c5c5c4"
+    },
+    {
+      "id": "amicro:accordion-loader",
+      "file": "public/thumbnails/amicro--accordion-loader.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "d9e3a6bf047bc8caddc0a47ce09366e219323455e7b34ba7fab1160f1688ecf3"
+    },
+    {
+      "id": "amicro:app-icon-load",
+      "file": "public/thumbnails/amicro--app-icon-load.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "6dfb480ec3c33a422fe2c28569157a00365240cfedcad088d82fa5ad1281d376"
+    },
+    {
+      "id": "amicro:apple-breathe",
+      "file": "public/thumbnails/amicro--apple-breathe.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "f2ad88c6e4150f941f64924ff0633119ec987d2042ce943cb6485626a8bf9092"
+    },
+    {
+      "id": "amicro:apple-equalizer",
+      "file": "public/thumbnails/amicro--apple-equalizer.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "ccbe4d075d887930ce1d8f3cf609278e248b541b525763afdef0148a768bb65e"
+    },
+    {
+      "id": "amicro:apple-icon-morph",
+      "file": "public/thumbnails/amicro--apple-icon-morph.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "2de2fb42969a2a818e4323d841ec646dd7e6b64a0cc76107af671ca1086ef6c4"
+    },
+    {
+      "id": "amicro:apple-pulse-dots",
+      "file": "public/thumbnails/amicro--apple-pulse-dots.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "90ae339c194460127c3ad597d3b5bb8419105b82c79f4b7e6b1099d0df6a6b6c"
+    },
+    {
+      "id": "amicro:apple-scale-pulse",
+      "file": "public/thumbnails/amicro--apple-scale-pulse.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "985ae31800814f5a3f6879d3179e1ba2033e47150134e735f614c0c41e69118e"
+    },
+    {
+      "id": "amicro:apple-sound-wave",
+      "file": "public/thumbnails/amicro--apple-sound-wave.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "ed7608e5fb7a4116909ec1645e259f7db2500562a70a121323861fa12edeee00"
+    },
+    {
+      "id": "amicro:apple-text-reveal",
+      "file": "public/thumbnails/amicro--apple-text-reveal.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "aab335cd7feb2e38788692920b10ca803ec9a2847f9ae9a0bbb4578191b96e3c"
+    },
+    {
+      "id": "amicro:apple-unlock",
+      "file": "public/thumbnails/amicro--apple-unlock.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "2f06afcce827aa3af7a273b05e818bef0503da813ce5773ad7ab7b04321fd3d1"
+    },
+    {
+      "id": "amicro:arc-tracer",
+      "file": "public/thumbnails/amicro--arc-tracer.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "334f0ee47c2ab18c0f4fe8ebf2a393a8d17e9f525244f6a06dc487c7b372ca3f"
+    },
+    {
+      "id": "amicro:bar-cascade",
+      "file": "public/thumbnails/amicro--bar-cascade.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "1fb19a8c954367efd7f5b5bc9a6dde904be6967f3012ca23d82a7515af32584d"
+    },
+    {
+      "id": "amicro:bar-sweep",
+      "file": "public/thumbnails/amicro--bar-sweep.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "7b17810c1ec65fdefcfd421832f60e15eac1d73769191b1b5af8653e10ffb2fe"
+    },
+    {
+      "id": "amicro:bobbing-dots",
+      "file": "public/thumbnails/amicro--bobbing-dots.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "c46c863aae48230c40e5a0b91e847a24c219c920cc408dce3241c83ec28d4e22"
+    },
+    {
+      "id": "amicro:bounce-dots",
+      "file": "public/thumbnails/amicro--bounce-dots.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "41f27821b78d447fbdd85ac9efe774028189fed10f792693bc978acdb5181562"
+    },
+    {
+      "id": "amicro:bouncing-bars",
+      "file": "public/thumbnails/amicro--bouncing-bars.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "1e0a7de4aae2596c3178db2441fe9c597de038680db9edb053c7f3ef2cafeb96"
+    },
+    {
+      "id": "amicro:bouncing-dots",
+      "file": "public/thumbnails/amicro--bouncing-dots.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "e85b8021e2e52ca355c5b3150318f291f668b7d3322cb4241c85da117bafcccd"
+    },
+    {
+      "id": "amicro:bouncing-lines",
+      "file": "public/thumbnails/amicro--bouncing-lines.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "8e5e01b7532d72c6bd8fbed1d1a5ce37087de1cdc2770c2b123e052858b81ff0"
+    },
+    {
+      "id": "amicro:bouncing-square",
+      "file": "public/thumbnails/amicro--bouncing-square.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "2e3f47944adbf4fcf429e993ac44a541855b65cece9e4500ebf2d132e5f97e82"
+    },
+    {
+      "id": "amicro:breathe-ring",
+      "file": "public/thumbnails/amicro--breathe-ring.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "783f3a8354825ae0c7d3f4ba2e685d8be9c4a3666c9a34fd0a213dbaa6bd321c"
+    },
+    {
+      "id": "amicro:breathing-glow",
+      "file": "public/thumbnails/amicro--breathing-glow.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "83dd49ee5389718f332c2993492e046cf83144a920160f72e755e13b0970fb0c"
+    },
+    {
+      "id": "amicro:breathing-square",
+      "file": "public/thumbnails/amicro--breathing-square.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "e5330cbcc1ab5e239e2e5aaf4696049e0b963a5ecf61af05b9da88b152aac4a0"
+    },
+    {
+      "id": "amicro:circular-bars",
+      "file": "public/thumbnails/amicro--circular-bars.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "bd78434098d916c5060670626bde0b465d567315e85e7b20a14bc00d0eba3733"
+    },
+    {
+      "id": "amicro:classic-spinner",
+      "file": "public/thumbnails/amicro--classic-spinner.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "be53dd834c87e1aa3b2e2e9bef9629a155840f18878355fedc523b194f626767"
+    },
+    {
+      "id": "amicro:clock-spinner",
+      "file": "public/thumbnails/amicro--clock-spinner.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "ae23bb24b28bd9367ca3211ed47176af6af9fe8703edc9849839d0d639968642"
+    },
+    {
+      "id": "amicro:comet-spinner",
+      "file": "public/thumbnails/amicro--comet-spinner.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "e0b46298b3825426996fa59827cfe5995bb8d17c86905a2575ef091f6f9c235c"
+    },
+    {
+      "id": "amicro:concentric-pulse",
+      "file": "public/thumbnails/amicro--concentric-pulse.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "d78908927cbcb20fdd4fd5deff95c4eb983692a66ccb1fdc4fd774a126b81a79"
+    },
+    {
+      "id": "amicro:concentric-ring",
+      "file": "public/thumbnails/amicro--concentric-ring.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "65ea6ddad8c7b5a160d28ecd067b21e3e7b9a9e9a8c624d6c022f4a38e33c057"
+    },
+    {
+      "id": "amicro:concentric-squares",
+      "file": "public/thumbnails/amicro--concentric-squares.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "24ac0617627c0ddf795a26a73f65dfe912a230c6746373bf021bd88d5caf550f"
+    },
+    {
+      "id": "amicro:conveyor-loop",
+      "file": "public/thumbnails/amicro--conveyor-loop.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "1a42f6ea7b77abb50bc74784979a242903250e889dccb1f7df4850a79747460a"
+    },
+    {
+      "id": "amicro:cross-spinner",
+      "file": "public/thumbnails/amicro--cross-spinner.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "d24d960ede30218c30f729e26d8fd0673d004fbb2b9bcbacccfbd84d7fe0f6fd"
+    },
+    {
+      "id": "amicro:cube-flip-spring",
+      "file": "public/thumbnails/amicro--cube-flip-spring.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "b6c4306b15910c451b2c0076c637818b2b97b38d4d63a1544bd226933a4df2e6"
+    },
+    {
+      "id": "amicro:dash-ring",
+      "file": "public/thumbnails/amicro--dash-ring.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "d3c71a91017668800b22cb94bfd6145e9f2282ffb9bdd7e20093cbfc350e194b"
+    },
+    {
+      "id": "amicro:dashed-spiral",
+      "file": "public/thumbnails/amicro--dashed-spiral.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "ea69fb265abacdce1e074196ff723736540f28e77442b39f679b5e28a04e3ccb"
+    },
+    {
+      "id": "amicro:diamond-grid",
+      "file": "public/thumbnails/amicro--diamond-grid.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "c6b6564999f3c54a92f63f74dee91b446f24bd37c218d79d4a1f134538e6fd90"
+    },
+    {
+      "id": "amicro:diamond-rotate-spring",
+      "file": "public/thumbnails/amicro--diamond-rotate-spring.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "aaefa6afc75004277ef6e1595c6c1edd8d568f9123914afbaf31a721d31809ae"
+    },
+    {
+      "id": "amicro:dot-spinner",
+      "file": "public/thumbnails/amicro--dot-spinner.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "0de86042fa558b9a3f25e9e6d8614782494592b430bc70110b3bf88c20ec2f29"
+    },
+    {
+      "id": "amicro:dots-ring",
+      "file": "public/thumbnails/amicro--dots-ring.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "3400e570afb21ecd639eda622441b8092a39056c706abdaf1941351756c370c8"
+    },
+    {
+      "id": "amicro:double-ring",
+      "file": "public/thumbnails/amicro--double-ring.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "5bbefd0a715a2574d540fe9423793627cccba79a971b5ff3b40be9c7d6430c9a"
+    },
+    {
+      "id": "amicro:drop-dot",
+      "file": "public/thumbnails/amicro--drop-dot.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "a0e424af0e826c80d3a92c91174935a43c9862d1e692e1a1229cf4321e8dc2da"
+    },
+    {
+      "id": "amicro:dual-arc",
+      "file": "public/thumbnails/amicro--dual-arc.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "bb42acc3042e65e73f58b34519ccd3d023ac39d9132e825638d9227bf71bce03"
+    },
+    {
+      "id": "amicro:dynamic-island",
+      "file": "public/thumbnails/amicro--dynamic-island.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "33556cfca06a69e6f9b8bf7b678397c0ee08e1165fdb923c579fb94cbb0a343f"
+    },
+    {
+      "id": "amicro:elastic-bars",
+      "file": "public/thumbnails/amicro--elastic-bars.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "9701b76123969c04d24ac9d052c89defeeb3852d5ae9677c45903b39b9037062"
+    },
+    {
+      "id": "amicro:elastic-square",
+      "file": "public/thumbnails/amicro--elastic-square.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "017a9f7c82e659658e8fe02bff0bda3e071b44fef4d3142164bdf972fae11bb4"
+    },
+    {
+      "id": "amicro:expanding-cross",
+      "file": "public/thumbnails/amicro--expanding-cross.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "94d9d4dfb6f9dc6854336e82a60da0cd84bc74da128b4315bcee26b9cd307c6e"
+    },
+    {
+      "id": "amicro:face-id-scan",
+      "file": "public/thumbnails/amicro--face-id-scan.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "74e9bd41938230c653e3053401745a6d1a8bbfa160c2553c2920cf17f3b873eb"
+    },
+    {
+      "id": "amicro:fade-arc",
+      "file": "public/thumbnails/amicro--fade-arc.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "a4f8ad0c06165cabd1c236c6366e76e64a6ff74568bd6719d4e0519e95ee1b8b"
+    },
+    {
+      "id": "amicro:fade-dots",
+      "file": "public/thumbnails/amicro--fade-dots.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "3aef2dcb226aa2a483fc1d492d18fb2197cb9d54ace0e88cff3c4b16c9a07b09"
+    },
+    {
+      "id": "amicro:flip-square",
+      "file": "public/thumbnails/amicro--flip-square.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "d55c77c0a4249e81a34945d6e2bdf6b9e8ffdaf43b8fcd3c0722fdc3c243f355"
+    },
+    {
+      "id": "amicro:floating-diamonds",
+      "file": "public/thumbnails/amicro--floating-diamonds.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "30c3b85bf2afeb798a7ab00099a8d0855aeae8ce0c4de5d712356e8ef604e932"
+    },
+    {
+      "id": "amicro:fluid-bars",
+      "file": "public/thumbnails/amicro--fluid-bars.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "93d137d27b9e714aefee1688b2d1c1d5ae0681e790d032d39d5f6e4c0010bf28"
+    },
+    {
+      "id": "amicro:fluid-diamond",
+      "file": "public/thumbnails/amicro--fluid-diamond.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "3d94149ce05eb6749aa1aaa477e356bf294d9cf3bc6dc6e52d8297d6ca192c2a"
+    },
+    {
+      "id": "amicro:fluid-dot-orbit",
+      "file": "public/thumbnails/amicro--fluid-dot-orbit.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "9ba557819496a657b2bea5633a5e17cb543e0aa20a9146d3c7c73f37222ea715"
+    },
+    {
+      "id": "amicro:fluid-skeleton",
+      "file": "public/thumbnails/amicro--fluid-skeleton.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "f1c28628e6610bddb7b5c21feeb2a838708004bbc88b948b2560faf74e29e6a5"
+    },
+    {
+      "id": "amicro:gears",
+      "file": "public/thumbnails/amicro--gears.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "704c7b22e787817818ce42badd828dda1012c8fa0c5b7bb12711e1cce198056a"
+    },
+    {
+      "id": "amicro:glassmorphic-card",
+      "file": "public/thumbnails/amicro--glassmorphic-card.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "ed96499c0fe7d4064afcf860cd57065277a9f4061e65fa88dfc533aee6776bbd"
+    },
+    {
+      "id": "amicro:gradient-arc",
+      "file": "public/thumbnails/amicro--gradient-arc.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "689487b251ce83fb506427f18ef3e4ddf03cfe2639cacfacc9b16b8814b0489c"
+    },
+    {
+      "id": "amicro:grid-dots",
+      "file": "public/thumbnails/amicro--grid-dots.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "67b68b0011030ef138ad43928431038f944142052e0665d248504a56e327e79a"
+    },
+    {
+      "id": "amicro:haptic-ring",
+      "file": "public/thumbnails/amicro--haptic-ring.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "d0ae42bbde7f0f2e0e3c3ebc7f7b61c189f78bbbf1666ea26b79cc55026a9a7f"
+    },
+    {
+      "id": "amicro:heartbeat",
+      "file": "public/thumbnails/amicro--heartbeat.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "fed88e5299bbaeb6b0b4ea1cf8a4e3e07e55680e623cd77787488d1194c230f7"
+    },
+    {
+      "id": "amicro:hexagon-spinner",
+      "file": "public/thumbnails/amicro--hexagon-spinner.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "cc08486613df0a0e338cddacf790761482f91d964ebf91438fbe75b8c5486e18"
+    },
+    {
+      "id": "amicro:hourglass",
+      "file": "public/thumbnails/amicro--hourglass.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "4bd4ca6ec15d654ca9b0fe6d2b1be8154ebd847f10f09c579be2f4154778b9dc"
+    },
+    {
+      "id": "amicro:infinity-path",
+      "file": "public/thumbnails/amicro--infinity-path.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "a27049d6b75e9a1c1d6f127d0712d98ff34208c31dd1717627911bb3f287c3ec"
+    },
+    {
+      "id": "amicro:intersecting-rings",
+      "file": "public/thumbnails/amicro--intersecting-rings.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "8150b59fc50b40a31d29cc4e168c60d00a9230e4a6ea767d809d378fb0e58ab0"
+    },
+    {
+      "id": "amicro:ios-spinner",
+      "file": "public/thumbnails/amicro--ios-spinner.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "84ddaa0eeb99f4926867e53bdba7fa0b0e23b62a5b589c031b67c846407248a7"
+    },
+    {
+      "id": "amicro:line-spinner",
+      "file": "public/thumbnails/amicro--line-spinner.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "6fc8c470cf56cc9d7b571a462bf3b693b09955054ef8be32614bcc9c41ccadb7"
+    },
+    {
+      "id": "amicro:liquid-dots",
+      "file": "public/thumbnails/amicro--liquid-dots.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "eef0d8962d8f44d1ba8806d8a53f89359cede2942979e37d0fdf3c09f0701672"
+    },
+    {
+      "id": "amicro:mac-terminal",
+      "file": "public/thumbnails/amicro--mac-terminal.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "ad3b2390543f49f120267c3e03e1dfb58257a071f8e33f7a4ea1395c072a1df3"
+    },
+    {
+      "id": "amicro:magnetic-dots",
+      "file": "public/thumbnails/amicro--magnetic-dots.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "a0c8bb6416aa8c491fce3bcd8b7b87f8eb5370a7385dbce8ae6eadf25b41a520"
+    },
+    {
+      "id": "amicro:minimal-triangle",
+      "file": "public/thumbnails/amicro--minimal-triangle.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "966cb1a43329421f02902b0d7fe0277e000f74d90c1e3d94daf6b1f648c53220"
+    },
+    {
+      "id": "amicro:morph-dot-ring",
+      "file": "public/thumbnails/amicro--morph-dot-ring.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "03823715d652c464435ec053707467f5d158395cda40fdf49db879012662fa80"
+    },
+    {
+      "id": "amicro:morphing-bars",
+      "file": "public/thumbnails/amicro--morphing-bars.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "7b154688a5ab9c51ed2ba736ae01e89f649c8839f9f9a78deda4aad88aca9e1a"
+    },
+    {
+      "id": "amicro:morphing-infinity",
+      "file": "public/thumbnails/amicro--morphing-infinity.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "89ab4decfbf51ff1463cce62aca70993e9ef000baa1677c926fbad4b27dfb514"
+    },
+    {
+      "id": "amicro:morphing-ring",
+      "file": "public/thumbnails/amicro--morphing-ring.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "9548181b6b98eeaacf5bb82ce11800cd15b5f45e58f97f8ab6b1550c01749022"
+    },
+    {
+      "id": "amicro:morphing-shape",
+      "file": "public/thumbnails/amicro--morphing-shape.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "b900d1241623d7f612f0c727121b0acad01853166e505b2d995e049a4b76822c"
+    },
+    {
+      "id": "amicro:newtons-cradle",
+      "file": "public/thumbnails/amicro--newtons-cradle.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "74adef76b25588c25790c5b8117c073ca1ee7031bd8f11ed05a0b72d58518331"
+    },
+    {
+      "id": "amicro:offset-rings",
+      "file": "public/thumbnails/amicro--offset-rings.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "9729fffad78aed4e345fb17d45656c948c9f87a8063d354bf385891d04e8ff7a"
+    },
+    {
+      "id": "amicro:orbiting-circles",
+      "file": "public/thumbnails/amicro--orbiting-circles.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "4f6cb1f3db831ea86095ae29cafb50feb9e02831783e549c88a50d7322d9d961"
+    },
+    {
+      "id": "amicro:orbiting-dot",
+      "file": "public/thumbnails/amicro--orbiting-dot.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "f37b2fedb84db6e5f220d66dad3cf8725f6ceaaf952702bca930dd19c0b9b80f"
+    },
+    {
+      "id": "amicro:origami-shape",
+      "file": "public/thumbnails/amicro--origami-shape.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "2701c0bc39200c15177747e76683810093f35bb3f28f7e1a708bb7f9db89e27a"
+    },
+    {
+      "id": "amicro:pendulum",
+      "file": "public/thumbnails/amicro--pendulum.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "ff84ebce271b04e1350aa3fe58ee98a93d89ee3aedf4b262eed07105b146f110"
+    },
+    {
+      "id": "amicro:pulsating-dots",
+      "file": "public/thumbnails/amicro--pulsating-dots.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "77e34a51439515b3a381206e7a899ac2f998e6d4b716a098561fa522a568c79c"
+    },
+    {
+      "id": "amicro:pulse-dot",
+      "file": "public/thumbnails/amicro--pulse-dot.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "735715300d8f4bea290ce0f39ce6ac3fe88736792c3341f17a9cf23cd5af5afb"
+    },
+    {
+      "id": "amicro:pulse-dots",
+      "file": "public/thumbnails/amicro--pulse-dots.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "d17685960cda4f7fad9c22b54d687cf1a99528a565605ea8e34d93665a27985b"
+    },
+    {
+      "id": "amicro:pulse-square",
+      "file": "public/thumbnails/amicro--pulse-square.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "4944bc119895cdfe652f719bf052f1ac137add20bb1ae4fcf9e5b7f48f8477de"
+    },
+    {
+      "id": "amicro:pumping-heart",
+      "file": "public/thumbnails/amicro--pumping-heart.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "c255944b913bda33b48f795778851095041d36b236982687da1725a41de1c023"
+    },
+    {
+      "id": "amicro:radar-sweep",
+      "file": "public/thumbnails/amicro--radar-sweep.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "695b716163d0d67a19aa71b61b5e1b669c0376e8c3e1278b40afd5f955660c06"
+    },
+    {
+      "id": "amicro:ring-sweep",
+      "file": "public/thumbnails/amicro--ring-sweep.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "e3498c72170b23e79b88eae25651917d5d459168c27daeea354680c5e068fcf8"
+    },
+    {
+      "id": "amicro:ripple-effect",
+      "file": "public/thumbnails/amicro--ripple-effect.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "4077cff0e2a7ca77fca8442b9dc363308c143fe437168848562c4986d936b8bd"
+    },
+    {
+      "id": "amicro:rotating-cross",
+      "file": "public/thumbnails/amicro--rotating-cross.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "17007bd49adc4ddfeaf2202067dd718af32045d8524909044488549319d7b8be"
+    },
+    {
+      "id": "amicro:rotating-triangle",
+      "file": "public/thumbnails/amicro--rotating-triangle.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "6736e619dd0301531803a7efba12c0123e5bdbe31019fd5e3ee2c46db77544f1"
+    },
+    {
+      "id": "amicro:shape-shift-grid",
+      "file": "public/thumbnails/amicro--shape-shift-grid.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "23b03aeb32202305fff7bfdfb9122cde58005db46bbb03d81d625ccc3346314c"
+    },
+    {
+      "id": "amicro:shimmer-line",
+      "file": "public/thumbnails/amicro--shimmer-line.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "00657a3e3f17ee38a9de7e7c1348269a0ef9defc9294ec89140d406ffaec94b5"
+    },
+    {
+      "id": "amicro:siri-wave",
+      "file": "public/thumbnails/amicro--siri-wave.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "d7a32429c9edb337187f3d3d0ff2098eae0c4ad03b9d3ca528a0f2da631c5fc8"
+    },
+    {
+      "id": "amicro:skeleton-loader",
+      "file": "public/thumbnails/amicro--skeleton-loader.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "faa44841708e8610f323b537608d3ff48f59108707c208fde6e1429b43b6623b"
+    },
+    {
+      "id": "amicro:sliding-bars",
+      "file": "public/thumbnails/amicro--sliding-bars.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "93082df4326b91404a1c0bf045ac9de88ed22b5380cb6f98a20fcf2f748920cf"
+    },
+    {
+      "id": "amicro:smooth-dot-shift",
+      "file": "public/thumbnails/amicro--smooth-dot-shift.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "c03475369b37b8038f26d93753963fe06ae42ffda54b5f4963b03cc79c7d669b"
+    },
+    {
+      "id": "amicro:smooth-ring",
+      "file": "public/thumbnails/amicro--smooth-ring.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "c194f02c61611499e26edd16e998f133572cf3a8726847edc4fe7e3af9d93bbd"
+    },
+    {
+      "id": "amicro:smooth-rounded-square",
+      "file": "public/thumbnails/amicro--smooth-rounded-square.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "d42d444c21100f90c63b59c99c20ea53ab6d6b7b89f4e2117c8d8341100fd20d"
+    },
+    {
+      "id": "amicro:spinning-squares",
+      "file": "public/thumbnails/amicro--spinning-squares.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "5989990fc0c3b708f97061e93e79b1b63000dfe0a34fc1ed8d5b479eed147670"
+    },
+    {
+      "id": "amicro:spiral-spinner",
+      "file": "public/thumbnails/amicro--spiral-spinner.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "b20e30da3e24c7df56b3ebbd62b08d0f6fe487c83603016e82ac38303249684e"
+    },
+    {
+      "id": "amicro:spring-bars",
+      "file": "public/thumbnails/amicro--spring-bars.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "6b638094b5faa665bb015d8770e79a95adff4b215789b5e10d970dc11007fb0b"
+    },
+    {
+      "id": "amicro:spring-dot-matrix",
+      "file": "public/thumbnails/amicro--spring-dot-matrix.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "2de1071c89cb9658b4295cc4b4e7f3b499de43be4c8783dcc46e5ab653ab7cbb"
+    },
+    {
+      "id": "amicro:spring-hexagon",
+      "file": "public/thumbnails/amicro--spring-hexagon.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "0177def13cf2b650c6a50368dd1151b0015e6adbe9bfeb48147072d0981c0bc3"
+    },
+    {
+      "id": "amicro:spring-ring-expand",
+      "file": "public/thumbnails/amicro--spring-ring-expand.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "fb2dd008f6c0d6bf752983e708e71cf21f54a4fa09261ee184edec242a574464"
+    },
+    {
+      "id": "amicro:spring-text-pop",
+      "file": "public/thumbnails/amicro--spring-text-pop.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "a48918089f92c6307514e1c8be23a76c1ed8b3c6d11202f2b43fe3bbae0d4290"
+    },
+    {
+      "id": "amicro:square-accordion",
+      "file": "public/thumbnails/amicro--square-accordion.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "fa3749b208bb90659d57e8ac7c934396f2094ccce6cfb7042495b06c7cc3632d"
+    },
+    {
+      "id": "amicro:square-grid",
+      "file": "public/thumbnails/amicro--square-grid.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "26bb20559ad1894b06d83485b0e30d6032c16df73547b1c6d5afe4f76fbd287b"
+    },
+    {
+      "id": "amicro:square-snake",
+      "file": "public/thumbnails/amicro--square-snake.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "2e4a7c26c71558c82834bc87d889136a28c497373734ff49bcce99c354483ab0"
+    },
+    {
+      "id": "amicro:square-spinner",
+      "file": "public/thumbnails/amicro--square-spinner.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "bae5b6152c451a78d7c73f0b82e189004e9fd9c3d74374ba0929e43a90343b99"
+    },
+    {
+      "id": "amicro:stacked-bar-pulse",
+      "file": "public/thumbnails/amicro--stacked-bar-pulse.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "ef63188c155864ed686e0066abfac39b654e13b289a7680a6797c97f8f605241"
+    },
+    {
+      "id": "amicro:swapping-dots",
+      "file": "public/thumbnails/amicro--swapping-dots.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "8dddbb783b9a55fc657dd72e43c5734e4b57d188d60b379110fbff4c2a2f8eb3"
+    },
+    {
+      "id": "amicro:swirling-spinner",
+      "file": "public/thumbnails/amicro--swirling-spinner.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "c5ed5c4620b9caad3538c10861ef75c7f5d16c80f3e296eb10484d0ff9c2ef51"
+    },
+    {
+      "id": "amicro:symmetric-wave",
+      "file": "public/thumbnails/amicro--symmetric-wave.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "5d6aab20a5780c78aea7c8f836f3e9128b8b2f687678bfd6abc2135bacbeef86"
+    },
+    {
+      "id": "amicro:terminal-loader",
+      "file": "public/thumbnails/amicro--terminal-loader.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "78ff20554cafd6b9d3dc8d036da7de444a45449835661eee7a5cf216f5d8d411"
+    },
+    {
+      "id": "amicro:text-blink",
+      "file": "public/thumbnails/amicro--text-blink.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "906f99dab74370456fee8ecd429f89ef9bebe14dc9869e14a85377dac21fe984"
+    },
+    {
+      "id": "amicro:text-dots",
+      "file": "public/thumbnails/amicro--text-dots.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "f1183e1874705f568ed7203b9ddd7ed37a9b07413286dfe335910d1312b73941"
+    },
+    {
+      "id": "amicro:text-morph",
+      "file": "public/thumbnails/amicro--text-morph.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "b9b54ba9d15412ec8ea7cb2f82704cc5a8d88da65dcfa2b083d608c56893e6eb"
+    },
+    {
+      "id": "amicro:text-shimmer-wave",
+      "file": "public/thumbnails/amicro--text-shimmer-wave.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "3c3d6acbc8e7059b1bf1ca25cecd0f2bdcb273c624123553506d52428bee054c"
+    },
+    {
+      "id": "amicro:text-shimmer",
+      "file": "public/thumbnails/amicro--text-shimmer.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "cb5434bad5272a8f85a4c7d1a34216b2e478aca4d6031b309dc7eb093b14f11d"
+    },
+    {
+      "id": "amicro:trailing-dots",
+      "file": "public/thumbnails/amicro--trailing-dots.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "5192e031a104c9923bc2be2c045eb6e97722ecbb9f7cb550b8761dccc47dd16d"
+    },
+    {
+      "id": "amicro:triple-dot-spinner",
+      "file": "public/thumbnails/amicro--triple-dot-spinner.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "67e43f22bc0186bd972b8c1d5d458454ea7d0074ca074aea2504306ca3c171c2"
+    },
+    {
+      "id": "amicro:twin-orbit",
+      "file": "public/thumbnails/amicro--twin-orbit.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "cea51c14db85cda978e27ab6441f769df6e36ca5d0268e85c248c8b97e638e55"
+    },
+    {
+      "id": "amicro:typing-indicator",
+      "file": "public/thumbnails/amicro--typing-indicator.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "3dffde6f17a85651b85719b5da6cb62cf7f9d3ef673a5f67d8629e2d593280c1"
+    },
+    {
+      "id": "amicro:typing",
+      "file": "public/thumbnails/amicro--typing.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "dd291daa5e7e6228f6b0e22f8f7b772f26c1885a244e4d99c584bf018b91d926"
+    },
+    {
+      "id": "amicro:wandering-cube",
+      "file": "public/thumbnails/amicro--wandering-cube.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "0b63116c98394389963185d42e72fbaee3bc3037b690017ecba18b91a774b841"
+    },
+    {
+      "id": "amicro:watch-spinner",
+      "file": "public/thumbnails/amicro--watch-spinner.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "218e4b939f7a7f3ec0c8e7ed82f8557902fc75b70548decf9ea79b2ad7470400"
+    },
+    {
+      "id": "amicro:wave-dots",
+      "file": "public/thumbnails/amicro--wave-dots.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "c48bc94a7d714220b61fc742d41109c38d8549ae2f5e1bc8f4b41c321e30bd37"
+    },
+    {
+      "id": "amicro:wave-physics-loader",
+      "file": "public/thumbnails/amicro--wave-physics-loader.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "6239aa0aa1f0f4aa11e0c9dc925b01f155fe6e5bd6aa7a5621983ffeb371495a"
+    },
+    {
+      "id": "amicro:waveform-loader",
+      "file": "public/thumbnails/amicro--waveform-loader.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "2ee37d96845bd79d0ae3f63761ca0397fe3470c17ca649fe211531af37ef6b9e"
+    },
+    {
+      "id": "amicro:zig-zag-pulse",
+      "file": "public/thumbnails/amicro--zig-zag-pulse.webp",
+      "originalUrl": "https://amicro.vercel.app/",
+      "sha256": "4dac6a93764940f36d9ce6b7feca17416aa344f8b19a01355043c5b169ca006a"
+    }
+  ]
+}

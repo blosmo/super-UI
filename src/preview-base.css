@@ -1,0 +1,104 @@
+@import "tailwindcss";
+@import "./preview-classes.css";
+@import "./vendor/shadcn/preview.css";
+@custom-variant dark (&:where(.dark, .dark *));
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--foreground);
+  --color-popover: var(--background);
+  --color-popover-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--foreground);
+  --color-destructive: #dc2626;
+  --color-border: var(--border);
+  --color-input: var(--border);
+  --color-ring: var(--ring);
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --radius-xl: 12px;
+}
+:root {
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  --background: #fff;
+  --foreground: #18181b;
+  --card: #fff;
+  --primary: #18181b;
+  --primary-foreground: #fafafa;
+  --secondary: #f4f4f5;
+  --muted: #f4f4f5;
+  --muted-foreground: #71717a;
+  --accent: #f4f4f5;
+  --border: #e4e4e7;
+  --ring: #a1a1aa;
+  background: transparent;
+  color: var(--foreground);
+}
+:root.dark {
+  --background: #18181b;
+  --foreground: #fafafa;
+  --card: #18181b;
+  --primary: #fafafa;
+  --primary-foreground: #18181b;
+  --secondary: #27272a;
+  --muted: #27272a;
+  --muted-foreground: #a1a1aa;
+  --accent: #27272a;
+  --border: #3f3f46;
+  --ring: #71717a;
+}
+body {
+  margin: 0;
+  background: transparent !important;
+}
+#root {
+  min-height: 100dvh;
+}
+.preview-root {
+  display: flex;
+  min-height: 100dvh;
+  align-items: center;
+  justify-content: center;
+  padding: 22px;
+  width: 100%;
+  isolation: isolate;
+  overflow-x: clip;
+}
+.preview-root > * {
+  max-width: 100%;
+}
+.preview-root.opensource-root,
+.preview-root.fluid-root {
+  padding: 0;
+}
+.preview-loading,
+.preview-error {
+  font: 12px system-ui;
+  color: #7b846f;
+  padding: 24px;
+}
+.preview-error small {
+  display: block;
+  margin-top: 8px;
+  overflow-wrap: anywhere;
+}
+.demo-action {
+  font-size: 12px;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  padding: 6px 12px;
+}
+.demo-stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}

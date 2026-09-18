@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Original component preview · Super UI</title>
+    <style>
+      .preview-loading,
+      .preview-error {
+        min-height: 100vh;
+        display: grid;
+        align-content: center;
+        justify-content: center;
+        gap: 12px;
+        padding: 24px;
+        font: 14px/1.5 system-ui;
+        text-align: center;
+      }
+      .preview-error button {
+        padding: 8px 14px;
+        border: 1px solid currentColor;
+        border-radius: 6px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/preview-entry.tsx"></script>
+  </body>
+</html>

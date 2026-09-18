@@ -1,0 +1,82 @@
+[
+  {
+    "id": "libraries",
+    "name": "Libraries.dev",
+    "url": "https://libraries.dev",
+    "license": "MIT",
+    "note": "Original source retained with attribution.",
+    "checked": "2026-09-17"
+  },
+  {
+    "id": "interior",
+    "name": "interior.dev",
+    "url": "https://www.interior.dev",
+    "license": "MIT",
+    "note": "Original source retained with attribution.",
+    "checked": "2026-09-17"
+  },
+  {
+    "id": "rare",
+    "name": "Rare UI",
+    "url": "https://www.rareui.com",
+    "license": "MIT",
+    "note": "Original source retained with attribution.",
+    "checked": "2026-09-17"
+  },
+  {
+    "id": "coss",
+    "name": "coss ui",
+    "url": "https://coss.com/ui",
+    "license": "AGPL-3.0 (repository)",
+    "note": "Original components and examples under the repository’s AGPL-3.0 terms. License and source attribution retained.",
+    "checked": "2026-09-17"
+  },
+  {
+    "id": "shadcn",
+    "name": "shadcn/ui",
+    "url": "https://ui.shadcn.com",
+    "license": "MIT",
+    "note": "Original source retained with attribution.",
+    "checked": "2026-09-17"
+  },
+  {
+    "id": "opensource",
+    "name": "Opensource UI",
+    "url": "https://opensourceui.in",
+    "license": "MIT",
+    "note": "Original source retained with attribution.",
+    "checked": "2026-09-17"
+  },
+  {
+    "id": "beautiful",
+    "name": "Beautiful UI",
+    "url": "https://www.beautifului.dev",
+    "license": "MIT",
+    "note": "Original source retained with attribution.",
+    "checked": "2026-09-17"
+  },
+  {
+    "id": "fluid",
+    "name": "Fluid Functionalism",
+    "url": "https://www.fluidfunctionalism.com",
+    "license": "MIT",
+    "note": "Original components and official examples. MIT licensed.",
+    "checked": "2026-09-17"
+  },
+  {
+    "id": "beui",
+    "name": "beUI",
+    "url": "https://beui.dev",
+    "license": "MIT",
+    "note": "Original source retained with attribution.",
+    "checked": "2026-09-17"
+  },
+  {
+    "id": "amicro",
+    "name": "Amicro",
+    "url": "https://amicro.vercel.app",
+    "license": "MIT",
+    "note": "Original source retained with attribution.",
+    "checked": "2026-09-17"
+  }
+]

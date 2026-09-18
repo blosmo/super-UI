@@ -1,0 +1,192 @@
+/* Low specificity preserves the product's established density and layout. */
+:where(.host-button) {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 6px;
+  font: inherit;
+  cursor: pointer;
+}
+:where(.host-button[data-host-variant="default"]) {
+  background: var(--ui-text);
+  color: var(--ui-surface);
+  padding: 0.55rem 0.9rem;
+}
+:where(.host-button[data-host-variant="outline"]) {
+  border: 1px solid var(--ui-line);
+  padding: 0.55rem 0.9rem;
+}
+.host-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+:where(.host-input) {
+  min-width: 0;
+  width: 100%;
+  border: 1px solid var(--ui-line);
+  border-radius: 6px;
+  background: var(--ui-surface);
+  color: var(--ui-text);
+  padding: 0.55rem 0.75rem;
+  font: inherit;
+}
+:where(.host-badge) {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  border-radius: 5px;
+  padding: 0.2rem 0.45rem;
+  background: var(--ui-soft);
+  color: var(--ui-secondary);
+  font-size: 0.75rem;
+}
+[data-slot="native-select-wrapper"] {
+  position: relative;
+  min-width: 0;
+  width: 100%;
+}
+[data-slot="native-select"] {
+  appearance: none;
+  width: 100%;
+  min-height: 36px;
+  padding: 6px 32px 6px 10px;
+  border: 1px solid var(--ui-line);
+  border-radius: 6px;
+  background: var(--ui-surface);
+  color: var(--ui-text);
+  font: inherit;
+}
+[data-slot="native-select-icon"] {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  width: 14px;
+  height: 14px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: var(--ui-muted);
+}
+.select-box [data-slot="native-select-wrapper"] {
+  flex: 1;
+}
+.select-box [data-slot="native-select"] {
+  border: 0;
+  background: transparent;
+}
+.sort-select [data-slot="native-select-wrapper"] {
+  width: auto;
+}
+.host-button:focus-visible,
+.host-input:focus-visible,
+[data-slot="native-select"]:focus-visible {
+  outline: 2px solid var(--ui-focus);
+  outline-offset: 3px;
+}
+[data-slot="dialog-overlay"] {
+  position: fixed;
+  inset: 0;
+  background: #0008;
+  z-index: 90;
+}
+[data-slot="dialog-content"].catalog-dialog {
+  display: block;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  z-index: 91;
+  max-height: calc(100dvh - 32px);
+  overflow: auto;
+  overscroll-behavior: contain;
+}
+[data-slot="dialog-content"]:focus-visible {
+  outline: 2px solid var(--ui-focus);
+  outline-offset: 2px;
+}
+@media (prefers-reduced-motion: reduce) {
+  .host-button {
+    transition: none;
+  }
+}
+/* Cards compose source-library behavior with the catalog's deliberate spacing. */
+.host-card.component-card {
+  display: block;
+  padding: 0;
+  gap: 0;
+  box-shadow: none;
+}
+.host-card.library-card {
+  display: block;
+  gap: 0;
+  box-shadow: none;
+}
+.assessment-tags .host-badge {
+  padding: 4px 6px;
+  border: 0;
+  border-radius: 4px;
+  font-size: 11px;
+  line-height: 1.4;
+  font-weight: 400;
+}
+.assessment-tags .fit-tag {
+  border: 1px solid var(--ui-line);
+  font-weight: 600;
+}
+.host-disclosure-trigger {
+  width: 100%;
+  min-height: 32px;
+  height: auto;
+  justify-content: flex-start;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--ui-text);
+  font-size: var(--text-control);
+  text-align: start;
+  white-space: normal;
+}
+.host-disclosure-trigger > svg {
+  flex-shrink: 0;
+  transform: rotate(-90deg);
+}
+.host-disclosure-trigger[data-state="open"] > svg {
+  transform: none;
+}
+.host-disclosure-trigger > span {
+  color: var(--ui-muted);
+  font-weight: 400;
+  font-size: var(--text-small);
+}
+@media (max-width: 600px) {
+  .fit-finder .host-disclosure-trigger > span {
+    display: none;
+  }
+}
+[data-slot="sheet-overlay"] {
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+  background: #0008;
+}
+[data-slot="sheet-content"].sidebar {
+  position: fixed;
+  inset: 0 auto 0 0;
+  z-index: 91;
+  max-width: calc(100vw - 32px);
+  height: 100dvh;
+  overflow-y: auto;
+  gap: 0;
+  overscroll-behavior: contain;
+}
+[data-slot="sheet-content"]:focus-visible {
+  outline: 2px solid var(--ui-focus);
+}
+@media (prefers-reduced-motion: reduce) {
+  [data-slot="sheet-content"],
+  [data-slot="sheet-overlay"] {
+    animation: none;
+    transition: none;
+  }
+}

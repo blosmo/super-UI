@@ -1,0 +1,3 @@
+import {readdirSync,readFileSync} from 'node:fs';import {execFileSync} from 'node:child_process';
+const installed=JSON.parse(readFileSync('package.json','utf8')).dependencies;const deps=new Set();for(const f of readdirSync('src/data/integrations')){for(const p of JSON.parse(readFileSync('src/data/integrations/'+f)).dependencies||[]){if(p==='cn'||p==='next'||p.startsWith('@central-icons-react/'))continue;if(!/^(?:@[a-z\d._-]+\/)?[a-z\d._-]+(?:@[a-z\d.^~*-]+)?$/i.test(p))throw new Error('Invalid npm spec '+p);const name=p.replace(/@[^@/]+$/,'');if(installed[p]&&!p.includes('@^'))continue;deps.add(p)}}
+execFileSync('npm',['install',...deps],{stdio:'inherit'});

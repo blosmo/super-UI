@@ -1,0 +1,8 @@
+* text=auto eol=lf
+# Preserve upstream bytes used by provenance checks on every platform.
+src/vendor/** -text
+public/licenses/** -text
+*.png binary
+*.jpg binary
+*.webp binary
+*.ico binary

@@ -1,0 +1,20 @@
+# Super UI
+
+A discovery catalog of original React components from 10 independent libraries.
+
+- GET /catalog.json: all entries, canonical source URLs, libraries, categories, dependencies, and preview status.
+- Browse with /?q=tabs&library=interior&kind=live&sort=name
+- Open a component at /components/interior/tabs. Every entry exposes detailsUrl and a static thumbnail.
+- Compare up to three with /?compare=interior%3Atabs,shadcn%3Atabs,beui%3Atabs
+- sort: recommended, name, library. All visible entries have live previews.
+- Saved items are local to this browser. Bookmark controls are labeled with component and library names.
+
+All currently visible entries have integrated interactive previews. Libraries awaiting approval are excluded from browsing and the public catalog. Licenses for imported code are retained under /licenses/.
+
+- GET /assessments.json: source-based Jev traits, use-case fit, confidence, and original-source provenance. These are model judgments, not verified quality/accessibility scores.
+- Find a fit with /?useCase=ai&motion=subtle&style=restrained&setup=configure&sort=fit
+- Use cases: dashboard, marketing, commerce, ai, content, productivity, onboarding, creative.
+- Unknown or low-confidence properties are omitted; do not infer false from missing data.
+
+## Intelligent search
+POST /api/search with Content-Type: application/json. Body: {"query":"Let people approve an AI action","filters":{"library":"beui"}}. Queries are limited to 600 characters. Optional filters: library, category, useCase, style, motion, setup, savedIds (visible component IDs). Responses have mode jev or semantic and an ordered results array with id, label, and reasons. Jev mode also includes model and timing. Semantic mode is a clearly labeled fallback, not a Jev judgment. Only visible/approved libraries can be returned. No API credentials belong in client requests. HTTP 429 asks callers to retry later; 503 means ordinary catalog search is still available. Query text and public source evidence are sent to TypeSafe when ranking is enabled.

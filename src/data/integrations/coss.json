@@ -1,0 +1,1172 @@
+{
+  "imports": [
+    {
+      "library": "coss",
+      "name": "p-autocomplete-1",
+      "url": "https://coss.com/ui/r/p-autocomplete-1.json",
+      "file": "src/vendor/coss/particles/p-autocomplete-1.tsx",
+      "sha256": "d55ea0f0e27bd8b2b4987c2bc32d5bed4c6b82e00f68d426e2524d1e38d4bdac",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "p-accordion-1",
+      "url": "https://coss.com/ui/r/p-accordion-1.json",
+      "file": "src/vendor/coss/particles/p-accordion-1.tsx",
+      "sha256": "1061bccf99b4a2805f59602cebad6e03eaa2acb95602f9256fb27c65578505cc",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "p-badge-1",
+      "url": "https://coss.com/ui/r/p-badge-1.json",
+      "file": "src/vendor/coss/particles/p-badge-1.tsx",
+      "sha256": "3cd48e0874f3edbbc81ee6d14f33f96c815d30f7a26a0d7b2dc440741d11c93f",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "p-alert-1",
+      "url": "https://coss.com/ui/r/p-alert-1.json",
+      "file": "src/vendor/coss/particles/p-alert-1.tsx",
+      "sha256": "af439c53735a93ceb5cf0142989d75779a5eebfdbd5fb227092a465ae5767471",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "p-alert-dialog-1",
+      "url": "https://coss.com/ui/r/p-alert-dialog-1.json",
+      "file": "src/vendor/coss/particles/p-alert-dialog-1.tsx",
+      "sha256": "f17c934a654c87c83da335eccd8165f4645a9b983d9be252fac6ab52613ce3b8",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "p-avatar-1",
+      "url": "https://coss.com/ui/r/p-avatar-1.json",
+      "file": "src/vendor/coss/particles/p-avatar-1.tsx",
+      "sha256": "c1b521c800986b67e1f67d7f44398fad2df751f1e04c922f48f1de62a5391ac2",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "accordion",
+      "url": "https://coss.com/ui/r/accordion.json",
+      "file": "src/vendor/coss/ui/accordion.tsx",
+      "sha256": "b975e2a75b37fb44bca277dd85bf0825e98c3531036ca8d1543f6f4556cf56a5",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "@base-ui/react"
+      ]
+    },
+    {
+      "library": "coss",
+      "name": "alert",
+      "url": "https://coss.com/ui/r/alert.json",
+      "file": "src/vendor/coss/ui/alert.tsx",
+      "sha256": "340fc98fae7b30d038e1b7bcbb632f551360cfd8e0803b62a8ddfc04c002119f",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "autocomplete",
+      "url": "https://coss.com/ui/r/autocomplete.json",
+      "file": "src/vendor/coss/ui/autocomplete.tsx",
+      "sha256": "1298734859a47189abc821795ed082bc56b7dbe6de14859d539afc1adefc17d1",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "@base-ui/react"
+      ]
+    },
+    {
+      "library": "coss",
+      "name": "avatar",
+      "url": "https://coss.com/ui/r/avatar.json",
+      "file": "src/vendor/coss/ui/avatar.tsx",
+      "sha256": "a742f2d7c3aa1a867799e66fa7f3b37615e455906fa0117b66c49cfedca0a4f1",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "@base-ui/react"
+      ]
+    },
+    {
+      "library": "coss",
+      "name": "button",
+      "url": "https://coss.com/ui/r/button.json",
+      "file": "src/vendor/coss/ui/button.tsx",
+      "sha256": "1e65556bde3071f90f61825cf573aec74bdd8695824470bea3dae4d68a6b8fc8",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "@base-ui/react"
+      ]
+    },
+    {
+      "library": "coss",
+      "name": "alert-dialog",
+      "url": "https://coss.com/ui/r/alert-dialog.json",
+      "file": "src/vendor/coss/ui/alert-dialog.tsx",
+      "sha256": "e6e8d2aee4115cb2e2d5bba7e3f16941a2cfaa12a2bceae70d605b1751706d82",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "@base-ui/react"
+      ]
+    },
+    {
+      "library": "coss",
+      "name": "badge",
+      "url": "https://coss.com/ui/r/badge.json",
+      "file": "src/vendor/coss/ui/badge.tsx",
+      "sha256": "60f73554b462ec5e2929ccc58c0522b069c07e1268dbfb67749c2837347b788b",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "@base-ui/react"
+      ]
+    },
+    {
+      "library": "coss",
+      "name": "spinner",
+      "url": "https://coss.com/ui/r/spinner.json",
+      "file": "src/vendor/coss/ui/spinner.tsx",
+      "sha256": "5116d0ec549bf70d20d5359a485e6792b6c87d89a389102ad6c3f44312c23972",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "input",
+      "url": "https://coss.com/ui/r/input.json",
+      "file": "src/vendor/coss/ui/input.tsx",
+      "sha256": "3d488d491eb4e63642adc8b9354b0b0cc5b8ec4e284bbc26da7e2516f24980a4",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "@base-ui/react"
+      ]
+    },
+    {
+      "library": "coss",
+      "name": "scroll-area",
+      "url": "https://coss.com/ui/r/scroll-area.json",
+      "file": "src/vendor/coss/ui/scroll-area.tsx",
+      "sha256": "6274eace4599cba26e731b0f02cd2307d2207947162ccc575e45984e87aa269f",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "@base-ui/react"
+      ]
+    },
+    {
+      "library": "coss",
+      "name": "p-button-1",
+      "url": "https://coss.com/ui/r/p-button-1.json",
+      "file": "src/vendor/coss/particles/p-button-1.tsx",
+      "sha256": "375286a6a0dc055eaed9524abc1df4c6440eee7c88d6835dc7a6759c1d635a06",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "p-breadcrumb-1",
+      "url": "https://coss.com/ui/r/p-breadcrumb-1.json",
+      "file": "src/vendor/coss/particles/p-breadcrumb-1.tsx",
+      "sha256": "28136ea24aaf8777f9036ac6395b8d1cb4f16297c10520935c4573321e5c6e60",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "p-card-1",
+      "url": "https://coss.com/ui/r/p-card-1.json",
+      "file": "src/vendor/coss/particles/p-card-1.tsx",
+      "sha256": "5c63971a3db93da4772adecb6ccfe6137afc80f0694a6e24ea2471d0af418e0e",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "lucide-react"
+      ]
+    },
+    {
+      "library": "coss",
+      "name": "p-checkbox-1",
+      "url": "https://coss.com/ui/r/p-checkbox-1.json",
+      "file": "src/vendor/coss/particles/p-checkbox-1.tsx",
+      "sha256": "2e3870448f87f48b6d8e974d93616d560114c66c13a855d3241f81a5a08d3287",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "p-calendar-1",
+      "url": "https://coss.com/ui/r/p-calendar-1.json",
+      "file": "src/vendor/coss/particles/p-calendar-1.tsx",
+      "sha256": "92e473299f43acca1ae9038129f5cf13edda1275143e0707d5034595d3f2f58a",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "p-checkbox-group-1",
+      "url": "https://coss.com/ui/r/p-checkbox-group-1.json",
+      "file": "src/vendor/coss/particles/p-checkbox-group-1.tsx",
+      "sha256": "f3d0ec3c435421d47fd383f238f3c670bb04bfa90bab106c40fbc26e5c7c9ad1",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "breadcrumb",
+      "url": "https://coss.com/ui/r/breadcrumb.json",
+      "file": "src/vendor/coss/ui/breadcrumb.tsx",
+      "sha256": "e420178801b8d72238f1274c722a7ca4e9f9834bd58c7a45ba8d71a645f83c79",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "@base-ui/react"
+      ]
+    },
+    {
+      "library": "coss",
+      "name": "menu",
+      "url": "https://coss.com/ui/r/menu.json",
+      "file": "src/vendor/coss/ui/menu.tsx",
+      "sha256": "aeb2ebda24c8c90453fd7087bae8f14510f98e4eee75da5c084dfecaa56f2625",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "@base-ui/react"
+      ]
+    },
+    {
+      "library": "coss",
+      "name": "label",
+      "url": "https://coss.com/ui/r/label.json",
+      "file": "src/vendor/coss/ui/label.tsx",
+      "sha256": "edaf5fb049b3e2f27ddd70a6c6772c7d99e920c589b41019b8f4fa602113e695",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "@base-ui/react"
+      ]
+    },
+    {
+      "library": "coss",
+      "name": "card",
+      "url": "https://coss.com/ui/r/card.json",
+      "file": "src/vendor/coss/ui/card.tsx",
+      "sha256": "b59dbc0bd5d61694fcf1948fb8134795b0f5a1bf0a28d8d6bc817297c73a006e",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "@base-ui/react"
+      ]
+    },
+    {
+      "library": "coss",
+      "name": "calendar",
+      "url": "https://coss.com/ui/r/calendar.json",
+      "file": "src/vendor/coss/ui/calendar.tsx",
+      "sha256": "e9046da3021b3bb1e77ae657cdacac79a15f71e99596984fbcd54f26f3b60179",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "@daypicker/react",
+        "lucide-react"
+      ]
+    },
+    {
+      "library": "coss",
+      "name": "select",
+      "url": "https://coss.com/ui/r/select.json",
+      "file": "src/vendor/coss/ui/select.tsx",
+      "sha256": "aa8821bbb4bd6b8b52a6cbaaf8d995f48b1001ad93d4bfa4e5b91b5e6d5f66a0",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "@base-ui/react"
+      ]
+    },
+    {
+      "library": "coss",
+      "name": "checkbox-group",
+      "url": "https://coss.com/ui/r/checkbox-group.json",
+      "file": "src/vendor/coss/ui/checkbox-group.tsx",
+      "sha256": "f78494035296e12c0ff602022338bb8f37a46f3a15647b53f0b2e8ac6c97f45e",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "@base-ui/react"
+      ]
+    },
+    {
+      "library": "coss",
+      "name": "field",
+      "url": "https://coss.com/ui/r/field.json",
+      "file": "src/vendor/coss/ui/field.tsx",
+      "sha256": "02ffda39f73f04638f580fd1fbb76e783cb252f9a87ecebdd62fb4bd0d1393ff",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "@base-ui/react"
+      ]
+    },
+    {
+      "library": "coss",
+      "name": "form",
+      "url": "https://coss.com/ui/r/form.json",
+      "file": "src/vendor/coss/ui/form.tsx",
+      "sha256": "c08b75b48a90dd349763720e4ffb5423ae348ec0ef43c8c96110695d6fcf7404",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "@base-ui/react"
+      ]
+    },
+    {
+      "library": "coss",
+      "name": "checkbox",
+      "url": "https://coss.com/ui/r/checkbox.json",
+      "file": "src/vendor/coss/ui/checkbox.tsx",
+      "sha256": "a1b8b4180a39a47c47bd2b50e432d0911da6efe3b963b065b3b5cb8893760047",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "@base-ui/react"
+      ]
+    },
+    {
+      "library": "coss",
+      "name": "p-context-menu-1",
+      "url": "https://coss.com/ui/r/p-context-menu-1.json",
+      "file": "src/vendor/coss/particles/p-context-menu-1.tsx",
+      "sha256": "b82405970451d8655e99e5b9c3615f172b20590033a2d74518bc0551d3a8cf0d",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "p-dialog-1",
+      "url": "https://coss.com/ui/r/p-dialog-1.json",
+      "file": "src/vendor/coss/particles/p-dialog-1.tsx",
+      "sha256": "7fc9afdb4b71beb87796e62ceabc9499f5e67b194f49e523f4bf2c87b28357d9",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "p-collapsible-1",
+      "url": "https://coss.com/ui/r/p-collapsible-1.json",
+      "file": "src/vendor/coss/particles/p-collapsible-1.tsx",
+      "sha256": "59c684ca17b46766dca2d2e77852c0be66804b9a3f8b633f5bc8fe05a374c1c3",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "lucide-react"
+      ]
+    },
+    {
+      "library": "coss",
+      "name": "p-combobox-1",
+      "url": "https://coss.com/ui/r/p-combobox-1.json",
+      "file": "src/vendor/coss/particles/p-combobox-1.tsx",
+      "sha256": "c4674b4b8cc9a7217b8de3f57d5d1eb291496d0a1482311277cc4e4806afeb3f",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "dialog",
+      "url": "https://coss.com/ui/r/dialog.json",
+      "file": "src/vendor/coss/ui/dialog.tsx",
+      "sha256": "14ad87a5f81d7753e9a954aa0624df49168eccc2c8d3074a41ea0a8bed3970d5",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "@base-ui/react"
+      ]
+    },
+    {
+      "library": "coss",
+      "name": "p-command-1",
+      "url": "https://coss.com/ui/r/p-command-1.json",
+      "file": "src/vendor/coss/particles/p-command-1.tsx",
+      "sha256": "211a857e4225ea89d75787512942345cd128a28146ed64fd093dba93687830eb",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "lucide-react"
+      ]
+    },
+    {
+      "library": "coss",
+      "name": "context-menu",
+      "url": "https://coss.com/ui/r/context-menu.json",
+      "file": "src/vendor/coss/ui/context-menu.tsx",
+      "sha256": "a47c4563334813d12f0e46380a047483aed03d7ed3e37a9cfde5899f06761abf",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "@base-ui/react"
+      ]
+    },
+    {
+      "library": "coss",
+      "name": "p-date-picker-1",
+      "url": "https://coss.com/ui/r/p-date-picker-1.json",
+      "file": "src/vendor/coss/particles/p-date-picker-1.tsx",
+      "sha256": "d14037e9bc3dbcd21d8a28076c321ec64baa3cf6337863eef886276a88d0052f",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "date-fns",
+        "lucide-react"
+      ]
+    },
+    {
+      "library": "coss",
+      "name": "combobox",
+      "url": "https://coss.com/ui/r/combobox.json",
+      "file": "src/vendor/coss/ui/combobox.tsx",
+      "sha256": "df233af98aa9141b3418489d20b71a693aa3d8672a3962e3d19576fb21383087",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "@base-ui/react"
+      ]
+    },
+    {
+      "library": "coss",
+      "name": "collapsible",
+      "url": "https://coss.com/ui/r/collapsible.json",
+      "file": "src/vendor/coss/ui/collapsible.tsx",
+      "sha256": "f70e7b9fde220ce5f039c93176a545a46a9b553ecdb23595a320e5163a95a1e8",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "@base-ui/react"
+      ]
+    },
+    {
+      "library": "coss",
+      "name": "popover",
+      "url": "https://coss.com/ui/r/popover.json",
+      "file": "src/vendor/coss/ui/popover.tsx",
+      "sha256": "ff9b981ce4e68b86a266f69480c59967c7065aacfa2d4ce927d91a1eff0035cf",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "@base-ui/react"
+      ]
+    },
+    {
+      "library": "coss",
+      "name": "kbd",
+      "url": "https://coss.com/ui/r/kbd.json",
+      "file": "src/vendor/coss/ui/kbd.tsx",
+      "sha256": "ad8f26b95d8307f460316cd27a2b595d04069df2561395b5d39067a99e407cb5",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "command",
+      "url": "https://coss.com/ui/r/command.json",
+      "file": "src/vendor/coss/ui/command.tsx",
+      "sha256": "4b40973632f7b13bd2212f094b805470aad29fb190a46001f92b13ff2350b7bd",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "@base-ui/react"
+      ]
+    },
+    {
+      "library": "coss",
+      "name": "p-drawer-1",
+      "url": "https://coss.com/ui/r/p-drawer-1.json",
+      "file": "src/vendor/coss/particles/p-drawer-1.tsx",
+      "sha256": "30c0070d5f7f879fd24fa0cef75adc2e57142d5fc932cd5a5ec2825fcb344d2d",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "p-empty-1",
+      "url": "https://coss.com/ui/r/p-empty-1.json",
+      "file": "src/vendor/coss/particles/p-empty-1.tsx",
+      "sha256": "165d618650170ab70c3b78833799f53424023011f2b1c9fa2ab154d0bd55c55b",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "lucide-react"
+      ]
+    },
+    {
+      "library": "coss",
+      "name": "p-fieldset-1",
+      "url": "https://coss.com/ui/r/p-fieldset-1.json",
+      "file": "src/vendor/coss/particles/p-fieldset-1.tsx",
+      "sha256": "e042e6d355e4fa08e735bf5dd14b218a48f30d702bf22d40039336089b40255a",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "p-form-1",
+      "url": "https://coss.com/ui/r/p-form-1.json",
+      "file": "src/vendor/coss/particles/p-form-1.tsx",
+      "sha256": "43f0ed04c696a983fdaabe9b7119f14aad17f8387afbd33670b64cd2b407fd7e",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "drawer",
+      "url": "https://coss.com/ui/r/drawer.json",
+      "file": "src/vendor/coss/ui/drawer.tsx",
+      "sha256": "e8edbf8de6192c4858395e8a99ed4d3c35fd583618b9cef4b76f260e90f6e4d1",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "@base-ui/react"
+      ]
+    },
+    {
+      "library": "coss",
+      "name": "p-frame-1",
+      "url": "https://coss.com/ui/r/p-frame-1.json",
+      "file": "src/vendor/coss/particles/p-frame-1.tsx",
+      "sha256": "e4070b796420e35736329879dca06db9763a8f756099abee4b9aa4a99ccf62c6",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "empty",
+      "url": "https://coss.com/ui/r/empty.json",
+      "file": "src/vendor/coss/ui/empty.tsx",
+      "sha256": "57341b5a985ba2cc229e4832ab8624b060d172706b678dd99a682fbb476d4aa9",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "fieldset",
+      "url": "https://coss.com/ui/r/fieldset.json",
+      "file": "src/vendor/coss/ui/fieldset.tsx",
+      "sha256": "1ec36d2a2c60fd1ba229682a876f8d672ade66019513bac1a6747885d369f2a6",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "@base-ui/react"
+      ]
+    },
+    {
+      "library": "coss",
+      "name": "p-field-1",
+      "url": "https://coss.com/ui/r/p-field-1.json",
+      "file": "src/vendor/coss/particles/p-field-1.tsx",
+      "sha256": "502cbacdf824bbfe756b7dbc3d37057f6be1e4f046513dda10492844ea63e949",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "frame",
+      "url": "https://coss.com/ui/r/frame.json",
+      "file": "src/vendor/coss/ui/frame.tsx",
+      "sha256": "55da638812d093e74ab7fb3cb141f01d834492b63b3e2e09880b9b1df24ee45c",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "p-kbd-1",
+      "url": "https://coss.com/ui/r/p-kbd-1.json",
+      "file": "src/vendor/coss/particles/p-kbd-1.tsx",
+      "sha256": "905fdf39c22ce9d8f44b6e794164209756fa5ce3a9535ee506989d043426be74",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "p-group-1",
+      "url": "https://coss.com/ui/r/p-group-1.json",
+      "file": "src/vendor/coss/particles/p-group-1.tsx",
+      "sha256": "c10e7a44924163fde4a83a79194048d480964dc5d54a5239cc78da379a079ed6",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "p-input-group-1",
+      "url": "https://coss.com/ui/r/p-input-group-1.json",
+      "file": "src/vendor/coss/particles/p-input-group-1.tsx",
+      "sha256": "1778abb7ec137a1a1e3ac0d4eb76872e509d9c2bb22b99179fcfc39cb0de4139",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "p-menu-1",
+      "url": "https://coss.com/ui/r/p-menu-1.json",
+      "file": "src/vendor/coss/particles/p-menu-1.tsx",
+      "sha256": "a6be91941f66e18bed9fed84ef43af65caee4ac911a8921b71a82490f094421f",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "p-input-1",
+      "url": "https://coss.com/ui/r/p-input-1.json",
+      "file": "src/vendor/coss/particles/p-input-1.tsx",
+      "sha256": "7844b65b9f31ad718db72c1ef466aa55bc7e267e01966d65fe76faa38fbeb813",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "group",
+      "url": "https://coss.com/ui/r/group.json",
+      "file": "src/vendor/coss/ui/group.tsx",
+      "sha256": "d2392c54a90e353762779639971bb9aaa44759a7bda81ea0cf1462afbf4492b0",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "@base-ui/react"
+      ]
+    },
+    {
+      "library": "coss",
+      "name": "input-group",
+      "url": "https://coss.com/ui/r/input-group.json",
+      "file": "src/vendor/coss/ui/input-group.tsx",
+      "sha256": "999f1e8aa29d4520aa4086f508cfd55503547822e4a6c4a2314e2fb14a351452",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "textarea",
+      "url": "https://coss.com/ui/r/textarea.json",
+      "file": "src/vendor/coss/ui/textarea.tsx",
+      "sha256": "d153ed8f568a6ffb7b5438ea83385e3d327db9af45ef9fdd0822575d15c4e745",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "@base-ui/react"
+      ]
+    },
+    {
+      "library": "coss",
+      "name": "separator",
+      "url": "https://coss.com/ui/r/separator.json",
+      "file": "src/vendor/coss/ui/separator.tsx",
+      "sha256": "48393a9f365097e350bb33f0e84d2df25efd6b374868aa075f8d6011378c1d6e",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "@base-ui/react"
+      ]
+    },
+    {
+      "library": "coss",
+      "name": "p-meter-1",
+      "url": "https://coss.com/ui/r/p-meter-1.json",
+      "file": "src/vendor/coss/particles/p-meter-1.tsx",
+      "sha256": "e6f2f296fa3ee607614e82f783b1342c5aa2a83287a0d45d8b1639cbd3d48856",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "p-otp-field-1",
+      "url": "https://coss.com/ui/r/p-otp-field-1.json",
+      "file": "src/vendor/coss/particles/p-otp-field-1.tsx",
+      "sha256": "5b9f6970726a110fd6c70e1cfbe2827287cb8ad6ed998392767e08325e2dbc58",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "p-pagination-1",
+      "url": "https://coss.com/ui/r/p-pagination-1.json",
+      "file": "src/vendor/coss/particles/p-pagination-1.tsx",
+      "sha256": "8b94df613a5e431ece499046b6eb3a5d1dee1c47e47621140acb05e98c5fd24c",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "p-popover-1",
+      "url": "https://coss.com/ui/r/p-popover-1.json",
+      "file": "src/vendor/coss/particles/p-popover-1.tsx",
+      "sha256": "82c2ef950165294f7d2d8299d4163b6c2cb664fe762c0ae723126460251b4b86",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "p-preview-card-1",
+      "url": "https://coss.com/ui/r/p-preview-card-1.json",
+      "file": "src/vendor/coss/particles/p-preview-card-1.tsx",
+      "sha256": "9a55bfac9cc7b141896cd17ffc5d556afd48f79201d44fd356929ee1a1d8659f",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "lucide-react"
+      ]
+    },
+    {
+      "library": "coss",
+      "name": "p-number-field-1",
+      "url": "https://coss.com/ui/r/p-number-field-1.json",
+      "file": "src/vendor/coss/particles/p-number-field-1.tsx",
+      "sha256": "32390406e78411d88a4e8063e3a7bb972f9afa1f5a102fde90ceca5e83b0d894",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "meter",
+      "url": "https://coss.com/ui/r/meter.json",
+      "file": "src/vendor/coss/ui/meter.tsx",
+      "sha256": "f7f0b85f6878378c76e66887a111a1cb8476ebea84a2ebb4f6d41fe0fbad8653",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "@base-ui/react"
+      ]
+    },
+    {
+      "library": "coss",
+      "name": "pagination",
+      "url": "https://coss.com/ui/r/pagination.json",
+      "file": "src/vendor/coss/ui/pagination.tsx",
+      "sha256": "4c3d048be127d228ad199b8555b833ffc26cd9506b4a75b4b298754833474993",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "number-field",
+      "url": "https://coss.com/ui/r/number-field.json",
+      "file": "src/vendor/coss/ui/number-field.tsx",
+      "sha256": "e49f539416076d832d855e53be646fbc613ccaf0b419b8951f477267b81cdbde",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "@base-ui/react"
+      ]
+    },
+    {
+      "library": "coss",
+      "name": "otp-field",
+      "url": "https://coss.com/ui/r/otp-field.json",
+      "file": "src/vendor/coss/ui/otp-field.tsx",
+      "sha256": "4122b6f91e0c011a9bfe40b4ecad4d0b89a7b371e773adac6af6b2bcc5ac033e",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "@base-ui/react"
+      ]
+    },
+    {
+      "library": "coss",
+      "name": "preview-card",
+      "url": "https://coss.com/ui/r/preview-card.json",
+      "file": "src/vendor/coss/ui/preview-card.tsx",
+      "sha256": "44741ce4217d89c19a485d6973c22c821ed9cf86b15dc03c7094308ae7faa6ba",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "@base-ui/react"
+      ]
+    },
+    {
+      "library": "coss",
+      "name": "p-separator-1",
+      "url": "https://coss.com/ui/r/p-separator-1.json",
+      "file": "src/vendor/coss/particles/p-separator-1.tsx",
+      "sha256": "4158852d4ffcd8491e815b132f3e1cd6b7fdafaab2d89fbc5baadff2c4f24240",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "p-progress-1",
+      "url": "https://coss.com/ui/r/p-progress-1.json",
+      "file": "src/vendor/coss/particles/p-progress-1.tsx",
+      "sha256": "b0be141305eefe6a649cb449c87fb75ebdb8ca9a6b4f8b3bed70858077859758",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "p-sheet-1",
+      "url": "https://coss.com/ui/r/p-sheet-1.json",
+      "file": "src/vendor/coss/particles/p-sheet-1.tsx",
+      "sha256": "0542aeb31d11418d4e76045787ca620e9356220df1412ec22cc78d66b8301c77",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "p-radio-group-1",
+      "url": "https://coss.com/ui/r/p-radio-group-1.json",
+      "file": "src/vendor/coss/particles/p-radio-group-1.tsx",
+      "sha256": "150d8d7c28678e7227d97119082e273b87a8be89972a2114e212586f17b636cd",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "p-scroll-area-1",
+      "url": "https://coss.com/ui/r/p-scroll-area-1.json",
+      "file": "src/vendor/coss/particles/p-scroll-area-1.tsx",
+      "sha256": "19f988329498a4d11422ca0f7ce6a50fd7047e5424a50e69578aa4a277318691",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "p-select-1",
+      "url": "https://coss.com/ui/r/p-select-1.json",
+      "file": "src/vendor/coss/particles/p-select-1.tsx",
+      "sha256": "6467162f832123f311bc46b1998a0102a3db644af57bb9af8e98b7204f22c91d",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "sheet",
+      "url": "https://coss.com/ui/r/sheet.json",
+      "file": "src/vendor/coss/ui/sheet.tsx",
+      "sha256": "74ce70050415c0ac6ad033a4d6770f023a736a9f24540c994e88c6934c16d9a4",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "@base-ui/react"
+      ]
+    },
+    {
+      "library": "coss",
+      "name": "radio-group",
+      "url": "https://coss.com/ui/r/radio-group.json",
+      "file": "src/vendor/coss/ui/radio-group.tsx",
+      "sha256": "b2479e9967f0ba48d1acbb58a4fff7b919aa746bb8a61cbbff389baac02abbb7",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "@base-ui/react"
+      ]
+    },
+    {
+      "library": "coss",
+      "name": "progress",
+      "url": "https://coss.com/ui/r/progress.json",
+      "file": "src/vendor/coss/ui/progress.tsx",
+      "sha256": "605ea95436094735fc94d2ae38fd50df2dcce1617b2a67c504114bd0e55cc2b2",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "@base-ui/react"
+      ]
+    },
+    {
+      "library": "coss",
+      "name": "p-switch-1",
+      "url": "https://coss.com/ui/r/p-switch-1.json",
+      "file": "src/vendor/coss/particles/p-switch-1.tsx",
+      "sha256": "4095075b400a9136ff7fad3805c175d941ac05cc27c4b91fa6e4c503af2ec470",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "p-spinner-1",
+      "url": "https://coss.com/ui/r/p-spinner-1.json",
+      "file": "src/vendor/coss/particles/p-spinner-1.tsx",
+      "sha256": "8601a93913322ca57d866625e9108a19a231710ed56da6ba04e42352a610ff07",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "p-skeleton-1",
+      "url": "https://coss.com/ui/r/p-skeleton-1.json",
+      "file": "src/vendor/coss/particles/p-skeleton-1.tsx",
+      "sha256": "3178c4fcc20b199e075229d73dffde9f178942cb308e1d64a1e4c9db4f797ed6",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "p-slider-1",
+      "url": "https://coss.com/ui/r/p-slider-1.json",
+      "file": "src/vendor/coss/particles/p-slider-1.tsx",
+      "sha256": "6656570ad550b73f75c48b306649d50e14806b3b3332f3d820735cb95e026751",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "p-table-1",
+      "url": "https://coss.com/ui/r/p-table-1.json",
+      "file": "src/vendor/coss/particles/p-table-1.tsx",
+      "sha256": "09a06479de27245366ed53299cf67b189fe98582ca1db161d6acaa2dd15a2ae8",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "switch",
+      "url": "https://coss.com/ui/r/switch.json",
+      "file": "src/vendor/coss/ui/switch.tsx",
+      "sha256": "2b3bada3d7234149b4d29918d5e312e62919938c2ae0ee61db81350438ad43c4",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "@base-ui/react"
+      ]
+    },
+    {
+      "library": "coss",
+      "name": "slider",
+      "url": "https://coss.com/ui/r/slider.json",
+      "file": "src/vendor/coss/ui/slider.tsx",
+      "sha256": "abf488cac56c237b5eebef7c7c25ff38d07f72581a2b46c7158c019576c7fa71",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "@base-ui/react"
+      ]
+    },
+    {
+      "library": "coss",
+      "name": "skeleton",
+      "url": "https://coss.com/ui/r/skeleton.json",
+      "file": "src/vendor/coss/ui/skeleton.tsx",
+      "sha256": "02e61d00c76b7ed5a1979c37c2a86b8a837a013909e84ac21c40bb5b56f9afd2",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "table",
+      "url": "https://coss.com/ui/r/table.json",
+      "file": "src/vendor/coss/ui/table.tsx",
+      "sha256": "b21f811291d6a1706874cb37dd568b922fb5d8b053e6636b7b0e9e9c6320c98d",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "@base-ui/react"
+      ]
+    },
+    {
+      "library": "coss",
+      "name": "p-toggle-1",
+      "url": "https://coss.com/ui/r/p-toggle-1.json",
+      "file": "src/vendor/coss/particles/p-toggle-1.tsx",
+      "sha256": "fba46b995513a60c9abfcef0260ffe4fefe89892b40885b6ca4a80d3c5c707fa",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "p-tabs-1",
+      "url": "https://coss.com/ui/r/p-tabs-1.json",
+      "file": "src/vendor/coss/particles/p-tabs-1.tsx",
+      "sha256": "2bde72d6d1e94456eeca21134d163bb4c9494de12407d90a9d0719d59fca9f63",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "p-toast-1",
+      "url": "https://coss.com/ui/r/p-toast-1.json",
+      "file": "src/vendor/coss/particles/p-toast-1.tsx",
+      "sha256": "4d1b205e86eea83f28c29467d7c094cb74fac1ae96ec750869048917c0486334",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "p-toggle-group-1",
+      "url": "https://coss.com/ui/r/p-toggle-group-1.json",
+      "file": "src/vendor/coss/particles/p-toggle-group-1.tsx",
+      "sha256": "6fbf0532ee595a55338b43d49b084af51678fe5c64db6667cef55fa50031ac2e",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "p-textarea-1",
+      "url": "https://coss.com/ui/r/p-textarea-1.json",
+      "file": "src/vendor/coss/particles/p-textarea-1.tsx",
+      "sha256": "d8c6c0337429c9cbbd3b73e86467f5c9a13b987ea58bb26f945354391b6150b3",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "p-toolbar-1",
+      "url": "https://coss.com/ui/r/p-toolbar-1.json",
+      "file": "src/vendor/coss/particles/p-toolbar-1.tsx",
+      "sha256": "b9f13777ba6378d7f6338fd6b35fc9a5aaf6341c4c0613fe61b7d38fea48db6b",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "lucide-react"
+      ]
+    },
+    {
+      "library": "coss",
+      "name": "toggle",
+      "url": "https://coss.com/ui/r/toggle.json",
+      "file": "src/vendor/coss/ui/toggle.tsx",
+      "sha256": "a32372d0eaa291bc81f61f4ddb1f5bb827c507fd53de03c6f709adc242ee5bfb",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "@base-ui/react"
+      ]
+    },
+    {
+      "library": "coss",
+      "name": "tabs",
+      "url": "https://coss.com/ui/r/tabs.json",
+      "file": "src/vendor/coss/ui/tabs.tsx",
+      "sha256": "cbfe21ce54efe39cc02eb073a8327a4ab81b918d5745d986fdfae07d32204a7a",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "@base-ui/react"
+      ]
+    },
+    {
+      "library": "coss",
+      "name": "toggle-group",
+      "url": "https://coss.com/ui/r/toggle-group.json",
+      "file": "src/vendor/coss/ui/toggle-group.tsx",
+      "sha256": "8c67854bffcf762299fb989721e47da30fea3268cb969fdc6c775c3fe89982bb",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "@base-ui/react"
+      ]
+    },
+    {
+      "library": "coss",
+      "name": "tooltip",
+      "url": "https://coss.com/ui/r/tooltip.json",
+      "file": "src/vendor/coss/ui/tooltip.tsx",
+      "sha256": "0ac59089d1d813b7eb1cd9e08ed2ff3b3931e4024df649ddb45b1eb43d50f694",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "@base-ui/react"
+      ]
+    },
+    {
+      "library": "coss",
+      "name": "toast",
+      "url": "https://coss.com/ui/r/toast.json",
+      "file": "src/vendor/coss/ui/toast.tsx",
+      "sha256": "6c83bd6ab5a90388aa06380924381058746bf2bd5ebb7b2187496a59e7c517d6",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "@base-ui/react"
+      ]
+    },
+    {
+      "library": "coss",
+      "name": "segmented-control",
+      "url": "https://coss.com/ui/r/segmented-control.json",
+      "file": "src/vendor/coss/lib/segmented-control.ts",
+      "sha256": "c1cb84d02ac5b75aa08a70c205feb9cc8668ffbc19751e013364f547ae41a8a8",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "class-variance-authority"
+      ]
+    },
+    {
+      "library": "coss",
+      "name": "toolbar",
+      "url": "https://coss.com/ui/r/toolbar.json",
+      "file": "src/vendor/coss/ui/toolbar.tsx",
+      "sha256": "f08696682ad171b5a0d2c918202bcee10b9f6de1408a2a2e864f61e8d424dba2",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "@base-ui/react"
+      ]
+    },
+    {
+      "library": "coss",
+      "name": "p-tooltip-1",
+      "url": "https://coss.com/ui/r/p-tooltip-1.json",
+      "file": "src/vendor/coss/particles/p-tooltip-1.tsx",
+      "sha256": "2a33b100c4fbaacd6d0fce1a01313c99d73a0036e311cb14e08d0e0b4e51bef1",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "sidebar",
+      "url": "https://coss.com/ui/r/sidebar.json",
+      "file": "src/vendor/coss/ui/sidebar.tsx",
+      "sha256": "11e0381340b46a53f5a52c6a2a6a81a4c957c3690f889089764b60ba3da51965",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "use-media-query",
+      "url": "https://coss.com/ui/r/use-media-query.json",
+      "file": "src/vendor/coss/hooks/use-media-query.ts",
+      "sha256": "17d75ccaf898415db77dd72659c9b1fdb9338290ae54e8371b772e0b221c9fca",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "coss",
+      "name": "utils",
+      "url": "https://coss.com/ui/r/utils.json",
+      "file": "src/vendor/coss/lib/utils.ts",
+      "sha256": "02a523d3492e97440de9c080a59f3aa9366ca92bb6914078a75ae8a6f3e90a7f",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "clsx",
+        "tailwind-merge"
+      ]
+    }
+  ],
+  "dependencies": [
+    "@base-ui/react",
+    "lucide-react",
+    "@daypicker/react",
+    "date-fns",
+    "class-variance-authority",
+    "clsx",
+    "tailwind-merge"
+  ],
+  "covered": [
+    "coss:accordion",
+    "coss:alert",
+    "coss:avatar",
+    "coss:badge",
+    "coss:alert-dialog",
+    "coss:autocomplete",
+    "coss:button",
+    "coss:breadcrumb",
+    "coss:calendar",
+    "coss:card",
+    "coss:checkbox",
+    "coss:checkbox-group",
+    "coss:dialog",
+    "coss:context-menu",
+    "coss:combobox",
+    "coss:collapsible",
+    "coss:date-picker",
+    "coss:command",
+    "coss:form",
+    "coss:drawer",
+    "coss:empty",
+    "coss:fieldset",
+    "coss:field",
+    "coss:frame",
+    "coss:kbd",
+    "coss:menu",
+    "coss:input",
+    "coss:input-group",
+    "coss:group",
+    "coss:popover",
+    "coss:meter",
+    "coss:pagination",
+    "coss:number-field",
+    "coss:otp-field",
+    "coss:preview-card",
+    "coss:separator",
+    "coss:scroll-area",
+    "coss:select",
+    "coss:sheet",
+    "coss:radio-group",
+    "coss:progress",
+    "coss:spinner",
+    "coss:switch",
+    "coss:slider",
+    "coss:skeleton",
+    "coss:table",
+    "coss:textarea",
+    "coss:toggle",
+    "coss:toggle-group",
+    "coss:toast",
+    "coss:tabs",
+    "coss:toolbar",
+    "coss:tooltip",
+    "coss:label",
+    "coss:sidebar"
+  ],
+  "blocked": []
+}

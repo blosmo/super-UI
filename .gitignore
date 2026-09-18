@@ -1,0 +1,19 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.DS_Store
+research/*-home.txt
+research/*-rsc.txt
+research/amicro-js.txt
+
+.env
+.env.*
+!.env.example
+research/jev-cache/
+.cache/
+
+# Local ingestion snapshots, provider responses, and machine-specific review notes
+research/
+docs/reviews/
+docs/plans/
+docs/verification.md

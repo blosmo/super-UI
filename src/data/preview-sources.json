@@ -1,0 +1,2676 @@
+{
+  "beui:tilt-card": [
+    "src/vendor/beui/components/previews/motion/tilt-card.preview.tsx",
+    "src/vendor/beui/components/motion/tilt-card.tsx"
+  ],
+  "beui:button": [
+    "src/vendor/beui/components/previews/motion/button-base.preview.tsx",
+    "src/vendor/beui/components/motion/button/index.tsx",
+    "src/vendor/beui/components/motion/button/base.tsx",
+    "src/vendor/beui/components/motion/button/magnetic.tsx",
+    "src/vendor/beui/components/motion/magnetic.tsx",
+    "src/vendor/beui/components/motion/button/metallic.tsx",
+    "src/vendor/beui/components/motion/button/stateful.tsx"
+  ],
+  "beui:expanding-arrow-button": [
+    "src/vendor/beui/components/previews/motion/expanding-arrow-button.preview.tsx",
+    "src/vendor/beui/components/motion/expanding-arrow-button.tsx"
+  ],
+  "beui:expandable-control": [
+    "src/vendor/beui/components/previews/motion/expandable-control.preview.tsx",
+    "src/vendor/beui/components/motion/expandable-control.tsx"
+  ],
+  "beui:adaptive-stepper": [
+    "src/vendor/beui/components/previews/motion/adaptive-stepper.preview.tsx",
+    "src/vendor/beui/components/motion/adaptive-stepper.tsx",
+    "src/vendor/beui/components/motion/liquid.tsx"
+  ],
+  "beui:marquee": [
+    "src/vendor/beui/components/previews/motion/marquee.preview.tsx",
+    "src/vendor/beui/components/motion/marquee.tsx"
+  ],
+  "beui:tabs": [
+    "src/vendor/beui/components/previews/motion/tabs.preview.tsx",
+    "src/vendor/beui/components/motion/tabs.tsx"
+  ],
+  "beui:switch": [
+    "src/vendor/beui/components/previews/motion/switch.preview.tsx",
+    "src/vendor/beui/components/motion/switch.tsx"
+  ],
+  "beui:input": [
+    "src/vendor/beui/components/previews/motion/input.preview.tsx",
+    "src/vendor/beui/components/motion/input.tsx"
+  ],
+  "beui:select": [
+    "src/vendor/beui/components/previews/motion/select.preview.tsx",
+    "src/vendor/beui/components/motion/select.tsx"
+  ],
+  "beui:combobox": [
+    "src/vendor/beui/components/previews/motion/combobox.preview.tsx",
+    "src/vendor/beui/components/motion/combobox.tsx",
+    "src/vendor/beui/components/motion/combobox/content.tsx",
+    "src/vendor/beui/components/motion/popover-position.ts",
+    "src/vendor/beui/components/motion/combobox/context.tsx",
+    "src/vendor/beui/components/motion/combobox/use-active-option.ts",
+    "src/vendor/beui/components/motion/combobox/list.tsx",
+    "src/vendor/beui/components/motion/combobox/trigger.tsx"
+  ],
+  "beui:multi-select": [
+    "src/vendor/beui/components/previews/motion/multi-select.preview.tsx",
+    "src/vendor/beui/components/motion/multi-select/index.tsx",
+    "src/vendor/beui/components/motion/multi-select/context.tsx",
+    "src/vendor/beui/components/motion/combobox/use-active-option.ts",
+    "src/vendor/beui/components/motion/multi-select/trigger.tsx",
+    "src/vendor/beui/components/motion/multi-select/content.tsx",
+    "src/vendor/beui/components/motion/popover-position.ts",
+    "src/vendor/beui/components/motion/multi-select/list.tsx"
+  ],
+  "beui:checkbox": [
+    "src/vendor/beui/components/previews/motion/checkbox.preview.tsx",
+    "src/vendor/beui/components/motion/checkbox.tsx"
+  ],
+  "beui:radio": [
+    "src/vendor/beui/components/previews/motion/radio.preview.tsx",
+    "src/vendor/beui/components/motion/radio.tsx"
+  ],
+  "beui:bottom-sheet": [
+    "src/vendor/beui/components/previews/motion/bottom-sheet.preview.tsx",
+    "src/vendor/beui/components/motion/bottom-sheet.tsx"
+  ],
+  "beui:pull-to-refresh": [
+    "src/vendor/beui/components/previews/motion/pull-to-refresh.preview.tsx",
+    "src/vendor/beui/components/motion/pull-to-refresh.tsx"
+  ],
+  "beui:shared-layout-bg": [
+    "src/vendor/beui/components/previews/motion/shared-layout-bg.preview.tsx",
+    "src/vendor/beui/components/motion/shared-layout-bg.tsx"
+  ],
+  "beui:bounce-sidebar": [
+    "src/vendor/beui/components/previews/motion/bounce-sidebar.preview.tsx",
+    "src/vendor/beui/components/motion/bounce-sidebar.tsx"
+  ],
+  "beui:animated-sidebar": [
+    "src/vendor/beui/components/previews/motion/animated-sidebar.preview.tsx",
+    "src/vendor/beui/components/motion/animated-sidebar.tsx",
+    "src/vendor/beui/components/motion/shared-layout-bg.tsx"
+  ],
+  "beui:file-tree": [
+    "src/vendor/beui/components/previews/motion/file-tree.preview.tsx",
+    "src/vendor/beui/components/motion/file-tree.tsx",
+    "src/vendor/beui/components/motion/shared-layout-bg.tsx"
+  ],
+  "beui:preview-rail": [
+    "src/vendor/beui/components/previews/motion/preview-rail.preview.tsx",
+    "src/vendor/beui/components/motion/preview-rail.tsx"
+  ],
+  "beui:dock": [
+    "src/vendor/beui/components/previews/motion/dock.preview.tsx",
+    "src/vendor/beui/components/motion/dock.tsx"
+  ],
+  "beui:tooltip": [
+    "src/vendor/beui/components/previews/motion/tooltip.preview.tsx",
+    "src/vendor/beui/components/motion/tooltip.tsx",
+    "src/vendor/beui/components/motion/tooltip-surface.tsx"
+  ],
+  "beui:context-menu": [
+    "src/vendor/beui/components/previews/motion/context-menu.preview.tsx",
+    "src/vendor/beui/components/motion/context-menu.tsx"
+  ],
+  "beui:popover": [
+    "src/vendor/beui/components/previews/motion/popover.preview.tsx",
+    "src/vendor/beui/components/motion/button/index.tsx",
+    "src/vendor/beui/components/motion/button/base.tsx",
+    "src/vendor/beui/components/motion/button/magnetic.tsx",
+    "src/vendor/beui/components/motion/magnetic.tsx",
+    "src/vendor/beui/components/motion/button/metallic.tsx",
+    "src/vendor/beui/components/motion/button/stateful.tsx",
+    "src/vendor/beui/components/motion/popover.tsx",
+    "src/vendor/beui/components/motion/popover-position.ts"
+  ],
+  "beui:morphing-modal": [
+    "src/vendor/beui/components/previews/motion/morphing-modal.preview.tsx",
+    "src/vendor/beui/components/motion/morphing-modal.tsx"
+  ],
+  "beui:center-morph-modal": [
+    "src/vendor/beui/components/previews/motion/center-morph-modal.preview.tsx",
+    "src/vendor/beui/components/motion/center-morph-modal.tsx"
+  ],
+  "beui:text-animation": [
+    "src/vendor/beui/components/previews/motion/text-animation.preview.tsx",
+    "src/vendor/beui/components/motion/chromatic-text-reveal.tsx",
+    "src/vendor/beui/components/motion/text-reveal.tsx",
+    "src/vendor/beui/components/motion/text-shimmer.tsx"
+  ],
+  "beui:number": [
+    "src/vendor/beui/components/previews/motion/number.preview.tsx",
+    "src/vendor/beui/components/motion/animated-number.tsx",
+    "src/vendor/beui/components/motion/number-ticker.tsx"
+  ],
+  "beui:animated-badge": [
+    "src/vendor/beui/components/previews/motion/animated-badge.preview.tsx",
+    "src/vendor/beui/components/motion/animated-badge.tsx"
+  ],
+  "beui:action-swap": [
+    "src/vendor/beui/components/previews/motion/action-swap.preview.tsx",
+    "src/vendor/beui/components/motion/action-swap.tsx"
+  ],
+  "beui:animated-toast-stack": [
+    "src/vendor/beui/components/previews/motion/animated-toast-stack.preview.tsx",
+    "src/vendor/beui/components/motion/animated-toast-stack.tsx"
+  ],
+  "beui:theme-toggle": [
+    "src/vendor/beui/components/previews/motion/theme-toggle.preview.tsx",
+    "src/vendor/beui/components/motion/theme-toggle.tsx",
+    "src/vendor/beui/components/motion/action-swap.tsx"
+  ],
+  "beui:bouncy-accordion": [
+    "src/vendor/beui/components/previews/motion/bouncy-accordion.preview.tsx",
+    "src/vendor/beui/components/motion/bouncy-accordion.tsx"
+  ],
+  "beui:drawer": [
+    "src/vendor/beui/components/previews/motion/drawer.preview.tsx",
+    "src/vendor/beui/components/motion/drawer.tsx"
+  ],
+  "beui:scroll-animation": [
+    "src/vendor/beui/components/previews/motion/scroll-reveal.preview.tsx",
+    "src/vendor/beui/components/motion/scroll-reveal.tsx"
+  ],
+  "beui:range-slider": [
+    "src/vendor/beui/components/previews/motion/range-slider.preview.tsx",
+    "src/vendor/beui/components/motion/range-slider.tsx"
+  ],
+  "beui:wheel-picker": [
+    "src/vendor/beui/components/previews/motion/wheel-picker.preview.tsx",
+    "src/vendor/beui/components/motion/switch.tsx",
+    "src/vendor/beui/components/motion/wheel-picker.tsx"
+  ],
+  "beui:table": [
+    "src/vendor/beui/components/previews/motion/table.preview.tsx",
+    "src/vendor/beui/components/motion/table/index.tsx",
+    "src/vendor/beui/components/motion/checkbox.tsx",
+    "src/vendor/beui/components/motion/table/editable-cell.tsx",
+    "src/vendor/beui/components/motion/table/row-handle.tsx",
+    "src/vendor/beui/components/motion/table/table-menu.tsx",
+    "src/vendor/beui/components/motion/table/skeleton-rows.tsx",
+    "src/vendor/beui/components/motion/table/types.ts",
+    "src/vendor/beui/components/motion/table/utils.ts",
+    "src/vendor/beui/components/motion/table/table-header.tsx",
+    "src/vendor/beui/components/motion/table/use-column-reorder.ts",
+    "src/vendor/beui/components/motion/table/use-column-resize.ts",
+    "src/vendor/beui/components/motion/table/use-column-sort.ts",
+    "src/vendor/beui/components/motion/table/use-row-selection.ts"
+  ],
+  "beui:shader-background": [
+    "src/vendor/beui/components/previews/motion/shader-background.preview.tsx",
+    "src/vendor/beui/components/motion/shader-background.tsx",
+    "src/vendor/beui/components/motion/tabs.tsx"
+  ],
+  "beui:cylinder-carousel": [
+    "src/vendor/beui/components/previews/motion/cylinder-carousel.preview.tsx",
+    "src/vendor/beui/components/motion/cylinder-carousel.tsx",
+    "src/vendor/beui/components/motion/shader-background.tsx",
+    "src/vendor/beui/components/motion/tabs.tsx"
+  ],
+  "beui:loader": [
+    "src/vendor/beui/components/previews/motion/loader.preview.tsx",
+    "src/vendor/beui/components/motion/loader.tsx"
+  ],
+  "beui:message-bubble": [
+    "src/vendor/beui/components/previews/agents/message-bubble.preview.tsx",
+    "src/vendor/beui/components/agents/message.tsx",
+    "src/vendor/beui/components/agents/message-context.tsx",
+    "src/vendor/beui/components/agents/message-bubble.tsx",
+    "src/vendor/beui/components/agents/message-scroller.tsx",
+    "src/vendor/beui/components/motion/preview-rail.tsx",
+    "src/vendor/beui/components/agents/prompt-input.tsx",
+    "src/vendor/beui/components/motion/button/index.tsx",
+    "src/vendor/beui/components/motion/button/base.tsx",
+    "src/vendor/beui/components/motion/button/magnetic.tsx",
+    "src/vendor/beui/components/motion/magnetic.tsx",
+    "src/vendor/beui/components/motion/button/metallic.tsx",
+    "src/vendor/beui/components/motion/button/stateful.tsx",
+    "src/vendor/beui/components/motion/popover-morph.tsx",
+    "src/vendor/beui/components/motion/popover-position.ts",
+    "src/vendor/beui/components/motion/select.tsx",
+    "src/vendor/beui/components/agents/streaming-response.tsx",
+    "src/vendor/beui/components/agents/citations.tsx",
+    "src/vendor/beui/components/agents/agent-disclosure.tsx"
+  ],
+  "beui:message": [
+    "src/vendor/beui/components/previews/agents/message.preview.tsx",
+    "src/vendor/beui/components/agents/message.tsx",
+    "src/vendor/beui/components/agents/message-context.tsx",
+    "src/vendor/beui/components/agents/message-bubble.tsx",
+    "src/vendor/beui/components/agents/message-scroller.tsx",
+    "src/vendor/beui/components/motion/preview-rail.tsx",
+    "src/vendor/beui/components/agents/prompt-input.tsx",
+    "src/vendor/beui/components/motion/button/index.tsx",
+    "src/vendor/beui/components/motion/button/base.tsx",
+    "src/vendor/beui/components/motion/button/magnetic.tsx",
+    "src/vendor/beui/components/motion/magnetic.tsx",
+    "src/vendor/beui/components/motion/button/metallic.tsx",
+    "src/vendor/beui/components/motion/button/stateful.tsx",
+    "src/vendor/beui/components/motion/popover-morph.tsx",
+    "src/vendor/beui/components/motion/popover-position.ts",
+    "src/vendor/beui/components/motion/select.tsx",
+    "src/vendor/beui/components/agents/streaming-response.tsx",
+    "src/vendor/beui/components/agents/citations.tsx",
+    "src/vendor/beui/components/agents/agent-disclosure.tsx"
+  ],
+  "beui:message-scroller": [
+    "src/vendor/beui/components/previews/agents/message-scroller.preview.tsx",
+    "src/vendor/beui/components/agents/message.tsx",
+    "src/vendor/beui/components/agents/message-context.tsx",
+    "src/vendor/beui/components/agents/message-bubble.tsx",
+    "src/vendor/beui/components/agents/message-scroller.tsx",
+    "src/vendor/beui/components/motion/preview-rail.tsx",
+    "src/vendor/beui/components/agents/prompt-input.tsx",
+    "src/vendor/beui/components/motion/button/index.tsx",
+    "src/vendor/beui/components/motion/button/base.tsx",
+    "src/vendor/beui/components/motion/button/magnetic.tsx",
+    "src/vendor/beui/components/motion/magnetic.tsx",
+    "src/vendor/beui/components/motion/button/metallic.tsx",
+    "src/vendor/beui/components/motion/button/stateful.tsx",
+    "src/vendor/beui/components/motion/popover-morph.tsx",
+    "src/vendor/beui/components/motion/popover-position.ts",
+    "src/vendor/beui/components/motion/select.tsx",
+    "src/vendor/beui/components/agents/streaming-response.tsx",
+    "src/vendor/beui/components/agents/citations.tsx",
+    "src/vendor/beui/components/agents/agent-disclosure.tsx"
+  ],
+  "beui:prompt-input": [
+    "src/vendor/beui/components/previews/agents/prompt-input.preview.tsx",
+    "src/vendor/beui/components/agents/prompt-input.tsx",
+    "src/vendor/beui/components/motion/button/index.tsx",
+    "src/vendor/beui/components/motion/button/base.tsx",
+    "src/vendor/beui/components/motion/button/magnetic.tsx",
+    "src/vendor/beui/components/motion/magnetic.tsx",
+    "src/vendor/beui/components/motion/button/metallic.tsx",
+    "src/vendor/beui/components/motion/button/stateful.tsx",
+    "src/vendor/beui/components/motion/popover-morph.tsx",
+    "src/vendor/beui/components/motion/popover-position.ts",
+    "src/vendor/beui/components/motion/select.tsx"
+  ],
+  "beui:todo-list": [
+    "src/vendor/beui/components/previews/agents/todo-list.preview.tsx",
+    "src/vendor/beui/components/agents/todo-list.tsx",
+    "src/vendor/beui/components/motion/action-swap-roll.tsx",
+    "src/vendor/beui/components/motion/action-swap.tsx",
+    "src/vendor/beui/components/agents/agent-disclosure.tsx"
+  ],
+  "beui:code-block": [
+    "src/vendor/beui/components/previews/agents/code-block.preview.tsx",
+    "src/vendor/beui/components/agents/code-block.tsx",
+    "src/vendor/beui/components/agents/agent-code.tsx"
+  ],
+  "beui:approval-card": [
+    "src/vendor/beui/components/previews/agents/approval-card-review.preview.tsx",
+    "src/vendor/beui/components/agents/approval-card/index.tsx",
+    "src/vendor/beui/components/agents/agent-disclosure.tsx",
+    "src/vendor/beui/components/motion/action-swap-roll.tsx",
+    "src/vendor/beui/components/motion/action-swap.tsx",
+    "src/vendor/beui/components/motion/button/index.tsx",
+    "src/vendor/beui/components/motion/button/base.tsx",
+    "src/vendor/beui/components/motion/button/magnetic.tsx",
+    "src/vendor/beui/components/motion/magnetic.tsx",
+    "src/vendor/beui/components/motion/button/metallic.tsx",
+    "src/vendor/beui/components/motion/button/stateful.tsx",
+    "src/vendor/beui/components/motion/checkbox.tsx",
+    "src/vendor/beui/components/motion/input.tsx",
+    "src/vendor/beui/components/motion/radio.tsx",
+    "src/vendor/beui/components/agents/approval-card/types.ts"
+  ],
+  "beui:file-diff": [
+    "src/vendor/beui/components/previews/agents/file-diff.preview.tsx",
+    "src/vendor/beui/components/agents/file-diff.tsx",
+    "src/vendor/beui/components/agents/agent-code.tsx",
+    "src/vendor/beui/components/agents/agent-disclosure.tsx",
+    "src/vendor/beui/components/agents/tool-result.tsx",
+    "src/vendor/beui/components/motion/action-swap-roll.tsx",
+    "src/vendor/beui/components/motion/action-swap.tsx"
+  ],
+  "beui:tool-result": [
+    "src/vendor/beui/components/previews/agents/tool-result-terminal.preview.tsx",
+    "src/vendor/beui/components/agents/tool-result.tsx",
+    "src/vendor/beui/components/agents/agent-code.tsx",
+    "src/vendor/beui/components/motion/action-swap-roll.tsx",
+    "src/vendor/beui/components/motion/action-swap.tsx",
+    "src/vendor/beui/components/agents/agent-disclosure.tsx"
+  ],
+  "beui:streaming-response": [
+    "src/vendor/beui/components/previews/agents/streaming-response.preview.tsx",
+    "src/vendor/beui/components/agents/citations.tsx",
+    "src/vendor/beui/components/agents/agent-disclosure.tsx",
+    "src/vendor/beui/components/agents/streaming-response.tsx"
+  ],
+  "beui:image-generation": [
+    "src/vendor/beui/components/previews/agents/image-generation.preview.tsx",
+    "src/vendor/beui/components/agents/image-generation.tsx"
+  ],
+  "beui:tool-approval": [
+    "src/vendor/beui/components/previews/agents/tool-approval.preview.tsx",
+    "src/vendor/beui/components/agents/tool-approval.tsx",
+    "src/vendor/beui/components/agents/agent-code.tsx",
+    "src/vendor/beui/components/agents/agent-disclosure.tsx"
+  ],
+  "beui:citations": [
+    "src/vendor/beui/components/previews/agents/citations.preview.tsx",
+    "src/vendor/beui/components/agents/citations.tsx",
+    "src/vendor/beui/components/agents/agent-disclosure.tsx"
+  ],
+  "beui:agent-activity": [
+    "src/vendor/beui/components/previews/agents/agent-activity.preview.tsx",
+    "src/vendor/beui/components/agents/agent-activity/index.tsx",
+    "src/vendor/beui/components/agents/loading-states/thinking-shimmer.tsx",
+    "src/vendor/beui/components/motion/text-shimmer.tsx",
+    "src/vendor/beui/components/agents/agent-disclosure.tsx",
+    "src/vendor/beui/components/agents/agent-activity/activity-row.tsx",
+    "src/vendor/beui/components/agents/agent-activity/types.ts"
+  ],
+  "beui:loading-states": [
+    "src/vendor/beui/components/previews/agents/thinking-shimmer.preview.tsx",
+    "src/vendor/beui/components/agents/loading-states/thinking-shimmer.tsx",
+    "src/vendor/beui/components/motion/text-shimmer.tsx"
+  ],
+  "beui:ai-sidebar": [
+    "src/vendor/beui/components/previews/agents/ai-sidebar.preview.tsx",
+    "src/vendor/beui/components/motion/animated-sidebar.tsx",
+    "src/vendor/beui/components/motion/shared-layout-bg.tsx",
+    "src/vendor/beui/components/agents/ai-sidebar.tsx",
+    "src/vendor/beui/components/motion/popover-morph.tsx",
+    "src/vendor/beui/components/motion/popover-position.ts"
+  ],
+  "beui:chat-app": [
+    "src/vendor/beui/components/previews/agents/chat-app.preview.tsx",
+    "src/vendor/beui/components/agents/agent-activity/index.tsx",
+    "src/vendor/beui/components/agents/loading-states/thinking-shimmer.tsx",
+    "src/vendor/beui/components/motion/text-shimmer.tsx",
+    "src/vendor/beui/components/agents/agent-disclosure.tsx",
+    "src/vendor/beui/components/agents/agent-activity/activity-row.tsx",
+    "src/vendor/beui/components/agents/agent-activity/types.ts",
+    "src/vendor/beui/components/agents/ai-sidebar.tsx",
+    "src/vendor/beui/components/motion/popover-morph.tsx",
+    "src/vendor/beui/components/motion/popover-position.ts",
+    "src/vendor/beui/components/agents/approval-card/index.tsx",
+    "src/vendor/beui/components/motion/action-swap-roll.tsx",
+    "src/vendor/beui/components/motion/action-swap.tsx",
+    "src/vendor/beui/components/motion/button/index.tsx",
+    "src/vendor/beui/components/motion/button/base.tsx",
+    "src/vendor/beui/components/motion/button/magnetic.tsx",
+    "src/vendor/beui/components/motion/magnetic.tsx",
+    "src/vendor/beui/components/motion/button/metallic.tsx",
+    "src/vendor/beui/components/motion/button/stateful.tsx",
+    "src/vendor/beui/components/motion/checkbox.tsx",
+    "src/vendor/beui/components/motion/input.tsx",
+    "src/vendor/beui/components/motion/radio.tsx",
+    "src/vendor/beui/components/agents/approval-card/types.ts",
+    "src/vendor/beui/components/agents/code-block.tsx",
+    "src/vendor/beui/components/agents/agent-code.tsx",
+    "src/vendor/beui/components/agents/chat-app.tsx",
+    "src/vendor/beui/components/motion/animated-sidebar.tsx",
+    "src/vendor/beui/components/motion/shared-layout-bg.tsx",
+    "src/vendor/beui/components/agents/file-diff.tsx",
+    "src/vendor/beui/components/agents/image-generation.tsx",
+    "src/vendor/beui/components/agents/loading-states/index.ts",
+    "src/vendor/beui/components/agents/loading-states/agent-progress.tsx",
+    "src/vendor/beui/components/agents/loading-states/reasoning-text.tsx",
+    "src/vendor/beui/components/motion/loader.tsx",
+    "src/vendor/beui/components/motion/text-scramble.tsx",
+    "src/vendor/beui/components/agents/message.tsx",
+    "src/vendor/beui/components/agents/message-context.tsx",
+    "src/vendor/beui/components/agents/message-bubble.tsx",
+    "src/vendor/beui/components/agents/message-scroller.tsx",
+    "src/vendor/beui/components/motion/preview-rail.tsx",
+    "src/vendor/beui/components/agents/prompt-input.tsx",
+    "src/vendor/beui/components/motion/select.tsx",
+    "src/vendor/beui/components/agents/streaming-response.tsx",
+    "src/vendor/beui/components/agents/citations.tsx",
+    "src/vendor/beui/components/agents/todo-list.tsx",
+    "src/vendor/beui/components/agents/tool-approval.tsx",
+    "src/vendor/beui/components/agents/tool-result.tsx"
+  ],
+  "beui:infinite-masonry": [
+    "src/vendor/beui/components/previews/blocks/infinite-masonry.preview.tsx",
+    "src/vendor/beui/components/motion/infinite-masonry.tsx"
+  ],
+  "beui:notification-stack": [
+    "src/vendor/beui/components/previews/blocks/notification-stack.preview.tsx",
+    "src/vendor/beui/components/motion/notification-stack.tsx",
+    "src/vendor/beui/components/motion/action-swap.tsx"
+  ],
+  "beui:project-folder": [
+    "src/vendor/beui/components/previews/blocks/project-folder.preview.tsx",
+    "src/vendor/beui/components/motion/project-folder.tsx"
+  ],
+  "beui:card-folder": [
+    "src/vendor/beui/components/previews/blocks/card-folder.preview.tsx",
+    "src/vendor/beui/components/motion/card-folder.tsx",
+    "src/vendor/beui/components/motion/digit-swap.tsx"
+  ],
+  "beui:knockout-bracket": [
+    "src/vendor/beui/components/previews/blocks/knockout-bracket.preview.tsx",
+    "src/vendor/beui/components/motion/knockout-bracket.tsx"
+  ],
+  "beui:availability-scheduler": [
+    "src/vendor/beui/components/previews/blocks/availability-scheduler.preview.tsx",
+    "src/vendor/beui/components/motion/availability-scheduler/index.tsx",
+    "src/vendor/beui/components/motion/availability-scheduler/day-row.tsx",
+    "src/vendor/beui/components/motion/switch.tsx",
+    "src/vendor/beui/components/motion/tooltip.tsx",
+    "src/vendor/beui/components/motion/tooltip-surface.tsx",
+    "src/vendor/beui/components/motion/availability-scheduler/copy-menu.tsx",
+    "src/vendor/beui/components/motion/checkbox.tsx",
+    "src/vendor/beui/components/motion/popover-morph.tsx",
+    "src/vendor/beui/components/motion/popover-position.ts",
+    "src/vendor/beui/components/motion/availability-scheduler/icon-button.tsx",
+    "src/vendor/beui/components/motion/availability-scheduler/types.ts",
+    "src/vendor/beui/components/motion/availability-scheduler/time-select.tsx",
+    "src/vendor/beui/components/motion/select.tsx"
+  ],
+  "beui:swap": [
+    "src/vendor/beui/components/previews/blocks/swap.preview.tsx",
+    "src/vendor/beui/components/motion/swap.tsx",
+    "src/vendor/beui/components/motion/swap/data.ts",
+    "src/vendor/beui/components/motion/swap/types.ts",
+    "src/vendor/beui/components/motion/swap/controls.tsx",
+    "src/vendor/beui/components/motion/swap/constants.ts",
+    "src/vendor/beui/components/motion/swap/utils.ts",
+    "src/vendor/beui/components/motion/swap/field.tsx",
+    "src/vendor/beui/components/motion/swap/token-badges.tsx",
+    "src/vendor/beui/components/motion/swap/quote-row.tsx",
+    "src/vendor/beui/components/motion/swap/token-picker.tsx"
+  ],
+  "beui:dynamic-island": [
+    "src/vendor/beui/components/previews/blocks/dynamic-island.preview.tsx",
+    "src/vendor/beui/components/motion/button/index.tsx",
+    "src/vendor/beui/components/motion/button/base.tsx",
+    "src/vendor/beui/components/motion/button/magnetic.tsx",
+    "src/vendor/beui/components/motion/magnetic.tsx",
+    "src/vendor/beui/components/motion/button/metallic.tsx",
+    "src/vendor/beui/components/motion/button/stateful.tsx",
+    "src/vendor/beui/components/motion/dynamic-island.tsx",
+    "src/vendor/beui/components/motion/number-ticker.tsx"
+  ],
+  "beui:command-palette": [
+    "src/vendor/beui/components/previews/blocks/command-palette.preview.tsx",
+    "src/vendor/beui/components/motion/command-palette.tsx"
+  ],
+  "beui:morphing-search": [
+    "src/vendor/beui/components/previews/blocks/morphing-search.preview.tsx",
+    "src/vendor/beui/components/motion/morphing-search.tsx"
+  ],
+  "beui:expandable-action-bar": [
+    "src/vendor/beui/components/previews/blocks/expandable-action-bar.preview.tsx",
+    "src/vendor/beui/components/motion/expandable-action-bar.tsx"
+  ],
+  "beui:overflow-actions": [
+    "src/vendor/beui/components/previews/blocks/overflow-actions.preview.tsx",
+    "src/vendor/beui/components/motion/overflow-actions.tsx"
+  ],
+  "beui:expandable-tabs": [
+    "src/vendor/beui/components/previews/blocks/expandable-tabs.preview.tsx",
+    "src/vendor/beui/components/motion/expandable-tabs.tsx"
+  ],
+  "beui:morphing-tabs": [
+    "src/vendor/beui/components/previews/blocks/morphing-tabs.preview.tsx",
+    "src/vendor/beui/components/motion/morphing-tabs.tsx"
+  ],
+  "beui:swipeable-list": [
+    "src/vendor/beui/components/previews/blocks/swipeable-list.preview.tsx",
+    "src/vendor/beui/components/motion/swipeable-list.tsx"
+  ],
+  "beui:file-upload": [
+    "src/vendor/beui/components/previews/blocks/file-upload.preview.tsx",
+    "src/vendor/beui/components/motion/file-upload.tsx"
+  ],
+  "beui:prediction-market": [
+    "src/vendor/beui/components/previews/blocks/prediction-market.preview.tsx",
+    "src/vendor/beui/components/motion/prediction-market.tsx",
+    "src/vendor/beui/components/motion/button/stateful.tsx",
+    "src/vendor/beui/components/motion/button/base.tsx",
+    "src/vendor/beui/components/motion/number-ticker.tsx",
+    "src/vendor/beui/components/motion/tabs.tsx"
+  ],
+  "beui:wallet-card": [
+    "src/vendor/beui/components/previews/blocks/wallet-card.preview.tsx",
+    "src/vendor/beui/components/motion/wallet-card/index.tsx",
+    "src/vendor/beui/components/motion/action-swap.tsx",
+    "src/vendor/beui/components/motion/button/index.tsx",
+    "src/vendor/beui/components/motion/button/base.tsx",
+    "src/vendor/beui/components/motion/button/magnetic.tsx",
+    "src/vendor/beui/components/motion/magnetic.tsx",
+    "src/vendor/beui/components/motion/button/metallic.tsx",
+    "src/vendor/beui/components/motion/button/stateful.tsx",
+    "src/vendor/beui/components/motion/wallet-card/account-switcher.tsx",
+    "src/vendor/beui/components/motion/wallet-card/account-avatar.tsx",
+    "src/vendor/beui/components/motion/wallet-card/types.ts",
+    "src/vendor/beui/components/motion/wallet-card/utils.ts",
+    "src/vendor/beui/components/motion/wallet-card/constants.ts",
+    "src/vendor/beui/components/motion/wallet-card/copy-button.tsx",
+    "src/vendor/beui/components/motion/wallet-card/actions.tsx",
+    "src/vendor/beui/components/motion/wallet-card/balance-delta.tsx",
+    "src/vendor/beui/components/motion/wallet-card/search-bar.tsx"
+  ],
+  "beui:otp-input": [
+    "src/vendor/beui/components/previews/blocks/otp-input.preview.tsx",
+    "src/vendor/beui/components/motion/otp-input.tsx"
+  ],
+  "beui:signup-form": [
+    "src/vendor/beui/components/previews/blocks/signup-form.preview.tsx",
+    "src/vendor/beui/components/motion/signup-form.tsx",
+    "src/vendor/beui/components/motion/button/index.tsx",
+    "src/vendor/beui/components/motion/button/base.tsx",
+    "src/vendor/beui/components/motion/button/magnetic.tsx",
+    "src/vendor/beui/components/motion/magnetic.tsx",
+    "src/vendor/beui/components/motion/button/metallic.tsx",
+    "src/vendor/beui/components/motion/button/stateful.tsx",
+    "src/vendor/beui/components/motion/checkbox.tsx",
+    "src/vendor/beui/components/motion/input.tsx"
+  ],
+  "beui:bloom-menu": [
+    "src/vendor/beui/components/previews/blocks/bloom-menu.preview.tsx",
+    "src/vendor/beui/components/motion/bloom-menu.tsx"
+  ],
+  "beui:feedback-widget": [
+    "src/vendor/beui/components/previews/blocks/feedback-widget.preview.tsx",
+    "src/vendor/beui/components/motion/feedback-widget.tsx",
+    "src/vendor/beui/components/motion/button/index.tsx",
+    "src/vendor/beui/components/motion/button/base.tsx",
+    "src/vendor/beui/components/motion/button/magnetic.tsx",
+    "src/vendor/beui/components/motion/magnetic.tsx",
+    "src/vendor/beui/components/motion/button/metallic.tsx",
+    "src/vendor/beui/components/motion/button/stateful.tsx"
+  ],
+  "beui:not-found": [
+    "src/vendor/beui/components/previews/blocks/not-found-glitch.preview.tsx",
+    "src/vendor/beui/components/motion/not-found/glitch.tsx",
+    "src/vendor/beui/components/motion/not-found/shared.tsx"
+  ],
+  "beautiful:loading-state": [
+    "src/vendor/beautiful/loading-state.tsx"
+  ],
+  "beautiful:thinking-state": [
+    "src/vendor/beautiful/thinking-state.tsx"
+  ],
+  "beautiful:streaming-text": [
+    "src/vendor/beautiful/streaming-text.tsx"
+  ],
+  "beautiful:approval-card": [
+    "src/vendor/beautiful/components/primitives/ApprovalCard.tsx",
+    "src/vendor/beautiful/components/atoms/Button.tsx",
+    "src/vendor/beautiful/components/primitives/GlideMenu.tsx"
+  ],
+  "beautiful:tool-chips": [
+    "src/vendor/beautiful/components/primitives/ToolChips.tsx"
+  ],
+  "beautiful:task-rows": [
+    "src/vendor/beautiful/components/primitives/TaskRows.tsx"
+  ],
+  "beautiful:chat-composer": [
+    "src/vendor/beautiful/components/primitives/ChatComposer.tsx"
+  ],
+  "beautiful:prompt-bar": [
+    "src/vendor/beautiful/components/primitives/PromptBar.tsx"
+  ],
+  "beautiful:recommendation-card": [
+    "src/vendor/beautiful/components/primitives/RecommendationCard.tsx",
+    "src/vendor/beautiful/components/atoms/Button.tsx",
+    "src/vendor/beautiful/components/atoms/EntityChip.tsx",
+    "src/vendor/beautiful/components/atoms/ValuePill.tsx"
+  ],
+  "beautiful:context-cards": [
+    "src/vendor/beautiful/components/primitives/ContextCards.tsx"
+  ],
+  "beautiful:diff-table": [
+    "src/vendor/beautiful/components/primitives/DiffTable.tsx",
+    "src/vendor/beautiful/components/atoms/Button.tsx"
+  ],
+  "beautiful:records-table": [
+    "src/vendor/beautiful/components/primitives/RecordsTable.tsx",
+    "src/vendor/beautiful/components/primitives/GlideMenu.tsx"
+  ],
+  "beautiful:filter-table": [
+    "src/vendor/beautiful/components/primitives/FilterTable.tsx"
+  ],
+  "beautiful:sidebar-nav": [
+    "src/vendor/beautiful/components/primitives/SidebarNav.tsx",
+    "src/vendor/beautiful/free-icons.tsx",
+    "src/vendor/beautiful/components/primitives/GlideMenu.tsx"
+  ],
+  "beautiful:search": [
+    "src/vendor/beautiful/components/primitives/SearchList.tsx",
+    "src/vendor/beautiful/components/primitives/GlideMenu.tsx"
+  ],
+  "beautiful:flowchart": [
+    "src/vendor/beautiful/components/primitives/Flowchart.tsx"
+  ],
+  "beautiful:insight-cards": [
+    "src/vendor/beautiful/components/primitives/InsightCards.tsx"
+  ],
+  "beautiful:code-block": [
+    "src/vendor/beautiful/components/primitives/CodeBlock.tsx"
+  ],
+  "beautiful:fine-tune-card": [
+    "src/vendor/beautiful/components/primitives/FineTuneCard.tsx",
+    "src/vendor/beautiful/components/primitives/GlideMenu.tsx"
+  ],
+  "beautiful:selection-actions": [
+    "src/vendor/beautiful/components/primitives/SelectionActions.tsx",
+    "src/vendor/beautiful/components/atoms/Button.tsx",
+    "src/vendor/beautiful/components/atoms/Shimmer.tsx",
+    "src/vendor/beautiful/components/atoms/StreamText.tsx"
+  ],
+  "beautiful:agent-screen": [
+    "src/vendor/beautiful/agent-screen.tsx",
+    "src/vendor/beautiful/components/atoms/Button.tsx"
+  ],
+  "amicro:fade-in": [
+    "src/vendor/amicro/fade-in.tsx"
+  ],
+  "amicro:fade-up": [
+    "src/vendor/amicro/fade-up.tsx"
+  ],
+  "amicro:fade-down": [
+    "src/vendor/amicro/fade-down.tsx"
+  ],
+  "amicro:slide-left": [
+    "src/vendor/amicro/slide-left.tsx"
+  ],
+  "amicro:slide-right": [
+    "src/vendor/amicro/slide-right.tsx"
+  ],
+  "amicro:scale-in": [
+    "src/vendor/amicro/scale-in.tsx"
+  ],
+  "amicro:zoom-in": [
+    "src/vendor/amicro/zoom-in.tsx"
+  ],
+  "amicro:text-reveal": [
+    "src/vendor/amicro/text-reveal.tsx"
+  ],
+  "amicro:word-reveal": [
+    "src/vendor/amicro/word-reveal.tsx"
+  ],
+  "amicro:blur-text": [
+    "src/vendor/amicro/blur-text.tsx"
+  ],
+  "amicro:character-stagger": [
+    "src/vendor/amicro/character-stagger.tsx"
+  ],
+  "amicro:card-hover": [
+    "src/vendor/amicro/card-hover.tsx"
+  ],
+  "amicro:tilt-card": [
+    "src/vendor/amicro/tilt-card.tsx"
+  ],
+  "amicro:magnetic-button": [
+    "src/vendor/amicro/magnetic-button.tsx"
+  ],
+  "amicro:glow-button": [
+    "src/vendor/amicro/glow-button.tsx"
+  ],
+  "amicro:cursor-trail": [
+    "src/vendor/amicro/cursor-trail.tsx"
+  ],
+  "amicro:spotlight": [
+    "src/vendor/amicro/spotlight.tsx"
+  ],
+  "amicro:mouse-follow": [
+    "src/vendor/amicro/mouse-follow.tsx"
+  ],
+  "amicro:scroll-reveal": [
+    "src/vendor/amicro/scroll-reveal.tsx"
+  ],
+  "amicro:progress-indicator": [
+    "src/vendor/amicro/progress-indicator.tsx"
+  ],
+  "amicro:sticky-reveal": [
+    "src/vendor/amicro/sticky-reveal.tsx"
+  ],
+  "amicro:skeleton": [
+    "src/vendor/amicro/skeleton.tsx"
+  ],
+  "amicro:pulse": [
+    "src/vendor/amicro/pulse.tsx"
+  ],
+  "amicro:morph-loader": [
+    "src/vendor/amicro/morph-loader.tsx"
+  ],
+  "amicro:accordion-loader": [
+    "src/vendor/amicro/accordion-loader.tsx"
+  ],
+  "amicro:app-icon-load": [
+    "src/vendor/amicro/app-icon-load.tsx"
+  ],
+  "amicro:apple-breathe": [
+    "src/vendor/amicro/apple-breathe.tsx"
+  ],
+  "amicro:apple-equalizer": [
+    "src/vendor/amicro/apple-equalizer.tsx"
+  ],
+  "amicro:apple-icon-morph": [
+    "src/vendor/amicro/apple-icon-morph.tsx"
+  ],
+  "amicro:apple-pulse-dots": [
+    "src/vendor/amicro/apple-pulse-dots.tsx"
+  ],
+  "amicro:apple-scale-pulse": [
+    "src/vendor/amicro/apple-scale-pulse.tsx"
+  ],
+  "amicro:apple-sound-wave": [
+    "src/vendor/amicro/apple-sound-wave.tsx"
+  ],
+  "amicro:apple-text-reveal": [
+    "src/vendor/amicro/apple-text-reveal.tsx"
+  ],
+  "amicro:apple-unlock": [
+    "src/vendor/amicro/apple-unlock.tsx"
+  ],
+  "amicro:arc-tracer": [
+    "src/vendor/amicro/arc-tracer.tsx"
+  ],
+  "amicro:bar-cascade": [
+    "src/vendor/amicro/bar-cascade.tsx"
+  ],
+  "amicro:bar-sweep": [
+    "src/vendor/amicro/bar-sweep.tsx"
+  ],
+  "amicro:bobbing-dots": [
+    "src/vendor/amicro/bobbing-dots.tsx"
+  ],
+  "amicro:bounce-dots": [
+    "src/vendor/amicro/bounce-dots.tsx"
+  ],
+  "amicro:bouncing-bars": [
+    "src/vendor/amicro/bouncing-bars.tsx"
+  ],
+  "amicro:bouncing-dots": [
+    "src/vendor/amicro/bouncing-dots.tsx"
+  ],
+  "amicro:bouncing-lines": [
+    "src/vendor/amicro/bouncing-lines.tsx"
+  ],
+  "amicro:bouncing-square": [
+    "src/vendor/amicro/bouncing-square.tsx"
+  ],
+  "amicro:breathe-ring": [
+    "src/vendor/amicro/breathe-ring.tsx"
+  ],
+  "amicro:breathing-glow": [
+    "src/vendor/amicro/breathing-glow.tsx"
+  ],
+  "amicro:breathing-square": [
+    "src/vendor/amicro/breathing-square.tsx"
+  ],
+  "amicro:circular-bars": [
+    "src/vendor/amicro/circular-bars.tsx"
+  ],
+  "amicro:classic-spinner": [
+    "src/vendor/amicro/classic-spinner.tsx"
+  ],
+  "amicro:clock-spinner": [
+    "src/vendor/amicro/clock-spinner.tsx"
+  ],
+  "amicro:comet-spinner": [
+    "src/vendor/amicro/comet-spinner.tsx"
+  ],
+  "amicro:concentric-pulse": [
+    "src/vendor/amicro/concentric-pulse.tsx"
+  ],
+  "amicro:concentric-ring": [
+    "src/vendor/amicro/concentric-ring.tsx"
+  ],
+  "amicro:concentric-squares": [
+    "src/vendor/amicro/concentric-squares.tsx"
+  ],
+  "amicro:conveyor-loop": [
+    "src/vendor/amicro/conveyor-loop.tsx"
+  ],
+  "amicro:cross-spinner": [
+    "src/vendor/amicro/cross-spinner.tsx"
+  ],
+  "amicro:cube-flip-spring": [
+    "src/vendor/amicro/cube-flip-spring.tsx"
+  ],
+  "amicro:dash-ring": [
+    "src/vendor/amicro/dash-ring.tsx"
+  ],
+  "amicro:dashed-spiral": [
+    "src/vendor/amicro/dashed-spiral.tsx"
+  ],
+  "amicro:diamond-grid": [
+    "src/vendor/amicro/diamond-grid.tsx"
+  ],
+  "amicro:diamond-rotate-spring": [
+    "src/vendor/amicro/diamond-rotate-spring.tsx"
+  ],
+  "amicro:dot-spinner": [
+    "src/vendor/amicro/dot-spinner.tsx"
+  ],
+  "amicro:dots-ring": [
+    "src/vendor/amicro/dots-ring.tsx"
+  ],
+  "amicro:double-ring": [
+    "src/vendor/amicro/double-ring.tsx"
+  ],
+  "amicro:drop-dot": [
+    "src/vendor/amicro/drop-dot.tsx"
+  ],
+  "amicro:dual-arc": [
+    "src/vendor/amicro/dual-arc.tsx"
+  ],
+  "amicro:dynamic-island": [
+    "src/vendor/amicro/dynamic-island.tsx"
+  ],
+  "amicro:elastic-bars": [
+    "src/vendor/amicro/elastic-bars.tsx"
+  ],
+  "amicro:elastic-square": [
+    "src/vendor/amicro/elastic-square.tsx"
+  ],
+  "amicro:expanding-cross": [
+    "src/vendor/amicro/expanding-cross.tsx"
+  ],
+  "amicro:face-id-scan": [
+    "src/vendor/amicro/face-id-scan.tsx"
+  ],
+  "amicro:fade-arc": [
+    "src/vendor/amicro/fade-arc.tsx"
+  ],
+  "amicro:fade-dots": [
+    "src/vendor/amicro/fade-dots.tsx"
+  ],
+  "amicro:flip-square": [
+    "src/vendor/amicro/flip-square.tsx"
+  ],
+  "amicro:floating-diamonds": [
+    "src/vendor/amicro/floating-diamonds.tsx"
+  ],
+  "amicro:fluid-bars": [
+    "src/vendor/amicro/fluid-bars.tsx"
+  ],
+  "amicro:fluid-diamond": [
+    "src/vendor/amicro/fluid-diamond.tsx"
+  ],
+  "amicro:fluid-dot-orbit": [
+    "src/vendor/amicro/fluid-dot-orbit.tsx"
+  ],
+  "amicro:fluid-skeleton": [
+    "src/vendor/amicro/fluid-skeleton.tsx"
+  ],
+  "amicro:gears": [
+    "src/vendor/amicro/gears.tsx"
+  ],
+  "amicro:glassmorphic-card": [
+    "src/vendor/amicro/glassmorphic-card.tsx"
+  ],
+  "amicro:gradient-arc": [
+    "src/vendor/amicro/gradient-arc.tsx"
+  ],
+  "amicro:grid-dots": [
+    "src/vendor/amicro/grid-dots.tsx"
+  ],
+  "amicro:haptic-ring": [
+    "src/vendor/amicro/haptic-ring.tsx"
+  ],
+  "amicro:heartbeat": [
+    "src/vendor/amicro/heartbeat.tsx"
+  ],
+  "amicro:hexagon-spinner": [
+    "src/vendor/amicro/hexagon-spinner.tsx"
+  ],
+  "amicro:hourglass": [
+    "src/vendor/amicro/hourglass.tsx"
+  ],
+  "amicro:infinity-path": [
+    "src/vendor/amicro/infinity-path.tsx"
+  ],
+  "amicro:intersecting-rings": [
+    "src/vendor/amicro/intersecting-rings.tsx"
+  ],
+  "amicro:ios-spinner": [
+    "src/vendor/amicro/ios-spinner.tsx"
+  ],
+  "amicro:line-spinner": [
+    "src/vendor/amicro/line-spinner.tsx"
+  ],
+  "amicro:liquid-dots": [
+    "src/vendor/amicro/liquid-dots.tsx"
+  ],
+  "amicro:mac-terminal": [
+    "src/vendor/amicro/mac-terminal.tsx"
+  ],
+  "amicro:magnetic-dots": [
+    "src/vendor/amicro/magnetic-dots.tsx"
+  ],
+  "amicro:minimal-triangle": [
+    "src/vendor/amicro/minimal-triangle.tsx"
+  ],
+  "amicro:morph-dot-ring": [
+    "src/vendor/amicro/morph-dot-ring.tsx"
+  ],
+  "amicro:morphing-bars": [
+    "src/vendor/amicro/morphing-bars.tsx"
+  ],
+  "amicro:morphing-infinity": [
+    "src/vendor/amicro/morphing-infinity.tsx"
+  ],
+  "amicro:morphing-ring": [
+    "src/vendor/amicro/morphing-ring.tsx"
+  ],
+  "amicro:morphing-shape": [
+    "src/vendor/amicro/morphing-shape.tsx"
+  ],
+  "amicro:newtons-cradle": [
+    "src/vendor/amicro/newtons-cradle.tsx"
+  ],
+  "amicro:offset-rings": [
+    "src/vendor/amicro/offset-rings.tsx"
+  ],
+  "amicro:orbiting-circles": [
+    "src/vendor/amicro/orbiting-circles.tsx"
+  ],
+  "amicro:orbiting-dot": [
+    "src/vendor/amicro/orbiting-dot.tsx"
+  ],
+  "amicro:origami-shape": [
+    "src/vendor/amicro/origami-shape.tsx"
+  ],
+  "amicro:pendulum": [
+    "src/vendor/amicro/pendulum.tsx"
+  ],
+  "amicro:pulsating-dots": [
+    "src/vendor/amicro/pulsating-dots.tsx"
+  ],
+  "amicro:pulse-dot": [
+    "src/vendor/amicro/pulse-dot.tsx"
+  ],
+  "amicro:pulse-dots": [
+    "src/vendor/amicro/pulse-dots.tsx"
+  ],
+  "amicro:pulse-square": [
+    "src/vendor/amicro/pulse-square.tsx"
+  ],
+  "amicro:pumping-heart": [
+    "src/vendor/amicro/pumping-heart.tsx"
+  ],
+  "amicro:radar-sweep": [
+    "src/vendor/amicro/radar-sweep.tsx"
+  ],
+  "amicro:ring-sweep": [
+    "src/vendor/amicro/ring-sweep.tsx"
+  ],
+  "amicro:ripple-effect": [
+    "src/vendor/amicro/ripple-effect.tsx"
+  ],
+  "amicro:rotating-cross": [
+    "src/vendor/amicro/rotating-cross.tsx"
+  ],
+  "amicro:rotating-triangle": [
+    "src/vendor/amicro/rotating-triangle.tsx"
+  ],
+  "amicro:shape-shift-grid": [
+    "src/vendor/amicro/shape-shift-grid.tsx"
+  ],
+  "amicro:shimmer-line": [
+    "src/vendor/amicro/shimmer-line.tsx"
+  ],
+  "amicro:siri-wave": [
+    "src/vendor/amicro/siri-wave.tsx"
+  ],
+  "amicro:skeleton-loader": [
+    "src/vendor/amicro/skeleton-loader.tsx"
+  ],
+  "amicro:sliding-bars": [
+    "src/vendor/amicro/sliding-bars.tsx"
+  ],
+  "amicro:smooth-dot-shift": [
+    "src/vendor/amicro/smooth-dot-shift.tsx"
+  ],
+  "amicro:smooth-ring": [
+    "src/vendor/amicro/smooth-ring.tsx"
+  ],
+  "amicro:smooth-rounded-square": [
+    "src/vendor/amicro/smooth-rounded-square.tsx"
+  ],
+  "amicro:spinning-squares": [
+    "src/vendor/amicro/spinning-squares.tsx"
+  ],
+  "amicro:spiral-spinner": [
+    "src/vendor/amicro/spiral-spinner.tsx"
+  ],
+  "amicro:spring-bars": [
+    "src/vendor/amicro/spring-bars.tsx"
+  ],
+  "amicro:spring-dot-matrix": [
+    "src/vendor/amicro/spring-dot-matrix.tsx"
+  ],
+  "amicro:spring-hexagon": [
+    "src/vendor/amicro/spring-hexagon.tsx"
+  ],
+  "amicro:spring-ring-expand": [
+    "src/vendor/amicro/spring-ring-expand.tsx"
+  ],
+  "amicro:spring-text-pop": [
+    "src/vendor/amicro/spring-text-pop.tsx"
+  ],
+  "amicro:square-accordion": [
+    "src/vendor/amicro/square-accordion.tsx"
+  ],
+  "amicro:square-grid": [
+    "src/vendor/amicro/square-grid.tsx"
+  ],
+  "amicro:square-snake": [
+    "src/vendor/amicro/square-snake.tsx"
+  ],
+  "amicro:square-spinner": [
+    "src/vendor/amicro/square-spinner.tsx"
+  ],
+  "amicro:stacked-bar-pulse": [
+    "src/vendor/amicro/stacked-bar-pulse.tsx"
+  ],
+  "amicro:swapping-dots": [
+    "src/vendor/amicro/swapping-dots.tsx"
+  ],
+  "amicro:swirling-spinner": [
+    "src/vendor/amicro/swirling-spinner.tsx"
+  ],
+  "amicro:symmetric-wave": [
+    "src/vendor/amicro/symmetric-wave.tsx"
+  ],
+  "amicro:terminal-loader": [
+    "src/vendor/amicro/terminal-loader.tsx"
+  ],
+  "amicro:text-blink": [
+    "src/vendor/amicro/text-blink.tsx"
+  ],
+  "amicro:text-dots": [
+    "src/vendor/amicro/text-dots.tsx"
+  ],
+  "amicro:text-morph": [
+    "src/vendor/amicro/text-morph.tsx"
+  ],
+  "amicro:text-shimmer-wave": [
+    "src/vendor/amicro/text-shimmer-wave.tsx"
+  ],
+  "amicro:text-shimmer": [
+    "src/vendor/amicro/text-shimmer.tsx"
+  ],
+  "amicro:trailing-dots": [
+    "src/vendor/amicro/trailing-dots.tsx"
+  ],
+  "amicro:triple-dot-spinner": [
+    "src/vendor/amicro/triple-dot-spinner.tsx"
+  ],
+  "amicro:twin-orbit": [
+    "src/vendor/amicro/twin-orbit.tsx"
+  ],
+  "amicro:typing-indicator": [
+    "src/vendor/amicro/typing-indicator.tsx"
+  ],
+  "amicro:typing": [
+    "src/vendor/amicro/typing.tsx"
+  ],
+  "amicro:wandering-cube": [
+    "src/vendor/amicro/wandering-cube.tsx"
+  ],
+  "amicro:watch-spinner": [
+    "src/vendor/amicro/watch-spinner.tsx"
+  ],
+  "amicro:wave-dots": [
+    "src/vendor/amicro/wave-dots.tsx"
+  ],
+  "amicro:wave-physics-loader": [
+    "src/vendor/amicro/wave-physics-loader.tsx"
+  ],
+  "amicro:waveform-loader": [
+    "src/vendor/amicro/waveform-loader.tsx"
+  ],
+  "amicro:zig-zag-pulse": [
+    "src/vendor/amicro/zig-zag-pulse.tsx"
+  ],
+  "libraries:border-beam": [
+    "src/vendor/libraries/border-beam.source.js"
+  ],
+  "libraries:orbs": [
+    "src/vendor/libraries/thinking-orbs.source.js"
+  ],
+  "libraries:gooey": [
+    "src/vendor/libraries/liquid-gooey.source.js"
+  ],
+  "libraries:metal": [
+    "src/vendor/libraries/metal-fx.source.js"
+  ],
+  "libraries:image": [
+    "src/vendor/libraries/img-fx.source.js"
+  ],
+  "fluid:accordion": [
+    "src/vendor/fluid/app/components/bento-previews.tsx",
+    "src/vendor/fluid/registry/radix/accordion.tsx"
+  ],
+  "fluid:ask-user-questions": [
+    "src/vendor/fluid/app/components/bento-previews.tsx",
+    "src/vendor/fluid/registry/default/ask-user-questions.tsx"
+  ],
+  "fluid:badge": [
+    "src/vendor/fluid/app/components/bento-previews.tsx",
+    "src/vendor/fluid/registry/default/badge.tsx"
+  ],
+  "fluid:button": [
+    "src/vendor/fluid/app/components/bento-previews.tsx",
+    "src/vendor/fluid/registry/radix/button.tsx"
+  ],
+  "fluid:card": [
+    "src/vendor/fluid/app/components/bento-previews.tsx",
+    "src/vendor/fluid/registry/default/card.tsx"
+  ],
+  "fluid:chat-message": [
+    "src/vendor/fluid/app/components/bento-previews.tsx",
+    "src/vendor/fluid/registry/default/chat-message.tsx"
+  ],
+  "fluid:checkbox-group": [
+    "src/vendor/fluid/app/components/bento-previews.tsx",
+    "src/vendor/fluid/registry/radix/checkbox-group.tsx"
+  ],
+  "fluid:color-picker": [
+    "src/vendor/fluid/app/components/bento-previews.tsx",
+    "src/vendor/fluid/registry/default/color-picker.tsx"
+  ],
+  "fluid:combobox": [
+    "src/vendor/fluid/app/components/bento-previews.tsx",
+    "src/vendor/fluid/registry/base/combobox.tsx",
+    "src/vendor/fluid/registry/radix/combobox.tsx"
+  ],
+  "fluid:command-menu": [
+    "src/vendor/fluid/app/components/bento-previews.tsx",
+    "src/vendor/fluid/registry/default/command-menu.tsx"
+  ],
+  "fluid:dialog": [
+    "src/vendor/fluid/app/components/bento-previews.tsx",
+    "src/vendor/fluid/registry/radix/dialog.tsx",
+    "src/vendor/fluid/registry/base/dialog.tsx"
+  ],
+  "fluid:dropdown": [
+    "src/vendor/fluid/app/components/bento-previews.tsx",
+    "src/vendor/fluid/registry/base/dropdown.tsx",
+    "src/vendor/fluid/registry/radix/dropdown.tsx"
+  ],
+  "fluid:input-copy": [
+    "src/vendor/fluid/app/components/bento-previews.tsx",
+    "src/vendor/fluid/registry/default/input-copy.tsx"
+  ],
+  "fluid:input-group": [
+    "src/vendor/fluid/app/components/bento-previews.tsx",
+    "src/vendor/fluid/registry/default/input-group.tsx"
+  ],
+  "fluid:input-message": [
+    "src/vendor/fluid/app/components/bento-previews.tsx",
+    "src/vendor/fluid/registry/default/input-message.tsx"
+  ],
+  "fluid:radio-group": [
+    "src/vendor/fluid/app/components/bento-previews.tsx",
+    "src/vendor/fluid/registry/radix/radio-group.tsx"
+  ],
+  "fluid:select": [
+    "src/vendor/fluid/app/components/bento-previews.tsx",
+    "src/vendor/fluid/registry/base/select.tsx",
+    "src/vendor/fluid/registry/radix/select.tsx"
+  ],
+  "fluid:sidebar": [
+    "src/vendor/fluid/app/components/bento-previews.tsx",
+    "src/vendor/fluid/registry/base/sidebar.tsx",
+    "src/vendor/fluid/registry/radix/sidebar.tsx"
+  ],
+  "fluid:slider": [
+    "src/vendor/fluid/app/components/bento-previews.tsx",
+    "src/vendor/fluid/registry/radix/slider.tsx"
+  ],
+  "fluid:switch": [
+    "src/vendor/fluid/app/components/bento-previews.tsx",
+    "src/vendor/fluid/registry/radix/switch.tsx"
+  ],
+  "fluid:table": [
+    "src/vendor/fluid/app/components/bento-previews.tsx",
+    "src/vendor/fluid/registry/default/table.tsx"
+  ],
+  "fluid:tabs": [
+    "src/vendor/fluid/app/components/bento-previews.tsx",
+    "src/vendor/fluid/registry/radix/tabs.tsx"
+  ],
+  "fluid:tabs-subtle": [
+    "src/vendor/fluid/app/components/bento-previews.tsx",
+    "src/vendor/fluid/registry/base/tabs-subtle.tsx",
+    "src/vendor/fluid/registry/radix/tabs-subtle.tsx"
+  ],
+  "fluid:thinking-indicator": [
+    "src/vendor/fluid/app/components/bento-previews.tsx",
+    "src/vendor/fluid/registry/default/thinking-indicator.tsx"
+  ],
+  "fluid:thinking-steps": [
+    "src/vendor/fluid/app/components/bento-previews.tsx",
+    "src/vendor/fluid/registry/base/thinking-steps.tsx",
+    "src/vendor/fluid/registry/radix/thinking-steps.tsx"
+  ],
+  "fluid:tooltip": [
+    "src/vendor/fluid/app/components/bento-previews.tsx",
+    "src/vendor/fluid/registry/radix/tooltip.tsx"
+  ],
+  "interior:copy-button": [
+    "src/vendor/interior/demos/copy-button.tsx",
+    "src/vendor/interior/components/copy-button.tsx"
+  ],
+  "interior:loading-button": [
+    "src/vendor/interior/demos/loading-button.tsx",
+    "src/vendor/interior/components/loading-button.tsx"
+  ],
+  "interior:hold-to-confirm": [
+    "src/vendor/interior/demos/hold-to-confirm.tsx",
+    "src/vendor/interior/components/hold-to-confirm.tsx"
+  ],
+  "interior:like-burst": [
+    "src/vendor/interior/demos/like-burst.tsx",
+    "src/vendor/interior/components/like-burst.tsx"
+  ],
+  "interior:ripple": [
+    "src/vendor/interior/demos/ripple.tsx",
+    "src/vendor/interior/components/ripple.tsx"
+  ],
+  "interior:icon-morph": [
+    "src/vendor/interior/demos/icon-morph.tsx",
+    "src/vendor/interior/components/icon-morph.tsx"
+  ],
+  "interior:press-depth": [
+    "src/vendor/interior/demos/press-depth.tsx",
+    "src/vendor/interior/components/press-depth.tsx"
+  ],
+  "interior:floating-label": [
+    "src/vendor/interior/demos/floating-label.tsx",
+    "src/vendor/interior/components/floating-label.tsx"
+  ],
+  "interior:inline-validation": [
+    "src/vendor/interior/demos/inline-validation.tsx",
+    "src/vendor/interior/components/inline-validation.tsx"
+  ],
+  "interior:password-strength": [
+    "src/vendor/interior/demos/password-strength.tsx",
+    "src/vendor/interior/components/password-strength.tsx"
+  ],
+  "interior:otp-input": [
+    "src/vendor/interior/demos/otp-input.tsx",
+    "src/vendor/interior/components/otp-input.tsx"
+  ],
+  "interior:tag-input": [
+    "src/vendor/interior/demos/tag-input.tsx",
+    "src/vendor/interior/components/tag-input.tsx"
+  ],
+  "interior:expanding-search": [
+    "src/vendor/interior/demos/expanding-search.tsx",
+    "src/vendor/interior/components/expanding-search.tsx"
+  ],
+  "interior:skeleton-swap": [
+    "src/vendor/interior/demos/skeleton-swap.tsx",
+    "src/vendor/interior/components/skeleton-swap.tsx"
+  ],
+  "interior:progress-bar": [
+    "src/vendor/interior/demos/progress-bar.tsx",
+    "src/vendor/interior/components/progress-bar.tsx"
+  ],
+  "interior:load-more": [
+    "src/vendor/interior/demos/load-more.tsx",
+    "src/vendor/interior/components/load-more.tsx"
+  ],
+  "interior:streaming-text": [
+    "src/vendor/interior/demos/streaming-text.tsx",
+    "src/vendor/interior/components/streaming-text.tsx"
+  ],
+  "interior:task-steps": [
+    "src/vendor/interior/demos/task-steps.tsx",
+    "src/vendor/interior/components/task-steps.tsx"
+  ],
+  "interior:live-activity": [
+    "src/vendor/interior/demos/live-activity.tsx",
+    "src/vendor/interior/components/live-activity.tsx"
+  ],
+  "interior:collapsible-banner": [
+    "src/vendor/interior/demos/collapsible-banner.tsx",
+    "src/vendor/interior/components/collapsible-banner.tsx"
+  ],
+  "interior:presence-avatars": [
+    "src/vendor/interior/demos/presence-avatars.tsx",
+    "src/vendor/interior/components/presence-avatars.tsx"
+  ],
+  "interior:typing-indicator": [
+    "src/vendor/interior/demos/typing-indicator.tsx",
+    "src/vendor/interior/components/typing-indicator.tsx"
+  ],
+  "interior:new-items-pill": [
+    "src/vendor/interior/demos/new-items-pill.tsx",
+    "src/vendor/interior/components/new-items-pill.tsx"
+  ],
+  "interior:modal": [
+    "src/vendor/interior/demos/modal.tsx",
+    "src/vendor/interior/components/modal.tsx"
+  ],
+  "interior:popover": [
+    "src/vendor/interior/demos/popover.tsx",
+    "src/vendor/interior/components/popover.tsx"
+  ],
+  "interior:tooltip-group": [
+    "src/vendor/interior/demos/tooltip-group.tsx",
+    "src/vendor/interior/components/tooltip-group.tsx"
+  ],
+  "interior:command-palette": [
+    "src/vendor/interior/demos/command-palette.tsx",
+    "src/vendor/interior/components/command-palette.tsx"
+  ],
+  "interior:drawer": [
+    "src/vendor/interior/demos/drawer.tsx",
+    "src/vendor/interior/components/drawer.tsx"
+  ],
+  "interior:context-menu": [
+    "src/vendor/interior/demos/context-menu.tsx",
+    "src/vendor/interior/components/context-menu.tsx"
+  ],
+  "interior:dropdown": [
+    "src/vendor/interior/demos/dropdown.tsx",
+    "src/vendor/interior/components/dropdown.tsx"
+  ],
+  "interior:tabs": [
+    "src/vendor/interior/demos/tabs.tsx",
+    "src/vendor/interior/components/tabs.tsx"
+  ],
+  "interior:segmented-control": [
+    "src/vendor/interior/demos/segmented-control.tsx",
+    "src/vendor/interior/components/segmented-control.tsx"
+  ],
+  "interior:accordion": [
+    "src/vendor/interior/demos/accordion.tsx",
+    "src/vendor/interior/components/accordion.tsx"
+  ],
+  "interior:wizard-steps": [
+    "src/vendor/interior/demos/wizard-steps.tsx",
+    "src/vendor/interior/components/wizard-steps.tsx"
+  ],
+  "interior:pagination": [
+    "src/vendor/interior/demos/pagination.tsx",
+    "src/vendor/interior/components/pagination.tsx"
+  ],
+  "interior:tree-view": [
+    "src/vendor/interior/demos/tree-view.tsx",
+    "src/vendor/interior/components/tree-view.tsx"
+  ],
+  "interior:sticky-header": [
+    "src/vendor/interior/demos/sticky-header.tsx",
+    "src/vendor/interior/components/sticky-header.tsx"
+  ],
+  "interior:reading-progress": [
+    "src/vendor/interior/demos/reading-progress.tsx",
+    "src/vendor/interior/components/reading-progress.tsx"
+  ],
+  "interior:scroll-spy": [
+    "src/vendor/interior/demos/scroll-spy.tsx",
+    "src/vendor/interior/components/scroll-spy.tsx"
+  ],
+  "interior:snap-carousel": [
+    "src/vendor/interior/demos/snap-carousel.tsx",
+    "src/vendor/interior/components/snap-carousel.tsx"
+  ],
+  "interior:hide-on-scroll": [
+    "src/vendor/interior/demos/hide-on-scroll.tsx",
+    "src/vendor/interior/components/hide-on-scroll.tsx"
+  ],
+  "interior:sortable-table": [
+    "src/vendor/interior/demos/sortable-table.tsx",
+    "src/vendor/interior/components/sortable-table.tsx"
+  ],
+  "interior:filter-grid": [
+    "src/vendor/interior/demos/filter-grid.tsx",
+    "src/vendor/interior/components/filter-grid.tsx"
+  ],
+  "interior:value-flash": [
+    "src/vendor/interior/demos/value-flash.tsx",
+    "src/vendor/interior/components/value-flash.tsx"
+  ],
+  "interior:poll-results": [
+    "src/vendor/interior/demos/poll-results.tsx",
+    "src/vendor/interior/components/poll-results.tsx"
+  ],
+  "interior:slider-detents": [
+    "src/vendor/interior/demos/slider-detents.tsx",
+    "src/vendor/interior/components/slider-detents.tsx"
+  ],
+  "interior:swipe-deck": [
+    "src/vendor/interior/demos/swipe-deck.tsx",
+    "src/vendor/interior/components/swipe-deck.tsx"
+  ],
+  "interior:reorder-list": [
+    "src/vendor/interior/demos/reorder-list.tsx",
+    "src/vendor/interior/components/reorder-list.tsx"
+  ],
+  "interior:long-press": [
+    "src/vendor/interior/demos/long-press.tsx",
+    "src/vendor/interior/components/long-press.tsx"
+  ],
+  "interior:lightbox": [
+    "src/vendor/interior/demos/lightbox.tsx",
+    "src/vendor/interior/components/lightbox.tsx"
+  ],
+  "interior:text-reveal": [
+    "src/vendor/interior/demos/text-reveal.tsx",
+    "src/vendor/interior/components/text-reveal.tsx"
+  ],
+  "interior:logo-marquee": [
+    "src/vendor/interior/demos/logo-marquee.tsx",
+    "src/vendor/interior/components/logo-marquee.tsx"
+  ],
+  "interior:blur-up-image": [
+    "src/vendor/interior/demos/blur-up-image.tsx",
+    "src/vendor/interior/components/blur-up-image.tsx"
+  ],
+  "interior:show-more": [
+    "src/vendor/interior/demos/show-more.tsx",
+    "src/vendor/interior/components/show-more.tsx"
+  ],
+  "rare:utils": [
+    "src/vendor/rare/lib/utils.ts"
+  ],
+  "rare:folder-component": [
+    "src/vendor/rare/demos/folder-component.tsx",
+    "src/vendor/rare/components/ui/folder-component.tsx",
+    "src/vendor/rare/components/preview/ColorSwatches.tsx",
+    "src/vendor/rare/components/preview/PreviewControls.tsx",
+    "src/vendor/rare/lib/use-media-query.ts",
+    "src/vendor/rare/lib/utils.ts"
+  ],
+  "rare:bounce-sidebar": [
+    "src/vendor/rare/demos/bounce-sidebar.tsx",
+    "src/vendor/rare/components/ui/bounce-sidebar.tsx",
+    "src/vendor/rare/lib/utils.ts"
+  ],
+  "rare:hook-sidebar": [
+    "src/vendor/rare/demos/hook-sidebar.tsx",
+    "src/vendor/rare/components/ui/hook-sidebar.tsx",
+    "src/vendor/rare/lib/utils.ts"
+  ],
+  "rare:family-drawer": [
+    "src/vendor/rare/demos/family-drawer.tsx",
+    "src/vendor/rare/components/ui/family-drawer.tsx"
+  ],
+  "rare:proximity-sidebar": [
+    "src/vendor/rare/demos/proximity-sidebar.tsx",
+    "src/vendor/rare/components/ui/proximity-sidebar.tsx"
+  ],
+  "rare:duration-picker": [
+    "src/vendor/rare/demos/duration-picker.tsx",
+    "src/vendor/rare/components/ui/duration-picker.tsx",
+    "src/vendor/rare/lib/utils.ts"
+  ],
+  "rare:fluid-orb": [
+    "src/vendor/rare/demos/fluid-orb.tsx",
+    "src/vendor/rare/components/ui/fluid-orb.tsx",
+    "src/vendor/rare/components/preview/ColorSwatches.tsx",
+    "src/vendor/rare/components/preview/PreviewControls.tsx",
+    "src/vendor/rare/lib/utils.ts"
+  ],
+  "rare:scroll-progress": [
+    "src/vendor/rare/demos/scroll-progress.tsx",
+    "src/vendor/rare/components/ui/scroll-progress.tsx",
+    "src/vendor/rare/lib/utils.ts"
+  ],
+  "rare:code-block": [
+    "src/vendor/rare/demos/code-block.tsx",
+    "src/vendor/rare/components/ui/code-block.tsx",
+    "src/vendor/rare/components/preview/ColorSwatches.tsx",
+    "src/vendor/rare/components/preview/PreviewControls.tsx",
+    "src/vendor/rare/lib/utils.ts"
+  ],
+  "rare:otp-input": [
+    "src/vendor/rare/demos/otp-input.tsx",
+    "src/vendor/rare/components/ui/otp-input.tsx",
+    "src/vendor/rare/lib/utils.ts"
+  ],
+  "rare:gravity-letters": [
+    "src/vendor/rare/demos/gravity-letters.tsx",
+    "src/vendor/rare/components/ui/gravity-letters.tsx",
+    "src/vendor/rare/components/preview/ColorSwatches.tsx",
+    "src/vendor/rare/components/preview/PreviewControls.tsx",
+    "src/vendor/rare/lib/utils.ts"
+  ],
+  "rare:github-activity": [
+    "src/vendor/rare/demos/github-activity.tsx",
+    "src/vendor/rare/components/ui/github-activity.tsx",
+    "src/vendor/rare/lib/utils.ts"
+  ],
+  "rare:emoji-reaction": [
+    "src/vendor/rare/demos/emoji-reaction.tsx",
+    "src/vendor/rare/components/ui/emoji-reaction.tsx",
+    "src/vendor/rare/lib/utils.ts"
+  ],
+  "rare:notification-bell": [
+    "src/vendor/rare/demos/notification-bell.tsx",
+    "src/vendor/rare/components/ui/notification-bell.tsx",
+    "src/vendor/rare/components/preview/ColorSwatches.tsx",
+    "src/vendor/rare/components/preview/PreviewControls.tsx",
+    "src/vendor/rare/lib/utils.ts"
+  ],
+  "rare:step-player": [
+    "src/vendor/rare/demos/step-player.tsx",
+    "src/vendor/rare/components/ui/step-player.tsx",
+    "src/vendor/rare/lib/utils.ts"
+  ],
+  "rare:grid-reveal": [
+    "src/vendor/rare/demos/grid-reveal.tsx",
+    "src/vendor/rare/components/ui/grid-reveal.tsx",
+    "src/vendor/rare/lib/utils.ts"
+  ],
+  "rare:gooey-nav": [
+    "src/vendor/rare/demos/gooey-nav.tsx",
+    "src/vendor/rare/components/ui/gooey-nav.tsx",
+    "src/vendor/rare/lib/use-media-query.ts",
+    "src/vendor/rare/demos/icons.tsx",
+    "src/vendor/rare/lib/utils.ts"
+  ],
+  "rare:delete-button": [
+    "src/vendor/rare/demos/delete-button.tsx",
+    "src/vendor/rare/components/ui/delete-button.tsx",
+    "src/vendor/rare/lib/utils.ts"
+  ],
+  "rare:animated-counter": [
+    "src/vendor/rare/demos/animated-counter.tsx",
+    "src/vendor/rare/components/ui/animated-counter.tsx",
+    "src/vendor/rare/lib/utils.ts"
+  ],
+  "rare:matrix-orb": [
+    "src/vendor/rare/demos/matrix-orb.tsx",
+    "src/vendor/rare/components/ui/matrix-orb.tsx",
+    "src/vendor/rare/components/preview/PreviewControls.tsx",
+    "src/vendor/rare/lib/utils.ts"
+  ],
+  "shadcn:field": [
+    "src/vendor/shadcn/examples/field-demo.tsx",
+    "src/vendor/shadcn/ui/field.tsx",
+    "src/vendor/shadcn/ui/button.tsx",
+    "src/vendor/shadcn/ui/checkbox.tsx",
+    "src/vendor/shadcn/ui/input.tsx",
+    "src/vendor/shadcn/ui/select.tsx",
+    "src/vendor/shadcn/ui/textarea.tsx",
+    "src/vendor/shadcn/ui/label.tsx",
+    "src/vendor/shadcn/ui/separator.tsx"
+  ],
+  "shadcn:button": [
+    "src/vendor/shadcn/examples/button-demo.tsx",
+    "src/vendor/shadcn/ui/button.tsx"
+  ],
+  "shadcn:button-group": [
+    "src/vendor/shadcn/examples/button-group-demo.tsx",
+    "src/vendor/shadcn/ui/button-group.tsx",
+    "src/vendor/shadcn/ui/button.tsx",
+    "src/vendor/shadcn/ui/dropdown-menu.tsx",
+    "src/vendor/shadcn/ui/separator.tsx"
+  ],
+  "shadcn:input": [
+    "src/vendor/shadcn/examples/input-demo.tsx",
+    "src/vendor/shadcn/ui/input.tsx"
+  ],
+  "shadcn:input-group": [
+    "src/vendor/shadcn/examples/input-group-demo.tsx",
+    "src/vendor/shadcn/ui/input-group.tsx",
+    "src/vendor/shadcn/ui/dropdown-menu.tsx",
+    "src/vendor/shadcn/ui/separator.tsx",
+    "src/vendor/shadcn/ui/tooltip.tsx",
+    "src/vendor/shadcn/ui/button.tsx",
+    "src/vendor/shadcn/ui/input.tsx",
+    "src/vendor/shadcn/ui/textarea.tsx"
+  ],
+  "shadcn:input-otp": [
+    "src/vendor/shadcn/examples/input-otp-demo.tsx",
+    "src/vendor/shadcn/ui/input-otp.tsx"
+  ],
+  "shadcn:textarea": [
+    "src/vendor/shadcn/examples/textarea-demo.tsx",
+    "src/vendor/shadcn/ui/textarea.tsx"
+  ],
+  "shadcn:checkbox": [
+    "src/vendor/shadcn/examples/checkbox-demo.tsx",
+    "src/vendor/shadcn/ui/checkbox.tsx",
+    "src/vendor/shadcn/ui/label.tsx"
+  ],
+  "shadcn:radio-group": [
+    "src/vendor/shadcn/examples/radio-group-demo.tsx",
+    "src/vendor/shadcn/ui/radio-group.tsx",
+    "src/vendor/shadcn/ui/label.tsx"
+  ],
+  "shadcn:select": [
+    "src/vendor/shadcn/examples/select-demo.tsx",
+    "src/vendor/shadcn/ui/select.tsx"
+  ],
+  "shadcn:native-select": [
+    "src/vendor/shadcn/examples/native-select-demo.tsx",
+    "src/vendor/shadcn/ui/native-select.tsx"
+  ],
+  "shadcn:switch": [
+    "src/vendor/shadcn/examples/switch-demo.tsx",
+    "src/vendor/shadcn/ui/switch.tsx",
+    "src/vendor/shadcn/ui/label.tsx"
+  ],
+  "shadcn:slider": [
+    "src/vendor/shadcn/examples/slider-demo.tsx",
+    "src/vendor/shadcn/ui/slider.tsx"
+  ],
+  "shadcn:calendar": [
+    "src/vendor/shadcn/examples/calendar-demo.tsx",
+    "src/vendor/shadcn/ui/calendar.tsx",
+    "src/vendor/shadcn/ui/button.tsx"
+  ],
+  "shadcn:date-picker": [
+    "src/vendor/shadcn/examples/date-picker-demo.tsx",
+    "src/vendor/shadcn/ui/button.tsx",
+    "src/vendor/shadcn/ui/calendar.tsx",
+    "src/vendor/shadcn/ui/popover.tsx"
+  ],
+  "shadcn:combobox": [
+    "src/vendor/shadcn/examples/combobox-demo.tsx",
+    "src/vendor/shadcn/ui/button.tsx",
+    "src/vendor/shadcn/ui/command.tsx",
+    "src/vendor/shadcn/ui/popover.tsx"
+  ],
+  "shadcn:label": [
+    "src/vendor/shadcn/examples/label-demo.tsx",
+    "src/vendor/shadcn/ui/label.tsx",
+    "src/vendor/shadcn/ui/checkbox.tsx"
+  ],
+  "shadcn:accordion": [
+    "src/vendor/shadcn/examples/accordion-demo.tsx",
+    "src/vendor/shadcn/ui/accordion.tsx"
+  ],
+  "shadcn:breadcrumb": [
+    "src/vendor/shadcn/examples/breadcrumb-demo.tsx",
+    "src/vendor/shadcn/ui/breadcrumb.tsx",
+    "src/vendor/shadcn/ui/dropdown-menu.tsx"
+  ],
+  "shadcn:navigation-menu": [
+    "src/vendor/shadcn/examples/navigation-menu-demo.tsx",
+    "src/vendor/shadcn/ui/navigation-menu.tsx",
+    "src/vendor/shadcn/hooks/use-mobile.ts"
+  ],
+  "shadcn:sidebar": [
+    "src/vendor/shadcn/internal/sidebar-demo.tsx",
+    "src/vendor/shadcn/ui/sidebar.tsx"
+  ],
+  "shadcn:tabs": [
+    "src/vendor/shadcn/examples/tabs-demo.tsx",
+    "src/vendor/shadcn/ui/tabs.tsx",
+    "src/vendor/shadcn/ui/button.tsx",
+    "src/vendor/shadcn/ui/card.tsx",
+    "src/vendor/shadcn/ui/input.tsx",
+    "src/vendor/shadcn/ui/label.tsx"
+  ],
+  "shadcn:separator": [
+    "src/vendor/shadcn/examples/separator-demo.tsx",
+    "src/vendor/shadcn/ui/separator.tsx"
+  ],
+  "shadcn:scroll-area": [
+    "src/vendor/shadcn/examples/scroll-area-demo.tsx",
+    "src/vendor/shadcn/ui/scroll-area.tsx",
+    "src/vendor/shadcn/ui/separator.tsx"
+  ],
+  "shadcn:resizable": [
+    "src/vendor/shadcn/examples/resizable-demo.tsx",
+    "src/vendor/shadcn/ui/resizable.tsx"
+  ],
+  "shadcn:dialog": [
+    "src/vendor/shadcn/examples/dialog-demo.tsx",
+    "src/vendor/shadcn/ui/dialog.tsx",
+    "src/vendor/shadcn/ui/button.tsx",
+    "src/vendor/shadcn/ui/input.tsx",
+    "src/vendor/shadcn/ui/label.tsx"
+  ],
+  "shadcn:alert-dialog": [
+    "src/vendor/shadcn/examples/alert-dialog-demo.tsx",
+    "src/vendor/shadcn/ui/alert-dialog.tsx",
+    "src/vendor/shadcn/ui/button.tsx"
+  ],
+  "shadcn:sheet": [
+    "src/vendor/shadcn/examples/sheet-demo.tsx",
+    "src/vendor/shadcn/ui/sheet.tsx",
+    "src/vendor/shadcn/ui/button.tsx",
+    "src/vendor/shadcn/ui/input.tsx",
+    "src/vendor/shadcn/ui/label.tsx"
+  ],
+  "shadcn:drawer": [
+    "src/vendor/shadcn/examples/drawer-demo.tsx",
+    "src/vendor/shadcn/ui/drawer.tsx",
+    "src/vendor/shadcn/ui/button.tsx"
+  ],
+  "shadcn:popover": [
+    "src/vendor/shadcn/examples/popover-demo.tsx",
+    "src/vendor/shadcn/ui/popover.tsx",
+    "src/vendor/shadcn/ui/button.tsx",
+    "src/vendor/shadcn/ui/input.tsx",
+    "src/vendor/shadcn/ui/label.tsx"
+  ],
+  "shadcn:tooltip": [
+    "src/vendor/shadcn/examples/tooltip-demo.tsx",
+    "src/vendor/shadcn/ui/tooltip.tsx",
+    "src/vendor/shadcn/ui/button.tsx"
+  ],
+  "shadcn:hover-card": [
+    "src/vendor/shadcn/examples/hover-card-demo.tsx",
+    "src/vendor/shadcn/ui/hover-card.tsx",
+    "src/vendor/shadcn/ui/avatar.tsx",
+    "src/vendor/shadcn/ui/button.tsx"
+  ],
+  "shadcn:context-menu": [
+    "src/vendor/shadcn/examples/context-menu-demo.tsx",
+    "src/vendor/shadcn/ui/context-menu.tsx"
+  ],
+  "shadcn:dropdown-menu": [
+    "src/vendor/shadcn/examples/dropdown-menu-demo.tsx",
+    "src/vendor/shadcn/ui/dropdown-menu.tsx",
+    "src/vendor/shadcn/ui/button.tsx"
+  ],
+  "shadcn:menubar": [
+    "src/vendor/shadcn/examples/menubar-demo.tsx",
+    "src/vendor/shadcn/ui/menubar.tsx"
+  ],
+  "shadcn:command": [
+    "src/vendor/shadcn/examples/command-demo.tsx",
+    "src/vendor/shadcn/ui/command.tsx",
+    "src/vendor/shadcn/ui/dialog.tsx"
+  ],
+  "shadcn:alert": [
+    "src/vendor/shadcn/examples/alert-demo.tsx",
+    "src/vendor/shadcn/ui/alert.tsx"
+  ],
+  "shadcn:toast": [
+    "src/vendor/shadcn/examples/sonner-demo.tsx",
+    "src/vendor/shadcn/ui/sonner.tsx",
+    "src/vendor/shadcn/ui/button.tsx"
+  ],
+  "shadcn:sonner": [
+    "src/vendor/shadcn/examples/sonner-demo.tsx",
+    "src/vendor/shadcn/ui/sonner.tsx",
+    "src/vendor/shadcn/ui/button.tsx"
+  ],
+  "shadcn:progress": [
+    "src/vendor/shadcn/examples/progress-demo.tsx",
+    "src/vendor/shadcn/ui/progress.tsx"
+  ],
+  "shadcn:spinner": [
+    "src/vendor/shadcn/examples/spinner-demo.tsx",
+    "src/vendor/shadcn/ui/spinner.tsx",
+    "src/vendor/shadcn/ui/item.tsx"
+  ],
+  "shadcn:skeleton": [
+    "src/vendor/shadcn/examples/skeleton-demo.tsx",
+    "src/vendor/shadcn/ui/skeleton.tsx"
+  ],
+  "shadcn:badge": [
+    "src/vendor/shadcn/examples/badge-demo.tsx",
+    "src/vendor/shadcn/ui/badge.tsx"
+  ],
+  "shadcn:empty": [
+    "src/vendor/shadcn/examples/empty-demo.tsx",
+    "src/vendor/shadcn/ui/empty.tsx",
+    "src/vendor/shadcn/ui/button.tsx"
+  ],
+  "shadcn:avatar": [
+    "src/vendor/shadcn/examples/avatar-demo.tsx",
+    "src/vendor/shadcn/ui/avatar.tsx"
+  ],
+  "shadcn:card": [
+    "src/vendor/shadcn/examples/card-demo.tsx",
+    "src/vendor/shadcn/ui/card.tsx",
+    "src/vendor/shadcn/ui/button.tsx",
+    "src/vendor/shadcn/ui/input.tsx",
+    "src/vendor/shadcn/ui/label.tsx"
+  ],
+  "shadcn:table": [
+    "src/vendor/shadcn/examples/table-demo.tsx",
+    "src/vendor/shadcn/ui/table.tsx"
+  ],
+  "shadcn:data-table": [
+    "src/vendor/shadcn/examples/data-table-stable-demo.tsx",
+    "src/vendor/shadcn/ui/button.tsx",
+    "src/vendor/shadcn/ui/checkbox.tsx",
+    "src/vendor/shadcn/ui/dropdown-menu.tsx",
+    "src/vendor/shadcn/ui/input.tsx",
+    "src/vendor/shadcn/ui/table.tsx"
+  ],
+  "shadcn:chart": [
+    "src/vendor/shadcn/charts/chart-bar-default.tsx",
+    "src/vendor/shadcn/ui/chart.tsx",
+    "src/vendor/shadcn/ui/card.tsx"
+  ],
+  "shadcn:carousel": [
+    "src/vendor/shadcn/examples/carousel-demo.tsx",
+    "src/vendor/shadcn/ui/carousel.tsx",
+    "src/vendor/shadcn/ui/card.tsx",
+    "src/vendor/shadcn/ui/button.tsx"
+  ],
+  "shadcn:aspect-ratio": [
+    "src/vendor/shadcn/examples/aspect-ratio-demo.tsx",
+    "src/vendor/shadcn/ui/aspect-ratio.tsx"
+  ],
+  "shadcn:typography": [
+    "src/vendor/shadcn/examples/typography-demo.tsx"
+  ],
+  "shadcn:item": [
+    "src/vendor/shadcn/examples/item-demo.tsx",
+    "src/vendor/shadcn/ui/item.tsx",
+    "src/vendor/shadcn/ui/button.tsx",
+    "src/vendor/shadcn/ui/separator.tsx"
+  ],
+  "shadcn:kbd": [
+    "src/vendor/shadcn/examples/kbd-demo.tsx",
+    "src/vendor/shadcn/ui/kbd.tsx"
+  ],
+  "shadcn:collapsible": [
+    "src/vendor/shadcn/examples/collapsible-demo.tsx",
+    "src/vendor/shadcn/ui/collapsible.tsx",
+    "src/vendor/shadcn/ui/button.tsx"
+  ],
+  "shadcn:toggle": [
+    "src/vendor/shadcn/examples/toggle-demo.tsx",
+    "src/vendor/shadcn/ui/toggle.tsx"
+  ],
+  "shadcn:toggle-group": [
+    "src/vendor/shadcn/examples/toggle-group-demo.tsx",
+    "src/vendor/shadcn/ui/toggle-group.tsx",
+    "src/vendor/shadcn/ui/toggle.tsx"
+  ],
+  "shadcn:pagination": [
+    "src/vendor/shadcn/examples/pagination-demo.tsx",
+    "src/vendor/shadcn/ui/pagination.tsx",
+    "src/vendor/shadcn/ui/button.tsx"
+  ],
+  "shadcn:direction": [
+    "src/vendor/shadcn/ui/direction.tsx"
+  ],
+  "opensource:3d-button": [
+    "src/vendor/opensource/original/components/buttons/three-d-button.tsx"
+  ],
+  "opensource:3d-icon-button": [
+    "src/vendor/opensource/original/components/buttons/three-d-icon-button.tsx"
+  ],
+  "opensource:soft-ui-button": [
+    "src/vendor/opensource/original/components/buttons/soft-ui-button.tsx"
+  ],
+  "opensource:inset-button": [
+    "src/vendor/opensource/original/components/buttons/inset-button.tsx"
+  ],
+  "opensource:soft-pill-button": [
+    "src/vendor/opensource/original/components/buttons/soft-pill-button.tsx"
+  ],
+  "opensource:depth-outline-button": [
+    "src/vendor/opensource/original/components/buttons/depth-outline-button.tsx"
+  ],
+  "opensource:sheen-pill-button": [
+    "src/vendor/opensource/original/components/buttons/sheen-pill-button.tsx"
+  ],
+  "opensource:prism-depth-button": [
+    "src/vendor/opensource/original/components/buttons/prism-depth-button.tsx"
+  ],
+  "opensource:dimple-switch": [
+    "src/vendor/opensource/original/components/buttons/dimple-switch.tsx"
+  ],
+  "opensource:cinder-latch-button": [
+    "src/vendor/opensource/original/components/buttons/cinder-latch-button.tsx"
+  ],
+  "opensource:slate-chip-switch": [
+    "src/vendor/opensource/original/components/buttons/slate-chip-switch.tsx"
+  ],
+  "opensource:linen-tab-button": [
+    "src/vendor/opensource/original/components/buttons/linen-tab-button.tsx"
+  ],
+  "opensource:slide-to-confirm-button": [
+    "src/vendor/opensource/original/components/buttons/slide-to-confirm-button.tsx"
+  ],
+  "opensource:hold-to-delete-button": [
+    "src/vendor/opensource/original/components/buttons/hold-to-delete-button.tsx"
+  ],
+  "opensource:add-to-cart-button": [
+    "src/vendor/opensource/original/components/buttons/add-to-cart-button.tsx"
+  ],
+  "opensource:like-button": [
+    "src/vendor/opensource/original/components/buttons/like-button.tsx"
+  ],
+  "opensource:copy-button": [
+    "src/vendor/opensource/original/components/buttons/copy-button.tsx"
+  ],
+  "opensource:quantity-stepper-button": [
+    "src/vendor/opensource/original/components/buttons/quantity-stepper-button.tsx"
+  ],
+  "opensource:download-button": [
+    "src/vendor/opensource/original/components/buttons/download-button.tsx"
+  ],
+  "opensource:follow-button": [
+    "src/vendor/opensource/original/components/buttons/follow-button.tsx"
+  ],
+  "opensource:bookmark-save-button": [
+    "src/vendor/opensource/original/components/buttons/bookmark-save-button.tsx"
+  ],
+  "opensource:segmented-toggle-button": [
+    "src/vendor/opensource/original/components/buttons/segmented-toggle-button.tsx"
+  ],
+  "opensource:analog-clock-roman": [
+    "src/vendor/opensource/original/components/widgets/analog-clock-widget.tsx"
+  ],
+  "opensource:analog-clock-minimal": [
+    "src/vendor/opensource/original/components/widgets/analog-clock-widget.tsx"
+  ],
+  "opensource:analog-clock-numeric": [
+    "src/vendor/opensource/original/components/widgets/analog-clock-widget.tsx"
+  ],
+  "opensource:wifi-toggle": [
+    "src/vendor/opensource/original/components/widgets/wifi-toggle-widget.tsx"
+  ],
+  "opensource:voice-assistant": [
+    "src/vendor/opensource/original/components/widgets/voice-assistant-widget.tsx"
+  ],
+  "opensource:ios-earbuds": [
+    "src/vendor/opensource/original/components/widgets/ios-earbuds-widget.tsx"
+  ],
+  "opensource:recorder-face": [
+    "src/vendor/opensource/original/components/widgets/recorder-face-widget.tsx"
+  ],
+  "opensource:battery-face": [
+    "src/vendor/opensource/original/components/widgets/battery-face-widget.tsx"
+  ],
+  "opensource:compass": [
+    "src/vendor/opensource/original/components/widgets/compass-widget.tsx"
+  ],
+  "opensource:bluetooth-face": [
+    "src/vendor/opensource/original/components/widgets/bluetooth-face-widget.tsx"
+  ],
+  "opensource:torch-face": [
+    "src/vendor/opensource/original/components/widgets/torch-face-widget.tsx"
+  ],
+  "opensource:dnd-face": [
+    "src/vendor/opensource/original/components/widgets/dnd-face-widget.tsx"
+  ],
+  "opensource:ios-digital-clock": [
+    "src/vendor/opensource/original/components/widgets/ios-digital-clock-widget.tsx"
+  ],
+  "opensource:ios-calender": [
+    "src/vendor/opensource/original/components/widgets/ios-calender-widget.tsx"
+  ],
+  "opensource:stopwatch": [
+    "src/vendor/opensource/original/components/widgets/stopwatch-widget.tsx"
+  ],
+  "opensource:ios-map-location": [
+    "src/vendor/opensource/original/components/widgets/ios-map-location-widget.tsx"
+  ],
+  "opensource:focus-breath": [
+    "src/vendor/opensource/original/components/widgets/focus-breath-widget.tsx"
+  ],
+  "opensource:blob-profile": [
+    "src/vendor/opensource/original/components/widgets/blob-profile.tsx"
+  ],
+  "opensource:editorial-staff-profile": [
+    "src/vendor/opensource/original/components/profile/editorial-staff-profile-card.tsx"
+  ],
+  "opensource:user-profile": [
+    "src/vendor/opensource/original/components/profile/user-profile-card.tsx"
+  ],
+  "opensource:contact-profile": [
+    "src/vendor/opensource/original/components/profile/contact-profile-card.tsx"
+  ],
+  "opensource:team-member-profile-grid": [
+    "src/vendor/opensource/original/components/profile/team-member-profile-grid.tsx"
+  ],
+  "opensource:mac-dock": [
+    "src/vendor/opensource/original/components/docks/mac-dock.tsx"
+  ],
+  "opensource:app-dock": [
+    "src/vendor/opensource/original/components/docks/app-dock.tsx"
+  ],
+  "opensource:editor-tool-dock": [
+    "src/vendor/opensource/original/components/docks/editor-tool-dock.tsx"
+  ],
+  "opensource:presence-dock": [
+    "src/vendor/opensource/original/components/docks/presence-dock.tsx"
+  ],
+  "opensource:spotlight-bar": [
+    "src/vendor/opensource/original/components/docks/spotlight-bar.tsx"
+  ],
+  "opensource:step-count": [
+    "src/vendor/opensource/original/components/widgets/step-count-widget.tsx"
+  ],
+  "opensource:pomodoro": [
+    "src/vendor/opensource/original/components/widgets/pomodoro-widget.tsx"
+  ],
+  "opensource:hydration": [
+    "src/vendor/opensource/original/components/widgets/hydration-widget.tsx"
+  ],
+  "opensource:sleep-score": [
+    "src/vendor/opensource/original/components/widgets/sleep-score-widget.tsx"
+  ],
+  "opensource:heart-rate": [
+    "src/vendor/opensource/original/components/widgets/heart-rate-widget.tsx"
+  ],
+  "opensource:daily-activity-calendar": [
+    "src/vendor/opensource/original/components/widgets/daily-activity-calendar-widget.tsx"
+  ],
+  "opensource:month-picker-calendar": [
+    "src/vendor/opensource/original/components/calender/month-picker-calendar.tsx"
+  ],
+  "opensource:week-strip-calendar": [
+    "src/vendor/opensource/original/components/calender/week-strip-calendar.tsx"
+  ],
+  "opensource:date-range-picker": [
+    "src/vendor/opensource/original/components/calender/date-range-picker-card.tsx"
+  ],
+  "opensource:team-members-table": [
+    "src/vendor/opensource/original/components/table/team-members-table.tsx"
+  ],
+  "opensource:orders-table": [
+    "src/vendor/opensource/original/components/table/orders-table.tsx"
+  ],
+  "opensource:users-select-table": [
+    "src/vendor/opensource/original/components/table/users-select-table.tsx"
+  ],
+  "opensource:recent-transactions-table": [
+    "src/vendor/opensource/original/components/table/recent-transactions-table.tsx"
+  ],
+  "opensource:tasks-table": [
+    "src/vendor/opensource/original/components/table/tasks-table.tsx"
+  ],
+  "opensource:customers-table": [
+    "src/vendor/opensource/original/components/table/customers-table.tsx"
+  ],
+  "opensource:resource-links-panel": [
+    "src/vendor/opensource/original/components/resources/resource-links-panel.tsx"
+  ],
+  "opensource:event-countdown-card": [
+    "src/vendor/opensource/original/components/calender/event-countdown-card.tsx"
+  ],
+  "opensource:booking-slot-calendar": [
+    "src/vendor/opensource/original/components/calender/booking-slot-calendar.tsx"
+  ],
+  "opensource:audio-recorder": [
+    "src/vendor/opensource/original/components/widgets/audio-recorder-widget.tsx"
+  ],
+  "opensource:flight-arrival": [
+    "src/vendor/opensource/original/components/widgets/flight-arrival-widget.tsx"
+  ],
+  "opensource:minimal-agenda": [
+    "src/vendor/opensource/original/components/widgets/minimal-agenda-widget.tsx"
+  ],
+  "opensource:ride-pickup": [
+    "src/vendor/opensource/original/components/widgets/ride-pickup-widget.tsx"
+  ],
+  "opensource:electric-scooter": [
+    "src/vendor/opensource/original/components/widgets/electric-scooter-widget.tsx"
+  ],
+  "opensource:laptop": [
+    "src/vendor/opensource/original/components/mockups/laptop-mockup-card.tsx"
+  ],
+  "opensource:phone": [
+    "src/vendor/opensource/original/components/mockups/phone-mockup-card.tsx"
+  ],
+  "opensource:ipad": [
+    "src/vendor/opensource/original/components/mockups/tablet-mockup-card.tsx"
+  ],
+  "opensource:apple-watch": [
+    "src/vendor/opensource/original/components/mockups/apple-watch-mockup-card.tsx"
+  ],
+  "opensource:browser": [
+    "src/vendor/opensource/original/components/mockups/browser-mockup-card.tsx"
+  ],
+  "opensource:ipod": [
+    "src/vendor/opensource/original/components/mockups/apple-ipod-mockup-card.tsx"
+  ],
+  "opensource:polaroid-image": [
+    "src/vendor/opensource/original/components/gallery/polaroid-image-card.tsx"
+  ],
+  "opensource:notepad": [
+    "src/vendor/opensource/original/components/text/notepad-card.tsx"
+  ],
+  "opensource:thermal-receipt": [
+    "src/vendor/opensource/original/components/others/thermal-receipt-card.tsx"
+  ],
+  "opensource:weather-snapshot": [
+    "src/vendor/opensource/original/components/others/weather-snapshot-card.tsx"
+  ],
+  "opensource:instagram-post": [
+    "src/vendor/opensource/original/components/socials/instagram-post-card.tsx"
+  ],
+  "opensource:threads-post": [
+    "src/vendor/opensource/original/components/socials/threads-post-card.tsx"
+  ],
+  "opensource:now-playing-bar": [
+    "src/vendor/opensource/original/components/audio/now-playing-bar.tsx"
+  ],
+  "opensource:twitter-post": [
+    "src/vendor/opensource/original/components/socials/twitter-post-card.tsx"
+  ],
+  "opensource:film-strip": [
+    "src/vendor/opensource/original/components/gallery/film-strip-card.tsx"
+  ],
+  "opensource:github-contribution": [
+    "src/vendor/opensource/original/components/socials/github-contribution.tsx"
+  ],
+  "opensource:apple-notification": [
+    "src/vendor/opensource/original/components/notifications/apple-notification-banner.tsx"
+  ],
+  "opensource:toast-notification": [
+    "src/vendor/opensource/original/components/notifications/toast-notification-banner.tsx"
+  ],
+  "opensource:email-notification": [
+    "src/vendor/opensource/original/components/notifications/email-notification-banner.tsx"
+  ],
+  "opensource:system-alert": [
+    "src/vendor/opensource/original/components/notifications/system-alert-banner.tsx"
+  ],
+  "opensource:chat-bubble-notification": [
+    "src/vendor/opensource/original/components/notifications/chat-bubble-notification-banner.tsx"
+  ],
+  "opensource:deploy-notification": [
+    "src/vendor/opensource/original/components/notifications/deploy-notification-banner.tsx"
+  ],
+  "opensource:calendar-reminder-notification": [
+    "src/vendor/opensource/original/components/notifications/calendar-reminder-notification-banner.tsx"
+  ],
+  "opensource:payment-notification": [
+    "src/vendor/opensource/original/components/notifications/payment-notification-banner.tsx"
+  ],
+  "opensource:incoming-call-notification": [
+    "src/vendor/opensource/original/components/notifications/incoming-call-notification-banner.tsx"
+  ],
+  "opensource:delivery-notification": [
+    "src/vendor/opensource/original/components/notifications/delivery-notification-banner.tsx"
+  ],
+  "opensource:file-menu": [
+    "src/vendor/opensource/original/components/dropdowns/file-menu-dropdown.tsx"
+  ],
+  "opensource:user-menu": [
+    "src/vendor/opensource/original/components/dropdowns/user-menu-dropdown.tsx"
+  ],
+  "opensource:kebab-actions": [
+    "src/vendor/opensource/original/components/dropdowns/kebab-actions-dropdown.tsx"
+  ],
+  "opensource:share-menu": [
+    "src/vendor/opensource/original/components/dropdowns/share-menu-dropdown.tsx"
+  ],
+  "opensource:notification": [
+    "src/vendor/opensource/original/components/dropdowns/notification-dropdown.tsx"
+  ],
+  "opensource:filter-sort": [
+    "src/vendor/opensource/original/components/dropdowns/filter-sort-dropdown.tsx"
+  ],
+  "opensource:workspace-switcher": [
+    "src/vendor/opensource/original/components/dropdowns/workspace-switcher-dropdown.tsx"
+  ],
+  "opensource:cinema-ticket": [
+    "src/vendor/opensource/original/components/text/cinema-ticket-card.tsx"
+  ],
+  "opensource:wallet-pass": [
+    "src/vendor/opensource/original/components/wallet/wallet-pass-card.tsx"
+  ],
+  "opensource:credit-card-glass": [
+    "src/vendor/opensource/original/components/users/credit-card-glass.tsx"
+  ],
+  "opensource:drop-cap-editorial": [
+    "src/vendor/opensource/original/components/text/drop-cap-editorial-card.tsx"
+  ],
+  "opensource:editorial-quote": [
+    "src/vendor/opensource/original/components/text/editorial-quote-card.tsx"
+  ],
+  "opensource:discord-chat": [
+    "src/vendor/opensource/original/components/socials/discord-chat-card.tsx"
+  ],
+  "opensource:linked-in-profile": [
+    "src/vendor/opensource/original/components/socials/linked-in-profile-card.tsx"
+  ],
+  "opensource:facebook-post": [
+    "src/vendor/opensource/original/components/socials/facebook-post-card.tsx"
+  ],
+  "opensource:twitter-profile": [
+    "src/vendor/opensource/original/components/socials/twitter-profile-card.tsx"
+  ],
+  "opensource:event-ticket": [
+    "src/vendor/opensource/original/components/event/event-ticket-card.tsx"
+  ],
+  "opensource:flight-boarding": [
+    "src/vendor/opensource/original/components/travel/flight-boarding-card.tsx"
+  ],
+  "opensource:gallery-grid": [
+    "src/vendor/opensource/original/components/gallery/gallery-grid-card.tsx"
+  ],
+  "opensource:glass-overlay-image": [
+    "src/vendor/opensource/original/components/gallery/glass-overlay-image-card.tsx"
+  ],
+  "opensource:photo-album": [
+    "src/vendor/opensource/original/components/gallery/photo-album-card.tsx"
+  ],
+  "opensource:magazine-cover": [
+    "src/vendor/opensource/original/components/text/magazine-cover-card.tsx"
+  ],
+  "opensource:stacked-folder-card": [
+    "src/vendor/opensource/original/components/files/stacked-folder-card.tsx"
+  ],
+  "opensource:ink-stamp-document": [
+    "src/vendor/opensource/original/components/files/ink-stamp-document-card.tsx"
+  ],
+  "opensource:opensource-folder-tab-card": [
+    "src/vendor/opensource/original/components/folder/opensource-folder-tab-card.tsx"
+  ],
+  "opensource:journal-writing": [
+    "src/vendor/opensource/original/components/text/journal-writing-card.tsx"
+  ],
+  "opensource:terminal-log": [
+    "src/vendor/opensource/original/components/others/terminal-log-card.tsx"
+  ],
+  "opensource:keyboard-shortcuts": [
+    "src/vendor/opensource/original/components/text/keyboard-shortcuts-card.tsx"
+  ],
+  "opensource:github-repo": [
+    "src/vendor/opensource/original/components/socials/github-repo-card.tsx"
+  ],
+  "opensource:museum-placard": [
+    "src/vendor/opensource/original/components/gallery/museum-placard-card.tsx"
+  ],
+  "opensource:gallery-wall": [
+    "src/vendor/opensource/original/components/gallery/gallery-wall-card.tsx"
+  ],
+  "opensource:linked-in-post": [
+    "src/vendor/opensource/original/components/socials/linked-in-post-card.tsx"
+  ],
+  "opensource:transform-box-frame": [
+    "src/vendor/opensource/original/components/frames/transform-box-frame.tsx"
+  ],
+  "opensource:transform-plus-frame": [
+    "src/vendor/opensource/original/components/frames/transform-plus-frame.tsx"
+  ],
+  "opensource:sticky-note-polaroid-frame": [
+    "src/vendor/opensource/original/components/frames/sticky-note-polaroid-frame.tsx"
+  ],
+  "opensource:hard-shadow-polaroid-frame": [
+    "src/vendor/opensource/original/components/frames/hard-shadow-polaroid-frame.tsx"
+  ],
+  "opensource:circle-cut-frame": [
+    "src/vendor/opensource/original/components/frames/circle-cut-frame.tsx"
+  ],
+  "opensource:music-player": [
+    "src/vendor/opensource/original/components/audio/music-player-card.tsx"
+  ],
+  "opensource:photo-contact-sheet": [
+    "src/vendor/opensource/original/components/gallery/photo-contact-sheet-card.tsx"
+  ],
+  "opensource:music-playlist": [
+    "src/vendor/opensource/original/components/audio/music-playlist-card.tsx"
+  ],
+  "opensource:stacked-cards-effect": [
+    "src/vendor/opensource/original/components/others/stacked-cards-effect.tsx"
+  ],
+  "opensource:retail-price-tag": [
+    "src/vendor/opensource/original/components/pricing/retail-price-tag-card.tsx"
+  ],
+  "opensource:stamp-postcard": [
+    "src/vendor/opensource/original/components/gallery/stamp-postcard-card.tsx"
+  ],
+  "opensource:progress-ring": [
+    "src/vendor/opensource/original/components/others/progress-ring-card.tsx"
+  ],
+  "opensource:team-member": [
+    "src/vendor/opensource/original/components/users/team-member-card.tsx"
+  ],
+  "opensource:testimonial": [
+    "src/vendor/opensource/original/components/users/testimonial-card.tsx"
+  ],
+  "opensource:toggle-pricing-cards": [
+    "src/vendor/opensource/original/components/pricing/toggle-pricing-cards.tsx"
+  ],
+  "opensource:travel-postcard": [
+    "src/vendor/opensource/original/components/travel/travel-postcard-card.tsx"
+  ],
+  "opensource:slow-living-polaroid": [
+    "src/vendor/opensource/original/components/gallery/slow-living-polaroid-card.tsx"
+  ],
+  "opensource:denim-product-editorial": [
+    "src/vendor/opensource/original/components/text/denim-product-editorial-card.tsx"
+  ],
+  "opensource:daily-motivation": [
+    "src/vendor/opensource/original/components/text/daily-motivation-card.tsx"
+  ],
+  "opensource:cafe-menu-board": [
+    "src/vendor/opensource/original/components/text/cafe-menu-board-card.tsx"
+  ],
+  "opensource:annotated-text": [
+    "src/vendor/opensource/original/components/underlines/annotated-text.tsx"
+  ],
+  "opensource:otp-boxed-input": [
+    "src/vendor/opensource/original/components/otp/otp-boxed-input.tsx"
+  ],
+  "opensource:otp-underline-input": [
+    "src/vendor/opensource/original/components/otp/otp-underline-input.tsx"
+  ],
+  "opensource:text-field-input": [
+    "src/vendor/opensource/original/components/inputs/text-field-input.tsx"
+  ],
+  "opensource:search-input": [
+    "src/vendor/opensource/original/components/inputs/search-input.tsx"
+  ],
+  "opensource:password-field-input": [
+    "src/vendor/opensource/original/components/inputs/password-field-input.tsx"
+  ],
+  "opensource:textarea-field-input": [
+    "src/vendor/opensource/original/components/inputs/textarea-field-input.tsx"
+  ],
+  "opensource:input-group-field": [
+    "src/vendor/opensource/original/components/inputs/input-group-field.tsx"
+  ],
+  "opensource:floating-label-field-input": [
+    "src/vendor/opensource/original/components/inputs/floating-label-field-input.tsx"
+  ],
+  "opensource:select-field-input": [
+    "src/vendor/opensource/original/components/inputs/select-field-input.tsx"
+  ],
+  "opensource:phone-field-input": [
+    "src/vendor/opensource/original/components/inputs/phone-field-input.tsx"
+  ],
+  "opensource:checkbox-field-input": [
+    "src/vendor/opensource/original/components/inputs/checkbox-field-input.tsx"
+  ],
+  "opensource:switch-field-input": [
+    "src/vendor/opensource/original/components/inputs/switch-field-input.tsx"
+  ],
+  "opensource:combobox-field-input": [
+    "src/vendor/opensource/original/components/inputs/combobox-field-input.tsx"
+  ],
+  "opensource:radio-group-field-input": [
+    "src/vendor/opensource/original/components/inputs/radio-group-field-input.tsx"
+  ],
+  "opensource:file-upload-field-input": [
+    "src/vendor/opensource/original/components/inputs/file-upload-field-input.tsx"
+  ],
+  "opensource:date-field-input": [
+    "src/vendor/opensource/original/components/inputs/date-field-input.tsx"
+  ],
+  "opensource:login-form": [
+    "src/vendor/opensource/original/components/forms/login-form.tsx"
+  ],
+  "opensource:signup-form": [
+    "src/vendor/opensource/original/components/forms/signup-form.tsx"
+  ],
+  "opensource:contact-form": [
+    "src/vendor/opensource/original/components/forms/contact-form.tsx"
+  ],
+  "opensource:newsletter-form": [
+    "src/vendor/opensource/original/components/forms/newsletter-form.tsx"
+  ],
+  "opensource:forgot-password-form": [
+    "src/vendor/opensource/original/components/forms/forgot-password-form.tsx"
+  ],
+  "opensource:apple-hello-loader": [
+    "src/vendor/opensource/original/components/loaders/apple-hello-loader.tsx"
+  ],
+  "opensource:spin-loader": [
+    "src/vendor/opensource/original/components/loaders/spin-loader.tsx"
+  ],
+  "opensource:text-loader": [
+    "src/vendor/opensource/original/components/loaders/text-loader.tsx"
+  ],
+  "opensource:aurora-background": [
+    "src/vendor/opensource/original/components/background-gradient/aurora-background.tsx"
+  ],
+  "opensource:coral-glow-background": [
+    "src/vendor/opensource/original/components/background-gradient/coral-glow-background.tsx"
+  ],
+  "opensource:mint-lagoon-background": [
+    "src/vendor/opensource/original/components/background-gradient/mint-lagoon-background.tsx"
+  ],
+  "opensource:sunset-bloom-background": [
+    "src/vendor/opensource/original/components/background-gradient/sunset-bloom-background.tsx"
+  ],
+  "opensource:honey-ember-background": [
+    "src/vendor/opensource/original/components/background-gradient/honey-ember-background.tsx"
+  ],
+  "opensource:tropical-tide-background": [
+    "src/vendor/opensource/original/components/background-gradient/tropical-tide-background.tsx"
+  ],
+  "opensource:sunrise-horizon-background": [
+    "src/vendor/opensource/original/components/background-gradient/sunrise-horizon-background.tsx"
+  ],
+  "opensource:linen-weave-background": [
+    "src/vendor/opensource/original/components/background-gradient/linen-weave-background.tsx"
+  ],
+  "opensource:sand-drift-background": [
+    "src/vendor/opensource/original/components/background-gradient/sand-drift-background.tsx"
+  ],
+  "opensource:frost-mesh-background": [
+    "src/vendor/opensource/original/components/background-gradient/frost-mesh-background.tsx"
+  ],
+  "opensource:terrazzo-fragment-background": [
+    "src/vendor/opensource/original/components/background-gradient/terrazzo-fragment-background.tsx"
+  ],
+  "opensource:rain-prism-background": [
+    "src/vendor/opensource/original/components/background-gradient/rain-prism-background.tsx"
+  ],
+  "opensource:cherry-petal-background": [
+    "src/vendor/opensource/original/components/background-gradient/cherry-petal-background.tsx"
+  ],
+  "opensource:ink-wash-background": [
+    "src/vendor/opensource/original/components/background-gradient/ink-wash-background.tsx"
+  ],
+  "opensource:halftone-pop-background": [
+    "src/vendor/opensource/original/components/background-gradient/halftone-pop-background.tsx"
+  ],
+  "opensource:paper-fold-background": [
+    "src/vendor/opensource/original/components/background-gradient/paper-fold-background.tsx"
+  ],
+  "opensource:soft-spotlight-background": [
+    "src/vendor/opensource/original/components/background-gradient/soft-spotlight-background.tsx"
+  ],
+  "opensource:arc-bands-background": [
+    "src/vendor/opensource/original/components/background-gradient/arc-bands-background.tsx"
+  ],
+  "opensource:dark-aurora-background": [
+    "src/vendor/opensource/original/components/background-gradient/dark-aurora-background.tsx"
+  ],
+  "opensource:dark-ember-background": [
+    "src/vendor/opensource/original/components/background-gradient/dark-ember-background.tsx"
+  ],
+  "opensource:dark-teal-depth-background": [
+    "src/vendor/opensource/original/components/background-gradient/dark-teal-depth-background.tsx"
+  ],
+  "opensource:dark-arc-bands-background": [
+    "src/vendor/opensource/original/components/background-gradient/dark-arc-bands-background.tsx"
+  ],
+  "opensource:dark-carbon-spotlight-background": [
+    "src/vendor/opensource/original/components/background-gradient/dark-carbon-spotlight-background.tsx"
+  ],
+  "opensource:dark-midnight-mesh-background": [
+    "src/vendor/opensource/original/components/background-gradient/dark-midnight-mesh-background.tsx"
+  ],
+  "opensource:dark-ink-field-background": [
+    "src/vendor/opensource/original/components/background-gradient/dark-ink-field-background.tsx"
+  ],
+  "opensource:dark-rose-noir-background": [
+    "src/vendor/opensource/original/components/background-gradient/dark-rose-noir-background.tsx"
+  ],
+  "opensource:diagonal-box-pattern": [
+    "src/vendor/opensource/original/components/background-pattern/diagonal-box-pattern.tsx"
+  ],
+  "opensource:reverse-diagonal-box-pattern": [
+    "src/vendor/opensource/original/components/background-pattern/reverse-diagonal-box-pattern.tsx"
+  ],
+  "opensource:dot-grid-pattern": [
+    "src/vendor/opensource/original/components/background-pattern/dot-grid-pattern.tsx"
+  ],
+  "opensource:line-grid-pattern": [
+    "src/vendor/opensource/original/components/background-pattern/line-grid-pattern.tsx"
+  ],
+  "opensource:graph-paper-pattern": [
+    "src/vendor/opensource/original/components/background-pattern/graph-paper-pattern.tsx"
+  ],
+  "opensource:fine-grain-pattern": [
+    "src/vendor/opensource/original/components/background-pattern/fine-grain-pattern.tsx"
+  ],
+  "coss:accordion": [
+    "src/vendor/coss/particles/p-accordion-1.tsx"
+  ],
+  "coss:alert": [
+    "src/vendor/coss/particles/p-alert-1.tsx"
+  ],
+  "coss:alert-dialog": [
+    "src/vendor/coss/particles/p-alert-dialog-1.tsx"
+  ],
+  "coss:autocomplete": [
+    "src/vendor/coss/particles/p-autocomplete-1.tsx"
+  ],
+  "coss:avatar": [
+    "src/vendor/coss/particles/p-avatar-1.tsx"
+  ],
+  "coss:badge": [
+    "src/vendor/coss/particles/p-badge-1.tsx"
+  ],
+  "coss:breadcrumb": [
+    "src/vendor/coss/particles/p-breadcrumb-1.tsx"
+  ],
+  "coss:button": [
+    "src/vendor/coss/particles/p-button-1.tsx"
+  ],
+  "coss:calendar": [
+    "src/vendor/coss/particles/p-calendar-1.tsx"
+  ],
+  "coss:card": [
+    "src/vendor/coss/particles/p-card-1.tsx"
+  ],
+  "coss:checkbox": [
+    "src/vendor/coss/particles/p-checkbox-1.tsx"
+  ],
+  "coss:checkbox-group": [
+    "src/vendor/coss/particles/p-checkbox-group-1.tsx"
+  ],
+  "coss:collapsible": [
+    "src/vendor/coss/particles/p-collapsible-1.tsx"
+  ],
+  "coss:combobox": [
+    "src/vendor/coss/particles/p-combobox-1.tsx"
+  ],
+  "coss:command": [
+    "src/vendor/coss/particles/p-command-1.tsx"
+  ],
+  "coss:context-menu": [
+    "src/vendor/coss/particles/p-context-menu-1.tsx"
+  ],
+  "coss:date-picker": [
+    "src/vendor/coss/particles/p-date-picker-1.tsx"
+  ],
+  "coss:dialog": [
+    "src/vendor/coss/particles/p-dialog-1.tsx"
+  ],
+  "coss:drawer": [
+    "src/vendor/coss/particles/p-drawer-1.tsx"
+  ],
+  "coss:empty": [
+    "src/vendor/coss/particles/p-empty-1.tsx"
+  ],
+  "coss:field": [
+    "src/vendor/coss/particles/p-field-1.tsx"
+  ],
+  "coss:fieldset": [
+    "src/vendor/coss/particles/p-fieldset-1.tsx"
+  ],
+  "coss:form": [
+    "src/vendor/coss/particles/p-form-1.tsx"
+  ],
+  "coss:frame": [
+    "src/vendor/coss/particles/p-frame-1.tsx"
+  ],
+  "coss:group": [
+    "src/vendor/coss/particles/p-group-1.tsx"
+  ],
+  "coss:input": [
+    "src/vendor/coss/particles/p-input-1.tsx"
+  ],
+  "coss:input-group": [
+    "src/vendor/coss/particles/p-input-group-1.tsx"
+  ],
+  "coss:kbd": [
+    "src/vendor/coss/particles/p-kbd-1.tsx"
+  ],
+  "coss:label": [
+    "src/vendor/coss/ui/label.tsx"
+  ],
+  "coss:menu": [
+    "src/vendor/coss/particles/p-menu-1.tsx"
+  ],
+  "coss:meter": [
+    "src/vendor/coss/particles/p-meter-1.tsx"
+  ],
+  "coss:number-field": [
+    "src/vendor/coss/particles/p-number-field-1.tsx"
+  ],
+  "coss:otp-field": [
+    "src/vendor/coss/particles/p-otp-field-1.tsx"
+  ],
+  "coss:pagination": [
+    "src/vendor/coss/particles/p-pagination-1.tsx"
+  ],
+  "coss:popover": [
+    "src/vendor/coss/particles/p-popover-1.tsx"
+  ],
+  "coss:preview-card": [
+    "src/vendor/coss/particles/p-preview-card-1.tsx"
+  ],
+  "coss:progress": [
+    "src/vendor/coss/particles/p-progress-1.tsx"
+  ],
+  "coss:radio-group": [
+    "src/vendor/coss/particles/p-radio-group-1.tsx"
+  ],
+  "coss:scroll-area": [
+    "src/vendor/coss/particles/p-scroll-area-1.tsx"
+  ],
+  "coss:select": [
+    "src/vendor/coss/particles/p-select-1.tsx"
+  ],
+  "coss:separator": [
+    "src/vendor/coss/particles/p-separator-1.tsx"
+  ],
+  "coss:sheet": [
+    "src/vendor/coss/particles/p-sheet-1.tsx"
+  ],
+  "coss:sidebar": [
+    "src/vendor/coss/ui/sidebar.tsx"
+  ],
+  "coss:skeleton": [
+    "src/vendor/coss/particles/p-skeleton-1.tsx"
+  ],
+  "coss:slider": [
+    "src/vendor/coss/particles/p-slider-1.tsx"
+  ],
+  "coss:spinner": [
+    "src/vendor/coss/particles/p-spinner-1.tsx"
+  ],
+  "coss:switch": [
+    "src/vendor/coss/particles/p-switch-1.tsx"
+  ],
+  "coss:table": [
+    "src/vendor/coss/particles/p-table-1.tsx"
+  ],
+  "coss:tabs": [
+    "src/vendor/coss/particles/p-tabs-1.tsx"
+  ],
+  "coss:textarea": [
+    "src/vendor/coss/particles/p-textarea-1.tsx"
+  ],
+  "coss:toast": [
+    "src/vendor/coss/particles/p-toast-1.tsx"
+  ],
+  "coss:toggle": [
+    "src/vendor/coss/particles/p-toggle-1.tsx"
+  ],
+  "coss:toggle-group": [
+    "src/vendor/coss/particles/p-toggle-group-1.tsx"
+  ],
+  "coss:toolbar": [
+    "src/vendor/coss/particles/p-toolbar-1.tsx"
+  ],
+  "coss:tooltip": [
+    "src/vendor/coss/particles/p-tooltip-1.tsx"
+  ]
+}

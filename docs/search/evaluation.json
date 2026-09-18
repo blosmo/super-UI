@@ -1,0 +1,706 @@
+{
+  "method": "30 hand-authored task descriptions; expected IDs are illustrative relevant options, not exhaustive ground truth. Checks whether at least one expected option appears in top five. This does not measure precision or prove best overall quality.",
+  "rows": [
+    {
+      "query": "Let people approve an AI action before it runs",
+      "expected": [
+        "beui:approval-card",
+        "beui:tool-approval",
+        "beautiful:approval-card"
+      ],
+      "baseline": [],
+      "top": [
+        "beui:tool-approval",
+        "beui:approval-card",
+        "beautiful:approval-card",
+        "beui:chat-app",
+        "fluid:chat-message"
+      ],
+      "shortlistHit": true,
+      "baselineHit": false,
+      "topFiveHit": true,
+      "mode": "jev",
+      "durationMs": 2473,
+      "inputTokens": 64135,
+      "costUSD": 0.0026936700000000004
+    },
+    {
+      "query": "Let users drop a file to upload",
+      "expected": [
+        "beui:file-upload",
+        "opensource:file-upload-field-input"
+      ],
+      "baseline": [],
+      "top": [
+        "beui:file-upload",
+        "opensource:file-upload-field-input",
+        "shadcn:input",
+        "shadcn:button"
+      ],
+      "shortlistHit": true,
+      "baselineHit": false,
+      "topFiveHit": true,
+      "mode": "jev",
+      "durationMs": 1619,
+      "inputTokens": 55878,
+      "costUSD": 0.0023468760000000003
+    },
+    {
+      "query": "Show how much of a task has finished",
+      "expected": [
+        "interior:progress-bar",
+        "shadcn:progress",
+        "coss:progress",
+        "opensource:progress-ring"
+      ],
+      "baseline": [],
+      "top": [
+        "rare:scroll-progress",
+        "interior:progress-bar",
+        "interior:task-steps",
+        "shadcn:progress",
+        "opensource:progress-ring"
+      ],
+      "shortlistHit": true,
+      "baselineHit": false,
+      "topFiveHit": true,
+      "mode": "jev",
+      "durationMs": 1896,
+      "inputTokens": 58854,
+      "costUSD": 0.0024718680000000003
+    },
+    {
+      "query": "Navigate between pages from a dashboard sidebar",
+      "expected": [
+        "shadcn:sidebar",
+        "coss:sidebar",
+        "beui:animated-sidebar",
+        "rare:bounce-sidebar"
+      ],
+      "baseline": [],
+      "top": [
+        "beui:bounce-sidebar",
+        "rare:hook-sidebar",
+        "beui:animated-sidebar",
+        "rare:bounce-sidebar",
+        "shadcn:sidebar"
+      ],
+      "shortlistHit": true,
+      "baselineHit": false,
+      "topFiveHit": true,
+      "mode": "jev",
+      "durationMs": 1712,
+      "inputTokens": 61954,
+      "costUSD": 0.0026020680000000003
+    },
+    {
+      "query": "Find commands quickly using the keyboard",
+      "expected": [
+        "shadcn:command",
+        "coss:command",
+        "interior:command-palette",
+        "beui:command-palette",
+        "fluid:command-menu"
+      ],
+      "baseline": [],
+      "top": [
+        "coss:command",
+        "fluid:command-menu",
+        "beautiful:prompt-bar",
+        "beui:combobox",
+        "beui:morphing-search"
+      ],
+      "shortlistHit": true,
+      "baselineHit": false,
+      "topFiveHit": true,
+      "mode": "jev",
+      "durationMs": 1586,
+      "inputTokens": 67795,
+      "costUSD": 0.0028473900000000004
+    },
+    {
+      "query": "Explain that a list has no items yet",
+      "expected": [
+        "shadcn:empty",
+        "coss:empty"
+      ],
+      "baseline": [],
+      "top": [
+        "beui:todo-list",
+        "interior:dropdown",
+        "coss:empty",
+        "fluid:combobox",
+        "shadcn:empty"
+      ],
+      "shortlistHit": true,
+      "baselineHit": false,
+      "topFiveHit": true,
+      "mode": "jev",
+      "durationMs": 1737,
+      "inputTokens": 60972,
+      "costUSD": 0.002560824
+    },
+    {
+      "query": "Move through pages of search results",
+      "expected": [
+        "shadcn:pagination",
+        "coss:pagination",
+        "interior:pagination"
+      ],
+      "baseline": [],
+      "top": [
+        "interior:pagination",
+        "coss:pagination",
+        "shadcn:pagination",
+        "interior:swipe-deck",
+        "interior:wizard-steps"
+      ],
+      "shortlistHit": true,
+      "baselineHit": false,
+      "topFiveHit": true,
+      "mode": "jev",
+      "durationMs": 1674,
+      "inputTokens": 65480,
+      "costUSD": 0.00275016
+    },
+    {
+      "query": "Sort rows of customer data",
+      "expected": [
+        "shadcn:data-table",
+        "interior:sortable-table",
+        "beui:table"
+      ],
+      "baseline": [],
+      "top": [
+        "beui:table",
+        "interior:sortable-table",
+        "shadcn:data-table",
+        "opensource:orders-table",
+        "interior:reorder-list"
+      ],
+      "shortlistHit": true,
+      "baselineHit": false,
+      "topFiveHit": true,
+      "mode": "jev",
+      "durationMs": 2744,
+      "inputTokens": 59266,
+      "costUSD": 0.0024891720000000004
+    },
+    {
+      "query": "Swipe through a gallery of photos",
+      "expected": [
+        "shadcn:carousel",
+        "interior:snap-carousel",
+        "beui:cylinder-carousel"
+      ],
+      "baseline": [],
+      "top": [
+        "opensource:photo-album",
+        "interior:snap-carousel",
+        "interior:swipe-deck",
+        "shadcn:carousel",
+        "amicro:slide-left"
+      ],
+      "shortlistHit": true,
+      "baselineHit": false,
+      "topFiveHit": true,
+      "mode": "jev",
+      "durationMs": 1677,
+      "inputTokens": 60272,
+      "costUSD": 0.0025314240000000004
+    },
+    {
+      "query": "Tell users whether their password is strong enough",
+      "expected": [
+        "interior:password-strength"
+      ],
+      "baseline": [],
+      "top": [
+        "interior:password-strength",
+        "beui:signup-form",
+        "opensource:password-field-input",
+        "fluid:badge"
+      ],
+      "shortlistHit": true,
+      "baselineHit": false,
+      "topFiveHit": true,
+      "mode": "jev",
+      "durationMs": 1745,
+      "inputTokens": 54613,
+      "costUSD": 0.002293746
+    },
+    {
+      "query": "Enter a six digit verification code",
+      "expected": [
+        "shadcn:input-otp",
+        "coss:otp-field",
+        "beui:otp-input",
+        "interior:otp-input",
+        "rare:otp-input"
+      ],
+      "baseline": [],
+      "top": [
+        "beui:otp-input",
+        "rare:otp-input",
+        "interior:otp-input",
+        "opensource:otp-boxed-input",
+        "opensource:otp-underline-input"
+      ],
+      "shortlistHit": true,
+      "baselineHit": false,
+      "topFiveHit": true,
+      "mode": "jev",
+      "durationMs": 1689,
+      "inputTokens": 58020,
+      "costUSD": 0.0024368400000000004
+    },
+    {
+      "query": "Choose a start date and end date for a booking",
+      "expected": [
+        "opensource:date-range-picker",
+        "shadcn:date-picker",
+        "coss:date-picker"
+      ],
+      "baseline": [],
+      "top": [
+        "opensource:date-range-picker",
+        "opensource:booking-slot-calendar",
+        "beui:wheel-picker",
+        "opensource:date-field-input",
+        "shadcn:calendar"
+      ],
+      "shortlistHit": true,
+      "baselineHit": false,
+      "topFiveHit": true,
+      "mode": "jev",
+      "durationMs": 1706,
+      "inputTokens": 57976,
+      "costUSD": 0.0024349920000000004
+    },
+    {
+      "query": "Expand answers to frequently asked questions",
+      "expected": [
+        "shadcn:accordion",
+        "coss:accordion",
+        "interior:accordion",
+        "fluid:accordion"
+      ],
+      "baseline": [],
+      "top": [
+        "shadcn:accordion",
+        "interior:accordion",
+        "coss:accordion",
+        "fluid:accordion",
+        "beui:bouncy-accordion"
+      ],
+      "shortlistHit": true,
+      "baselineHit": false,
+      "topFiveHit": true,
+      "mode": "jev",
+      "durationMs": 1520,
+      "inputTokens": 54992,
+      "costUSD": 0.0023096640000000003
+    },
+    {
+      "query": "Show where a page sits in the site hierarchy",
+      "expected": [
+        "shadcn:breadcrumb",
+        "coss:breadcrumb"
+      ],
+      "baseline": [],
+      "top": [
+        "coss:breadcrumb",
+        "shadcn:breadcrumb",
+        "rare:hook-sidebar",
+        "fluid:sidebar",
+        "beautiful:sidebar-nav"
+      ],
+      "shortlistHit": true,
+      "baselineHit": false,
+      "topFiveHit": true,
+      "mode": "jev",
+      "durationMs": 1673,
+      "inputTokens": 57147,
+      "costUSD": 0.002400174
+    },
+    {
+      "query": "Briefly notify someone that their changes were saved",
+      "expected": [
+        "shadcn:sonner",
+        "shadcn:toast",
+        "coss:toast",
+        "opensource:toast-notification",
+        "beui:animated-toast-stack"
+      ],
+      "baseline": [],
+      "top": [
+        "opensource:toast-notification",
+        "shadcn:toast",
+        "shadcn:sonner",
+        "coss:toast",
+        "shadcn:alert"
+      ],
+      "shortlistHit": true,
+      "baselineHit": false,
+      "topFiveHit": true,
+      "mode": "jev",
+      "durationMs": 1752,
+      "inputTokens": 58248,
+      "costUSD": 0.0024464160000000003
+    },
+    {
+      "query": "Explain an icon when someone hovers over it",
+      "expected": [
+        "shadcn:tooltip",
+        "coss:tooltip",
+        "beui:tooltip",
+        "fluid:tooltip"
+      ],
+      "baseline": [],
+      "top": [
+        "beui:tooltip",
+        "coss:tooltip",
+        "beui:expandable-action-bar",
+        "beui:popover",
+        "beui:animated-sidebar"
+      ],
+      "shortlistHit": true,
+      "baselineHit": false,
+      "topFiveHit": true,
+      "mode": "jev",
+      "durationMs": 1655,
+      "inputTokens": 64124,
+      "costUSD": 0.0026932080000000003
+    },
+    {
+      "query": "Compare monthly and annual subscription prices",
+      "expected": [
+        "opensource:toggle-pricing-cards"
+      ],
+      "baseline": [],
+      "top": [
+        "opensource:toggle-pricing-cards",
+        "shadcn:data-table",
+        "shadcn:chart"
+      ],
+      "shortlistHit": true,
+      "baselineHit": false,
+      "topFiveHit": true,
+      "mode": "jev",
+      "durationMs": 1653,
+      "inputTokens": 58438,
+      "costUSD": 0.002454396
+    },
+    {
+      "query": "Let a shopper add a product to their basket",
+      "expected": [
+        "opensource:add-to-cart-button"
+      ],
+      "baseline": [],
+      "top": [
+        "opensource:add-to-cart-button",
+        "opensource:quantity-stepper-button",
+        "shadcn:item"
+      ],
+      "shortlistHit": true,
+      "baselineHit": false,
+      "topFiveHit": true,
+      "mode": "jev",
+      "durationMs": 1899,
+      "inputTokens": 61173,
+      "costUSD": 0.002569266
+    },
+    {
+      "query": "Turn a setting on or off",
+      "expected": [
+        "shadcn:switch",
+        "coss:switch",
+        "beui:switch",
+        "fluid:switch"
+      ],
+      "baseline": [],
+      "top": [
+        "beui:switch",
+        "opensource:switch-field-input",
+        "beui:checkbox",
+        "beui:theme-toggle",
+        "fluid:switch"
+      ],
+      "shortlistHit": true,
+      "baselineHit": false,
+      "topFiveHit": true,
+      "mode": "jev",
+      "durationMs": 1849,
+      "inputTokens": 51384,
+      "costUSD": 0.0021581280000000005
+    },
+    {
+      "query": "Adjust a numeric value by dragging a handle",
+      "expected": [
+        "shadcn:slider",
+        "coss:slider",
+        "beui:range-slider",
+        "fluid:slider",
+        "interior:slider-detents"
+      ],
+      "baseline": [],
+      "top": [
+        "beui:range-slider",
+        "interior:slider-detents",
+        "fluid:slider",
+        "coss:slider",
+        "beui:wheel-picker"
+      ],
+      "shortlistHit": true,
+      "baselineHit": false,
+      "topFiveHit": true,
+      "mode": "jev",
+      "durationMs": 1838,
+      "inputTokens": 55763,
+      "costUSD": 0.0023420460000000004
+    },
+    {
+      "query": "Search and select one option from a long list",
+      "expected": [
+        "shadcn:combobox",
+        "coss:combobox",
+        "beui:combobox",
+        "fluid:combobox"
+      ],
+      "baseline": [],
+      "top": [
+        "beui:combobox",
+        "shadcn:combobox",
+        "opensource:combobox-field-input",
+        "beui:multi-select",
+        "opensource:select-field-input"
+      ],
+      "shortlistHit": true,
+      "baselineHit": false,
+      "topFiveHit": true,
+      "mode": "jev",
+      "durationMs": 1572,
+      "inputTokens": 60965,
+      "costUSD": 0.0025605300000000005
+    },
+    {
+      "query": "Show placeholders while content is loading",
+      "expected": [
+        "shadcn:skeleton",
+        "coss:skeleton",
+        "amicro:skeleton",
+        "amicro:fluid-skeleton",
+        "interior:skeleton-swap"
+      ],
+      "baseline": [],
+      "top": [
+        "interior:skeleton-swap",
+        "interior:blur-up-image",
+        "interior:loading-button",
+        "beui:loading-states",
+        "amicro:skeleton-loader"
+      ],
+      "shortlistHit": true,
+      "baselineHit": false,
+      "topFiveHit": true,
+      "mode": "jev",
+      "durationMs": 2073,
+      "inputTokens": 47886,
+      "costUSD": 0.002011212
+    },
+    {
+      "query": "Ask for confirmation before deleting something",
+      "expected": [
+        "shadcn:alert-dialog",
+        "coss:alert-dialog"
+      ],
+      "baseline": [],
+      "top": [
+        "interior:hold-to-confirm",
+        "rare:delete-button",
+        "coss:alert-dialog",
+        "shadcn:alert-dialog",
+        "opensource:slide-to-confirm-button"
+      ],
+      "shortlistHit": true,
+      "baselineHit": false,
+      "topFiveHit": true,
+      "mode": "jev",
+      "durationMs": 2063,
+      "inputTokens": 57289,
+      "costUSD": 0.0024061380000000004
+    },
+    {
+      "query": "Copy a value to the clipboard with feedback",
+      "expected": [
+        "interior:copy-button",
+        "opensource:copy-button",
+        "fluid:input-copy"
+      ],
+      "baseline": [],
+      "top": [
+        "interior:copy-button",
+        "fluid:input-copy",
+        "beui:code-block",
+        "opensource:copy-button",
+        "shadcn:toast"
+      ],
+      "shortlistHit": true,
+      "baselineHit": false,
+      "topFiveHit": true,
+      "mode": "jev",
+      "durationMs": 1714,
+      "inputTokens": 53470,
+      "costUSD": 0.0022457400000000004
+    },
+    {
+      "query": "Fade a blurry photo into the loaded image",
+      "expected": [
+        "interior:blur-up-image",
+        "libraries:image"
+      ],
+      "baseline": [],
+      "top": [
+        "interior:blur-up-image",
+        "beui:morphing-modal",
+        "rare:grid-reveal",
+        "amicro:zoom-in",
+        "amicro:fade-in"
+      ],
+      "shortlistHit": true,
+      "baselineHit": false,
+      "topFiveHit": true,
+      "mode": "jev",
+      "durationMs": 1640,
+      "inputTokens": 51369,
+      "costUSD": 0.0021574980000000003
+    },
+    {
+      "query": "Display an AI response as it streams in",
+      "expected": [
+        "beui:streaming-response",
+        "beautiful:streaming-text",
+        "interior:streaming-text"
+      ],
+      "baseline": [],
+      "top": [
+        "interior:streaming-text",
+        "beui:streaming-response",
+        "beautiful:streaming-text",
+        "beui:message-bubble",
+        "beui:chat-app"
+      ],
+      "shortlistHit": true,
+      "baselineHit": false,
+      "topFiveHit": true,
+      "mode": "jev",
+      "durationMs": 1861,
+      "inputTokens": 64116,
+      "costUSD": 0.0026928720000000002
+    },
+    {
+      "query": "Give feedback while an AI assistant is thinking",
+      "expected": [
+        "beautiful:thinking-state",
+        "fluid:thinking-indicator",
+        "fluid:thinking-steps"
+      ],
+      "baseline": [],
+      "top": [
+        "beui:loading-states",
+        "beui:chat-app",
+        "beui:agent-activity",
+        "interior:streaming-text",
+        "beui:tool-result"
+      ],
+      "shortlistHit": true,
+      "baselineHit": false,
+      "topFiveHit": false,
+      "mode": "jev",
+      "durationMs": 1940,
+      "inputTokens": 65877,
+      "costUSD": 0.0027668340000000006
+    },
+    {
+      "query": "Show a compact calendar for choosing a day",
+      "expected": [
+        "shadcn:calendar",
+        "coss:calendar"
+      ],
+      "baseline": [],
+      "top": [
+        "shadcn:calendar",
+        "shadcn:date-picker",
+        "coss:date-picker",
+        "opensource:week-strip-calendar",
+        "opensource:date-field-input"
+      ],
+      "shortlistHit": true,
+      "baselineHit": false,
+      "topFiveHit": true,
+      "mode": "jev",
+      "durationMs": 1574,
+      "inputTokens": 57058,
+      "costUSD": 0.0023964360000000005
+    },
+    {
+      "query": "Button",
+      "expected": [
+        "shadcn:button",
+        "coss:button",
+        "beui:button"
+      ],
+      "baseline": [
+        "interior:loading-button",
+        "opensource:3d-button",
+        "opensource:3d-icon-button",
+        "beui:action-swap",
+        "opensource:add-to-cart-button"
+      ],
+      "top": [
+        "shadcn:button",
+        "beui:button",
+        "fluid:button",
+        "coss:button",
+        "amicro:magnetic-button"
+      ],
+      "shortlistHit": true,
+      "baselineHit": false,
+      "topFiveHit": true,
+      "mode": "jev",
+      "durationMs": 1572,
+      "inputTokens": 52684,
+      "costUSD": 0.002212728
+    },
+    {
+      "query": "Accordion",
+      "expected": [
+        "shadcn:accordion",
+        "coss:accordion",
+        "interior:accordion",
+        "fluid:accordion"
+      ],
+      "baseline": [
+        "interior:accordion",
+        "coss:accordion",
+        "shadcn:accordion",
+        "fluid:accordion",
+        "amicro:accordion-loader"
+      ],
+      "top": [
+        "shadcn:accordion",
+        "interior:accordion",
+        "coss:accordion",
+        "fluid:accordion",
+        "beui:bouncy-accordion"
+      ],
+      "shortlistHit": true,
+      "baselineHit": true,
+      "topFiveHit": true,
+      "mode": "jev",
+      "durationMs": 1824,
+      "inputTokens": 57084,
+      "costUSD": 0.0023975280000000003
+    }
+  ]
+}

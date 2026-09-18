@@ -1,0 +1,3281 @@
+{
+  "imports": [
+    {
+      "library": "interior",
+      "name": "icon-morph",
+      "url": "https://www.interior.dev/r/icon-morph.json",
+      "file": "src/vendor/interior/components/icon-morph.tsx",
+      "sha256": "db759cef2eadd0940458759350b32100e89a55b743013adbd70038c06abf87fc",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "motion"
+      ]
+    },
+    {
+      "library": "interior",
+      "name": "ripple",
+      "url": "https://www.interior.dev/r/ripple.json",
+      "file": "src/vendor/interior/components/ripple.tsx",
+      "sha256": "fc18d978feb3701fb5d3894f90ff2f936949d7ca64737affb9875ae052fef757",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "hold-to-confirm",
+      "url": "https://www.interior.dev/r/hold-to-confirm.json",
+      "file": "src/vendor/interior/components/hold-to-confirm.tsx",
+      "sha256": "eb36f9066073887ae544c022507093ba0522c894b0d5286b757b8804853225e0",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "like-burst",
+      "url": "https://www.interior.dev/r/like-burst.json",
+      "file": "src/vendor/interior/components/like-burst.tsx",
+      "sha256": "29550d77f9f890f89a3dbc5fb85385f463f12efdea022d8b9d9b9c206142930d",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "motion"
+      ]
+    },
+    {
+      "library": "interior",
+      "name": "loading-button",
+      "url": "https://www.interior.dev/r/loading-button.json",
+      "file": "src/vendor/interior/components/loading-button.tsx",
+      "sha256": "73d3ef59e0894c0fceb225240f02fa746cb852f1955a6a1e526609a9495e3051",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "motion"
+      ]
+    },
+    {
+      "library": "interior",
+      "name": "press-depth",
+      "url": "https://www.interior.dev/r/press-depth.json",
+      "file": "src/vendor/interior/components/press-depth.tsx",
+      "sha256": "ad43abdc4766cdcb5d765ee182a6e440d4502e3cdc7bfd4bdeda749d840907ed",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "motion"
+      ]
+    },
+    {
+      "library": "interior",
+      "name": "copy-button",
+      "url": "https://www.interior.dev/r/copy-button.json",
+      "file": "src/vendor/interior/components/copy-button.tsx",
+      "sha256": "ad4e1da987540d9aea9a0412259a811aa04a3a751c4793aef188be4e70e54319",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "motion"
+      ]
+    },
+    {
+      "library": "interior",
+      "name": "floating-label",
+      "url": "https://www.interior.dev/r/floating-label.json",
+      "file": "src/vendor/interior/components/floating-label.tsx",
+      "sha256": "c34c7e1b8b81e5adfc83922d670e7e83da510dc73b69f88c3e389a65199d6877",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "motion"
+      ]
+    },
+    {
+      "library": "interior",
+      "name": "tag-input",
+      "url": "https://www.interior.dev/r/tag-input.json",
+      "file": "src/vendor/interior/components/tag-input.tsx",
+      "sha256": "f723037dbaa249253f24562ec7632bc681a6065f2b568fb7562cc294a2412c64",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "otp-input",
+      "url": "https://www.interior.dev/r/otp-input.json",
+      "file": "src/vendor/interior/components/otp-input.tsx",
+      "sha256": "d2408d2a02f9b940f1bc26f5fd9682947174c1a8982e97c484d8842d224ca832",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "password-strength",
+      "url": "https://www.interior.dev/r/password-strength.json",
+      "file": "src/vendor/interior/components/password-strength.tsx",
+      "sha256": "a11fdd0d36cbadd01ff0b153d51ecde30848f20b1732e45a346f6e75cb96d4d4",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "progress-bar",
+      "url": "https://www.interior.dev/r/progress-bar.json",
+      "file": "src/vendor/interior/components/progress-bar.tsx",
+      "sha256": "e9afdc6ed8eb0b7865686552275c0e0b16b8d3e3598d1ae3b5901f85dd054fd5",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "motion"
+      ]
+    },
+    {
+      "library": "interior",
+      "name": "skeleton-swap",
+      "url": "https://www.interior.dev/r/skeleton-swap.json",
+      "file": "src/vendor/interior/components/skeleton-swap.tsx",
+      "sha256": "3f56fcfad39840f4f26b17365b89bb121fccd9f405e28c5ca21928f6b6064529",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "motion"
+      ]
+    },
+    {
+      "library": "interior",
+      "name": "inline-validation",
+      "url": "https://www.interior.dev/r/inline-validation.json",
+      "file": "src/vendor/interior/components/inline-validation.tsx",
+      "sha256": "2333edc597bf551ad5ddf27460accf9766823eec08a79177839b858dbe767e67",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "load-more",
+      "url": "https://www.interior.dev/r/load-more.json",
+      "file": "src/vendor/interior/components/load-more.tsx",
+      "sha256": "05ef28bc7754c27ef91ad1cf24bd23c72cda84ac15d4b098d820f6f35cede3fe",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "expanding-search",
+      "url": "https://www.interior.dev/r/expanding-search.json",
+      "file": "src/vendor/interior/components/expanding-search.tsx",
+      "sha256": "d465fc7f343213c69f390dc517316f00d2a30e22a3cce462f36375312a786054",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "collapsible-banner",
+      "url": "https://www.interior.dev/r/collapsible-banner.json",
+      "file": "src/vendor/interior/components/collapsible-banner.tsx",
+      "sha256": "4a53c25d1ebddb533544c8d9bb29b045646575a7629541eb51bc4572ade8e19e",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "streaming-text",
+      "url": "https://www.interior.dev/r/streaming-text.json",
+      "file": "src/vendor/interior/components/streaming-text.tsx",
+      "sha256": "b387599d9d07e3e4e65679b399d54c673efae4851c883186af62cd15f3a0f3e6",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "new-items-pill",
+      "url": "https://www.interior.dev/r/new-items-pill.json",
+      "file": "src/vendor/interior/components/new-items-pill.tsx",
+      "sha256": "6c8255353184e303041f583bf24aa6938a93ca7f5550fba287934afc60014cf0",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "motion"
+      ]
+    },
+    {
+      "library": "interior",
+      "name": "modal",
+      "url": "https://www.interior.dev/r/modal.json",
+      "file": "src/vendor/interior/components/modal.tsx",
+      "sha256": "394f497c83d3017ad5cc10e82ed401db55c182d41c518b2f31415e4110782346",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "task-steps",
+      "url": "https://www.interior.dev/r/task-steps.json",
+      "file": "src/vendor/interior/components/task-steps.tsx",
+      "sha256": "95676ce143d33eb37ce841033c5f4bb5c2e93372aa218482c07d59e38b8bd331",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "presence-avatars",
+      "url": "https://www.interior.dev/r/presence-avatars.json",
+      "file": "src/vendor/interior/components/presence-avatars.tsx",
+      "sha256": "60de577184b6473d352f274484f7169e432fc64417db02fd8ca00698934d1971",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "typing-indicator",
+      "url": "https://www.interior.dev/r/typing-indicator.json",
+      "file": "src/vendor/interior/components/typing-indicator.tsx",
+      "sha256": "0860f498321bfefe5847242c643699908c922c0ee9b55d85d2dabaa932568999",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "motion"
+      ]
+    },
+    {
+      "library": "interior",
+      "name": "live-activity",
+      "url": "https://www.interior.dev/r/live-activity.json",
+      "file": "src/vendor/interior/components/live-activity.tsx",
+      "sha256": "57f46fe11e28579ad2c240d09035ea78a9c62e1fb89b58b384f8fa195a9f1668",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "popover",
+      "url": "https://www.interior.dev/r/popover.json",
+      "file": "src/vendor/interior/components/popover.tsx",
+      "sha256": "5938c32bd1372e077cc4680442e0bfc63971a632fbd7f7d599547e7fae490d7e",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "context-menu",
+      "url": "https://www.interior.dev/r/context-menu.json",
+      "file": "src/vendor/interior/components/context-menu.tsx",
+      "sha256": "eea99d69e8e043c70f9fc879cf1f07b2df179e8c9c6c435a1e01befe441a8391",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "command-palette",
+      "url": "https://www.interior.dev/r/command-palette.json",
+      "file": "src/vendor/interior/components/command-palette.tsx",
+      "sha256": "e8c0581211c49e3c4995725fb7efea4e31384c5af09bef88830eeaa97ed56822",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "dropdown",
+      "url": "https://www.interior.dev/r/dropdown.json",
+      "file": "src/vendor/interior/components/dropdown.tsx",
+      "sha256": "836c38ab58876445ac69bfad39658f74a26f2336480d26bf0d3a38ece417d6d5",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "segmented-control",
+      "url": "https://www.interior.dev/r/segmented-control.json",
+      "file": "src/vendor/interior/components/segmented-control.tsx",
+      "sha256": "6252ce52d2ca9f53067ea90f84641c35cc49620362e5377c710edfd6fe4149af",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "motion"
+      ]
+    },
+    {
+      "library": "interior",
+      "name": "tooltip-group",
+      "url": "https://www.interior.dev/r/tooltip-group.json",
+      "file": "src/vendor/interior/components/tooltip-group.tsx",
+      "sha256": "a628544918d0c3a46820e4801e092c7fd31bf6b0fecbc40f21f34e2982d867c6",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "tabs",
+      "url": "https://www.interior.dev/r/tabs.json",
+      "file": "src/vendor/interior/components/tabs.tsx",
+      "sha256": "68a5f7829890bbb609d0758b6f90232a7b35e5dc34184a312b26d5746852643d",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "motion"
+      ]
+    },
+    {
+      "library": "interior",
+      "name": "drawer",
+      "url": "https://www.interior.dev/r/drawer.json",
+      "file": "src/vendor/interior/components/drawer.tsx",
+      "sha256": "2b6ee6d255cdfae8543edea446c8179ee6e493f2446e6f07faa90001cce59a4a",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "wizard-steps",
+      "url": "https://www.interior.dev/r/wizard-steps.json",
+      "file": "src/vendor/interior/components/wizard-steps.tsx",
+      "sha256": "dfe8bf2f81f8e86eedbfa3d7a3a47b669c73f2376702068532c9a52e4872ac76",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "tree-view",
+      "url": "https://www.interior.dev/r/tree-view.json",
+      "file": "src/vendor/interior/components/tree-view.tsx",
+      "sha256": "6ad84c7e3de7e8b6b1cf0b074889a22897a3c0af54fb6219a058b84846b62c86",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "scroll-spy",
+      "url": "https://www.interior.dev/r/scroll-spy.json",
+      "file": "src/vendor/interior/components/scroll-spy.tsx",
+      "sha256": "e08d28d0632aad0a1a56aee1a97e8e76ce3b2a1bc8acc2c022bd962908eb1bb6",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "accordion",
+      "url": "https://www.interior.dev/r/accordion.json",
+      "file": "src/vendor/interior/components/accordion.tsx",
+      "sha256": "58b7f94f17262c40b63e74b83998e7d8e9dd6b1a843d5b2132177c2f93cdd4bd",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "motion"
+      ]
+    },
+    {
+      "library": "interior",
+      "name": "pagination",
+      "url": "https://www.interior.dev/r/pagination.json",
+      "file": "src/vendor/interior/components/pagination.tsx",
+      "sha256": "a5b4767a2d5204e3f85908fb5b33a5acfe1b6f47651f883ef676a3ba0dcecdb2",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "reading-progress",
+      "url": "https://www.interior.dev/r/reading-progress.json",
+      "file": "src/vendor/interior/components/reading-progress.tsx",
+      "sha256": "ad7237e460b8bc9af02cbc3aee486114458a4df7d1aa00056c4694af708bbdd9",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "sticky-header",
+      "url": "https://www.interior.dev/r/sticky-header.json",
+      "file": "src/vendor/interior/components/sticky-header.tsx",
+      "sha256": "971937c35c59336e9d1ae2a7c4e5569bd1ea6c4b53a3bfdf2c310f5b93e7c5b7",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "snap-carousel",
+      "url": "https://www.interior.dev/r/snap-carousel.json",
+      "file": "src/vendor/interior/components/snap-carousel.tsx",
+      "sha256": "6e38394eb2e136d0123c4b328f3f24bd47ff6b03660bcc1cb0d111995a77db20",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "filter-grid",
+      "url": "https://www.interior.dev/r/filter-grid.json",
+      "file": "src/vendor/interior/components/filter-grid.tsx",
+      "sha256": "4638928e6eb7b53982ed9d2862f9b334a977a250bc10343c08ea3edd18af744a",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "hide-on-scroll",
+      "url": "https://www.interior.dev/r/hide-on-scroll.json",
+      "file": "src/vendor/interior/components/hide-on-scroll.tsx",
+      "sha256": "cef88aabbb1b804ea364c60bc07306d2ba504c1db15bd1d6484c71dcef1df740",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "slider-detents",
+      "url": "https://www.interior.dev/r/slider-detents.json",
+      "file": "src/vendor/interior/components/slider-detents.tsx",
+      "sha256": "a194315e175fbae9b247e92afc77c7f102943978e00da97f5fef33f7794e04b4",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "value-flash",
+      "url": "https://www.interior.dev/r/value-flash.json",
+      "file": "src/vendor/interior/components/value-flash.tsx",
+      "sha256": "0005744fd7c00252fb39aa69f71fd61a4e1b6d099476664957a127384577f320",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "motion"
+      ]
+    },
+    {
+      "library": "interior",
+      "name": "reorder-list",
+      "url": "https://www.interior.dev/r/reorder-list.json",
+      "file": "src/vendor/interior/components/reorder-list.tsx",
+      "sha256": "0ad14b560c64047bf8348910a0646af87f46f9a7938bda779d2998c11b044f91",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "poll-results",
+      "url": "https://www.interior.dev/r/poll-results.json",
+      "file": "src/vendor/interior/components/poll-results.tsx",
+      "sha256": "3020853c67ea5c701c95c48ee3545131f5daee85eb4b19bb96033a5448a6dbf2",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "sortable-table",
+      "url": "https://www.interior.dev/r/sortable-table.json",
+      "file": "src/vendor/interior/components/sortable-table.tsx",
+      "sha256": "e85522ad9fa2b2b27ab96ed993049566fbe938538e666d84cfbe44cb50c8f8d8",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "swipe-deck",
+      "url": "https://www.interior.dev/r/swipe-deck.json",
+      "file": "src/vendor/interior/components/swipe-deck.tsx",
+      "sha256": "cbdc1250547fd6fe829598d200461473a634e4afd740f32fa18e17db88263a5c",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "lightbox",
+      "url": "https://www.interior.dev/r/lightbox.json",
+      "file": "src/vendor/interior/components/lightbox.tsx",
+      "sha256": "856cfce4c7d8260879855d08700638b38b7a408029232bf71694b9e880325d4f",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "blur-up-image",
+      "url": "https://www.interior.dev/r/blur-up-image.json",
+      "file": "src/vendor/interior/components/blur-up-image.tsx",
+      "sha256": "755a7374976b4d3425cbc8db805169654e55023270499722300e865c1226b8e2",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "motion"
+      ]
+    },
+    {
+      "library": "interior",
+      "name": "show-more",
+      "url": "https://www.interior.dev/r/show-more.json",
+      "file": "src/vendor/interior/components/show-more.tsx",
+      "sha256": "63e9f8debc52c80383b4cb82e33b322a91686914d7c26ee3c866f24448c0401d",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "motion"
+      ]
+    },
+    {
+      "library": "interior",
+      "name": "long-press",
+      "url": "https://www.interior.dev/r/long-press.json",
+      "file": "src/vendor/interior/components/long-press.tsx",
+      "sha256": "fced9ce0fd0f20743c4acd82195e714b31a20e7b2c08069dd071e0bd220f6b7d",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "text-reveal",
+      "url": "https://www.interior.dev/r/text-reveal.json",
+      "file": "src/vendor/interior/components/text-reveal.tsx",
+      "sha256": "5d3f55f0399af7a4fce2b44b01bc492ef92051e7d229e28d4a5c407fdfacf85d",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "motion"
+      ]
+    },
+    {
+      "library": "rare",
+      "name": "utils",
+      "url": "https://www.rareui.com/r/utils.json",
+      "file": "src/vendor/rare/lib/utils.ts",
+      "sha256": "d1f1e0d62cb8d8d1e04c26e14de842d8a151f75812d81b046c65b5d1fe8e4b27",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "logo-marquee",
+      "url": "https://www.interior.dev/r/logo-marquee.json",
+      "file": "src/vendor/interior/components/logo-marquee.tsx",
+      "sha256": "47abe04295b8cae05af89c2d70781215a43059cc263c04dfc3906f5b846fd67d",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "motion"
+      ]
+    },
+    {
+      "library": "rare",
+      "name": "folder-component",
+      "url": "https://www.rareui.com/r/folder-component.json",
+      "file": "src/vendor/rare/components/ui/folder-component.tsx",
+      "sha256": "b4a76341e592d5048a39de5d56ace38a526da21bb3065ffb9f5b1ff0aced30dd",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "motion"
+      ]
+    },
+    {
+      "library": "rare",
+      "name": "scroll-progress",
+      "url": "https://www.rareui.com/r/scroll-progress.json",
+      "file": "src/vendor/rare/components/ui/scroll-progress.tsx",
+      "sha256": "11f05b3649183a4183e441f52f61eeae77b703b14d4f17178ddf42bc982bd06c",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "rare",
+      "name": "family-drawer",
+      "url": "https://www.rareui.com/r/family-drawer.json",
+      "file": "src/vendor/rare/components/ui/family-drawer.tsx",
+      "sha256": "b2a7855d1c4340231b56e32e46fbc74df47b58d3a95001896f3701a75d22b4a8",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "rare",
+      "name": "code-block",
+      "url": "https://www.rareui.com/r/code-block.json",
+      "file": "src/vendor/rare/components/ui/code-block.tsx",
+      "sha256": "2ae7d41b4cb436256913159dd0439c372403a617f4fc20d87cbece364a33873e",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "rare",
+      "name": "fluid-orb",
+      "url": "https://www.rareui.com/r/fluid-orb.json",
+      "file": "src/vendor/rare/components/ui/fluid-orb.tsx",
+      "sha256": "f5b13769f5e4e64b74bfc7ed7815b8b38e670fef5985b1a991a8ee6186b2be8a",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "rare",
+      "name": "proximity-sidebar",
+      "url": "https://www.rareui.com/r/proximity-sidebar.json",
+      "file": "src/vendor/rare/components/ui/proximity-sidebar.tsx",
+      "sha256": "d30719bd67c95fe22f814a4601d3f42604ddeed1e3c0d142c2dd9c8abbe68e99",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "rare",
+      "name": "duration-picker",
+      "url": "https://www.rareui.com/r/duration-picker.json",
+      "file": "src/vendor/rare/components/ui/duration-picker.tsx",
+      "sha256": "5ec0078704c6dc11824a1b9e06d97bd7723a6c8984090b6c5c82aa3fc24ce808",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "rare",
+      "name": "bounce-sidebar",
+      "url": "https://www.rareui.com/r/bounce-sidebar.json",
+      "file": "src/vendor/rare/components/ui/bounce-sidebar.tsx",
+      "sha256": "400b6a99bd14ace074caee4a0f185242a160f3233d766df560d8110bf8c07973",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "motion"
+      ]
+    },
+    {
+      "library": "rare",
+      "name": "hook-sidebar",
+      "url": "https://www.rareui.com/r/hook-sidebar.json",
+      "file": "src/vendor/rare/components/ui/hook-sidebar.tsx",
+      "sha256": "6786de40b9cbef3aeb064bd830f7e1dc01c3eeb6d7f0c9d6b82a18d7df5ada4d",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "motion"
+      ]
+    },
+    {
+      "library": "rare",
+      "name": "grid-reveal",
+      "url": "https://www.rareui.com/r/grid-reveal.json",
+      "file": "src/vendor/rare/components/ui/grid-reveal.tsx",
+      "sha256": "97de3cb193e4c71e699d7b7d9c6ffb8365591affcba08f36ca8c66e92284244e",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "rare",
+      "name": "emoji-reaction",
+      "url": "https://www.rareui.com/r/emoji-reaction.json",
+      "file": "src/vendor/rare/components/ui/emoji-reaction.tsx",
+      "sha256": "f8f1c29118fca6f67526ca552c0c7bbfab803f9397da8539f238fdb81ef7a855",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "motion",
+        "react-apple-emojis",
+        "lucide-react",
+        "@radix-ui/react-slot"
+      ]
+    },
+    {
+      "library": "rare",
+      "name": "step-player",
+      "url": "https://www.rareui.com/r/step-player.json",
+      "file": "src/vendor/rare/components/ui/step-player.tsx",
+      "sha256": "ded4a6da0f8ede2e698cf1125a9767e09f14059c29ff4dd08d73164a23c56550",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "rare",
+      "name": "otp-input",
+      "url": "https://www.rareui.com/r/otp-input.json",
+      "file": "src/vendor/rare/components/ui/otp-input.tsx",
+      "sha256": "06d2fa9b2f6dbe4dda9b1719f61eb02a5e35a55d7b312256085c882a33cc70da",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "rare",
+      "name": "gooey-nav",
+      "url": "https://www.rareui.com/r/gooey-nav.json",
+      "file": "src/vendor/rare/components/ui/gooey-nav.tsx",
+      "sha256": "900db38347cc5bc0ad352eb7bd761cd47c3fe85908b3e36e4d8aaea081e127c8",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "rare",
+      "name": "notification-bell",
+      "url": "https://www.rareui.com/r/notification-bell.json",
+      "file": "src/vendor/rare/components/ui/notification-bell.tsx",
+      "sha256": "ca60cfe34fb80cf90d20904fc5723439577bc88e9a28ffb02a0ccab393489100",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "motion",
+        "@radix-ui/react-slot"
+      ]
+    },
+    {
+      "library": "rare",
+      "name": "gravity-letters",
+      "url": "https://www.rareui.com/r/gravity-letters.json",
+      "file": "src/vendor/rare/components/ui/gravity-letters.tsx",
+      "sha256": "44dec3db237edf29c6b03828584f3519518e08bc9c83b2e736847a549649d883",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "rare",
+      "name": "github-activity",
+      "url": "https://www.rareui.com/r/github-activity.json",
+      "file": "src/vendor/rare/components/ui/github-activity.tsx",
+      "sha256": "3598cd3d475800a74b0b5548234e13b08cca38263dfe456858b661392304d3eb",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "rare",
+      "name": "animated-counter",
+      "url": "https://www.rareui.com/r/animated-counter.json",
+      "file": "src/vendor/rare/components/ui/animated-counter.tsx",
+      "sha256": "7913a4e43d8ad16ebac5fe4ea2413890866f14b9a0e01f7feec2b912e399906c",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "motion"
+      ]
+    },
+    {
+      "library": "rare",
+      "name": "matrix-orb",
+      "url": "https://www.rareui.com/r/matrix-orb.json",
+      "file": "src/vendor/rare/components/ui/matrix-orb.tsx",
+      "sha256": "83dae4ac5052091800c37a4fc1abb5d4248d3663a23f9096bc1f5d7b99e27cdb",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "input-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/input-demo.json",
+      "file": "src/vendor/shadcn/examples/input-demo.tsx",
+      "sha256": "2a6430567a36119562ef31a7764aef541005d0e84af3e4ebe0f440972be2afce",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "button-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/button-demo.json",
+      "file": "src/vendor/shadcn/examples/button-demo.tsx",
+      "sha256": "79b686fd86aae77ff1307ebd9ce843832331d6ce85ba49af82113acfc9a377ac",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "input-group-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/input-group-demo.json",
+      "file": "src/vendor/shadcn/examples/input-group-demo.tsx",
+      "sha256": "6c9ba44ea7d78cd632f8f88c15d10b527709a4b648fa27a38741b1cc52199040",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "field-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/field-demo.json",
+      "file": "src/vendor/shadcn/examples/field-demo.tsx",
+      "sha256": "e0e480c2beb9223b112b8e04f37e3ad83283e257cdd24e6f3a00e5f9542c4ba2",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "rare",
+      "name": "delete-button",
+      "url": "https://www.rareui.com/r/delete-button.json",
+      "file": "src/vendor/rare/components/ui/delete-button.tsx",
+      "sha256": "04fb156b7872476052095e79186026349feae9d318554df767f108c3af592ef1",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "motion"
+      ]
+    },
+    {
+      "library": "shadcn",
+      "name": "button-group-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/button-group-demo.json",
+      "file": "src/vendor/shadcn/examples/button-group-demo.tsx",
+      "sha256": "73e3bb613a039e58ebdb89a647f2ff7c8b000797fa5c980db7506cadfe2c2ade",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "input",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/input.json",
+      "file": "src/vendor/shadcn/ui/input.tsx",
+      "sha256": "0c9457181f6ddc80969bcf854e92c362903a55b6e889fbef3fd85343ecc4af5b",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "button",
+      "url": "https://ui.shadcn.com/r/styles/new-york/button.json",
+      "file": "src/vendor/shadcn/ui/button.tsx",
+      "sha256": "c2b999a96781e6c932632bd089095368e973bf5602e1b1a62156b7d2b43f1e84",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "@radix-ui/react-slot"
+      ]
+    },
+    {
+      "library": "shadcn",
+      "name": "input-group",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/input-group.json",
+      "file": "src/vendor/shadcn/ui/input-group.tsx",
+      "sha256": "e379899ac50d6cabc9d9eb1668f265176951c62b1fe83a6f23ee97fe8074d526",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "button-group",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/button-group.json",
+      "file": "src/vendor/shadcn/ui/button-group.tsx",
+      "sha256": "a9ac862707ff8d78255f2696baf48f9a87d9e92e21eb476f8f9e9361313c1761",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "field",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/field.json",
+      "file": "src/vendor/shadcn/ui/field.tsx",
+      "sha256": "4a4d17fcb933513f637f9f7e2daf5d8348f7de086b29738337dec7e6dd1819a0",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "label",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/label.json",
+      "file": "src/vendor/shadcn/ui/label.tsx",
+      "sha256": "344bde38b8531615dbf8e14af3895517c24d8ef6ce56ddeda7e2e6fe4b5d0c00",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "textarea",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/textarea.json",
+      "file": "src/vendor/shadcn/ui/textarea.tsx",
+      "sha256": "5cafcfeeee29534f449387a16b585f5923d2faab1a0cdc50a874416b175f59ce",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "separator",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/separator.json",
+      "file": "src/vendor/shadcn/ui/separator.tsx",
+      "sha256": "ad7d5403fe337160e41dbf04147896e448ae3a747b8d06660d627d74d60021bc",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "switch-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/switch-demo.json",
+      "file": "src/vendor/shadcn/examples/switch-demo.tsx",
+      "sha256": "3486d089b90815dfb12ee4d0e3f68339703457d7731b6e2d19bb6ed2ce190157",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "input-otp-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/input-otp-demo.json",
+      "file": "src/vendor/shadcn/examples/input-otp-demo.tsx",
+      "sha256": "7ded8c77df963fc6f63193c77dd1f395c93b2e52195ca71b8780462ee05a3780",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "checkbox-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/checkbox-demo.json",
+      "file": "src/vendor/shadcn/examples/checkbox-demo.tsx",
+      "sha256": "963c8036e466a3652bb73b713be3d2475a5621e5e7d75e744f4cf251adb01e6d",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "radio-group-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/radio-group-demo.json",
+      "file": "src/vendor/shadcn/examples/radio-group-demo.tsx",
+      "sha256": "bc67f9b495b2384aea14cf1fba73f7cc0b4875b1fbfe4a6e9523de8bfdb387d3",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "textarea-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/textarea-demo.json",
+      "file": "src/vendor/shadcn/examples/textarea-demo.tsx",
+      "sha256": "622a07a6ae266d547e3e53e8d19f68e73a6689bbff4f98abd91a0883ffc96084",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "select-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/select-demo.json",
+      "file": "src/vendor/shadcn/examples/select-demo.tsx",
+      "sha256": "b9539f4e912127b34b1b49b73e40604db6cc878a4f76fffc9ded1af34d8df21b",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "native-select-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/native-select-demo.json",
+      "file": "src/vendor/shadcn/examples/native-select-demo.tsx",
+      "sha256": "290656cdadbdf1f5cfe39d21c449548e7cd0c2c63fa5a9844634d94be54a7652",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "slider-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/slider-demo.json",
+      "file": "src/vendor/shadcn/examples/slider-demo.tsx",
+      "sha256": "5bfea9cf7f7444237e9d60d3a519e29498bf8300442b7a9e1f499d7a484c3d14",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "input-otp",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/input-otp.json",
+      "file": "src/vendor/shadcn/ui/input-otp.tsx",
+      "sha256": "9f81898aeaabbb104cc22ffda551a333eb22608c543c4800412e2faaa802e311",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "switch",
+      "url": "https://ui.shadcn.com/r/styles/new-york/switch.json",
+      "file": "src/vendor/shadcn/ui/switch.tsx",
+      "sha256": "ab2d009e0fa7366f47ae1a6e0ca35d0aac55c6264c5f61718e12366c196163b4",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "@radix-ui/react-switch"
+      ]
+    },
+    {
+      "library": "shadcn",
+      "name": "checkbox",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/checkbox.json",
+      "file": "src/vendor/shadcn/ui/checkbox.tsx",
+      "sha256": "ba0ac64064e2d8fa7299d53e9e84b9a4772fef8dd4cf6170c56d3030a1d69941",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "radio-group",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/radio-group.json",
+      "file": "src/vendor/shadcn/ui/radio-group.tsx",
+      "sha256": "cfc4f99ee68be2fbbd70de3ffad82e1462d5e8e0bb0aecfd190a4f5115325862",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "slider",
+      "url": "https://ui.shadcn.com/r/styles/new-york/slider.json",
+      "file": "src/vendor/shadcn/ui/slider.tsx",
+      "sha256": "16dad0a2c58fba2a38740ab9b15936f1f9a07d0e3aafccdce875b6bac31d79be",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "@radix-ui/react-slider"
+      ]
+    },
+    {
+      "library": "shadcn",
+      "name": "native-select",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/native-select.json",
+      "file": "src/vendor/shadcn/ui/native-select.tsx",
+      "sha256": "4bdbce5575dce610fed747df4547a3d494713f4df8d28e09b3ccee62e4d72f93",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "select",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/select.json",
+      "file": "src/vendor/shadcn/ui/select.tsx",
+      "sha256": "962830436bd0b7ee50e556f0747e277d6a86869ed27d167516346b15f26309d8",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "combobox-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/combobox-demo.json",
+      "file": "src/vendor/shadcn/examples/combobox-demo.tsx",
+      "sha256": "587117e09dca105e5799a57883a2938743be2d82268658a081aa1a8629de34d8",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "date-picker-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/date-picker-demo.json",
+      "file": "src/vendor/shadcn/examples/date-picker-demo.tsx",
+      "sha256": "47f946b61f4a43f32c025b2ece2401243345fc8b6b16e47c095c72651f56c766",
+      "modifications": "Import aliases; DayPicker current API compatibility: initialFocus renamed to autoFocus (same focus-on-mount behavior)",
+      "dependencies": [],
+      "outputSha256": "b0b2f581a1eb55a7794a9f6cce5155c858c53d9dff1d70542cde5b8b854e98ea"
+    },
+    {
+      "library": "shadcn",
+      "name": "calendar-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/calendar-demo.json",
+      "file": "src/vendor/shadcn/examples/calendar-demo.tsx",
+      "sha256": "2b90c835fb12981f6becd8492b1a546943c1c0d0bf638bea3bb7c062355c1313",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "accordion-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/accordion-demo.json",
+      "file": "src/vendor/shadcn/examples/accordion-demo.tsx",
+      "sha256": "adb155525e248ea3803682e26d53f797106cdd531e988cf1f29de3e100b81dc0",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "label-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/label-demo.json",
+      "file": "src/vendor/shadcn/examples/label-demo.tsx",
+      "sha256": "f5a586dc0c336af069d105d2b91e6324654d3208b457cef5ee8e23bfc40e64e4",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "navigation-menu-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/navigation-menu-demo.json",
+      "file": "src/vendor/shadcn/examples/navigation-menu-demo.tsx",
+      "sha256": "17464911daa88a84345fbc6c1485d0f346b5417f0bb3370f623ee435fb50265d",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "sidebar-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/sidebar-demo.json",
+      "file": "src/vendor/shadcn/internal/sidebar-demo.tsx",
+      "sha256": "a6cc9417903fdcc36f3fcf16fa3f50449cfda4b1f9d01ff5d176f5fb2f036b7a",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "breadcrumb-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/breadcrumb-demo.json",
+      "file": "src/vendor/shadcn/examples/breadcrumb-demo.tsx",
+      "sha256": "ae89a126027ca3fba323c5048856ce917f8545a7ca629601545115e147ab818d",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "popover",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/popover.json",
+      "file": "src/vendor/shadcn/ui/popover.tsx",
+      "sha256": "3f99d3add6c9fa4f03721e81297ee10e1310785ee1d9d9d4c82a114d84ab0757",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "calendar",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/calendar.json",
+      "file": "src/vendor/shadcn/ui/calendar.tsx",
+      "sha256": "78ed2cc49dafc5bb5df7b1d4a325e5fc314237386747362e5f0761a2c539a934",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "breadcrumb",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/breadcrumb.json",
+      "file": "src/vendor/shadcn/ui/breadcrumb.tsx",
+      "sha256": "c75fcd3d9e8470188bc0dd4b27a2b26fff3ad42b9c9c534a953dc090ae2cba33",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "accordion",
+      "url": "https://ui.shadcn.com/r/styles/new-york/accordion.json",
+      "file": "src/vendor/shadcn/ui/accordion.tsx",
+      "sha256": "00dd6eef660f08ce85154106fa0fa4d943ed699c5ca7b06bb08732978bcebb49",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "@radix-ui/react-accordion"
+      ]
+    },
+    {
+      "library": "shadcn",
+      "name": "navigation-menu",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/navigation-menu.json",
+      "file": "src/vendor/shadcn/ui/navigation-menu.tsx",
+      "sha256": "fbe81d7c358df0d21e49b03174ef53be7d66226a3dce1a97ff3d4a260ed833a3",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "command",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/command.json",
+      "file": "src/vendor/shadcn/ui/command.tsx",
+      "sha256": "319e9264567dd46f04d705028bc345470663ca5919f31292c4ec43ea5ceb9336",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "dialog",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/dialog.json",
+      "file": "src/vendor/shadcn/ui/dialog.tsx",
+      "sha256": "2ade6074e5fad0a4eb171ead44c43d3301a3c83d186d7236fb1fdbea80ee556b",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "separator-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/separator-demo.json",
+      "file": "src/vendor/shadcn/examples/separator-demo.tsx",
+      "sha256": "128e76026308dd47d64a7935b2847bc9e4fd20de5c08653c9dae6807858d838d",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "dialog-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/dialog-demo.json",
+      "file": "src/vendor/shadcn/examples/dialog-demo.tsx",
+      "sha256": "1a4e0f495dc3a3d00f6ab0a4e677aedc24f80a4a4f3c267e472eedc99f9c1828",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "tabs-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/tabs-demo.json",
+      "file": "src/vendor/shadcn/examples/tabs-demo.tsx",
+      "sha256": "167a1763653b162e155cfe73caf2d2c1c5b4f7b8dc190aa1d9c7504d78598c3d",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "alert-dialog-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/alert-dialog-demo.json",
+      "file": "src/vendor/shadcn/examples/alert-dialog-demo.tsx",
+      "sha256": "0df2feb3b43b6ec1173a801211b005db551150157eb0af0fa58a8132cc64c8ff",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "resizable-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/resizable-demo.json",
+      "file": "src/vendor/shadcn/examples/resizable-demo.tsx",
+      "sha256": "225d846fa5e8724da3966e5a5d23ab31a22a9b97fd43c78c3331adbd05af397a",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "scroll-area-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/scroll-area-demo.json",
+      "file": "src/vendor/shadcn/examples/scroll-area-demo.tsx",
+      "sha256": "f8ea27481634f98570aa108a8fcbc0a11ed14516421a2c10c349cfbe1e3b8e1f",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "sheet-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/sheet-demo.json",
+      "file": "src/vendor/shadcn/examples/sheet-demo.tsx",
+      "sha256": "eee993aff55b31bc5eb07af188910614ea2ba6e4d43c98557bf1ed9f6d0f3509",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "drawer-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/drawer-demo.json",
+      "file": "src/vendor/shadcn/examples/drawer-demo.tsx",
+      "sha256": "76b49ff4b558d5014009219285bb7b907152d2fd08613d79553bcce0c6bb3699",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "tabs",
+      "url": "https://ui.shadcn.com/r/styles/new-york/tabs.json",
+      "file": "src/vendor/shadcn/ui/tabs.tsx",
+      "sha256": "d41aded0394298102614635e15d709369c6bdae8fe79b918b8341ef39407ee03",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "@radix-ui/react-tabs"
+      ]
+    },
+    {
+      "library": "shadcn",
+      "name": "alert-dialog",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/alert-dialog.json",
+      "file": "src/vendor/shadcn/ui/alert-dialog.tsx",
+      "sha256": "b3dfb83e54ed8c82071df5289e5149628bf573458fc2da2d62f93f8380041b28",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "sheet",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/sheet.json",
+      "file": "src/vendor/shadcn/ui/sheet.tsx",
+      "sha256": "ea473d38a26a9b0b879e5a13139899ad45e9782e896b3fa205c7763a6c506876",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "drawer",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/drawer.json",
+      "file": "src/vendor/shadcn/ui/drawer.tsx",
+      "sha256": "63f04fe50a4bf29b56b0f5e2944c6efe980b895f589923659cc2e8ecc90b16c6",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "scroll-area",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/scroll-area.json",
+      "file": "src/vendor/shadcn/ui/scroll-area.tsx",
+      "sha256": "8b73bb9be51300079c7f561bafbe43ee10f6f464cf39c8c1b25123cd4edb94dd",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "resizable",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/resizable.json",
+      "file": "src/vendor/shadcn/ui/resizable.tsx",
+      "sha256": "aaf3ea20e8060c75dd86e06fedfca053d49f81071123ba647b5699efcbc010ea",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "tooltip-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/tooltip-demo.json",
+      "file": "src/vendor/shadcn/examples/tooltip-demo.tsx",
+      "sha256": "3552415cad300b20f9132aaf3f4dca1e4c1d67f71b3f2947318392507149a5d9",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "popover-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/popover-demo.json",
+      "file": "src/vendor/shadcn/examples/popover-demo.tsx",
+      "sha256": "92fce28d0dfd42d9eb605ae7e8e4786ac7f7cf48517dd4ca279c9006b0c3d1ce",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "menubar-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/menubar-demo.json",
+      "file": "src/vendor/shadcn/examples/menubar-demo.tsx",
+      "sha256": "827d98a3b4fdc16dc21f2fd691e49417c8aef5a253a75d9dda0a82dee5a064ee",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "hover-card-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/hover-card-demo.json",
+      "file": "src/vendor/shadcn/examples/hover-card-demo.tsx",
+      "sha256": "ac1782d82c3fd0f5783d53f83e5b3831def02e3dab6c5bd57030cbcdba22c9b3",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "context-menu-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/context-menu-demo.json",
+      "file": "src/vendor/shadcn/examples/context-menu-demo.tsx",
+      "sha256": "1b923b68b383ca503c88dd29f12f5f53222aa677456d843ce4ee952a7ca7a824",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "dropdown-menu-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/dropdown-menu-demo.json",
+      "file": "src/vendor/shadcn/examples/dropdown-menu-demo.tsx",
+      "sha256": "246125468036387ef225fb68bc3976e4a28126a5e1e68af7dd97ba08fb5568ca",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "command-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/command-demo.json",
+      "file": "src/vendor/shadcn/examples/command-demo.tsx",
+      "sha256": "da6068f90f9d8fd428acac6235b84b23287b7a4a9d563cc4516dcd264590e19b",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "alert-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/alert-demo.json",
+      "file": "src/vendor/shadcn/examples/alert-demo.tsx",
+      "sha256": "692415a8701b0c8494b955b8980fe6d0ee0d79a852e3cd639bfa5f858d775087",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "tooltip",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/tooltip.json",
+      "file": "src/vendor/shadcn/ui/tooltip.tsx",
+      "sha256": "611e4305879b2773eafe76bf3c5caa69d8e47367fd97887a71634a27828f4433",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "menubar",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/menubar.json",
+      "file": "src/vendor/shadcn/ui/menubar.tsx",
+      "sha256": "ca1a7f6775f9095183d63faadc6d4ed5ee2097139b4edeeefa60210379c47092",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "alert",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/alert.json",
+      "file": "src/vendor/shadcn/ui/alert.tsx",
+      "sha256": "d03dcae5cdb63c381c1144ca9a0c49ba0e46466967d7deb94662034042acb034",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "hover-card",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/hover-card.json",
+      "file": "src/vendor/shadcn/ui/hover-card.tsx",
+      "sha256": "73f59aa759656501ed615604ac3f2c04ba564acaea4529288fe3a487ad934953",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "context-menu",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/context-menu.json",
+      "file": "src/vendor/shadcn/ui/context-menu.tsx",
+      "sha256": "bcde5df1ed9887bb050f0badabfb5f79912eb53bdc883dbe6c003d05914d99a4",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "dropdown-menu",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/dropdown-menu.json",
+      "file": "src/vendor/shadcn/ui/dropdown-menu.tsx",
+      "sha256": "d954efb735f13734751207ad22cb0cddd7f6ec53c59d16675d103dae08cb61fb",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "spinner-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/spinner-demo.json",
+      "file": "src/vendor/shadcn/examples/spinner-demo.tsx",
+      "sha256": "1d7910dbb0a9a30e208c8c494cfac2970d0313075e3e4e87e4f8204dac24ac4c",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "progress-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/progress-demo.json",
+      "file": "src/vendor/shadcn/examples/progress-demo.tsx",
+      "sha256": "0c712ef88df3e3c953c8e4ef42bd2ebbc6736605484031b97334501ac130529c",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "sonner-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/sonner-demo.json",
+      "file": "src/vendor/shadcn/examples/sonner-demo.tsx",
+      "sha256": "828727175d23414ee680032e7131701b81772e3f688965e6f47ebe80146880b8",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "skeleton-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/skeleton-demo.json",
+      "file": "src/vendor/shadcn/examples/skeleton-demo.tsx",
+      "sha256": "dad425fea6f07d573d1b214ea683e7e9aee52795272123688fceca95c163f874",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "badge-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/badge-demo.json",
+      "file": "src/vendor/shadcn/examples/badge-demo.tsx",
+      "sha256": "be8d271adea8b2fcd2f900d8e8bead615ab09a0a39591edeedfc535616978b73",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "empty-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/empty-demo.json",
+      "file": "src/vendor/shadcn/examples/empty-demo.tsx",
+      "sha256": "256fafa66022abe16cbd45c715da901d8002da003898e8dd0fe781e101360d70",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "avatar-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/avatar-demo.json",
+      "file": "src/vendor/shadcn/examples/avatar-demo.tsx",
+      "sha256": "e5a08187c1161d942f4df678f1fc8641acfc2b96659a4e213f931f6f9f5440a3",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "spinner",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/spinner.json",
+      "file": "src/vendor/shadcn/ui/spinner.tsx",
+      "sha256": "5d040fc49cb54c0296070644053b5a8840ddbfca89a430546bf308df3fffad65",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "progress",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/progress.json",
+      "file": "src/vendor/shadcn/ui/progress.tsx",
+      "sha256": "e012e1f7e6e66d11229d1233eccf91954edcd9179b418ff1d114dc651b86fd35",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "skeleton",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/skeleton.json",
+      "file": "src/vendor/shadcn/ui/skeleton.tsx",
+      "sha256": "f51ce0fcd31e5c31437382e80ea0af94b4fc3d64221d27091d36824546780a43",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "sonner",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/sonner.json",
+      "file": "src/vendor/shadcn/ui/sonner.tsx",
+      "sha256": "13ccc9b0fe4248e622f83a1d3b2f0566b72b5e04162d7d0c8db8945ecc71b55f",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "empty",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/empty.json",
+      "file": "src/vendor/shadcn/ui/empty.tsx",
+      "sha256": "54f529ccf72c18c4b5abd5586a7cf1f2a4c8d207aac366029d66ed095cb2965d",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "badge",
+      "url": "https://ui.shadcn.com/r/styles/new-york/badge.json",
+      "file": "src/vendor/shadcn/ui/badge.tsx",
+      "sha256": "dab689d836ad3292b41e7f4986b4e68e5d45c6903e4aeaae8972a82d4aebec29",
+      "modifications": "Import aliases only",
+      "dependencies": [
+        "@radix-ui/react-slot"
+      ]
+    },
+    {
+      "library": "shadcn",
+      "name": "avatar",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/avatar.json",
+      "file": "src/vendor/shadcn/ui/avatar.tsx",
+      "sha256": "0c5c48b8a1dff4fdc5ff9b6cb79cc9cd138682b7d86868068f571befe9675e88",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "table-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/table-demo.json",
+      "file": "src/vendor/shadcn/examples/table-demo.tsx",
+      "sha256": "57fc6f2e491588b55d6ecd5f80f032919280f92dc488b573406aa8e36613292c",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "data-table-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/data-table-demo.json",
+      "file": "src/vendor/shadcn/examples/data-table-demo.tsx.txt",
+      "sha256": "b84aba282c0d537964dd561545231db6e1a5b8f2f7b4e273c2d78457d3a5f889",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "card-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/card-demo.json",
+      "file": "src/vendor/shadcn/examples/card-demo.tsx",
+      "sha256": "5e480048442a8a5bab54ddde1333c5ead1c9d5140543ece42203f0dbc542b58e",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "item-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/item-demo.json",
+      "file": "src/vendor/shadcn/examples/item-demo.tsx",
+      "sha256": "73fcf3db09a720e83952ce75c41c372a1a4696680bada3203ec03d09f761f45a",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "carousel-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/carousel-demo.json",
+      "file": "src/vendor/shadcn/examples/carousel-demo.tsx",
+      "sha256": "ab0d6db53c82a6964bd7533d12b7d6cc986d72a85e65171fde9986d63f8aac4a",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "aspect-ratio-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/aspect-ratio-demo.json",
+      "file": "src/vendor/shadcn/examples/aspect-ratio-demo.tsx",
+      "sha256": "35fd84eae0154c7166e7d6631606d2d30a4b9d4c7f18f435b0c55a32df123b40",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "chart-bar-default",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/chart-bar-default.json",
+      "file": "src/vendor/shadcn/charts/chart-bar-default.tsx",
+      "sha256": "e714948c1087af16be42ddc8266f0292e62fdbdf46765862979591cb203f714d",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "typography-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/typography-demo.json",
+      "file": "src/vendor/shadcn/examples/typography-demo.tsx",
+      "sha256": "d21557c45c1d228543b46eea38aaffc1adcf1b2e42de04b433db67fe5bc8496d",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "card",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/card.json",
+      "file": "src/vendor/shadcn/ui/card.tsx",
+      "sha256": "ef8305b12c3112dab42a4708b41b1ebcc042fa5ab4c20f039da8d45b09ed5059",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "carousel",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/carousel.json",
+      "file": "src/vendor/shadcn/ui/carousel.tsx",
+      "sha256": "70ba30941a3adb448166ddcf8557c97734b7be09f6fd69512a6e444084365557",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "table",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/table.json",
+      "file": "src/vendor/shadcn/ui/table.tsx",
+      "sha256": "bd1a9fc83a5a2149e504038e274bb7e5a0351af59f6896df52ac4d5b439695ac",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "aspect-ratio",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/aspect-ratio.json",
+      "file": "src/vendor/shadcn/ui/aspect-ratio.tsx",
+      "sha256": "b1c157886236782cb92d8fbcd4749532aaf6d8aabefd6e157ca40358f902f407",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "chart",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/chart.json",
+      "file": "src/vendor/shadcn/ui/chart.tsx",
+      "sha256": "35e2fa755465ef8eb8ff8b483d493204d452152e7a8863474b1a69f5d44484db",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "item",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/item.json",
+      "file": "src/vendor/shadcn/ui/item.tsx",
+      "sha256": "9ade8136f010284b7ec0142f52606616dd4b23798012e75a9fc6aac1fb2d792e",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "collapsible-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/collapsible-demo.json",
+      "file": "src/vendor/shadcn/examples/collapsible-demo.tsx",
+      "sha256": "37abc88bacbc1d98d6b675a48a457096f3a40ff0722369ae61476c59f048d278",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "kbd-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/kbd-demo.json",
+      "file": "src/vendor/shadcn/examples/kbd-demo.tsx",
+      "sha256": "2c4d292666a6c0351767b308be8777aa9d8b58ca6957bb153b445a8c8a461116",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "pagination-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/pagination-demo.json",
+      "file": "src/vendor/shadcn/examples/pagination-demo.tsx",
+      "sha256": "d1d892b87ce2650ffff81660a087942df0cf119eac87260e69f4f671075c7746",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "toggle-group-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/toggle-group-demo.json",
+      "file": "src/vendor/shadcn/examples/toggle-group-demo.tsx",
+      "sha256": "2578a93653a7f0c6a8b2f2622d0bdeaa327bb58034fb035cec1e4127c73303f7",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "toggle-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/toggle-demo.json",
+      "file": "src/vendor/shadcn/examples/toggle-demo.tsx",
+      "sha256": "ea1baa7572e6cd8fedc7585d899a4ff69dfe7d4c4099df7ddf6107c858ddb972",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "toggle",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/toggle.json",
+      "file": "src/vendor/shadcn/ui/toggle.tsx",
+      "sha256": "28ae7d72730890a3ba6c668fd511c63a358ad26534c2c25d5922748d47e1fa99",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "toggle-group",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/toggle-group.json",
+      "file": "src/vendor/shadcn/ui/toggle-group.tsx",
+      "sha256": "45186473eaa30a966adf16e2b0aa0d16522425fda0658e2c85b8dcb1b62956ef",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "pagination",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/pagination.json",
+      "file": "src/vendor/shadcn/ui/pagination.tsx",
+      "sha256": "224843c4f509e8b8c9848adefa43d1491846f0851138fa9b51cc6ba1319c5653",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "kbd",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/kbd.json",
+      "file": "src/vendor/shadcn/ui/kbd.tsx",
+      "sha256": "c0c0ae6a7d1adb7749b9b34cab8f4d2f5caf333e819b64c2051e77f918d3661f",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "collapsible",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/collapsible.json",
+      "file": "src/vendor/shadcn/ui/collapsible.tsx",
+      "sha256": "c6598e5584f4258b5d9fefadbc5ad6a66888ad58729f4b634a0bb2d9c513188b",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "hold-to-confirm-demo",
+      "url": "https://raw.githubusercontent.com/ddoemonn/interior/main/lib/demos/hold-to-confirm-demo.tsx",
+      "file": "src/vendor/interior/demos/hold-to-confirm.tsx",
+      "sha256": "0a5cf3226215f5c5293d78f04eb77e3b7cff8707ac8b79251bb758f219426c86",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "loading-button-demo",
+      "url": "https://raw.githubusercontent.com/ddoemonn/interior/main/lib/demos/loading-button-demo.tsx",
+      "file": "src/vendor/interior/demos/loading-button.tsx",
+      "sha256": "3b2aa534ab2c1a3a668488be4715f8ae2233a3929c2a7f77b360cc35229a960d",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "ripple-demo",
+      "url": "https://raw.githubusercontent.com/ddoemonn/interior/main/lib/demos/ripple-demo.tsx",
+      "file": "src/vendor/interior/demos/ripple.tsx",
+      "sha256": "2f003d0cb68183aca5917ac80b6bab52650b4fd89bd15688c9c38cc4b31e0ea5",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "floating-label-demo",
+      "url": "https://raw.githubusercontent.com/ddoemonn/interior/main/lib/demos/floating-label-demo.tsx",
+      "file": "src/vendor/interior/demos/floating-label.tsx",
+      "sha256": "507e7c792b80be6dfeb7fe44a3615a6dc5d177f02cb6908b7f4bf89d905addf6",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "press-depth-demo",
+      "url": "https://raw.githubusercontent.com/ddoemonn/interior/main/lib/demos/press-depth-demo.tsx",
+      "file": "src/vendor/interior/demos/press-depth.tsx",
+      "sha256": "a87c9db0434c1869d6b0ea9ca59be14bde2d7f1b5420f6153fc8d1e0f34f6f51",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "icon-morph-demo",
+      "url": "https://raw.githubusercontent.com/ddoemonn/interior/main/lib/demos/icon-morph-demo.tsx",
+      "file": "src/vendor/interior/demos/icon-morph.tsx",
+      "sha256": "58a53ddad01f0cccf7071393161ff3bf0721b90d00be1bbb420755717206e3e7",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "like-burst-demo",
+      "url": "https://raw.githubusercontent.com/ddoemonn/interior/main/lib/demos/like-burst-demo.tsx",
+      "file": "src/vendor/interior/demos/like-burst.tsx",
+      "sha256": "94e7ed3e27d8741974615b4d6ae98b0c61702251998eb59bf57e4eed8b2f3e95",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "copy-button-demo",
+      "url": "https://raw.githubusercontent.com/ddoemonn/interior/main/lib/demos/copy-button-demo.tsx",
+      "file": "src/vendor/interior/demos/copy-button.tsx",
+      "sha256": "a2c177117ce65108fa596e7f07a6e529a9a46d0e344247676887c16e15e4e690",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "password-strength-demo",
+      "url": "https://raw.githubusercontent.com/ddoemonn/interior/main/lib/demos/password-strength-demo.tsx",
+      "file": "src/vendor/interior/demos/password-strength.tsx",
+      "sha256": "3366bf56c785f968f36e825d504dbe742709ef145188fae07c4ed1b120cb78ea",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "expanding-search-demo",
+      "url": "https://raw.githubusercontent.com/ddoemonn/interior/main/lib/demos/expanding-search-demo.tsx",
+      "file": "src/vendor/interior/demos/expanding-search.tsx",
+      "sha256": "6d574924160356ba1fe08d6470d06e790148fedf864e91410a2690ebe226b938",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "inline-validation-demo",
+      "url": "https://raw.githubusercontent.com/ddoemonn/interior/main/lib/demos/inline-validation-demo.tsx",
+      "file": "src/vendor/interior/demos/inline-validation.tsx",
+      "sha256": "6ce10b9f3c99db97d2dad529ea15cee5448224441c7b85271a6e9b48e6a04d72",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "otp-input-demo",
+      "url": "https://raw.githubusercontent.com/ddoemonn/interior/main/lib/demos/otp-input-demo.tsx",
+      "file": "src/vendor/interior/demos/otp-input.tsx",
+      "sha256": "87357005c32972caa0b5291a72c663aee136309fa912bf0cc1ac2d8d2dbcb79c",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "tag-input-demo",
+      "url": "https://raw.githubusercontent.com/ddoemonn/interior/main/lib/demos/tag-input-demo.tsx",
+      "file": "src/vendor/interior/demos/tag-input.tsx",
+      "sha256": "f705e35946acde2aadfdc56b9ae143126d9812c1aef3b3a1d9c5e805e5b5f58c",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "progress-bar-demo",
+      "url": "https://raw.githubusercontent.com/ddoemonn/interior/main/lib/demos/progress-bar-demo.tsx",
+      "file": "src/vendor/interior/demos/progress-bar.tsx",
+      "sha256": "e6fb2c7a731b7cdc50f4f0df4cba0f7b7f86533480b74a8e6a451062c42302da",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "skeleton-swap-demo",
+      "url": "https://raw.githubusercontent.com/ddoemonn/interior/main/lib/demos/skeleton-swap-demo.tsx",
+      "file": "src/vendor/interior/demos/skeleton-swap.tsx",
+      "sha256": "ce7feeab6e26063c06a5c2c3e0c1afa5f4a50509130f6e2181039948e60775a6",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "load-more-demo",
+      "url": "https://raw.githubusercontent.com/ddoemonn/interior/main/lib/demos/load-more-demo.tsx",
+      "file": "src/vendor/interior/demos/load-more.tsx",
+      "sha256": "33894a2675a44508381022d6244b4558aca0315eecb6b452ba4d30bbbb5d5620",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "task-steps-demo",
+      "url": "https://raw.githubusercontent.com/ddoemonn/interior/main/lib/demos/task-steps-demo.tsx",
+      "file": "src/vendor/interior/demos/task-steps.tsx",
+      "sha256": "e57049898f54c7ed72beab72f7b3a4e73857555317a6a659a47b45955f2dc212",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "live-activity-demo",
+      "url": "https://raw.githubusercontent.com/ddoemonn/interior/main/lib/demos/live-activity-demo.tsx",
+      "file": "src/vendor/interior/demos/live-activity.tsx",
+      "sha256": "d698b2eb9fe332e667511fbe1130f609b0b8120f1f770d12d94f9f59af0e37af",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "collapsible-banner-demo",
+      "url": "https://raw.githubusercontent.com/ddoemonn/interior/main/lib/demos/collapsible-banner-demo.tsx",
+      "file": "src/vendor/interior/demos/collapsible-banner.tsx",
+      "sha256": "2a44390c9dae0e0f1237006b21063f077152eed1c8cd13c20e3dbf0d2ed43469",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "presence-avatars-demo",
+      "url": "https://raw.githubusercontent.com/ddoemonn/interior/main/lib/demos/presence-avatars-demo.tsx",
+      "file": "src/vendor/interior/demos/presence-avatars.tsx",
+      "sha256": "8aa415e8592a91ec4f62a2fff64a4ff875bf11f2b95303d58a1b5eb93845ffac",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "streaming-text-demo",
+      "url": "https://raw.githubusercontent.com/ddoemonn/interior/main/lib/demos/streaming-text-demo.tsx",
+      "file": "src/vendor/interior/demos/streaming-text.tsx",
+      "sha256": "8a9425a729ddce158fab110ed172c1ebc0ad9c6da56bd6e6c022850c66c06552",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "typing-indicator-demo",
+      "url": "https://raw.githubusercontent.com/ddoemonn/interior/main/lib/demos/typing-indicator-demo.tsx",
+      "file": "src/vendor/interior/demos/typing-indicator.tsx",
+      "sha256": "3837c4b76d2315f39e6763d1f55507d758be66dedd467011efa2123dd665f976",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "modal-demo",
+      "url": "https://raw.githubusercontent.com/ddoemonn/interior/main/lib/demos/modal-demo.tsx",
+      "file": "src/vendor/interior/demos/modal.tsx",
+      "sha256": "a585cd0144892b29350eb1a6cff416086bd4cc5e5dd20f6cd270dab3fdc673ed",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "new-items-pill-demo",
+      "url": "https://raw.githubusercontent.com/ddoemonn/interior/main/lib/demos/new-items-pill-demo.tsx",
+      "file": "src/vendor/interior/demos/new-items-pill.tsx",
+      "sha256": "4b5fae2bf916f5b032b54510a448c688fdaccb866fbab24dc34bc76119e043c9",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "context-menu-demo",
+      "url": "https://raw.githubusercontent.com/ddoemonn/interior/main/lib/demos/context-menu-demo.tsx",
+      "file": "src/vendor/interior/demos/context-menu.tsx",
+      "sha256": "d45915000fb1d9573dd9e4482366d1f799e3417c62db67daf743f52e9d7b4637",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "drawer-demo",
+      "url": "https://raw.githubusercontent.com/ddoemonn/interior/main/lib/demos/drawer-demo.tsx",
+      "file": "src/vendor/interior/demos/drawer.tsx",
+      "sha256": "f7e60f6de2b6722118300ed99d53df058498f7e2a011fdc233850be6eda306ef",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "tooltip-group-demo",
+      "url": "https://raw.githubusercontent.com/ddoemonn/interior/main/lib/demos/tooltip-group-demo.tsx",
+      "file": "src/vendor/interior/demos/tooltip-group.tsx",
+      "sha256": "083872ecde6b81b9b9f4ee3d6e5c473a04a9e62ca2b698514dc0e42ab86b0c2b",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "dropdown-demo",
+      "url": "https://raw.githubusercontent.com/ddoemonn/interior/main/lib/demos/dropdown-demo.tsx",
+      "file": "src/vendor/interior/demos/dropdown.tsx",
+      "sha256": "3f60625c70dcdb0b52daf0abc40f48d4b670f2765a01c20453a904da275cb6fc",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "command-palette-demo",
+      "url": "https://raw.githubusercontent.com/ddoemonn/interior/main/lib/demos/command-palette-demo.tsx",
+      "file": "src/vendor/interior/demos/command-palette.tsx",
+      "sha256": "f1c35d4e8de35235cea57fa5eb008be3409e3171be4dcc4a3a3ebb81353c1f0c",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "popover-demo",
+      "url": "https://raw.githubusercontent.com/ddoemonn/interior/main/lib/demos/popover-demo.tsx",
+      "file": "src/vendor/interior/demos/popover.tsx",
+      "sha256": "e7c76756fc14d5b22bf04a4902e97ad9328028a2a06277e598b4db815518be97",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "segmented-control-demo",
+      "url": "https://raw.githubusercontent.com/ddoemonn/interior/main/lib/demos/segmented-control-demo.tsx",
+      "file": "src/vendor/interior/demos/segmented-control.tsx",
+      "sha256": "2cf1343f7cfb2f6317fc32722cb91150a87b6b34b95a65e682783a227bd79c5c",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "tabs-demo",
+      "url": "https://raw.githubusercontent.com/ddoemonn/interior/main/lib/demos/tabs-demo.tsx",
+      "file": "src/vendor/interior/demos/tabs.tsx",
+      "sha256": "378f7d5cc0b5cea3ed3d95f9a5bf35f3b1e154151cace38a3eb4ca9f583203d2",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "sticky-header-demo",
+      "url": "https://raw.githubusercontent.com/ddoemonn/interior/main/lib/demos/sticky-header-demo.tsx",
+      "file": "src/vendor/interior/demos/sticky-header.tsx",
+      "sha256": "46df8cde464974c19cb203fffe9cbfefe9e8c7bf1b83a8a4d092b51151946321",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "tree-view-demo",
+      "url": "https://raw.githubusercontent.com/ddoemonn/interior/main/lib/demos/tree-view-demo.tsx",
+      "file": "src/vendor/interior/demos/tree-view.tsx",
+      "sha256": "798f8c754352f1d3dd40da659ecbf165dc060bcdc105a0e40fce8e5c9f05b692",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "pagination-demo",
+      "url": "https://raw.githubusercontent.com/ddoemonn/interior/main/lib/demos/pagination-demo.tsx",
+      "file": "src/vendor/interior/demos/pagination.tsx",
+      "sha256": "daf7d0fb266a4b4b5ae30cfade67fc9ff29ce972f8f4ceab0de8cd152439351c",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "reading-progress-demo",
+      "url": "https://raw.githubusercontent.com/ddoemonn/interior/main/lib/demos/reading-progress-demo.tsx",
+      "file": "src/vendor/interior/demos/reading-progress.tsx",
+      "sha256": "8aa488b533db0687f8eca88e733ecefb50ae0256ec88d57f062e441ec88c8c70",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "scroll-spy-demo",
+      "url": "https://raw.githubusercontent.com/ddoemonn/interior/main/lib/demos/scroll-spy-demo.tsx",
+      "file": "src/vendor/interior/demos/scroll-spy.tsx",
+      "sha256": "7432c717ba912ca56539c4f00359a612186d3f512792e34253f60bbcd1b52f01",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "accordion-demo",
+      "url": "https://raw.githubusercontent.com/ddoemonn/interior/main/lib/demos/accordion-demo.tsx",
+      "file": "src/vendor/interior/demos/accordion.tsx",
+      "sha256": "0f677ebd57f5ca836734aa22f13a5e764bdf99918dc3ebbce6c5367fe2a4c521",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "wizard-steps-demo",
+      "url": "https://raw.githubusercontent.com/ddoemonn/interior/main/lib/demos/wizard-steps-demo.tsx",
+      "file": "src/vendor/interior/demos/wizard-steps.tsx",
+      "sha256": "b51c2c4d0f72e138bc6ffab3409ee7796c6d7889e41892402ffe1fa0b62eda97",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "snap-carousel-demo",
+      "url": "https://raw.githubusercontent.com/ddoemonn/interior/main/lib/demos/snap-carousel-demo.tsx",
+      "file": "src/vendor/interior/demos/snap-carousel.tsx",
+      "sha256": "1e1db5c1641962aaacba0cf5376013e6459d90a22667f4db2ade1da00e8a3066",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "filter-grid-demo",
+      "url": "https://raw.githubusercontent.com/ddoemonn/interior/main/lib/demos/filter-grid-demo.tsx",
+      "file": "src/vendor/interior/demos/filter-grid.tsx",
+      "sha256": "31f31a74a1a662876c22e4962934ed3dec9ef965ec51a9b8f6791d4192dfc39c",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "hide-on-scroll-demo",
+      "url": "https://raw.githubusercontent.com/ddoemonn/interior/main/lib/demos/hide-on-scroll-demo.tsx",
+      "file": "src/vendor/interior/demos/hide-on-scroll.tsx",
+      "sha256": "fed466a19d21735f0df51db80bd619d2897a9cca8be3d79d3ce7f1e53cc310ec",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "value-flash-demo",
+      "url": "https://raw.githubusercontent.com/ddoemonn/interior/main/lib/demos/value-flash-demo.tsx",
+      "file": "src/vendor/interior/demos/value-flash.tsx",
+      "sha256": "25c549fef7ee4226f2bb5dd95c31751aeca83a70e1548691b31df1a6c8f47ae0",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "reorder-list-demo",
+      "url": "https://raw.githubusercontent.com/ddoemonn/interior/main/lib/demos/reorder-list-demo.tsx",
+      "file": "src/vendor/interior/demos/reorder-list.tsx",
+      "sha256": "dffbf9159a1623fbc042682c4c1ba0e0fda908499864e3798f5cde7213368e7f",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "poll-results-demo",
+      "url": "https://raw.githubusercontent.com/ddoemonn/interior/main/lib/demos/poll-results-demo.tsx",
+      "file": "src/vendor/interior/demos/poll-results.tsx",
+      "sha256": "fbe0249c226964c06864442419797e34024d24ca3c68ae89949b21e641f3f93c",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "swipe-deck-demo",
+      "url": "https://raw.githubusercontent.com/ddoemonn/interior/main/lib/demos/swipe-deck-demo.tsx",
+      "file": "src/vendor/interior/demos/swipe-deck.tsx",
+      "sha256": "951724837ec65036ee611fdacfd08a83e44401b28fc80a5bd286377cee925858",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "slider-detents-demo",
+      "url": "https://raw.githubusercontent.com/ddoemonn/interior/main/lib/demos/slider-detents-demo.tsx",
+      "file": "src/vendor/interior/demos/slider-detents.tsx",
+      "sha256": "c8e787ea2da9a98b57eebcdd5a58a6c0cc9370d01b78843286b712e1b8ff938e",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "sortable-table-demo",
+      "url": "https://raw.githubusercontent.com/ddoemonn/interior/main/lib/demos/sortable-table-demo.tsx",
+      "file": "src/vendor/interior/demos/sortable-table.tsx",
+      "sha256": "fb9007fca6bfe314e9c0eb44c8aff15860a1eb13c81564e8c0636bf8f3e775dd",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "long-press-demo",
+      "url": "https://raw.githubusercontent.com/ddoemonn/interior/main/lib/demos/long-press-demo.tsx",
+      "file": "src/vendor/interior/demos/long-press.tsx",
+      "sha256": "c26f14612684da1c6a0b573d94f60ce987f88e9f93f1c5395bdf303be7a313c7",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "logo-marquee-demo",
+      "url": "https://raw.githubusercontent.com/ddoemonn/interior/main/lib/demos/logo-marquee-demo.tsx",
+      "file": "src/vendor/interior/demos/logo-marquee.tsx",
+      "sha256": "3506b500a355c75efb02ea1a3cc62e064eb1c6a109d4a5a3143a6937367a443b",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "blur-up-image-demo",
+      "url": "https://raw.githubusercontent.com/ddoemonn/interior/main/lib/demos/blur-up-image-demo.tsx",
+      "file": "src/vendor/interior/demos/blur-up-image.tsx",
+      "sha256": "890f0246e4a85d67eb944af364fb3b4b51cd82d7b6d4a0019d532b6a5e317858",
+      "modifications": "Import aliases and absolute official asset URLs only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "lightbox-demo",
+      "url": "https://raw.githubusercontent.com/ddoemonn/interior/main/lib/demos/lightbox-demo.tsx",
+      "file": "src/vendor/interior/demos/lightbox.tsx",
+      "sha256": "de2c4b9258454565cdb00c9864744d6cdc11f0f09989444fb7483aa6face713e",
+      "modifications": "Import aliases and absolute official asset URLs only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "text-reveal-demo",
+      "url": "https://raw.githubusercontent.com/ddoemonn/interior/main/lib/demos/text-reveal-demo.tsx",
+      "file": "src/vendor/interior/demos/text-reveal.tsx",
+      "sha256": "7850bff0a8feee7fb184edc1b454131eef87ecb9f7230a62440f975dd6a8542b",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "rare",
+      "name": "folder-component-demo",
+      "url": "https://raw.githubusercontent.com/swamimalode07/rare-ui/main/app/components/(docs)/foldercomponent/demo.tsx",
+      "file": "src/vendor/rare/demos/folder-component.tsx",
+      "sha256": "8b884ff25d84ae1b3e20e91812194b706e589ef7a563b8d9b471921a8fa25880",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "interior",
+      "name": "show-more-demo",
+      "url": "https://raw.githubusercontent.com/ddoemonn/interior/main/lib/demos/show-more-demo.tsx",
+      "file": "src/vendor/interior/demos/show-more.tsx",
+      "sha256": "6df69f9693cb1cd984ac3bca646b6f02b5515a2d6cea80b0ebe523f258ac8f6b",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "rare",
+      "name": "hook-sidebar-demo",
+      "url": "https://raw.githubusercontent.com/swamimalode07/rare-ui/main/app/components/(docs)/hooksidebar/demo.tsx",
+      "file": "src/vendor/rare/demos/hook-sidebar.tsx",
+      "sha256": "e61748ab1757967a6f13fe78bd85ed07e88c2dfe7c4c46682b923575ca762267",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "rare",
+      "name": "proximity-sidebar-demo",
+      "url": "https://raw.githubusercontent.com/swamimalode07/rare-ui/main/app/components/(docs)/proximitysidebar/demo.tsx",
+      "file": "src/vendor/rare/demos/proximity-sidebar.tsx",
+      "sha256": "45e6db49cfdfb5454cf51fa7aa209222b3ddc2d156bf2d1a57a5be719c27426c",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "rare",
+      "name": "fluid-orb-demo",
+      "url": "https://raw.githubusercontent.com/swamimalode07/rare-ui/main/app/components/(docs)/fluidorb/demo.tsx",
+      "file": "src/vendor/rare/demos/fluid-orb.tsx",
+      "sha256": "e3d6b49dcf57bc122518b569626993a40c2f1cdc7a96ffbb900c1b00486a82b9",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "rare",
+      "name": "family-drawer-demo",
+      "url": "https://raw.githubusercontent.com/swamimalode07/rare-ui/main/app/components/(docs)/familydrawer/demo.tsx",
+      "file": "src/vendor/rare/demos/family-drawer.tsx",
+      "sha256": "4ba6ae0e891fb1ef052ab2ffc858912e183122ed9dee9b7e426eee23d8c7fc2e",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "rare",
+      "name": "code-block-demo",
+      "url": "https://raw.githubusercontent.com/swamimalode07/rare-ui/main/app/components/(docs)/codeblock/demo.tsx",
+      "file": "src/vendor/rare/demos/code-block.tsx",
+      "sha256": "e9ebca5b0225202feef9ffbcced4d22dcdf04d487a80d402ad5c069bafb69d63",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "rare",
+      "name": "scroll-progress-demo",
+      "url": "https://raw.githubusercontent.com/swamimalode07/rare-ui/main/app/components/(docs)/scrollprogressindicator/demo.tsx",
+      "file": "src/vendor/rare/demos/scroll-progress.tsx",
+      "sha256": "63430355356392925755e981652224c393c86d9677430814fb8d974162b9845c",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "rare",
+      "name": "duration-picker-demo",
+      "url": "https://raw.githubusercontent.com/swamimalode07/rare-ui/main/app/components/(docs)/durationpicker/demo.tsx",
+      "file": "src/vendor/rare/demos/duration-picker.tsx",
+      "sha256": "228b4740cfd6f70829f097a0ddeda3924480127dda5083015ebfffdee2297038",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "rare",
+      "name": "bounce-sidebar-demo",
+      "url": "https://raw.githubusercontent.com/swamimalode07/rare-ui/main/app/components/(docs)/bouncesidebar/demo.tsx",
+      "file": "src/vendor/rare/demos/bounce-sidebar.tsx",
+      "sha256": "f2dbe856a0320be6277abe55df24c44c7de7ceed020aabfaa4a84e90fc75a404",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "rare",
+      "name": "gravity-letters-demo",
+      "url": "https://raw.githubusercontent.com/swamimalode07/rare-ui/main/app/components/(docs)/gravityletters/demo.tsx",
+      "file": "src/vendor/rare/demos/gravity-letters.tsx",
+      "sha256": "51f9df1bafa0df8c5e56d323e621c71a298fe737cf8e797c73d45e6906af776e",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "rare",
+      "name": "emoji-reaction-demo",
+      "url": "https://raw.githubusercontent.com/swamimalode07/rare-ui/main/app/components/(docs)/emojireaction/demo.tsx",
+      "file": "src/vendor/rare/demos/emoji-reaction.tsx",
+      "sha256": "9ff5410cbabed1c1235219ca81810fe2ada143795f89e5bd0c4b62f47f94f3ed",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "rare",
+      "name": "notification-bell-demo",
+      "url": "https://raw.githubusercontent.com/swamimalode07/rare-ui/main/app/components/(docs)/notificationbell/demo.tsx",
+      "file": "src/vendor/rare/demos/notification-bell.tsx",
+      "sha256": "4b56a74230b4f8879d09cc5272d9f424be24d378bffbf63b5289b4b172088153",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "rare",
+      "name": "otp-input-demo",
+      "url": "https://raw.githubusercontent.com/swamimalode07/rare-ui/main/app/components/(docs)/otpinput/demo.tsx",
+      "file": "src/vendor/rare/demos/otp-input.tsx",
+      "sha256": "df6f370ded28c582c4f9dbde79c8187e86d5b7063604dfb01a4ea3795c577242",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "rare",
+      "name": "gooey-nav-demo",
+      "url": "https://raw.githubusercontent.com/swamimalode07/rare-ui/main/app/components/(docs)/gooeynav/demo.tsx",
+      "file": "src/vendor/rare/demos/gooey-nav.tsx",
+      "sha256": "f9021d2ff1747a8d01c6129dd0fec99ae9117aea7334bdf5ec58c9801dfde9f4",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "rare",
+      "name": "step-player-demo",
+      "url": "https://raw.githubusercontent.com/swamimalode07/rare-ui/main/app/components/(docs)/stepplayer/demo.tsx",
+      "file": "src/vendor/rare/demos/step-player.tsx",
+      "sha256": "93000ed6fc061e1f1e4a6a5d793455aabea56609eeb97d1d89726a25051a887b",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "rare",
+      "name": "github-activity-demo",
+      "url": "https://raw.githubusercontent.com/swamimalode07/rare-ui/main/app/components/(docs)/githubactivity/demo.tsx",
+      "file": "src/vendor/rare/demos/github-activity.tsx",
+      "sha256": "86bf8a79d6565e6b99023b6cab5cf445e14934385a68f8fd50ba55a8cf733208",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "rare",
+      "name": "grid-reveal-demo",
+      "url": "https://raw.githubusercontent.com/swamimalode07/rare-ui/main/app/components/(docs)/gridreveal/demo.tsx",
+      "file": "src/vendor/rare/demos/grid-reveal.tsx",
+      "sha256": "4dc6921509edb0a75e4241fa9ca948590a48e79535cca07477b1b2c7579017f4",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "rare",
+      "name": "delete-button-demo",
+      "url": "https://raw.githubusercontent.com/swamimalode07/rare-ui/main/app/components/(docs)/deletebutton/demo.tsx",
+      "file": "src/vendor/rare/demos/delete-button.tsx",
+      "sha256": "73ca054d55cc3e9f22138f7c78451a8d01d81982ea2636aa98c17de29fe94cdf",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "rare",
+      "name": "matrix-orb-demo",
+      "url": "https://raw.githubusercontent.com/swamimalode07/rare-ui/main/app/components/(docs)/matrixorb/demo.tsx",
+      "file": "src/vendor/rare/demos/matrix-orb.tsx",
+      "sha256": "f74adb17c6d2125795010a088e5547714aa5fba23d5d7cde94ad00bdd1a7379e",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "rare",
+      "name": "animated-counter-demo",
+      "url": "https://raw.githubusercontent.com/swamimalode07/rare-ui/main/app/components/(docs)/animatedcounter/demo.tsx",
+      "file": "src/vendor/rare/demos/animated-counter.tsx",
+      "sha256": "889e92ccc25c03284a2c9c23dd7a3b9169efe61262e2ad9fbc1f4ccd9cb90370",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "rare",
+      "name": "ColorSwatches.tsx",
+      "url": "https://raw.githubusercontent.com/swamimalode07/rare-ui/main/components/preview/ColorSwatches.tsx",
+      "file": "src/vendor/rare/components/preview/ColorSwatches.tsx",
+      "sha256": "965d6c3b08457ef4b63608e1dd745d2219a95520f3e9eeed907cc6941f20e4c1",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "rare",
+      "name": "PreviewControls.tsx",
+      "url": "https://raw.githubusercontent.com/swamimalode07/rare-ui/main/components/preview/PreviewControls.tsx",
+      "file": "src/vendor/rare/components/preview/PreviewControls.tsx",
+      "sha256": "c1378f858b6c13751cd9c3ee6cd3b74fa7a1a5930267c75a59f3b9b45163b740",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "rare",
+      "name": "use-media-query.ts",
+      "url": "https://raw.githubusercontent.com/swamimalode07/rare-ui/main/lib/use-media-query.ts",
+      "file": "src/vendor/rare/lib/use-media-query.ts",
+      "sha256": "e86bbe5e3f635599e859bb9cf55ae77fe6bf6ccf4b28500e729aa204808300fd",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "rare",
+      "name": "icons.tsx",
+      "url": "https://raw.githubusercontent.com/swamimalode07/rare-ui/main/app/components/(docs)/gooeynav/icons.tsx",
+      "file": "src/vendor/rare/demos/icons.tsx",
+      "sha256": "367c7f3db839e83167c8b137b07ac39eb7134d4090dea40feb867b7bfe53f5ff",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "data-table-demo",
+      "url": "https://ui.shadcn.com/r/styles/new-york/data-table-demo.json",
+      "file": "src/vendor/shadcn/examples/data-table-stable-demo.tsx",
+      "sha256": "2ce37bc97f7abdf019043a3d944aea994277c7ef6da34640555016c60c9fc213",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "direction",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/direction.json",
+      "file": "src/vendor/shadcn/ui/direction.tsx",
+      "sha256": "84ae2ad658207f0e0f367978e5508cd8027cd00c29c41d3d13db21a708c3d1e6",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "sidebar.tsx",
+      "file": "src/vendor/shadcn/ui/sidebar.tsx",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/sidebar.json",
+      "sha256": "2ba1a9b9422f4172373f4cd0587b675d2331a41f4fa68f65dab2b23ca98fd9d2",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "shadcn",
+      "name": "use-mobile.ts",
+      "file": "src/vendor/shadcn/hooks/use-mobile.ts",
+      "url": "https://ui.shadcn.com/r/styles/new-york-v4/use-mobile.json",
+      "sha256": "ad0936f84f1df79d3697bfbff9c18f8ad58431c1cbaf2359c6a853b0fcc9f28b",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "rare",
+      "name": "components.ts",
+      "file": "src/vendor/rare/lib/components.ts",
+      "url": "https://raw.githubusercontent.com/swamimalode07/rare-ui/main/lib/components.ts",
+      "sha256": "848c0cd2e3fd6ec1b8ff0be7f733ec4e094db5f0bc645bb6820bb6c6d15458a6",
+      "modifications": "Import aliases only",
+      "dependencies": []
+    },
+    {
+      "library": "rare",
+      "name": "description-icons",
+      "file": "src/vendor/rare/components/Description/icons.tsx",
+      "url": "https://raw.githubusercontent.com/swamimalode07/rare-ui/main/components/Description/icons.tsx",
+      "sha256": "f2d942c18c215742276087589091b288fff95288a53d24b43b58bac5930ffa68",
+      "modifications": "None",
+      "dependencies": []
+    }
+  ],
+  "dependencies": [
+    "motion",
+    "clsx",
+    "tailwind-merge",
+    "vaul",
+    "prism-react-renderer",
+    "lucide-react",
+    "figma-squircle",
+    "flubber",
+    "react-use-measure",
+    "@radix-ui/react-slot",
+    "react-apple-emojis",
+    "radix-ui",
+    "input-otp",
+    "date-fns",
+    "react-day-picker@latest",
+    "cmdk",
+    "react-resizable-panels@^4",
+    "class-variance-authority",
+    "sonner",
+    "next-themes",
+    "embla-carousel-react",
+    "recharts@3.8.0",
+    "@tanstack/react-table@^8",
+    "@types/flubber",
+    "@squircle-js/react"
+  ],
+  "covered": [
+    "interior:copy-button",
+    "interior:loading-button",
+    "interior:hold-to-confirm",
+    "interior:like-burst",
+    "interior:ripple",
+    "interior:icon-morph",
+    "interior:press-depth",
+    "interior:floating-label",
+    "interior:inline-validation",
+    "interior:password-strength",
+    "interior:otp-input",
+    "interior:tag-input",
+    "interior:expanding-search",
+    "interior:skeleton-swap",
+    "interior:progress-bar",
+    "interior:load-more",
+    "interior:streaming-text",
+    "interior:task-steps",
+    "interior:live-activity",
+    "interior:collapsible-banner",
+    "interior:presence-avatars",
+    "interior:typing-indicator",
+    "interior:new-items-pill",
+    "interior:modal",
+    "interior:popover",
+    "interior:tooltip-group",
+    "interior:command-palette",
+    "interior:drawer",
+    "interior:context-menu",
+    "interior:dropdown",
+    "interior:tabs",
+    "interior:segmented-control",
+    "interior:accordion",
+    "interior:wizard-steps",
+    "interior:pagination",
+    "interior:tree-view",
+    "interior:sticky-header",
+    "interior:reading-progress",
+    "interior:scroll-spy",
+    "interior:snap-carousel",
+    "interior:hide-on-scroll",
+    "interior:sortable-table",
+    "interior:filter-grid",
+    "interior:value-flash",
+    "interior:poll-results",
+    "interior:slider-detents",
+    "interior:swipe-deck",
+    "interior:reorder-list",
+    "interior:long-press",
+    "interior:lightbox",
+    "interior:text-reveal",
+    "interior:logo-marquee",
+    "interior:blur-up-image",
+    "interior:show-more",
+    "rare:utils",
+    "rare:folder-component",
+    "rare:bounce-sidebar",
+    "rare:hook-sidebar",
+    "rare:family-drawer",
+    "rare:proximity-sidebar",
+    "rare:duration-picker",
+    "rare:fluid-orb",
+    "rare:scroll-progress",
+    "rare:code-block",
+    "rare:otp-input",
+    "rare:gravity-letters",
+    "rare:github-activity",
+    "rare:emoji-reaction",
+    "rare:notification-bell",
+    "rare:step-player",
+    "rare:grid-reveal",
+    "rare:gooey-nav",
+    "rare:delete-button",
+    "rare:animated-counter",
+    "rare:matrix-orb",
+    "shadcn:field",
+    "shadcn:button",
+    "shadcn:button-group",
+    "shadcn:input",
+    "shadcn:input-group",
+    "shadcn:input-otp",
+    "shadcn:textarea",
+    "shadcn:checkbox",
+    "shadcn:radio-group",
+    "shadcn:select",
+    "shadcn:native-select",
+    "shadcn:switch",
+    "shadcn:slider",
+    "shadcn:calendar",
+    "shadcn:date-picker",
+    "shadcn:combobox",
+    "shadcn:label",
+    "shadcn:accordion",
+    "shadcn:breadcrumb",
+    "shadcn:navigation-menu",
+    "shadcn:sidebar",
+    "shadcn:tabs",
+    "shadcn:separator",
+    "shadcn:scroll-area",
+    "shadcn:resizable",
+    "shadcn:dialog",
+    "shadcn:alert-dialog",
+    "shadcn:sheet",
+    "shadcn:drawer",
+    "shadcn:popover",
+    "shadcn:tooltip",
+    "shadcn:hover-card",
+    "shadcn:context-menu",
+    "shadcn:dropdown-menu",
+    "shadcn:menubar",
+    "shadcn:command",
+    "shadcn:alert",
+    "shadcn:toast",
+    "shadcn:sonner",
+    "shadcn:progress",
+    "shadcn:spinner",
+    "shadcn:skeleton",
+    "shadcn:badge",
+    "shadcn:empty",
+    "shadcn:avatar",
+    "shadcn:card",
+    "shadcn:table",
+    "shadcn:data-table",
+    "shadcn:chart",
+    "shadcn:carousel",
+    "shadcn:aspect-ratio",
+    "shadcn:typography",
+    "shadcn:item",
+    "shadcn:kbd",
+    "shadcn:collapsible",
+    "shadcn:toggle",
+    "shadcn:toggle-group",
+    "shadcn:pagination",
+    "shadcn:direction"
+  ],
+  "blocked": [],
+  "entrySources": {
+    "interior:copy-button": [
+      "src/vendor/interior/demos/copy-button.tsx",
+      "src/vendor/interior/components/copy-button.tsx"
+    ],
+    "interior:loading-button": [
+      "src/vendor/interior/demos/loading-button.tsx",
+      "src/vendor/interior/components/loading-button.tsx"
+    ],
+    "interior:hold-to-confirm": [
+      "src/vendor/interior/demos/hold-to-confirm.tsx",
+      "src/vendor/interior/components/hold-to-confirm.tsx"
+    ],
+    "interior:like-burst": [
+      "src/vendor/interior/demos/like-burst.tsx",
+      "src/vendor/interior/components/like-burst.tsx"
+    ],
+    "interior:ripple": [
+      "src/vendor/interior/demos/ripple.tsx",
+      "src/vendor/interior/components/ripple.tsx"
+    ],
+    "interior:icon-morph": [
+      "src/vendor/interior/demos/icon-morph.tsx",
+      "src/vendor/interior/components/icon-morph.tsx"
+    ],
+    "interior:press-depth": [
+      "src/vendor/interior/demos/press-depth.tsx",
+      "src/vendor/interior/components/press-depth.tsx"
+    ],
+    "interior:floating-label": [
+      "src/vendor/interior/demos/floating-label.tsx",
+      "src/vendor/interior/components/floating-label.tsx"
+    ],
+    "interior:inline-validation": [
+      "src/vendor/interior/demos/inline-validation.tsx",
+      "src/vendor/interior/components/inline-validation.tsx"
+    ],
+    "interior:password-strength": [
+      "src/vendor/interior/demos/password-strength.tsx",
+      "src/vendor/interior/components/password-strength.tsx"
+    ],
+    "interior:otp-input": [
+      "src/vendor/interior/demos/otp-input.tsx",
+      "src/vendor/interior/components/otp-input.tsx"
+    ],
+    "interior:tag-input": [
+      "src/vendor/interior/demos/tag-input.tsx",
+      "src/vendor/interior/components/tag-input.tsx"
+    ],
+    "interior:expanding-search": [
+      "src/vendor/interior/demos/expanding-search.tsx",
+      "src/vendor/interior/components/expanding-search.tsx"
+    ],
+    "interior:skeleton-swap": [
+      "src/vendor/interior/demos/skeleton-swap.tsx",
+      "src/vendor/interior/components/skeleton-swap.tsx"
+    ],
+    "interior:progress-bar": [
+      "src/vendor/interior/demos/progress-bar.tsx",
+      "src/vendor/interior/components/progress-bar.tsx"
+    ],
+    "interior:load-more": [
+      "src/vendor/interior/demos/load-more.tsx",
+      "src/vendor/interior/components/load-more.tsx"
+    ],
+    "interior:streaming-text": [
+      "src/vendor/interior/demos/streaming-text.tsx",
+      "src/vendor/interior/components/streaming-text.tsx"
+    ],
+    "interior:task-steps": [
+      "src/vendor/interior/demos/task-steps.tsx",
+      "src/vendor/interior/components/task-steps.tsx"
+    ],
+    "interior:live-activity": [
+      "src/vendor/interior/demos/live-activity.tsx",
+      "src/vendor/interior/components/live-activity.tsx"
+    ],
+    "interior:collapsible-banner": [
+      "src/vendor/interior/demos/collapsible-banner.tsx",
+      "src/vendor/interior/components/collapsible-banner.tsx"
+    ],
+    "interior:presence-avatars": [
+      "src/vendor/interior/demos/presence-avatars.tsx",
+      "src/vendor/interior/components/presence-avatars.tsx"
+    ],
+    "interior:typing-indicator": [
+      "src/vendor/interior/demos/typing-indicator.tsx",
+      "src/vendor/interior/components/typing-indicator.tsx"
+    ],
+    "interior:new-items-pill": [
+      "src/vendor/interior/demos/new-items-pill.tsx",
+      "src/vendor/interior/components/new-items-pill.tsx"
+    ],
+    "interior:modal": [
+      "src/vendor/interior/demos/modal.tsx",
+      "src/vendor/interior/components/modal.tsx"
+    ],
+    "interior:popover": [
+      "src/vendor/interior/demos/popover.tsx",
+      "src/vendor/interior/components/popover.tsx"
+    ],
+    "interior:tooltip-group": [
+      "src/vendor/interior/demos/tooltip-group.tsx",
+      "src/vendor/interior/components/tooltip-group.tsx"
+    ],
+    "interior:command-palette": [
+      "src/vendor/interior/demos/command-palette.tsx",
+      "src/vendor/interior/components/command-palette.tsx"
+    ],
+    "interior:drawer": [
+      "src/vendor/interior/demos/drawer.tsx",
+      "src/vendor/interior/components/drawer.tsx"
+    ],
+    "interior:context-menu": [
+      "src/vendor/interior/demos/context-menu.tsx",
+      "src/vendor/interior/components/context-menu.tsx"
+    ],
+    "interior:dropdown": [
+      "src/vendor/interior/demos/dropdown.tsx",
+      "src/vendor/interior/components/dropdown.tsx"
+    ],
+    "interior:tabs": [
+      "src/vendor/interior/demos/tabs.tsx",
+      "src/vendor/interior/components/tabs.tsx"
+    ],
+    "interior:segmented-control": [
+      "src/vendor/interior/demos/segmented-control.tsx",
+      "src/vendor/interior/components/segmented-control.tsx"
+    ],
+    "interior:accordion": [
+      "src/vendor/interior/demos/accordion.tsx",
+      "src/vendor/interior/components/accordion.tsx"
+    ],
+    "interior:wizard-steps": [
+      "src/vendor/interior/demos/wizard-steps.tsx",
+      "src/vendor/interior/components/wizard-steps.tsx"
+    ],
+    "interior:pagination": [
+      "src/vendor/interior/demos/pagination.tsx",
+      "src/vendor/interior/components/pagination.tsx"
+    ],
+    "interior:tree-view": [
+      "src/vendor/interior/demos/tree-view.tsx",
+      "src/vendor/interior/components/tree-view.tsx"
+    ],
+    "interior:sticky-header": [
+      "src/vendor/interior/demos/sticky-header.tsx",
+      "src/vendor/interior/components/sticky-header.tsx"
+    ],
+    "interior:reading-progress": [
+      "src/vendor/interior/demos/reading-progress.tsx",
+      "src/vendor/interior/components/reading-progress.tsx"
+    ],
+    "interior:scroll-spy": [
+      "src/vendor/interior/demos/scroll-spy.tsx",
+      "src/vendor/interior/components/scroll-spy.tsx"
+    ],
+    "interior:snap-carousel": [
+      "src/vendor/interior/demos/snap-carousel.tsx",
+      "src/vendor/interior/components/snap-carousel.tsx"
+    ],
+    "interior:hide-on-scroll": [
+      "src/vendor/interior/demos/hide-on-scroll.tsx",
+      "src/vendor/interior/components/hide-on-scroll.tsx"
+    ],
+    "interior:sortable-table": [
+      "src/vendor/interior/demos/sortable-table.tsx",
+      "src/vendor/interior/components/sortable-table.tsx"
+    ],
+    "interior:filter-grid": [
+      "src/vendor/interior/demos/filter-grid.tsx",
+      "src/vendor/interior/components/filter-grid.tsx"
+    ],
+    "interior:value-flash": [
+      "src/vendor/interior/demos/value-flash.tsx",
+      "src/vendor/interior/components/value-flash.tsx"
+    ],
+    "interior:poll-results": [
+      "src/vendor/interior/demos/poll-results.tsx",
+      "src/vendor/interior/components/poll-results.tsx"
+    ],
+    "interior:slider-detents": [
+      "src/vendor/interior/demos/slider-detents.tsx",
+      "src/vendor/interior/components/slider-detents.tsx"
+    ],
+    "interior:swipe-deck": [
+      "src/vendor/interior/demos/swipe-deck.tsx",
+      "src/vendor/interior/components/swipe-deck.tsx"
+    ],
+    "interior:reorder-list": [
+      "src/vendor/interior/demos/reorder-list.tsx",
+      "src/vendor/interior/components/reorder-list.tsx"
+    ],
+    "interior:long-press": [
+      "src/vendor/interior/demos/long-press.tsx",
+      "src/vendor/interior/components/long-press.tsx"
+    ],
+    "interior:lightbox": [
+      "src/vendor/interior/demos/lightbox.tsx",
+      "src/vendor/interior/components/lightbox.tsx"
+    ],
+    "interior:text-reveal": [
+      "src/vendor/interior/demos/text-reveal.tsx",
+      "src/vendor/interior/components/text-reveal.tsx"
+    ],
+    "interior:logo-marquee": [
+      "src/vendor/interior/demos/logo-marquee.tsx",
+      "src/vendor/interior/components/logo-marquee.tsx"
+    ],
+    "interior:blur-up-image": [
+      "src/vendor/interior/demos/blur-up-image.tsx",
+      "src/vendor/interior/components/blur-up-image.tsx"
+    ],
+    "interior:show-more": [
+      "src/vendor/interior/demos/show-more.tsx",
+      "src/vendor/interior/components/show-more.tsx"
+    ],
+    "rare:utils": [
+      "src/vendor/rare/lib/utils.ts"
+    ],
+    "rare:folder-component": [
+      "src/vendor/rare/demos/folder-component.tsx",
+      "src/vendor/rare/components/ui/folder-component.tsx",
+      "src/vendor/rare/components/preview/ColorSwatches.tsx",
+      "src/vendor/rare/components/preview/PreviewControls.tsx",
+      "src/vendor/rare/lib/use-media-query.ts",
+      "src/vendor/rare/lib/utils.ts"
+    ],
+    "rare:bounce-sidebar": [
+      "src/vendor/rare/demos/bounce-sidebar.tsx",
+      "src/vendor/rare/components/ui/bounce-sidebar.tsx",
+      "src/vendor/rare/lib/utils.ts"
+    ],
+    "rare:hook-sidebar": [
+      "src/vendor/rare/demos/hook-sidebar.tsx",
+      "src/vendor/rare/components/ui/hook-sidebar.tsx",
+      "src/vendor/rare/lib/utils.ts"
+    ],
+    "rare:family-drawer": [
+      "src/vendor/rare/demos/family-drawer.tsx",
+      "src/vendor/rare/components/ui/family-drawer.tsx"
+    ],
+    "rare:proximity-sidebar": [
+      "src/vendor/rare/demos/proximity-sidebar.tsx",
+      "src/vendor/rare/components/ui/proximity-sidebar.tsx"
+    ],
+    "rare:duration-picker": [
+      "src/vendor/rare/demos/duration-picker.tsx",
+      "src/vendor/rare/components/ui/duration-picker.tsx",
+      "src/vendor/rare/lib/utils.ts"
+    ],
+    "rare:fluid-orb": [
+      "src/vendor/rare/demos/fluid-orb.tsx",
+      "src/vendor/rare/components/ui/fluid-orb.tsx",
+      "src/vendor/rare/components/preview/ColorSwatches.tsx",
+      "src/vendor/rare/components/preview/PreviewControls.tsx",
+      "src/vendor/rare/lib/utils.ts"
+    ],
+    "rare:scroll-progress": [
+      "src/vendor/rare/demos/scroll-progress.tsx",
+      "src/vendor/rare/components/ui/scroll-progress.tsx",
+      "src/vendor/rare/lib/utils.ts"
+    ],
+    "rare:code-block": [
+      "src/vendor/rare/demos/code-block.tsx",
+      "src/vendor/rare/components/ui/code-block.tsx",
+      "src/vendor/rare/components/preview/ColorSwatches.tsx",
+      "src/vendor/rare/components/preview/PreviewControls.tsx",
+      "src/vendor/rare/lib/utils.ts"
+    ],
+    "rare:otp-input": [
+      "src/vendor/rare/demos/otp-input.tsx",
+      "src/vendor/rare/components/ui/otp-input.tsx",
+      "src/vendor/rare/lib/utils.ts"
+    ],
+    "rare:gravity-letters": [
+      "src/vendor/rare/demos/gravity-letters.tsx",
+      "src/vendor/rare/components/ui/gravity-letters.tsx",
+      "src/vendor/rare/components/preview/ColorSwatches.tsx",
+      "src/vendor/rare/components/preview/PreviewControls.tsx",
+      "src/vendor/rare/lib/utils.ts"
+    ],
+    "rare:github-activity": [
+      "src/vendor/rare/demos/github-activity.tsx",
+      "src/vendor/rare/components/ui/github-activity.tsx",
+      "src/vendor/rare/lib/utils.ts"
+    ],
+    "rare:emoji-reaction": [
+      "src/vendor/rare/demos/emoji-reaction.tsx",
+      "src/vendor/rare/components/ui/emoji-reaction.tsx",
+      "src/vendor/rare/lib/utils.ts"
+    ],
+    "rare:notification-bell": [
+      "src/vendor/rare/demos/notification-bell.tsx",
+      "src/vendor/rare/components/ui/notification-bell.tsx",
+      "src/vendor/rare/components/preview/ColorSwatches.tsx",
+      "src/vendor/rare/components/preview/PreviewControls.tsx",
+      "src/vendor/rare/lib/utils.ts"
+    ],
+    "rare:step-player": [
+      "src/vendor/rare/demos/step-player.tsx",
+      "src/vendor/rare/components/ui/step-player.tsx",
+      "src/vendor/rare/lib/utils.ts"
+    ],
+    "rare:grid-reveal": [
+      "src/vendor/rare/demos/grid-reveal.tsx",
+      "src/vendor/rare/components/ui/grid-reveal.tsx",
+      "src/vendor/rare/lib/utils.ts"
+    ],
+    "rare:gooey-nav": [
+      "src/vendor/rare/demos/gooey-nav.tsx",
+      "src/vendor/rare/components/ui/gooey-nav.tsx",
+      "src/vendor/rare/lib/use-media-query.ts",
+      "src/vendor/rare/demos/icons.tsx",
+      "src/vendor/rare/lib/utils.ts"
+    ],
+    "rare:delete-button": [
+      "src/vendor/rare/demos/delete-button.tsx",
+      "src/vendor/rare/components/ui/delete-button.tsx",
+      "src/vendor/rare/lib/utils.ts"
+    ],
+    "rare:animated-counter": [
+      "src/vendor/rare/demos/animated-counter.tsx",
+      "src/vendor/rare/components/ui/animated-counter.tsx",
+      "src/vendor/rare/lib/utils.ts"
+    ],
+    "rare:matrix-orb": [
+      "src/vendor/rare/demos/matrix-orb.tsx",
+      "src/vendor/rare/components/ui/matrix-orb.tsx",
+      "src/vendor/rare/components/preview/PreviewControls.tsx",
+      "src/vendor/rare/lib/utils.ts"
+    ],
+    "shadcn:field": [
+      "src/vendor/shadcn/examples/field-demo.tsx",
+      "src/vendor/shadcn/ui/field.tsx",
+      "src/vendor/shadcn/ui/button.tsx",
+      "src/vendor/shadcn/ui/checkbox.tsx",
+      "src/vendor/shadcn/ui/input.tsx",
+      "src/vendor/shadcn/ui/select.tsx",
+      "src/vendor/shadcn/ui/textarea.tsx",
+      "src/vendor/shadcn/ui/label.tsx",
+      "src/vendor/shadcn/ui/separator.tsx"
+    ],
+    "shadcn:button": [
+      "src/vendor/shadcn/examples/button-demo.tsx",
+      "src/vendor/shadcn/ui/button.tsx"
+    ],
+    "shadcn:button-group": [
+      "src/vendor/shadcn/examples/button-group-demo.tsx",
+      "src/vendor/shadcn/ui/button-group.tsx",
+      "src/vendor/shadcn/ui/button.tsx",
+      "src/vendor/shadcn/ui/dropdown-menu.tsx",
+      "src/vendor/shadcn/ui/separator.tsx"
+    ],
+    "shadcn:input": [
+      "src/vendor/shadcn/examples/input-demo.tsx",
+      "src/vendor/shadcn/ui/input.tsx"
+    ],
+    "shadcn:input-group": [
+      "src/vendor/shadcn/examples/input-group-demo.tsx",
+      "src/vendor/shadcn/ui/input-group.tsx",
+      "src/vendor/shadcn/ui/dropdown-menu.tsx",
+      "src/vendor/shadcn/ui/separator.tsx",
+      "src/vendor/shadcn/ui/tooltip.tsx",
+      "src/vendor/shadcn/ui/button.tsx",
+      "src/vendor/shadcn/ui/input.tsx",
+      "src/vendor/shadcn/ui/textarea.tsx"
+    ],
+    "shadcn:input-otp": [
+      "src/vendor/shadcn/examples/input-otp-demo.tsx",
+      "src/vendor/shadcn/ui/input-otp.tsx"
+    ],
+    "shadcn:textarea": [
+      "src/vendor/shadcn/examples/textarea-demo.tsx",
+      "src/vendor/shadcn/ui/textarea.tsx"
+    ],
+    "shadcn:checkbox": [
+      "src/vendor/shadcn/examples/checkbox-demo.tsx",
+      "src/vendor/shadcn/ui/checkbox.tsx",
+      "src/vendor/shadcn/ui/label.tsx"
+    ],
+    "shadcn:radio-group": [
+      "src/vendor/shadcn/examples/radio-group-demo.tsx",
+      "src/vendor/shadcn/ui/radio-group.tsx",
+      "src/vendor/shadcn/ui/label.tsx"
+    ],
+    "shadcn:select": [
+      "src/vendor/shadcn/examples/select-demo.tsx",
+      "src/vendor/shadcn/ui/select.tsx"
+    ],
+    "shadcn:native-select": [
+      "src/vendor/shadcn/examples/native-select-demo.tsx",
+      "src/vendor/shadcn/ui/native-select.tsx"
+    ],
+    "shadcn:switch": [
+      "src/vendor/shadcn/examples/switch-demo.tsx",
+      "src/vendor/shadcn/ui/switch.tsx",
+      "src/vendor/shadcn/ui/label.tsx"
+    ],
+    "shadcn:slider": [
+      "src/vendor/shadcn/examples/slider-demo.tsx",
+      "src/vendor/shadcn/ui/slider.tsx"
+    ],
+    "shadcn:calendar": [
+      "src/vendor/shadcn/examples/calendar-demo.tsx",
+      "src/vendor/shadcn/ui/calendar.tsx",
+      "src/vendor/shadcn/ui/button.tsx"
+    ],
+    "shadcn:date-picker": [
+      "src/vendor/shadcn/examples/date-picker-demo.tsx",
+      "src/vendor/shadcn/ui/button.tsx",
+      "src/vendor/shadcn/ui/calendar.tsx",
+      "src/vendor/shadcn/ui/popover.tsx"
+    ],
+    "shadcn:combobox": [
+      "src/vendor/shadcn/examples/combobox-demo.tsx",
+      "src/vendor/shadcn/ui/button.tsx",
+      "src/vendor/shadcn/ui/command.tsx",
+      "src/vendor/shadcn/ui/popover.tsx"
+    ],
+    "shadcn:label": [
+      "src/vendor/shadcn/examples/label-demo.tsx",
+      "src/vendor/shadcn/ui/label.tsx",
+      "src/vendor/shadcn/ui/checkbox.tsx"
+    ],
+    "shadcn:accordion": [
+      "src/vendor/shadcn/examples/accordion-demo.tsx",
+      "src/vendor/shadcn/ui/accordion.tsx"
+    ],
+    "shadcn:breadcrumb": [
+      "src/vendor/shadcn/examples/breadcrumb-demo.tsx",
+      "src/vendor/shadcn/ui/breadcrumb.tsx",
+      "src/vendor/shadcn/ui/dropdown-menu.tsx"
+    ],
+    "shadcn:navigation-menu": [
+      "src/vendor/shadcn/examples/navigation-menu-demo.tsx",
+      "src/vendor/shadcn/ui/navigation-menu.tsx",
+      "src/vendor/shadcn/hooks/use-mobile.ts"
+    ],
+    "shadcn:sidebar": [
+      "src/vendor/shadcn/internal/sidebar-demo.tsx",
+      "src/vendor/shadcn/ui/sidebar.tsx"
+    ],
+    "shadcn:tabs": [
+      "src/vendor/shadcn/examples/tabs-demo.tsx",
+      "src/vendor/shadcn/ui/tabs.tsx",
+      "src/vendor/shadcn/ui/button.tsx",
+      "src/vendor/shadcn/ui/card.tsx",
+      "src/vendor/shadcn/ui/input.tsx",
+      "src/vendor/shadcn/ui/label.tsx"
+    ],
+    "shadcn:separator": [
+      "src/vendor/shadcn/examples/separator-demo.tsx",
+      "src/vendor/shadcn/ui/separator.tsx"
+    ],
+    "shadcn:scroll-area": [
+      "src/vendor/shadcn/examples/scroll-area-demo.tsx",
+      "src/vendor/shadcn/ui/scroll-area.tsx",
+      "src/vendor/shadcn/ui/separator.tsx"
+    ],
+    "shadcn:resizable": [
+      "src/vendor/shadcn/examples/resizable-demo.tsx",
+      "src/vendor/shadcn/ui/resizable.tsx"
+    ],
+    "shadcn:dialog": [
+      "src/vendor/shadcn/examples/dialog-demo.tsx",
+      "src/vendor/shadcn/ui/dialog.tsx",
+      "src/vendor/shadcn/ui/button.tsx",
+      "src/vendor/shadcn/ui/input.tsx",
+      "src/vendor/shadcn/ui/label.tsx"
+    ],
+    "shadcn:alert-dialog": [
+      "src/vendor/shadcn/examples/alert-dialog-demo.tsx",
+      "src/vendor/shadcn/ui/alert-dialog.tsx",
+      "src/vendor/shadcn/ui/button.tsx"
+    ],
+    "shadcn:sheet": [
+      "src/vendor/shadcn/examples/sheet-demo.tsx",
+      "src/vendor/shadcn/ui/sheet.tsx",
+      "src/vendor/shadcn/ui/button.tsx",
+      "src/vendor/shadcn/ui/input.tsx",
+      "src/vendor/shadcn/ui/label.tsx"
+    ],
+    "shadcn:drawer": [
+      "src/vendor/shadcn/examples/drawer-demo.tsx",
+      "src/vendor/shadcn/ui/drawer.tsx",
+      "src/vendor/shadcn/ui/button.tsx"
+    ],
+    "shadcn:popover": [
+      "src/vendor/shadcn/examples/popover-demo.tsx",
+      "src/vendor/shadcn/ui/popover.tsx",
+      "src/vendor/shadcn/ui/button.tsx",
+      "src/vendor/shadcn/ui/input.tsx",
+      "src/vendor/shadcn/ui/label.tsx"
+    ],
+    "shadcn:tooltip": [
+      "src/vendor/shadcn/examples/tooltip-demo.tsx",
+      "src/vendor/shadcn/ui/tooltip.tsx",
+      "src/vendor/shadcn/ui/button.tsx"
+    ],
+    "shadcn:hover-card": [
+      "src/vendor/shadcn/examples/hover-card-demo.tsx",
+      "src/vendor/shadcn/ui/hover-card.tsx",
+      "src/vendor/shadcn/ui/avatar.tsx",
+      "src/vendor/shadcn/ui/button.tsx"
+    ],
+    "shadcn:context-menu": [
+      "src/vendor/shadcn/examples/context-menu-demo.tsx",
+      "src/vendor/shadcn/ui/context-menu.tsx"
+    ],
+    "shadcn:dropdown-menu": [
+      "src/vendor/shadcn/examples/dropdown-menu-demo.tsx",
+      "src/vendor/shadcn/ui/dropdown-menu.tsx",
+      "src/vendor/shadcn/ui/button.tsx"
+    ],
+    "shadcn:menubar": [
+      "src/vendor/shadcn/examples/menubar-demo.tsx",
+      "src/vendor/shadcn/ui/menubar.tsx"
+    ],
+    "shadcn:command": [
+      "src/vendor/shadcn/examples/command-demo.tsx",
+      "src/vendor/shadcn/ui/command.tsx",
+      "src/vendor/shadcn/ui/dialog.tsx"
+    ],
+    "shadcn:alert": [
+      "src/vendor/shadcn/examples/alert-demo.tsx",
+      "src/vendor/shadcn/ui/alert.tsx"
+    ],
+    "shadcn:toast": [
+      "src/vendor/shadcn/examples/sonner-demo.tsx",
+      "src/vendor/shadcn/ui/sonner.tsx",
+      "src/vendor/shadcn/ui/button.tsx"
+    ],
+    "shadcn:sonner": [
+      "src/vendor/shadcn/examples/sonner-demo.tsx",
+      "src/vendor/shadcn/ui/sonner.tsx",
+      "src/vendor/shadcn/ui/button.tsx"
+    ],
+    "shadcn:progress": [
+      "src/vendor/shadcn/examples/progress-demo.tsx",
+      "src/vendor/shadcn/ui/progress.tsx"
+    ],
+    "shadcn:spinner": [
+      "src/vendor/shadcn/examples/spinner-demo.tsx",
+      "src/vendor/shadcn/ui/spinner.tsx",
+      "src/vendor/shadcn/ui/item.tsx"
+    ],
+    "shadcn:skeleton": [
+      "src/vendor/shadcn/examples/skeleton-demo.tsx",
+      "src/vendor/shadcn/ui/skeleton.tsx"
+    ],
+    "shadcn:badge": [
+      "src/vendor/shadcn/examples/badge-demo.tsx",
+      "src/vendor/shadcn/ui/badge.tsx"
+    ],
+    "shadcn:empty": [
+      "src/vendor/shadcn/examples/empty-demo.tsx",
+      "src/vendor/shadcn/ui/empty.tsx",
+      "src/vendor/shadcn/ui/button.tsx"
+    ],
+    "shadcn:avatar": [
+      "src/vendor/shadcn/examples/avatar-demo.tsx",
+      "src/vendor/shadcn/ui/avatar.tsx"
+    ],
+    "shadcn:card": [
+      "src/vendor/shadcn/examples/card-demo.tsx",
+      "src/vendor/shadcn/ui/card.tsx",
+      "src/vendor/shadcn/ui/button.tsx",
+      "src/vendor/shadcn/ui/input.tsx",
+      "src/vendor/shadcn/ui/label.tsx"
+    ],
+    "shadcn:table": [
+      "src/vendor/shadcn/examples/table-demo.tsx",
+      "src/vendor/shadcn/ui/table.tsx"
+    ],
+    "shadcn:data-table": [
+      "src/vendor/shadcn/examples/data-table-stable-demo.tsx",
+      "src/vendor/shadcn/ui/button.tsx",
+      "src/vendor/shadcn/ui/checkbox.tsx",
+      "src/vendor/shadcn/ui/dropdown-menu.tsx",
+      "src/vendor/shadcn/ui/input.tsx",
+      "src/vendor/shadcn/ui/table.tsx"
+    ],
+    "shadcn:chart": [
+      "src/vendor/shadcn/charts/chart-bar-default.tsx",
+      "src/vendor/shadcn/ui/chart.tsx",
+      "src/vendor/shadcn/ui/card.tsx"
+    ],
+    "shadcn:carousel": [
+      "src/vendor/shadcn/examples/carousel-demo.tsx",
+      "src/vendor/shadcn/ui/carousel.tsx",
+      "src/vendor/shadcn/ui/card.tsx",
+      "src/vendor/shadcn/ui/button.tsx"
+    ],
+    "shadcn:aspect-ratio": [
+      "src/vendor/shadcn/examples/aspect-ratio-demo.tsx",
+      "src/vendor/shadcn/ui/aspect-ratio.tsx"
+    ],
+    "shadcn:typography": [
+      "src/vendor/shadcn/examples/typography-demo.tsx"
+    ],
+    "shadcn:item": [
+      "src/vendor/shadcn/examples/item-demo.tsx",
+      "src/vendor/shadcn/ui/item.tsx",
+      "src/vendor/shadcn/ui/button.tsx",
+      "src/vendor/shadcn/ui/separator.tsx"
+    ],
+    "shadcn:kbd": [
+      "src/vendor/shadcn/examples/kbd-demo.tsx",
+      "src/vendor/shadcn/ui/kbd.tsx"
+    ],
+    "shadcn:collapsible": [
+      "src/vendor/shadcn/examples/collapsible-demo.tsx",
+      "src/vendor/shadcn/ui/collapsible.tsx",
+      "src/vendor/shadcn/ui/button.tsx"
+    ],
+    "shadcn:toggle": [
+      "src/vendor/shadcn/examples/toggle-demo.tsx",
+      "src/vendor/shadcn/ui/toggle.tsx"
+    ],
+    "shadcn:toggle-group": [
+      "src/vendor/shadcn/examples/toggle-group-demo.tsx",
+      "src/vendor/shadcn/ui/toggle-group.tsx",
+      "src/vendor/shadcn/ui/toggle.tsx"
+    ],
+    "shadcn:pagination": [
+      "src/vendor/shadcn/examples/pagination-demo.tsx",
+      "src/vendor/shadcn/ui/pagination.tsx",
+      "src/vendor/shadcn/ui/button.tsx"
+    ],
+    "shadcn:direction": [
+      "src/vendor/shadcn/ui/direction.tsx"
+    ]
+  }
+}

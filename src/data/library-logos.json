@@ -1,0 +1,42 @@
+{
+  "libraries": {
+    "src": "/logos/libraries.svg",
+    "sourceUrl": "https://libraries.dev/assets/favicon.svg"
+  },
+  "interior": {
+    "src": "/logos/interior.svg",
+    "sourceUrl": "https://www.interior.dev/icon.svg?icon.08mfcfjv4s56l.svg"
+  },
+  "rare": {
+    "src": "/logos/rare.svg",
+    "sourceUrl": "https://www.rareui.com/logos/Rareui.svg"
+  },
+  "coss": {
+    "src": "/logos/coss.ico",
+    "sourceUrl": "https://coss.com/ui/favicon.ico?favicon.0o7l7iug-qg2i.ico"
+  },
+  "shadcn": {
+    "src": "/logos/shadcn.png",
+    "sourceUrl": "https://ui.shadcn.com/apple-touch-icon.png"
+  },
+  "opensource": {
+    "src": "/logos/opensource.ico",
+    "sourceUrl": "https://opensourceui.in/favicon.ico"
+  },
+  "beautiful": {
+    "src": "/logos/beautiful.png",
+    "sourceUrl": "https://www.beautifului.dev/icon.png?e85518666265c44d"
+  },
+  "fluid": {
+    "src": "/logos/fluid.svg",
+    "sourceUrl": "https://www.fluidfunctionalism.com/metadata/favicon.svg"
+  },
+  "beui": {
+    "src": "/logos/beui.png",
+    "sourceUrl": "https://beui.dev/beui-mark.png"
+  },
+  "amicro": {
+    "src": "/logos/amicro.jpg",
+    "sourceUrl": "https://amicro.vercel.app/favicon.jpg"
+  }
+}
