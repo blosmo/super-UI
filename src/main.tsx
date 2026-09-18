@@ -647,6 +647,9 @@ function App() {
             </Button>
           </div>
           <div className="topbar-actions">
+            <a className="text-button" href="/agents.html">
+              Use in your agent
+            </a>
             <Button
               className="text-button"
               onClick={() => copy(location.href, "Link copied")}

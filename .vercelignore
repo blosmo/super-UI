@@ -1,0 +1,7 @@
+.env*
+research/
+docs/reviews/
+docs/plans/
+.cache/
+.git/
+server/search-assets/

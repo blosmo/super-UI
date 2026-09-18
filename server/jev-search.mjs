@@ -154,7 +154,9 @@ export async function intelligentSearch(
         results: [],
         durationMs: Date.now() - started,
       };
-    const fallback = () => ({
+    const fallback = (
+      notice = "Showing semantic matches. Jev ranking is temporarily unavailable.",
+    ) => ({
       mode: "semantic",
       results: candidates.map((e) => ({
         id: e.id,
@@ -162,10 +164,10 @@ export async function intelligentSearch(
         reasons: [],
       })),
       durationMs: Date.now() - started,
-      notice:
-        "Showing semantic matches. Jev ranking is temporarily unavailable.",
+      notice,
     });
-    if (!key) return fallback();
+    if (!key)
+      return fallback("Showing semantic matches. Jev ranking is not enabled.");
     const deadline = AbortSignal.timeout(25000);
     let inputTokens = 0;
     const scored = await Promise.allSettled(

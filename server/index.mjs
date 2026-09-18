@@ -31,24 +31,28 @@ function configuredOrigin(value) {
   return url.origin;
 }
 
-function requestOrigin(req, publicOrigin) {
+function requestOrigin(req, publicOrigin, allowedOrigins) {
   const host = req.headers.host;
   if (!host || /[\s/@?#\\]/.test(host))
     throw new ServiceError(403, "Invalid host.");
-  const local = new URL(`http://${host}`);
+  let local;
+  try {
+    local = new URL(`http://${host}`);
+  } catch {
+    throw new ServiceError(403, "Invalid host.");
+  }
+  const trustedOrigin = [publicOrigin, ...allowedOrigins].find(
+    (origin) => origin && new URL(origin).host === host,
+  );
   if (
     local.host !== host ||
-    (!localHosts.has(local.hostname) &&
-      host !== (publicOrigin && new URL(publicOrigin).host))
+    (!localHosts.has(local.hostname) && !trustedOrigin)
   )
     throw new ServiceError(
       403,
       "Unrecognized host. Configure PUBLIC_URL for hosted access.",
     );
-  const origin =
-    publicOrigin && host === new URL(publicOrigin).host
-      ? publicOrigin
-      : local.origin;
+  const origin = trustedOrigin || local.origin;
   if (req.headers.origin && req.headers.origin !== origin)
     throw new ServiceError(403, "Cross-origin requests are unavailable.");
   return publicOrigin || origin;
@@ -56,6 +60,24 @@ function requestOrigin(req, publicOrigin) {
 
 // Read before admitting search work, and release stalled uploads without retaining buffers.
 function readJson(req, timeoutMs) {
+  // Vercel's Node helpers may already have consumed the stream. Keep the
+  // application size limit when accepting their parsed JSON body.
+  if (Number(req.headers["content-length"]) > 65536)
+    return Promise.reject(new ServiceError(413, "Request too large."));
+  if ("body" in req) {
+    try {
+      const body = req.body;
+      const encoded = typeof body === "string" ? body : JSON.stringify(body);
+      if (!encoded) throw Error("Invalid JSON");
+      if (Buffer.byteLength(encoded) > 65536)
+        return Promise.reject(new ServiceError(413, "Request too large."));
+      return Promise.resolve(
+        typeof body === "string" ? JSON.parse(body) : body,
+      );
+    } catch {
+      return Promise.reject(new ServiceError(400, "Invalid JSON request."));
+    }
+  }
   return new Promise((resolve, reject) => {
     let bytes = 0;
     const chunks = [];
@@ -102,8 +124,11 @@ export function createSearchServer({
   publicUrl = serverEnv("PUBLIC_URL"),
   bodyTimeoutMs = 10000,
   getDetails = getComponent,
+  allowedOrigins = [],
+  clientIp = (req) => req.socket.remoteAddress,
 } = {}) {
   const publicOrigin = configuredOrigin(publicUrl);
+  const trustedOrigins = allowedOrigins.map(configuredOrigin);
   const runSearch = createSearchService(search);
   const admit = createAdmissionGate({ perMinute: 120, concurrency: 16 });
   return createServer(async (req, res) => {
@@ -129,12 +154,13 @@ export function createSearchServer({
     if (isMcp || isSearch || isComponent) {
       let release;
       try {
-        const baseUrl = requestOrigin(req, publicOrigin);
+        const baseUrl = requestOrigin(req, publicOrigin, trustedOrigins);
         if (req.method !== (isComponent ? "GET" : "POST")) {
           res.setHeader("Allow", isComponent ? "GET" : "POST");
           return json(405, { error: "Method not allowed." });
         }
-        release = admit(req.socket.remoteAddress);
+        const ip = clientIp(req);
+        release = admit(ip);
         if (isComponent) {
           let id;
           try {
@@ -167,10 +193,10 @@ export function createSearchServer({
             body,
             baseUrl,
             getDetails,
-            search: (input) => runSearch(input, req.socket.remoteAddress),
+            search: (input) => runSearch(input, ip),
           });
         }
-        return json(200, await runSearch(body, req.socket.remoteAddress));
+        return json(200, await runSearch(body, ip));
       } catch (error) {
         const status = error instanceof ServiceError ? error.status : 500;
         return json(status, {

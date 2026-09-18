@@ -289,6 +289,25 @@ test("configured public origin produces absolute links without trusting forwarde
     assert.throws(() => createSearchServer({ publicUrl }));
 });
 
+test("explicit deployment aliases accept only their own HTTPS browser origin", async (t) => {
+  const { base } = await fixture(t, {
+    publicUrl: "https://components.example",
+    allowedOrigins: ["https://deployment.example"],
+  });
+  const get = (origin) =>
+    rawRequest(base + "/api/components/shadcn%3Abutton", {
+      headers: { host: "deployment.example", origin },
+    });
+  const response = await get("https://deployment.example");
+  assert.equal(response.status, 200);
+  assert.equal(
+    (await response.json()).links.details,
+    "https://components.example/components/shadcn/button",
+  );
+  assert.equal((await get("https://attacker.example")).status, 403);
+  assert.equal((await get("http://deployment.example")).status, 403);
+});
+
 test("stalled and aborted uploads do not consume search slots", async (t) => {
   const { server, base, post } = await fixture(t, { bodyTimeoutMs: 40 });
   const stalled = new Promise((resolve, reject) => {
@@ -391,4 +410,34 @@ test("disconnecting an active MCP search holds its slot until settled and then r
     await new Promise((resolve) => setImmediate(resolve));
   pending[2](match);
   assert(!(await next).isError);
+});
+
+test("pre-parsed Vercel JSON bodies work and retain payload limits", async (t) => {
+  const { createServer } = await import("node:http");
+  const app = createSearchServer({ search: async () => match, publicUrl: "" });
+  const handle = app.listeners("request")[0];
+  const server = createServer(async (req, res) => {
+    const chunks = [];
+    for await (const chunk of req) chunks.push(chunk);
+    const raw = Buffer.concat(chunks).toString();
+    req.body = raw ? JSON.parse(raw) : undefined;
+    await handle(req, res);
+  });
+  await new Promise((resolve) => server.listen(0, "127.0.0.1", resolve));
+  t.after(async () => {
+    server.closeAllConnections();
+    await new Promise((resolve) => server.close(resolve));
+  });
+  const base = `http://127.0.0.1:${server.address().port}`;
+  const client = await clientFor(t, base);
+  assert.equal((await client.listTools()).tools.length, 2);
+  assert(
+    !(await call(client, "search_components", { query: "approval" })).isError,
+  );
+  const large = await fetch(base + "/api/search", {
+    method: "POST",
+    headers: { "content-type": "application/json" },
+    body: JSON.stringify({ query: "x", padding: " ".repeat(66000) }),
+  });
+  assert.equal(large.status, 413);
 });

@@ -15,9 +15,17 @@ const assessments = JSON.parse(
 ).entries;
 export const embeddingModel = "Xenova/all-MiniLM-L6-v2";
 export const embeddingRevision = "751bff37182d3f1213fa05d7196b954e230abad9";
-const cacheDir = new URL("../.cache/search/", import.meta.url).pathname;
-mkdirSync(cacheDir, { recursive: true });
+const bundled = process.env.SEARCH_BUNDLED === "1";
+const cacheDir = new URL(
+  bundled ? "./search-assets/" : "../.cache/search/",
+  import.meta.url,
+).pathname;
+if (!bundled) mkdirSync(cacheDir, { recursive: true });
 env.cacheDir = cacheDir + "models";
+if (bundled) {
+  env.allowRemoteModels = false;
+  env.useFSCache = false;
+}
 // Plain-language aliases for conventional UI patterns, never evidence of tested quality.
 const patternDescriptions = [
   [
@@ -60,10 +68,15 @@ export const corpusVersion = createHash("sha256")
   .digest("hex");
 let extractorPromise, indexPromise;
 async function embed(text) {
-  extractorPromise ||= pipeline("feature-extraction", embeddingModel, {
-    revision: embeddingRevision,
-    dtype: "q8",
-  }).catch((error) => {
+  extractorPromise ||= pipeline(
+    "feature-extraction",
+    bundled ? cacheDir + "model/" : embeddingModel,
+    {
+      revision: embeddingRevision,
+      dtype: "q8",
+      local_files_only: bundled,
+    },
+  ).catch((error) => {
     extractorPromise = null;
     throw error;
   });
@@ -74,6 +87,8 @@ export async function prepareIndex() {
   indexPromise ||= (async () => {
     const file = `${cacheDir}${corpusVersion}.json`;
     if (existsSync(file)) return JSON.parse(readFileSync(file, "utf8"));
+    if (bundled)
+      throw Error("Bundled search index is missing. Rebuild the deployment.");
     const vectors = [];
     for (let i = 0; i < documents.length; i += 16)
       vectors.push(...(await embed(documents.slice(i, i + 16))));

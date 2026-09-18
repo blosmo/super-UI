@@ -6,6 +6,12 @@ Connect once, then ask for the interface you want to build:
 
 Super UI exposes two read-only tools at `/mcp`: `search_components` and `get_component`. No account or client API key is required. Your coding agent uses its own editing tools to integrate a selected component.
 
+## Hosted connection
+
+Connect to `https://super-ui-neon.vercel.app/mcp`, or use the [connection page](https://super-ui-neon.vercel.app/agents.html) to copy settings for your agent.
+
+The hosted Vercel service uses the bundled semantic model and does not send queries to TypeSafe. Paid Jev ranking remains available for single-process self-hosting with its persistent budget ledger. Vercel's per-instance limits are not an account-wide rate or spend cap.
+
 ## Start locally
 
 From the repository root, with Node.js 22.12 or newer:
@@ -109,7 +115,15 @@ curl http://127.0.0.1:4174/api/components/beui%3Aapproval-card
 
 ## Hosting
 
-There is no public deployment URL configured by this change. Run the same Node service behind an HTTPS reverse proxy and set:
+### Vercel
+
+`vercel.json` pins the Vite framework and `dist` output. Static previews and thumbnails are served by the CDN; `/mcp`, `/api/search`, and `/api/components/:id` route to one Node function. The build bundles the pinned embedding model and catalog vectors into immutable function assets. Runtime inference does not download models or write to the deployment filesystem. The function always disables paid ranking because the local budget ledger cannot coordinate across instances.
+
+Vercel-provided deployment domains are explicitly allowed. Production links use `VERCEL_PROJECT_PRODUCTION_URL`; previews use `VERCEL_URL`. The adapter uses Vercel's edge-controlled `x-vercel-forwarded-for` for per-instance client quotas. Public production access must be enabled in the project's deployment protection settings for agents to connect without a Vercel login.
+
+### Persistent Node hosting
+
+To enable paid Jev ranking, run the Node service behind an HTTPS reverse proxy and set:
 
 ```dotenv
 HOST=0.0.0.0
