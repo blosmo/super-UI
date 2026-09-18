@@ -14,8 +14,15 @@ Super UI brings **685 original components from 10 independent libraries** into o
 - **Compare and save.** Compare up to three components and keep a shortlist in your browser.
 - **Share discoveries.** Share search, filter, component, and comparison URLs.
 - **Use the API.** `/catalog.json`, `/assessments.json`, `/llms.txt`, and `POST /api/search` support agent workflows.
+- **Ask your agent.** Connect to `/mcp` to search and inspect components directly. [Agent setup and optional skill](docs/agents/README.md).
 
 The app uses shadcn/ui controls, supports light and neutral dark themes, and respects reduced-motion preferences. Component screenshots are captured from the original demos. AI judgments are labeled separately from verified source facts.
+
+## Use in your agent
+
+Open [Use in your agent](https://super-ui-neon.vercel.app/agents.html) for copyable connection settings, or connect a Streamable HTTP MCP client to `https://super-ui-neon.vercel.app/mcp`.
+
+Hosted search uses semantic matching with no client account or API key. The optional [Super UI skill](skills/super-ui/SKILL.md) adds selection and integration guidance. [Full agent setup](docs/agents/README.md).
 
 ## Getting started
 
@@ -52,7 +59,7 @@ npm start
 
 Open [localhost:4174](http://localhost:4174). This serves the built app and search API together. `npm run preview` serves the built app on port 4173 and proxies search to the backend on 4174.
 
-The server binds to loopback by default. Public hosting requires explicit `HOST`/`PORT` configuration, HTTPS, persistent budget storage, and an appropriate reverse proxy. The current budget and rate-limit design is intended for one API process per deployment. Nothing in this repository automatically deploys the app.
+The server binds to loopback by default. Public hosting requires explicit `HOST`/`PORT` configuration, HTTPS, persistent budget storage, and an appropriate reverse proxy. The current budget and rate-limit design is intended for one API process per deployment. The Vercel configuration also supports static hosting plus a semantic-only MCP/API function. See [hosting details](docs/agents/README.md#hosting).
 
 ## Included libraries
 

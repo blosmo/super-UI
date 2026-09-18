@@ -1,60 +1,140 @@
 import { serverEnv } from "./env.mjs";
 import { createServer } from "node:http";
-import { readFileSync, existsSync, statSync, createReadStream } from "node:fs";
+import { existsSync, statSync, createReadStream } from "node:fs";
 import { resolve, extname, sep } from "node:path";
 import { intelligentSearch } from "./jev-search.mjs";
-import { entries } from "./retrieval.mjs";
-import { traits, useCases } from "../src/lib/component-assessment.mjs";
-export function validateRequest(body) {
+import {
+  createSearchService,
+  createAdmissionGate,
+  ServiceError,
+} from "./search-service.mjs";
+import { handleMcp } from "./mcp.mjs";
+import { getComponent } from "./component-tools.mjs";
+export { validateRequest } from "./search-service.mjs";
+
+const localHosts = new Set(["localhost", "127.0.0.1", "[::1]"]);
+function configuredOrigin(value) {
+  if (!value) return undefined;
+  const url = new URL(value);
   if (
-    !body ||
-    typeof body.query !== "string" ||
-    !body.query.trim() ||
-    body.query.length > 600
+    (url.protocol !== "https:" &&
+      !(url.protocol === "http:" && localHosts.has(url.hostname))) ||
+    url.username ||
+    url.password ||
+    url.pathname !== "/" ||
+    url.search ||
+    url.hash
   )
-    throw Error("Describe your task in 1 to 600 characters.");
-  const filters = body.filters || {};
-  if (typeof filters !== "object" || Array.isArray(filters))
-    throw Error("Invalid filters");
-  const allowed = {
-    library: new Set(entries.map((e) => e.library)),
-    category: new Set(entries.map((e) => e.category)),
-    useCase: new Set(Object.keys(useCases)),
-    style: new Set(Object.keys(traits.style.options)),
-    motion: new Set(Object.keys(traits.motion.options)),
-    setup: new Set(Object.keys(traits.setup.options)),
-  };
-  const clean = {};
-  for (const [key, value] of Object.entries(filters)) {
-    if (key === "savedIds") {
-      if (
-        !Array.isArray(value) ||
-        value.length > 685 ||
-        value.some((id) => !entries.some((e) => e.id === id))
-      )
-        throw Error("Invalid saved components");
-      clean[key] = value;
-      continue;
-    }
-    if (
-      !allowed[key] ||
-      typeof value !== "string" ||
-      (value && !allowed[key].has(value))
-    )
-      throw Error("Invalid filters");
-    if (value) clean[key] = value;
-  }
-  return { query: body.query.trim(), filters: clean };
+    throw Error(
+      "PUBLIC_URL must be an HTTPS origin (or HTTP localhost), without a path or credentials.",
+    );
+  return url.origin;
 }
-const rate = new Map();
-let active = 0;
+
+function requestOrigin(req, publicOrigin, allowedOrigins) {
+  const host = req.headers.host;
+  if (!host || /[\s/@?#\\]/.test(host))
+    throw new ServiceError(403, "Invalid host.");
+  let local;
+  try {
+    local = new URL(`http://${host}`);
+  } catch {
+    throw new ServiceError(403, "Invalid host.");
+  }
+  const trustedOrigin = [publicOrigin, ...allowedOrigins].find(
+    (origin) => origin && new URL(origin).host === host,
+  );
+  if (
+    local.host !== host ||
+    (!localHosts.has(local.hostname) && !trustedOrigin)
+  )
+    throw new ServiceError(
+      403,
+      "Unrecognized host. Configure PUBLIC_URL for hosted access.",
+    );
+  const origin = trustedOrigin || local.origin;
+  if (req.headers.origin && req.headers.origin !== origin)
+    throw new ServiceError(403, "Cross-origin requests are unavailable.");
+  return publicOrigin || origin;
+}
+
+// Read before admitting search work, and release stalled uploads without retaining buffers.
+function readJson(req, timeoutMs) {
+  // Vercel's Node helpers may already have consumed the stream. Keep the
+  // application size limit when accepting their parsed JSON body.
+  if (Number(req.headers["content-length"]) > 65536)
+    return Promise.reject(new ServiceError(413, "Request too large."));
+  if ("body" in req) {
+    try {
+      const body = req.body;
+      const encoded = typeof body === "string" ? body : JSON.stringify(body);
+      if (!encoded) throw Error("Invalid JSON");
+      if (Buffer.byteLength(encoded) > 65536)
+        return Promise.reject(new ServiceError(413, "Request too large."));
+      return Promise.resolve(
+        typeof body === "string" ? JSON.parse(body) : body,
+      );
+    } catch {
+      return Promise.reject(new ServiceError(400, "Invalid JSON request."));
+    }
+  }
+  return new Promise((resolve, reject) => {
+    let bytes = 0;
+    const chunks = [];
+    const finish = (error, value) => {
+      clearTimeout(timer);
+      req.off("data", data);
+      req.off("end", end);
+      req.off("aborted", aborted);
+      req.off("error", aborted);
+      if (error) {
+        req.resume();
+        reject(error);
+      } else resolve(value);
+    };
+    const data = (chunk) => {
+      bytes += chunk.length;
+      if (bytes > 65536)
+        return finish(new ServiceError(413, "Request too large."));
+      chunks.push(chunk);
+    };
+    const end = () => {
+      try {
+        finish(null, JSON.parse(Buffer.concat(chunks).toString()));
+      } catch {
+        finish(new ServiceError(400, "Invalid JSON request."));
+      }
+    };
+    const aborted = () => finish(new ServiceError(400, "Request interrupted."));
+    const timer = setTimeout(
+      () => finish(new ServiceError(408, "Request body timed out.")),
+      timeoutMs,
+    );
+    req
+      .on("data", data)
+      .once("end", end)
+      .once("aborted", aborted)
+      .once("error", aborted);
+  });
+}
+
 export function createSearchServer({
   search = intelligentSearch,
   staticDir = resolve("dist"),
+  publicUrl = serverEnv("PUBLIC_URL"),
+  bodyTimeoutMs = 10000,
+  getDetails = getComponent,
+  allowedOrigins = [],
+  clientIp = (req) => req.socket.remoteAddress,
 } = {}) {
+  const publicOrigin = configuredOrigin(publicUrl);
+  const trustedOrigins = allowedOrigins.map(configuredOrigin);
+  const runSearch = createSearchService(search);
+  const admit = createAdmissionGate({ perMinute: 120, concurrency: 16 });
   return createServer(async (req, res) => {
-    const url = new URL(req.url, "http://localhost");
     const json = (status, body) => {
+      if (res.destroyed || res.headersSent) return;
+      if (status === 429) res.setHeader("Retry-After", "30");
       res.writeHead(status, {
         "Content-Type": "application/json",
         "Cache-Control": "no-store",
@@ -62,71 +142,71 @@ export function createSearchServer({
       });
       res.end(JSON.stringify(body));
     };
-    if (url.pathname === "/api/search") {
-      if (req.method !== "POST")
-        return json(405, { error: "Use POST /api/search." });
-      if (!req.headers["content-type"]?.startsWith("application/json"))
-        return json(415, { error: "Use application/json." });
-      // Do not allow cross-origin browser calls to consume the shared model budget.
+    let url;
+    try {
+      url = new URL(req.url, "http://localhost");
+    } catch {
+      return json(400, { error: "Invalid URL." });
+    }
+    const isMcp = url.pathname === "/mcp";
+    const isSearch = url.pathname === "/api/search";
+    const isComponent = url.pathname.startsWith("/api/components/");
+    if (isMcp || isSearch || isComponent) {
+      let release;
       try {
-        if (
-          req.headers.origin &&
-          new URL(req.headers.origin).host !== req.headers.host
-        )
-          return json(403, { error: "Cross-origin search is unavailable." });
-      } catch {
-        return json(403, { error: "Invalid origin." });
-      }
-      const ip = req.socket.remoteAddress,
-        now = Date.now();
-      if (rate.size > 1000)
-        for (const [key, value] of rate)
-          if (value.until < now) rate.delete(key);
-      const record = rate.get(ip);
-      const bucket =
-        record?.until > now ? record : { count: 0, until: now + 60000 };
-      rate.set(ip, bucket);
-      if (++bucket.count > 15 || active >= 2) {
-        res.setHeader("Retry-After", "30");
-        return json(429, {
-          error: "Search is busy. Please try again shortly.",
-        });
-      }
-      active++;
-      try {
-        let bytes = 0;
-        const chunks = [];
-        for await (const chunk of req) {
-          bytes += chunk.length;
-          if (bytes > 65536) {
-            json(413, { error: "Search request too large." });
-            req.resume();
-            return;
+        const baseUrl = requestOrigin(req, publicOrigin, trustedOrigins);
+        if (req.method !== (isComponent ? "GET" : "POST")) {
+          res.setHeader("Allow", isComponent ? "GET" : "POST");
+          return json(405, { error: "Method not allowed." });
+        }
+        const ip = clientIp(req);
+        release = admit(ip);
+        if (isComponent) {
+          let id;
+          try {
+            id = decodeURIComponent(
+              url.pathname.slice("/api/components/".length),
+            );
+          } catch {
+            return json(400, { error: "Invalid component ID." });
           }
-          chunks.push(chunk);
+          try {
+            return json(200, getDetails(id, baseUrl));
+          } catch (error) {
+            return json(error.message === "Component not found." ? 404 : 503, {
+              error:
+                "Component details unavailable. Use an approved catalog ID.",
+            });
+          }
         }
-        let input;
-        try {
-          input = validateRequest(JSON.parse(Buffer.concat(chunks).toString()));
-        } catch {
-          return json(400, {
-            error:
-              "Use a task of 1 to 600 characters and valid catalog filters.",
+        if (
+          !/^application\/json(?:\s*;|$)/i.test(
+            req.headers["content-type"] || "",
+          )
+        )
+          return json(415, { error: "Use application/json." });
+        const body = await readJson(req, bodyTimeoutMs);
+        if (isMcp) {
+          res.setHeader("Cache-Control", "no-store");
+          res.setHeader("X-Content-Type-Options", "nosniff");
+          return await handleMcp(req, res, {
+            body,
+            baseUrl,
+            getDetails,
+            search: (input) => runSearch(input, ip),
           });
         }
-        try {
-          return json(200, await search(input.query, input.filters));
-        } catch {
-          return json(503, {
-            error:
-              "Intelligent search is unavailable. You can still search by component name.",
-          });
-        }
-      } catch {
-        if (!res.headersSent && !res.destroyed)
-          return json(400, { error: "Search request interrupted." });
+        return json(200, await runSearch(body, ip));
+      } catch (error) {
+        const status = error instanceof ServiceError ? error.status : 500;
+        return json(status, {
+          error:
+            error instanceof ServiceError
+              ? error.message
+              : "Request unavailable.",
+        });
       } finally {
-        active--;
+        release?.();
       }
     }
     if (url.pathname.startsWith("/api/"))

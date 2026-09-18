@@ -17,3 +17,8 @@ research/
 docs/reviews/
 docs/plans/
 docs/verification.md
+.vercel
+.env*.local
+
+# Generated immutable search assets for Vercel Functions
+server/search-assets/
