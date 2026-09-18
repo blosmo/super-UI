@@ -1,5 +1,11 @@
 import { createHash } from "node:crypto";
-import { readFileSync, existsSync, mkdirSync, writeFileSync } from "node:fs";
+import {
+  readFileSync,
+  existsSync,
+  mkdirSync,
+  writeFileSync,
+  renameSync,
+} from "node:fs";
 import { pipeline, env } from "@huggingface/transformers";
 import { entries } from "../scripts/jev/evidence.mjs";
 import { traits, useCases } from "../src/lib/component-assessment.mjs";

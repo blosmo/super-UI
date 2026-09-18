@@ -14,6 +14,7 @@ Super UI brings **685 original components from 10 independent libraries** into o
 - **Compare and save.** Compare up to three components and keep a shortlist in your browser.
 - **Share discoveries.** Share search, filter, component, and comparison URLs.
 - **Use the API.** `/catalog.json`, `/assessments.json`, `/llms.txt`, and `POST /api/search` support agent workflows.
+- **Ask your agent.** Connect to `/mcp` to search and inspect components directly. [Agent setup and optional skill](docs/agents/README.md).
 
 The app uses shadcn/ui controls, supports light and neutral dark themes, and respects reduced-motion preferences. Component screenshots are captured from the original demos. AI judgments are labeled separately from verified source facts.
 

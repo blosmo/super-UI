@@ -4,9 +4,13 @@ import { readFileSync, existsSync } from "node:fs";
 export function serverEnv(name, fallback = "") {
   if (process.env[name] !== undefined) return process.env[name];
   if (
-    !["TYPESAFE_API_KEY", "SEARCH_DAILY_BUDGET_USD", "HOST", "PORT"].includes(
-      name,
-    )
+    ![
+      "TYPESAFE_API_KEY",
+      "SEARCH_DAILY_BUDGET_USD",
+      "HOST",
+      "PORT",
+      "PUBLIC_URL",
+    ].includes(name)
   )
     return fallback;
   for (const path of [".env.local", ".env"]) {

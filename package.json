@@ -18,12 +18,15 @@
     "search:server": "node server/index.mjs",
     "search:index": "node --input-type=module -e \"import('./server/retrieval.mjs').then(m => m.prepareIndex()).then(() => console.log('Semantic index ready'))\"",
     "check:release": "node scripts/check-release.mjs",
-    "check": "npm run check:release && npm test && npm run build"
+    "check": "npm run check:release && npm test && npm run build",
+    "mcp:smoke": "node scripts/mcp-smoke.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.0.0",
     "@daypicker/react": "^10.0.1",
     "@huggingface/transformers": "^4.3.0",
+    "@modelcontextprotocol/node": "2.0.0",
+    "@modelcontextprotocol/server": "2.0.0",
     "@paper-design/shaders-react": "^0.0.81",
     "@radix-ui/react-accordion": "^1.2.20",
     "@radix-ui/react-checkbox": "^1.3.11",
@@ -80,9 +83,11 @@
     "tailwind-merge": "^3.0.0",
     "thinking-orbs": "^0.3.1",
     "three": "^0.186.0",
-    "vaul": "^1.1.2"
+    "vaul": "^1.1.2",
+    "zod": "4.6.5"
   },
   "devDependencies": {
+    "@modelcontextprotocol/client": "2.0.0",
     "@tailwindcss/vite": "^4.1.0",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
