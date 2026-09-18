@@ -102,7 +102,8 @@ export function parseRanking(response) {
     reasons,
   };
 }
-const price = 0.042 / 1_000_000;
+export const inputTokenPrice = 0.042 / 1_000_000;
+const price = inputTokenPrice;
 const ledgerPath = new URL("../.cache/search/budget.json", import.meta.url)
   .pathname;
 const dailyLimit = Number(serverEnv("SEARCH_DAILY_BUDGET_USD", "1"));
@@ -128,7 +129,7 @@ const pending = new Map();
 export async function intelligentSearch(
   query,
   filters = {},
-  { fetcher = fetch, key = readKey() } = {},
+  { fetcher = fetch, key = readKey(), budgetLedger = budget } = {},
 ) {
   const cacheKey = createHash("sha256")
     .update(
@@ -191,7 +192,8 @@ export async function intelligentSearch(
             state: { problem: query, component: evidence },
             questions: rankingQuestions,
           });
-          const reservation = await budget.reserve(body);
+          const reservation = await budgetLedger.reserve(body);
+          if (deadline.aborted) throw Error("Search timed out");
           const response = await fetcher(
             "https://api.typesafe.ai/v1/systemone",
             {
@@ -208,7 +210,7 @@ export async function intelligentSearch(
             throw Error(`Ranking unavailable (${response.status})`);
           const data = await response.json();
           const result = parseRanking(data);
-          await budget.settle(reservation, data.usage.input_tokens);
+          await budgetLedger.settle(reservation, data.usage.input_tokens);
           inputTokens += data.usage.input_tokens;
           return { id: entry.id, ...result };
         }),

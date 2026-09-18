@@ -1,8 +1,15 @@
-// Vercel uses immutable bundled assets. Never enable disk-budgeted paid ranking
-// here: independent function instances cannot share that ledger.
+// Vercel uses immutable assets and a shared budget, never a local disk ledger.
 process.env.SEARCH_BUNDLED = "1";
 const { createSearchServer } = await import("../server/index.mjs");
-const { intelligentSearch } = await import("../server/jev-search.mjs");
+const { intelligentSearch, inputTokenPrice } =
+  await import("../server/jev-search.mjs");
+const { createRedisBudgetLedger } = await import("../server/redis-budget.mjs");
+const budgetLedger = createRedisBudgetLedger({
+  url: process.env.KV_REST_API_URL,
+  token: process.env.KV_REST_API_TOKEN,
+  limit: Number(process.env.SEARCH_DAILY_BUDGET_USD ?? "1"),
+  price: inputTokenPrice,
+});
 const domains = [
   process.env.VERCEL_URL,
   process.env.VERCEL_BRANCH_URL,
@@ -15,7 +22,8 @@ const canonical =
 const server = createSearchServer({
   publicUrl: canonical ? `https://${canonical}` : "",
   allowedOrigins: domains.map((domain) => `https://${domain}`),
-  search: (query, filters) => intelligentSearch(query, filters, { key: "" }),
+  search: (query, filters) =>
+    intelligentSearch(query, filters, { budgetLedger }),
   // Vercel overwrites this header at its edge. Local Node hosting does not trust it.
   clientIp: (req) =>
     process.env.VERCEL === "1"
